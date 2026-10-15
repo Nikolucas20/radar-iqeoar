@@ -1,0 +1,179 @@
+﻿{
+    "candidata":  {
+                      "nombre":  "J. Osorio",
+                      "titulo":  "Administradora de Empresas | Analista Administrativa",
+                      "ciudad":  "Bogotá, Colombia",
+                      "anos_experiencia":  5,
+                      "logros_cv":  [
+                                        "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+                                        "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
+                                        "Implementó herramientas de seguimiento para el control de gastos de transporte.",
+                                        "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.",
+                                        "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+                                        "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
+                                        "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
+                                        "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes.",
+                                        "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal."
+                                    ],
+                      "educacion":  [
+                                        "Profesional en Administración de Empresas – Fundación Universitaria del Área Andina (2024)",
+                                        "Tecnóloga en Gestión Empresarial – SENA (2021)",
+                                        "Técnica en Asistencia Administrativa – SENA (2019)",
+                                        "Excel Avanzado y Fundamentos de Power BI – Colsubsidio CET (2026)"
+                                    ]
+                  },
+    "cargos_objetivo":  [
+                            "Analista Administrativa",
+                            "Analista de Cartera y Recaudo",
+                            "Asistente Ejecutiva",
+                            "Asistente Administrativa",
+                            "Office Manager"
+                        ],
+    "cargos_similares":  [
+                             "Analista de Cartera",
+                             "Analista de Recaudo",
+                             "Analista de Cuentas por Cobrar",
+                             "Analista de Cuentas por Pagar",
+                             "Analista de Tesorería",
+                             "Analista Administrativa y Financiera",
+                             "Coordinadora Administrativa",
+                             "Asistente de Gerencia",
+                             "Asistente Administrativa y Financiera",
+                             "Administrative Assistant",
+                             "Executive Assistant",
+                             "Accounts Receivable Specialist",
+                             "Accounts Payable Specialist",
+                             "Billing / Collections Specialist"
+                         ],
+    "habilidades":  {
+                        "peso_alto":  [
+                                          "cartera",
+                                          "recaudo",
+                                          "cuentas por cobrar",
+                                          "cuentas por pagar",
+                                          "tesorería",
+                                          "conciliaciones",
+                                          "conciliación bancaria",
+                                          "accounts receivable",
+                                          "accounts payable"
+                                      ],
+                        "peso_medio":  [
+                                           "caja menor",
+                                           "legalizaciones",
+                                           "anticipos",
+                                           "proveedores",
+                                           "pagos internacionales",
+                                           "certificados de retención",
+                                           "ERP",
+                                           "Odoo",
+                                           "control presupuestal",
+                                           "informes de gestión"
+                                       ],
+                        "peso_bajo":  [
+                                          "gestión documental",
+                                          "manuales de procedimientos",
+                                          "Excel avanzado",
+                                          "Power BI",
+                                          "Microsoft 365",
+                                          "atención al cliente interno",
+                                          "Lemontech",
+                                          "SAP",
+                                          "Siigo",
+                                          "World Office"
+                                      ]
+                    },
+    "no_negociables":  {
+                           "salario_min_cop":  2800000,
+                           "salario_min_usd":  700,
+                           "tasa_cop_por_usd":  4000,
+                           "contrato":  "indefinido"
+                       },
+    "modalidad":  {
+                      "aceptadas":  [
+                                        "remoto",
+                                        "hibrido"
+                                    ],
+                      "ciudad_hibrido":  "Bogotá",
+                      "puntaje":  {
+                                      "remoto":  15,
+                                      "hibrido":  10
+                                  }
+                  },
+    "exclusiones_explicitas":  [
+                                   "prestación de servicios",
+                                   "obra o labor",
+                                   "término fijo",
+                                   "temporal",
+                                   "aprendiz",
+                                   "practicante",
+                                   "pasantía",
+                                   "freelance",
+                                   "solo comisiones",
+                                   "100% presencial"
+                               ],
+    "puntaje":  {
+                    "minimo_para_mostrar":  60,
+                    "pesos":  {
+                                  "afinidad_cargo":  30,
+                                  "habilidades_cv":  30,
+                                  "salario":  15,
+                                  "modalidad":  15,
+                                  "experiencia":  10
+                              },
+                    "salario_escala_cop":  {
+                                               "2800000":  5,
+                                               "3500000":  10,
+                                               "4500000":  15
+                                           }
+                },
+    "fuentes":  [
+                    {
+                        "portal":  "Computrabajo",
+                        "url":  "https://co.computrabajo.com"
+                    },
+                    {
+                        "portal":  "elempleo",
+                        "url":  "https://www.elempleo.com/co"
+                    },
+                    {
+                        "portal":  "Magneto",
+                        "url":  "https://www.magneto365.com"
+                    },
+                    {
+                        "portal":  "LinkedIn",
+                        "url":  "https://www.linkedin.com/jobs"
+                    },
+                    {
+                        "portal":  "Indeed",
+                        "url":  "https://co.indeed.com"
+                    },
+                    {
+                        "portal":  "Get on Board",
+                        "url":  "https://www.getonbrd.com"
+                    },
+                    {
+                        "portal":  "Torre",
+                        "url":  "https://torre.ai"
+                    }
+                ],
+    "dias_recientes":  3,
+    "duplicados":  {
+                       "criterio":  "Misma oferta = misma empresa (o descripción casi idéntica si es confidencial) + cargo equivalente + misma ciudad/modalidad, publicada con menos de 45 días de diferencia.",
+                       "prioridad_fuente":  [
+                                                "Página de empleo de la propia empresa (contrato directo, sin intermediario)",
+                                                "LinkedIn (publicada por la empresa)",
+                                                "elempleo",
+                                                "Computrabajo",
+                                                "Magneto",
+                                                "Indeed",
+                                                "Get on Board / Torre",
+                                                "Agregadores (Jooble, Cazvid, Talent, etc.)"
+                                            ],
+                       "reglas_desempate":  [
+                                                "1. Gana la fuente que publique más datos completos (salario + contrato + modalidad).",
+                                                "2. Si empatan, gana la que esté más arriba en prioridad_fuente.",
+                                                "3. Si siguen empatadas, gana la publicación más reciente (más probable que siga abierta).",
+                                                "4. Nunca se elige un agregador si existe la misma oferta en la fuente original."
+                                            ]
+                   }
+}
