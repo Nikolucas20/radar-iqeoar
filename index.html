@@ -1,0 +1,462 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style><script>// Reemplaza el almacenamiento de Claude: lee ofertas.json y guarda los estados en este dispositivo.
+(function () {
+  var KEY = "radar-estados";
+  var data = null, listeners = [], metaListeners = [];
+  function local() { try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { return {}; } }
+  function snap() {
+    var est = local();
+    return { docs: (data ? data.ofertas : []).map(function (x) {
+      var d = Object.assign({}, x.d);
+      if (est[x.id]) { d.estado = est[x.id].estado; d.estado_fecha = est[x.id].fecha; }
+      return { id: x.id, exists: true, data: function () { return d; } };
+    }) };
+  }
+  function emit() { listeners.forEach(function (cb) { cb(snap()); }); }
+  var ready = fetch("ofertas.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (j) {
+    data = j; emit();
+    metaListeners.forEach(function (cb) { cb({ exists: !!j.meta, data: function () { return j.meta; } }); });
+  });
+  var db = {
+    collection: function () { return { onSnapshot: function (cb) { listeners.push(cb); if (data) cb(snap()); return function () {}; } }; },
+    doc: function (path) {
+      return {
+        onSnapshot: function (cb) { metaListeners.push(cb); if (data) cb({ exists: !!data.meta, data: function () { return data.meta; } }); return function () {}; },
+        update: function (v) {
+          var id = String(path).split("/")[1], est = local();
+          est[id] = { estado: v.estado, fecha: v.estado_fecha };
+          try { localStorage.setItem(KEY, JSON.stringify(est)); } catch (e) {}
+          emit();
+          return Promise.resolve();
+        }
+      };
+    }
+  };
+  window.claude = { use: function (n) {
+    if (n === "db") return ready.then(function () { return db; }, function () { return db; });
+    if (n === "user") return Promise.resolve({ can: function () { return Promise.resolve(true); } });
+    return Promise.resolve(null);
+  } };
+})();
+</script></head><body><title>Radar de Empleo Jina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600;6..96,700&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: deep plum cover holding the day's best offer as an ivory card with a gold seal; below, a white sheet with jewel-toned tabs on its top edge and a hairline-ruled list of offers. */
+:root {
+  --cover: #2a0f33;
+  --cover-2: #4a1440;
+  --cover-ink: #fbf5f8;
+  --cover-soft: #dcc8de;
+  --gold: #c9a24a;
+  --gold-soft: #f5ecd6;
+  --gold-ink: #6b4e10;
+  --paper: #ffffff;
+  --desk: #f4f0f5;
+  --ink: #1f1426;
+  --muted: #6a5d72;
+  --rule: #ebe4ee;
+  --note: #ffffff;
+  --note-ink: #1f1426;
+  --tab-ok: #1d7458;
+  --tab-check: #96600f;
+  --tab-track: #962a58;
+  --ok-soft: #e2f0ea;
+  --check-soft: #f7ecd9;
+  --track-soft: #f6e1ea;
+  --link: #962a58;
+  --go: #2a0f33;
+  --go-ink: #ffffff;
+  --focus: #962a58;
+  --shadow: 0 1px 2px rgba(31,20,38,.06), 0 18px 40px -22px rgba(42,15,51,.45);
+  --on-tab: #ffffff;
+  --font: "Hanken Grotesk", "Segoe UI", system-ui, sans-serif;
+  --display: "Bodoni Moda", "Didot", Georgia, serif;
+  --tab: var(--tab-ok);
+  --tab-soft: var(--ok-soft);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --cover: #1a0920; --cover-2: #331033; --cover-ink: #f8f0f6; --cover-soft: #c7b2cc; --gold: #dcb862; --gold-soft: #3a2d12; --gold-ink: #efd48f;
+    --paper: #1c1322; --desk: #120b17; --ink: #f3ecf5; --muted: #b5a6bc; --rule: #31253a; --note: #261a2e; --note-ink: #f3ecf5;
+    --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
+    --link: #efd48f; --go: #dcb862; --go-ink: #1a0920; --focus: #efd48f; --on-tab: #160a1b; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 18px 40px -20px rgba(0,0,0,.85); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --cover: #1a0920; --cover-2: #331033; --cover-ink: #f8f0f6; --cover-soft: #c7b2cc; --gold: #dcb862; --gold-soft: #3a2d12; --gold-ink: #efd48f;
+  --paper: #1c1322; --desk: #120b17; --ink: #f3ecf5; --muted: #b5a6bc; --rule: #31253a; --note: #261a2e; --note-ink: #f3ecf5;
+  --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
+  --link: #efd48f; --go: #dcb862; --go-ink: #1a0920; --focus: #efd48f; --on-tab: #160a1b; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 18px 40px -20px rgba(0,0,0,.85); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--desk); color: var(--ink); font: 400 16px/1.5 var(--font); -webkit-font-smoothing: antialiased; }
+::selection { background: var(--gold-soft); color: var(--gold-ink); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+html { scrollbar-color: var(--muted) var(--desk); }
+.num { font-variant-numeric: tabular-nums; }
+
+/* Cover */
+.cover { background: radial-gradient(120% 140% at 100% 0%, var(--cover-2), var(--cover) 60%); color: var(--cover-ink); padding-inline: 16px; padding-block: 44px 72px; border-bottom: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); }
+.cover-in { max-width: 1040px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 36px; align-items: center; }
+@media (max-width: 820px) { .cover-in { grid-template-columns: 1fr; gap: 26px; } }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(40px, 7vw, 72px); line-height: .98; letter-spacing: -.02em; margin: 0 0 16px; text-wrap: balance; }
+h1 em { font-style: normal; color: var(--gold); font-weight: 700; }
+.lede { font-size: clamp(17px, 2.2vw, 20px); color: var(--cover-soft); margin: 0 0 18px; max-width: 34ch; text-wrap: pretty; }
+.lede b { color: var(--cover-ink); font-weight: 700; }
+.tally { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; color: var(--cover-soft); margin: 0; padding: 0; list-style: none; }
+.tally b { color: var(--cover-ink); font-weight: 700; font-size: 16px; }
+.musts { margin-top: 18px; font-size: 13px; color: var(--cover-soft); }
+
+/* Sticky note */
+.note { position: relative; background: var(--note); color: var(--note-ink); border-radius: 16px; padding: 26px 24px 22px; box-shadow: inset 0 3px 0 var(--gold), 0 2px 4px rgba(0,0,0,.12), 0 30px 60px -28px rgba(0,0,0,.7); display: grid; gap: 10px; }
+.note-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.note-label { font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.note h2 { font-family: var(--display); font-size: clamp(24px, 3vw, 30px); font-weight: 600; line-height: 1.1; letter-spacing: -.01em; margin: 0; text-wrap: balance; }
+.note .co { font-size: 15px; color: var(--muted); }
+.note .facts { display: flex; flex-wrap: wrap; gap: 6px; }
+.note .fact { font-size: 13px; font-weight: 600; background: var(--desk); border-radius: 999px; padding: 3px 10px; }
+.note .why { font-size: 15px; margin: 0; padding-left: 0; }
+.note .actions { margin-top: 6px; }
+.note-empty { font-size: 16px; }
+
+/* Seals (signature) */
+.sticker { --c: var(--tab-track); flex: none; width: 76px; height: 76px; border-radius: 50%; background: var(--c); color: var(--on-tab); display: grid; place-items: center; text-align: center; font-weight: 800; font-size: 10.5px; line-height: 1.15; letter-spacing: .1em; text-transform: uppercase; box-shadow: 0 0 0 2px var(--paper), 0 0 0 3.5px var(--gold), 0 8px 18px -8px rgba(0,0,0,.5); transform: rotate(-6deg); padding: 8px; }
+.sticker.best { --c: var(--gold); color: #2a0f33; width: 82px; height: 82px; transform: rotate(6deg); box-shadow: 0 0 0 2px var(--note), 0 0 0 3.5px var(--gold), 0 8px 18px -8px rgba(0,0,0,.5); }
+.sticker.ok { --c: var(--tab-ok); }
+@media (prefers-reduced-motion: no-preference) {
+  .sticker.pop { animation: stamp .6s cubic-bezier(.16,1.3,.3,1) both; }
+  @keyframes stamp { 0% { transform: scale(1.8) rotate(-24deg); opacity: 0; } 60% { opacity: 1; } 100% { transform: scale(1) rotate(-6deg); opacity: 1; } }
+}
+
+/* Sheet with tabs */
+.wrap { max-width: 1040px; margin: -34px auto 0; padding-inline: 16px; padding-block: 0 72px; position: relative; }
+.tabs { display: flex; gap: 6px; padding-left: 18px; overflow-x: auto; scrollbar-width: none; position: relative; z-index: 1; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { --c: var(--tab-ok); appearance: none; border: 0; cursor: pointer; font: 700 15px var(--font); color: var(--on-tab); background: var(--c); padding: 11px 20px 16px; border-radius: 10px 10px 0 0; letter-spacing: .01em; display: inline-flex; gap: 8px; align-items: center; white-space: nowrap; transform: translateY(6px); opacity: .78; transition: transform .2s cubic-bezier(.2,.8,.2,1), opacity .2s; }
+.tab[data-tab="por_verificar"] { --c: var(--tab-check); }
+.tab[data-tab="seguimiento"] { --c: var(--tab-track); }
+.tab:hover { transform: translateY(2px); }
+.tab[aria-selected="true"] { transform: translateY(0); opacity: 1; }
+.tab .n { background: color-mix(in srgb, var(--on-tab) 22%, transparent); border-radius: 999px; padding: 0 8px; font-size: 13px; }
+@media (max-width: 560px) {
+  .tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding-left: 0; overflow: visible; }
+  .tab { font-size: 13.5px; padding: 9px 6px 14px; justify-content: center; flex-wrap: wrap; white-space: normal; text-align: center; line-height: 1.15; gap: 4px; }
+  .cover { padding-block: 26px 58px; }
+  .musts { display: none; }
+}
+.sheet { background: var(--paper); border-radius: 18px; box-shadow: inset 0 6px 0 var(--tab), var(--shadow); padding: 24px 24px 8px; position: relative; }
+@media (max-width: 560px) { .sheet { padding: 14px 16px 6px; } .tabs { padding-left: 8px; } }
+.sheet-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 16px; align-items: center; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
+.hint { margin: 0; color: var(--muted); font-size: 14.5px; max-width: 62ch; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; }
+@media (max-width: 560px) { .filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; gap: 6px; } .filters select { width: 100%; font-size: 13px; padding-inline: 10px 24px; background-position: right 12px center, right 7px center; } }
+.filters label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+select { font: 600 14px var(--font); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 999px; padding: 7px 30px 7px 12px; appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: right 14px center, right 9px center; background-size: 5px 5px; background-repeat: no-repeat; cursor: pointer; }
+select:hover { border-color: var(--muted); }
+
+/* Offer rows */
+.list { list-style: none; margin: 0; padding: 0; }
+.offer { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 18px; padding-block: 22px; border-bottom: 1px solid var(--rule); }
+.offer:last-child { border-bottom: 0; }
+.offer.dim { opacity: .5; }
+@media (max-width: 560px) { .offer { grid-template-columns: 64px minmax(0, 1fr); gap: 12px; } }
+.score { text-align: center; line-height: .9; padding-top: 2px; }
+.score b { display: block; font-family: var(--display); font-weight: 700; letter-spacing: -.02em; color: var(--tab); font-size: calc(26px + (var(--p) - 55) * .9px); }
+.score small { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+@media (max-width: 560px) { .score b { font-size: calc(22px + (var(--p) - 55) * .55px); } }
+.body { display: grid; gap: 10px; min-width: 0; }
+.top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.top h3 { font-family: var(--display); font-size: clamp(20px, 2.5vw, 24px); font-weight: 600; letter-spacing: -.01em; line-height: 1.15; margin: 0; overflow-wrap: anywhere; }
+.co { color: var(--muted); font-size: 15px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--desk); color: var(--ink); white-space: nowrap; }
+.chip.good { background: var(--ok-soft); color: var(--tab-ok); }
+.chip.ask { background: var(--check-soft); color: var(--tab-check); }
+.chip.new { background: var(--gold-soft); color: var(--gold-ink); }
+.why { margin: 0; padding-left: 18px; color: var(--ink); font-size: 15px; display: grid; gap: 3px; }
+.why li::marker { color: var(--tab); }
+.src { font-size: 13.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.src a { color: var(--link); font-weight: 600; text-underline-offset: 3px; }
+.src .alt { color: var(--muted); font-weight: 500; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { appearance: none; font: 700 15px var(--font); padding: 10px 18px; border-radius: 999px; border: 1.5px solid var(--rule); background: var(--paper); color: var(--ink); cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: transform .15s cubic-bezier(.2,.8,.2,1), background .15s; }
+.btn:hover { border-color: var(--ink); }
+.btn:active { transform: scale(.97); }
+.btn svg { width: 17px; height: 17px; flex: none; }
+.btn-go { background: var(--go); color: var(--go-ink); border-color: transparent; }
+.btn-go:hover { border-color: transparent; filter: brightness(1.1); }
+.state { margin-left: auto; }
+@media (max-width: 560px) { .actions .btn-go { flex: 1 1 100%; justify-content: center; } .state { margin-left: 0; } }
+.kit { background: var(--desk); border-radius: 14px; padding: 16px; display: grid; gap: 16px; }
+.kit h4 { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.kit-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+.letter { margin: 0; white-space: pre-wrap; background: var(--paper); border-radius: 10px; padding: 14px 16px; font-size: 15px; max-width: 72ch; }
+.kit ul { margin: 0; padding-left: 18px; }
+.copy { padding: 6px 14px; font-size: 13px; }
+.empty { padding-block: 44px; text-align: center; color: var(--muted); }
+.empty strong { display: block; color: var(--ink); font-family: var(--display); font-size: 22px; font-weight: 600; margin-bottom: 4px; }
+</style>
+
+<header class="cover">
+  <div class="cover-in">
+    <div>
+      <h1>El próximo paso de <em>Jina</em></h1>
+      <p class="lede" id="lede">Cada mañana busco las ofertas que están a la altura de tu experiencia en tesorería, cartera y administración.</p>
+      <ul class="tally">
+        <li><b class="num" id="k-hoy">–</b> nuevas hoy</li>
+        <li><b class="num" id="k-cumplen">–</b> cumplen todo</li>
+        <li><b class="num" id="k-postuladas">–</b> postuladas</li>
+        <li>última búsqueda <b id="k-ultima">–</b></li>
+      </ul>
+      <p class="musts">Solo entran ofertas con salario desde $2.800.000, contrato indefinido y trabajo remoto o híbrido en Bogotá.</p>
+    </div>
+    <aside class="note" id="best" aria-live="polite">
+      <p class="note-empty">Cargando la mejor oferta del día…</p>
+    </aside>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="tabs" role="tablist" aria-label="Listas de ofertas">
+    <button class="tab" role="tab" data-tab="cumple" aria-selected="true" id="tab-cumple">Cumplen todo <span class="n num" id="n-cumple">0</span></button>
+    <button class="tab" role="tab" data-tab="por_verificar" aria-selected="false" id="tab-verificar">Por verificar <span class="n num" id="n-verificar">0</span></button>
+    <button class="tab" role="tab" data-tab="seguimiento" aria-selected="false" id="tab-seguimiento">En seguimiento <span class="n num" id="n-seguimiento">0</span></button>
+  </div>
+  <section class="sheet" id="sheet" role="tabpanel">
+    <div class="sheet-head">
+      <p class="hint" id="tabnote"></p>
+      <div class="filters">
+        <label for="f-mod">Modalidad</label>
+        <select id="f-mod"><option value="">Modalidad</option><option value="remoto">Remoto</option><option value="hibrido">Híbrido</option></select>
+        <label for="f-portal">Portal</label>
+        <select id="f-portal"><option value="">Portal</option></select>
+        <label for="f-desc">Descartadas</label>
+        <select id="f-desc"><option value="ocultar">Activas</option><option value="mostrar">Con descartadas</option></select>
+      </div>
+    </div>
+    <ul class="list" id="list"></ul>
+  </section>
+</main>
+
+<script>
+const ESTADOS = { nueva: "Nueva", postulada: "Postulada", entrevista: "Entrevista", descartada: "Descartada" };
+const TABS = {
+  cumple: { c: "var(--tab-ok)", s: "var(--ok-soft)", note: "Cumplen salario, contrato y modalidad según lo que publica la oferta." },
+  por_verificar: { c: "var(--tab-check)", s: "var(--check-soft)", note: "Encajan con tu perfil pero no dicen salario o contrato, o tienen una condición que conviene preguntar antes." },
+  seguimiento: { c: "var(--tab-track)", s: "var(--track-soft)", note: "Ofertas a las que ya te postulaste o en las que tienes entrevista. Cada paso cuenta." }
+};
+const ICON = {
+  go: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>',
+  kit: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>',
+  copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg>'
+};
+let offers = [], meta = null, db = null, canWrite = true, tab = "cumple", loaded = false;
+const open = new Set();
+const justStamped = new Set();
+try { tab = localStorage.getItem("radar-tab") || "cumple"; if (!TABS[tab]) tab = "cumple"; } catch (e) {}
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const today = () => new Date().toLocaleDateString("en-CA", { timeZone: "America/Bogota" });
+const money = (n) => n ? "$" + Math.round(n).toLocaleString("es-CO") : "";
+const tracked = (o) => o.estado === "postulada" || o.estado === "entrevista";
+const live = (o) => (o.estado || "nueva") !== "descartada";
+const safeUrl = (u) => /^https?:\/\//i.test(String(u || "")) ? u : "#";
+function fmtDate(iso) {
+  if (!iso) return "–";
+  const d = new Date(String(iso).length === 10 ? iso + "T12:00:00-05:00" : iso);
+  return isNaN(d) ? iso : d.toLocaleDateString("es-CO", { day: "numeric", month: "short", timeZone: "America/Bogota" });
+}
+const salary = (o) => o.salario_cop ? `${money(o.salario_cop)}${o.salario_max_cop ? " – " + money(o.salario_max_cop) : ""}` : (o.salario_texto || "Salario no publicado");
+const modality = (o) => o.modalidad === "remoto" ? "Remoto" : o.modalidad === "hibrido" ? `Híbrido · ${o.ciudad || "Bogotá"}` : (o.modalidad || "");
+
+function renderCover() {
+  const t = today();
+  const pool = offers.filter((o) => live(o) && !tracked(o));
+  const nuevas = pool.filter((o) => o.fecha_hallada === t).length;
+  const cumplen = pool.filter((o) => o.categoria === "cumple").length;
+  const post = offers.filter(tracked).length;
+  $("k-hoy").textContent = nuevas;
+  $("k-cumplen").textContent = cumplen;
+  $("k-postuladas").textContent = post;
+  $("k-ultima").textContent = meta?.ultima_ejecucion ? fmtDate(meta.ultima_ejecucion) : "–";
+  if (loaded) {
+    $("lede").innerHTML = nuevas
+      ? `Hoy encontré <b>${nuevas} ${nuevas === 1 ? "oferta nueva" : "ofertas nuevas"}</b> que encajan con tu experiencia. Empieza por la destacada.`
+      : post ? `Llevas <b>${post} ${post === 1 ? "postulación" : "postulaciones"}</b>. Cada una es un paso firme. Mañana a las 7 busco más.`
+      : `Tienes <b>${cumplen} ${cumplen === 1 ? "oferta" : "ofertas"}</b> que cumplen todo. La mejor está destacada a la derecha.`;
+  }
+  const best = pool.filter((o) => o.categoria === "cumple").sort((a, b) => (b.puntaje || 0) - (a.puntaje || 0))[0]
+    || pool.sort((a, b) => (b.puntaje || 0) - (a.puntaje || 0))[0];
+  const el = $("best");
+  if (!loaded) return;
+  if (!best) { el.innerHTML = `<p class="note-empty"><b>Sin ofertas pendientes.</b> Mañana a las 7:00 a. m. vuelvo a buscar.</p>`; return; }
+  el.innerHTML = `
+    <div class="note-head">
+      <h2>${esc(best.titulo)}</h2>
+      <div class="sticker best"><span>Top del día<br>${best.puntaje ?? "–"}/100</span></div>
+    </div>
+    <div class="co">${esc(best.empresa || "Empresa confidencial")}</div>
+    <div class="facts"><span class="fact num">${esc(salary(best))}</span><span class="fact">${best.contrato === "indefinido" ? "Indefinido" : "Contrato por confirmar"}</span><span class="fact">${esc(modality(best))}</span></div>
+    ${best.razones?.[0] ? `<p class="why">${esc(best.razones[0])}</p>` : ""}
+    <div class="actions"><a class="btn btn-go" href="${esc(safeUrl(best.url))}" target="_blank" rel="noopener">${ICON.go}Postularme</a><button class="btn" data-open="${esc(best.id)}">${ICON.kit}Ver kit</button></div>`;
+}
+
+function inTab(o) {
+  if (tab === "seguimiento") return tracked(o);
+  return o.categoria === tab && !tracked(o);
+}
+
+function render() {
+  renderCover();
+  const T = TABS[tab];
+  document.documentElement.style.setProperty("--tab", T.c);
+  document.documentElement.style.setProperty("--tab-soft", T.s);
+  document.querySelectorAll(".tab").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
+  $("sheet").setAttribute("aria-labelledby", document.querySelector(`.tab[data-tab="${tab}"]`).id);
+  $("tabnote").textContent = T.note;
+  $("n-cumple").textContent = offers.filter((o) => live(o) && o.categoria === "cumple" && !tracked(o)).length;
+  $("n-verificar").textContent = offers.filter((o) => live(o) && o.categoria === "por_verificar" && !tracked(o)).length;
+  $("n-seguimiento").textContent = offers.filter(tracked).length;
+
+  const portals = [...new Set(offers.flatMap((o) => [o.portal, ...(o.fuentes || []).map((f) => f.portal)]).filter(Boolean))].sort();
+  const pSel = $("f-portal"), cur = pSel.value;
+  pSel.innerHTML = '<option value="">Portal</option>' + portals.map((p) => `<option value="${esc(p)}">${esc(p)}</option>`).join("");
+  pSel.value = portals.includes(cur) ? cur : "";
+
+  const list = $("list");
+  if (!loaded) { list.innerHTML = `<li class="empty"><strong>Cargando tus ofertas…</strong>Si no carga, entra con la cuenta de Claude con la que se compartió esta página.</li>`; return; }
+  const mod = $("f-mod").value, portal = pSel.value, showDesc = $("f-desc").value === "mostrar";
+  const rows = offers.filter(inTab)
+    .filter((o) => showDesc || live(o))
+    .filter((o) => !mod || o.modalidad === mod)
+    .filter((o) => !portal || o.portal === portal || (o.fuentes || []).some((f) => f.portal === portal))
+    .sort((a, b) => (b.puntaje || 0) - (a.puntaje || 0) || String(b.fecha_hallada).localeCompare(String(a.fecha_hallada)));
+  if (!rows.length) {
+    list.innerHTML = `<li class="empty"><strong>${tab === "seguimiento" ? "Aún no hay postulaciones" : "Nada en esta lista"}</strong>${tab === "seguimiento" ? "Cuando marques una oferta como Postulada, aparecerá aquí con su sticker." : offers.length ? "Prueba con otros filtros o revisa otro separador." : "La búsqueda corre de lunes a viernes a las 7:00 a. m."}</li>`;
+    return;
+  }
+  list.innerHTML = rows.map(row).join("");
+  justStamped.clear();
+}
+
+function sources(o) {
+  const f = Array.isArray(o.fuentes) && o.fuentes.length ? o.fuentes : [{ portal: o.portal, url: o.url }];
+  const others = f.filter((x) => x.url !== o.url);
+  if (!others.length) return `<div class="src">Publicada en <a href="${esc(safeUrl(o.url))}" target="_blank" rel="noopener">${esc(o.portal)}</a></div>`;
+  return `<div class="src"><span>Repetida en ${f.length} publicaciones. Te llevo a <a href="${esc(safeUrl(o.url))}" target="_blank" rel="noopener">${esc(o.portal)}</a>${o.motivo_fuente ? ": " + esc(o.motivo_fuente) : "."}</span>
+    ${others.map((x) => `<a class="alt" href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">${esc(x.portal)}</a>`).join("")}</div>`;
+}
+
+function row(o) {
+  const st = o.estado || "nueva";
+  const p = Math.max(0, Math.min(100, Number(o.puntaje) || 0));
+  const isNew = o.fecha_hallada === today() && st === "nueva";
+  const kit = o.kit || {};
+  const isOpen = open.has(o.id);
+  const stick = st === "postulada" ? `<div class="sticker ok${justStamped.has(o.id) ? " pop" : ""}"><span>Postu&shy;lada</span></div>`
+    : st === "entrevista" ? `<div class="sticker${justStamped.has(o.id) ? " pop" : ""}"><span>Entre&shy;vista</span></div>` : "";
+  return `<li class="offer${st === "descartada" ? " dim" : ""}" data-id="${esc(o.id)}">
+    <div class="score num" style="--p:${p}" title="Afinidad con su hoja de vida"><b>${p}</b><small>afinidad</small></div>
+    <div class="body">
+      <div class="top">
+        <div><h3>${esc(o.titulo)}</h3><div class="co">${esc(o.empresa || "Empresa confidencial")} · publicada ${fmtDate(o.fecha_publicacion || o.fecha_hallada)}</div></div>
+        ${stick}
+      </div>
+      <div class="chips">
+        ${isNew ? '<span class="chip new">Nueva hoy</span>' : ""}
+        <span class="chip num ${o.salario_cop ? "good" : "ask"}">${esc(salary(o))}</span>
+        <span class="chip ${o.contrato === "indefinido" ? "good" : "ask"}">${o.contrato === "indefinido" ? "Indefinido" : "Contrato por confirmar"}</span>
+        <span class="chip">${esc(modality(o))}</span>
+      </div>
+      ${Array.isArray(o.razones) && o.razones.length ? `<ul class="why">${o.razones.slice(0, 3).map((r) => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
+      ${sources(o)}
+      <div class="actions">
+        <a class="btn btn-go" href="${esc(safeUrl(o.url))}" target="_blank" rel="noopener">${ICON.go}Postularme en ${esc(o.portal || "la oferta")}</a>
+        <button class="btn" data-act="kit" aria-expanded="${isOpen}">${ICON.kit}${isOpen ? "Ocultar kit" : "Kit de postulación"}</button>
+        <span class="state"><label class="sr" for="st-${esc(o.id)}" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Estado</label>
+        <select id="st-${esc(o.id)}" data-act="estado" ${canWrite ? "" : "disabled"}>
+          ${Object.entries(ESTADOS).map(([k, v]) => `<option value="${k}"${k === st ? " selected" : ""}>${v}</option>`).join("")}
+        </select></span>
+      </div>
+      ${isOpen ? `<div class="kit">
+        ${kit.carta ? `<div><div class="kit-row"><h4>Carta de presentación</h4><button class="btn copy" data-copy="carta">${ICON.copy}Copiar</button></div><p class="letter">${esc(kit.carta)}</p></div>` : ""}
+        ${(kit.logros || []).length ? `<div><div class="kit-row"><h4>Logros para destacar</h4><button class="btn copy" data-copy="logros">${ICON.copy}Copiar</button></div><ul>${kit.logros.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>` : ""}
+        ${(kit.palabras_clave || []).length ? `<div><h4 style="margin-bottom:8px">Palabras clave para tu CV y LinkedIn</h4><div class="chips">${kit.palabras_clave.map((k) => `<span class="chip">${esc(k)}</span>`).join("")}</div></div>` : ""}
+        ${!kit.carta && !(kit.logros || []).length ? "<p class='hint'>Esta oferta todavía no tiene kit.</p>" : ""}
+      </div>` : ""}
+    </div>
+  </li>`;
+}
+
+document.querySelectorAll(".tab").forEach((b) => b.addEventListener("click", () => {
+  tab = b.dataset.tab;
+  try { localStorage.setItem("radar-tab", tab); } catch (e) {}
+  render();
+}));
+["f-mod", "f-portal", "f-desc"].forEach((id) => $(id).addEventListener("change", render));
+
+$("best").addEventListener("click", (ev) => {
+  const b = ev.target.closest("[data-open]");
+  if (!b) return;
+  const o = offers.find((x) => x.id === b.dataset.open);
+  if (!o) return;
+  tab = o.categoria === "por_verificar" ? "por_verificar" : "cumple";
+  open.add(o.id);
+  render();
+  document.querySelector(`.offer[data-id="${CSS.escape(o.id)}"]`)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+});
+
+$("list").addEventListener("click", async (ev) => {
+  const el = ev.target.closest("[data-act='kit'],[data-copy]");
+  if (!el) return;
+  const id = el.closest(".offer").dataset.id;
+  const o = offers.find((x) => x.id === id);
+  if (!o) return;
+  if (el.dataset.act === "kit") { open.has(id) ? open.delete(id) : open.add(id); render(); return; }
+  const text = el.dataset.copy === "carta" ? o.kit.carta : (o.kit.logros || []).map((l) => "• " + l).join("\n");
+  const label = el.innerHTML;
+  try { await navigator.clipboard.writeText(text); el.innerHTML = ICON.copy + "¡Copiado!"; }
+  catch (e) {
+    const target = el.closest(".kit-row").nextElementSibling;
+    if (target) { const r = document.createRange(); r.selectNodeContents(target); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+    el.innerHTML = ICON.copy + "Seleccionado: Ctrl+C";
+  }
+  setTimeout(() => { el.innerHTML = label; }, 1800);
+});
+
+$("list").addEventListener("change", async (ev) => {
+  const sel = ev.target.closest("[data-act='estado']");
+  if (!sel || !db) return;
+  const id = sel.closest(".offer").dataset.id;
+  if (sel.value === "postulada" || sel.value === "entrevista") justStamped.add(id);
+  try { await db.doc("ofertas/" + id).update({ estado: sel.value, estado_fecha: new Date().toISOString() }); }
+  catch (e) {
+    justStamped.delete(id);
+    if (e?.code === "invalid_argument") { canWrite = false; render(); }
+    $("tabnote").textContent = "No se pudo guardar el estado. Pide a Nicolás que te dé permiso para editar el tablero.";
+  }
+});
+
+render();
+
+(async () => {
+  if (!window.claude?.use) return;
+  db = await claude.use("db");
+  const user = await claude.use("user");
+  if (user) { try { if ((await user.can("data.write")) === false) canWrite = false; } catch (e) {} }
+  if (!db) {
+    $("list").innerHTML = `<li class="empty"><strong>No pude abrir las ofertas.</strong>Entra con la cuenta de Claude con la que se compartió esta página.</li>`;
+    $("best").innerHTML = `<p class="note-empty">Inicia sesión para ver la mejor oferta del día.</p>`;
+    return;
+  }
+  db.collection("ofertas").onSnapshot((snap) => {
+    offers = snap.docs.map((d) => ({ id: d.id, ...d.data() }));
+    loaded = true;
+    render();
+  }, () => {});
+  db.doc("meta/estado").onSnapshot((snap) => { meta = snap.exists ? snap.data() : null; render(); }, () => {});
+})();
+</script>
+</body></html>
