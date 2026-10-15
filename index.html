@@ -200,8 +200,8 @@ select:hover { border-color: var(--muted); }
 .copy { padding: 6px 14px; font-size: 13px; }
 .empty { padding-block: 44px; text-align: center; color: var(--muted); }
 .empty strong { display: block; color: var(--ink); font-family: var(--display); font-size: 22px; font-weight: 600; margin-bottom: 4px; }
-.refresh { appearance: none; font: 700 14px var(--font); color: var(--cover); background: var(--gold); border: 0; border-radius: 999px; padding: 6px 14px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
-.refresh svg { width: 15px; height: 15px; }
+.refresh { appearance: none; font: 700 15px var(--font); color: #2a0f33; background: var(--gold); border: 0; border-radius: 999px; padding: 10px 18px; margin-top: 4px; box-shadow: 0 6px 18px -8px rgba(0,0,0,.6); cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.refresh svg { width: 17px; height: 17px; }
 .refresh[aria-busy="true"] svg { animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 20; background: var(--cover); color: var(--cover-ink); border-radius: 999px; padding: 10px 10px 10px 18px; display: flex; gap: 12px; align-items: center; box-shadow: 0 12px 30px -10px rgba(0,0,0,.55); font-size: 15px; max-width: calc(100% - 32px); }
@@ -218,7 +218,7 @@ select:hover { border-color: var(--muted); }
         <li><b class="num" id="k-cumplen">–</b> cumplen todo</li>
         <li><b class="num" id="k-postuladas">–</b> postuladas</li>
         <li>última búsqueda <b id="k-ultima">–</b></li>
-        <li><button class="refresh" id="refresh" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></svg>Actualizar</button></li>
+        <li><button class="refresh" id="refresh" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></svg>Actualizar ofertas</button></li>
       </ul>
       <p class="musts">Solo entran ofertas con salario desde $2.800.000, contrato indefinido y trabajo remoto o híbrido en Bogotá.</p>
     </div>

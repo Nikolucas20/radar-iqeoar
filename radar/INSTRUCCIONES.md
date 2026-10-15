@@ -32,7 +32,7 @@ Si el grupo ya existe en `ofertas.json`, no lo dupliques. Si encontraste una fue
   - Contrato explícito distinto de indefinido (ver `exclusiones_explicitas`).
   - Modalidad presencial, o híbrida fuera de Bogotá.
   - La oferta ya cerró.
-- **`cumple`:** salario ≥ mínimo y contrato indefinido, ambos explícitos, y modalidad válida.
+- **`cumple`:** el salario mínimo publicado (el piso del rango) es ≥ $2.800.000, el contrato es indefinido (ambos explícitos) y la modalidad es válida. Si el rango cruza el umbral (por ejemplo, $2,5 a $3 M), va a `por_verificar` con esa advertencia en `razones`.
 - **`por_verificar`:** modalidad válida, pero falta el salario o el contrato, o tiene una condición dudosa (por ejemplo, empieza a término fijo). Explícalo en `razones`.
 
 ## 5. Puntaje (0–100)
