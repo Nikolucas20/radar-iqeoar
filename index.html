@@ -12,10 +12,14 @@
     }) };
   }
   function emit() { listeners.forEach(function (cb) { cb(snap()); }); }
-  var ready = fetch("ofertas.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (j) {
-    data = j; emit();
-    metaListeners.forEach(function (cb) { cb({ exists: !!j.meta, data: function () { return j.meta; } }); });
-  });
+  function load() {
+    return fetch("ofertas.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (j) {
+      data = j; emit();
+      metaListeners.forEach(function (cb) { cb({ exists: !!j.meta, data: function () { return j.meta; } }); });
+    });
+  }
+  var ready = load();
+  window.__radarRefresh = load;
   var db = {
     collection: function () { return { onSnapshot: function (cb) { listeners.push(cb); if (data) cb(snap()); return function () {}; } }; },
     doc: function (path) {
@@ -196,7 +200,13 @@ select:hover { border-color: var(--muted); }
 .copy { padding: 6px 14px; font-size: 13px; }
 .empty { padding-block: 44px; text-align: center; color: var(--muted); }
 .empty strong { display: block; color: var(--ink); font-family: var(--display); font-size: 22px; font-weight: 600; margin-bottom: 4px; }
-</style>
+.refresh { appearance: none; font: 700 14px var(--font); color: var(--cover); background: var(--gold); border: 0; border-radius: 999px; padding: 6px 14px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.refresh svg { width: 15px; height: 15px; }
+.refresh[aria-busy="true"] svg { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 20; background: var(--cover); color: var(--cover-ink); border-radius: 999px; padding: 10px 10px 10px 18px; display: flex; gap: 12px; align-items: center; box-shadow: 0 12px 30px -10px rgba(0,0,0,.55); font-size: 15px; max-width: calc(100% - 32px); }
+.toast button { appearance: none; border: 0; background: var(--gold); color: #2a0f33; font: 700 14px var(--font); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.toast button[hidden] { display: none; }</style>
 
 <header class="cover">
   <div class="cover-in">
@@ -208,6 +218,7 @@ select:hover { border-color: var(--muted); }
         <li><b class="num" id="k-cumplen">–</b> cumplen todo</li>
         <li><b class="num" id="k-postuladas">–</b> postuladas</li>
         <li>última búsqueda <b id="k-ultima">–</b></li>
+        <li><button class="refresh" id="refresh" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></svg>Actualizar</button></li>
       </ul>
       <p class="musts">Solo entran ofertas con salario desde $2.800.000, contrato indefinido y trabajo remoto o híbrido en Bogotá.</p>
     </div>
@@ -221,7 +232,7 @@ select:hover { border-color: var(--muted); }
   <div class="tabs" role="tablist" aria-label="Listas de ofertas">
     <button class="tab" role="tab" data-tab="cumple" aria-selected="true" id="tab-cumple">Cumplen todo <span class="n num" id="n-cumple">0</span></button>
     <button class="tab" role="tab" data-tab="por_verificar" aria-selected="false" id="tab-verificar">Por verificar <span class="n num" id="n-verificar">0</span></button>
-    <button class="tab" role="tab" data-tab="seguimiento" aria-selected="false" id="tab-seguimiento">En seguimiento <span class="n num" id="n-seguimiento">0</span></button>
+    <button class="tab" role="tab" data-tab="seguimiento" aria-selected="false" id="tab-seguimiento">Postuladas <span class="n num" id="n-seguimiento">0</span></button>
   </div>
   <section class="sheet" id="sheet" role="tabpanel">
     <div class="sheet-head">
@@ -238,13 +249,14 @@ select:hover { border-color: var(--muted); }
     <ul class="list" id="list"></ul>
   </section>
 </main>
+<div class="toast" id="toast" role="status" hidden><span id="toast-msg"></span><button type="button" id="toast-undo" hidden>Deshacer</button></div>
 
 <script>
 const ESTADOS = { nueva: "Nueva", postulada: "Postulada", entrevista: "Entrevista", descartada: "Descartada" };
 const TABS = {
   cumple: { c: "var(--tab-ok)", s: "var(--ok-soft)", note: "Cumplen salario, contrato y modalidad según lo que publica la oferta." },
   por_verificar: { c: "var(--tab-check)", s: "var(--check-soft)", note: "Encajan con tu perfil pero no dicen salario o contrato, o tienen una condición que conviene preguntar antes." },
-  seguimiento: { c: "var(--tab-track)", s: "var(--track-soft)", note: "Ofertas a las que ya te postulaste o en las que tienes entrevista. Cada paso cuenta." }
+  seguimiento: { c: "var(--tab-track)", s: "var(--track-soft)", note: "Las ofertas a las que ya te postulaste. Cuando te llamen, márcala como Entrevista. Cada paso cuenta." }
 };
 const ICON = {
   go: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>',
@@ -284,14 +296,14 @@ function renderCover() {
   if (loaded) {
     $("lede").innerHTML = nuevas
       ? `Hoy encontré <b>${nuevas} ${nuevas === 1 ? "oferta nueva" : "ofertas nuevas"}</b> que encajan con tu experiencia. Empieza por la destacada.`
-      : post ? `Llevas <b>${post} ${post === 1 ? "postulación" : "postulaciones"}</b>. Cada una es un paso firme. Mañana a las 7 busco más.`
+      : post ? `Llevas <b>${post} ${post === 1 ? "postulación" : "postulaciones"}</b>. Cada una es un paso firme. Busco más a las 7 a. m., 12 m. y 5 p. m.`
       : `Tienes <b>${cumplen} ${cumplen === 1 ? "oferta" : "ofertas"}</b> que cumplen todo. La mejor está destacada a la derecha.`;
   }
   const best = pool.filter((o) => o.categoria === "cumple").sort((a, b) => (b.puntaje || 0) - (a.puntaje || 0))[0]
     || pool.sort((a, b) => (b.puntaje || 0) - (a.puntaje || 0))[0];
   const el = $("best");
   if (!loaded) return;
-  if (!best) { el.innerHTML = `<p class="note-empty"><b>Sin ofertas pendientes.</b> Mañana a las 7:00 a. m. vuelvo a buscar.</p>`; return; }
+  if (!best) { el.innerHTML = `<p class="note-empty"><b>Sin ofertas pendientes.</b> Vuelvo a buscar en la próxima ronda (7 a. m., 12 m. o 5 p. m.).</p>`; return; }
   el.innerHTML = `
     <div class="note-head">
       <h2>${esc(best.titulo)}</h2>
@@ -300,7 +312,7 @@ function renderCover() {
     <div class="co">${esc(best.empresa || "Empresa confidencial")}</div>
     <div class="facts"><span class="fact num">${esc(salary(best))}</span><span class="fact">${best.contrato === "indefinido" ? "Indefinido" : "Contrato por confirmar"}</span><span class="fact">${esc(modality(best))}</span></div>
     ${best.razones?.[0] ? `<p class="why">${esc(best.razones[0])}</p>` : ""}
-    <div class="actions"><a class="btn btn-go" href="${esc(safeUrl(best.url))}" target="_blank" rel="noopener">${ICON.go}Postularme</a><button class="btn" data-open="${esc(best.id)}">${ICON.kit}Ver kit</button></div>`;
+    <div class="actions"><a class="btn btn-go" data-apply="${esc(best.id)}" href="${esc(safeUrl(best.url))}" target="_blank" rel="noopener">${ICON.go}Postularme</a><button class="btn" data-open="${esc(best.id)}">${ICON.kit}Ver kit</button></div>`;
 }
 
 function inTab(o) {
@@ -334,7 +346,7 @@ function render() {
     .filter((o) => !portal || o.portal === portal || (o.fuentes || []).some((f) => f.portal === portal))
     .sort((a, b) => (b.puntaje || 0) - (a.puntaje || 0) || String(b.fecha_hallada).localeCompare(String(a.fecha_hallada)));
   if (!rows.length) {
-    list.innerHTML = `<li class="empty"><strong>${tab === "seguimiento" ? "Aún no hay postulaciones" : "Nada en esta lista"}</strong>${tab === "seguimiento" ? "Cuando marques una oferta como Postulada, aparecerá aquí con su sticker." : offers.length ? "Prueba con otros filtros o revisa otro separador." : "La búsqueda corre de lunes a viernes a las 7:00 a. m."}</li>`;
+    list.innerHTML = `<li class="empty"><strong>${tab === "seguimiento" ? "Aún no te has postulado" : "Nada en esta lista"}</strong>${tab === "seguimiento" ? "Cuando le des Postularme a una oferta, se mueve aquí con su sello." : offers.length ? "Prueba con otros filtros o revisa otro separador." : "La búsqueda corre de lunes a viernes a las 7 a. m., 12 m. y 5 p. m."}</li>`;
     return;
   }
   list.innerHTML = rows.map(row).join("");
@@ -373,7 +385,7 @@ function row(o) {
       ${Array.isArray(o.razones) && o.razones.length ? `<ul class="why">${o.razones.slice(0, 3).map((r) => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
       ${sources(o)}
       <div class="actions">
-        <a class="btn btn-go" href="${esc(safeUrl(o.url))}" target="_blank" rel="noopener">${ICON.go}Postularme en ${esc(o.portal || "la oferta")}</a>
+        <a class="btn btn-go" data-apply="${esc(o.id)}" href="${esc(safeUrl(o.url))}" target="_blank" rel="noopener">${ICON.go}Postularme en ${esc(o.portal || "la oferta")}</a>
         <button class="btn" data-act="kit" aria-expanded="${isOpen}">${ICON.kit}${isOpen ? "Ocultar kit" : "Kit de postulación"}</button>
         <span class="state"><label class="sr" for="st-${esc(o.id)}" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Estado</label>
         <select id="st-${esc(o.id)}" data-act="estado" ${canWrite ? "" : "disabled"}>
@@ -426,17 +438,54 @@ $("list").addEventListener("click", async (ev) => {
   setTimeout(() => { el.innerHTML = label; }, 1800);
 });
 
-$("list").addEventListener("change", async (ev) => {
-  const sel = ev.target.closest("[data-act='estado']");
-  if (!sel || !db) return;
-  const id = sel.closest(".offer").dataset.id;
-  if (sel.value === "postulada" || sel.value === "entrevista") justStamped.add(id);
-  try { await db.doc("ofertas/" + id).update({ estado: sel.value, estado_fecha: new Date().toISOString() }); }
+let toastTimer = null;
+function toast(msg, undo) {
+  $("toast-msg").textContent = msg;
+  const b = $("toast-undo");
+  b.hidden = !undo;
+  b.onclick = undo ? () => { $("toast").hidden = true; undo(); } : null;
+  $("toast").hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { $("toast").hidden = true; }, 6000);
+}
+async function setEstado(id, estado) {
+  if (!db) return false;
+  if (estado === "postulada" || estado === "entrevista") justStamped.add(id);
+  try { await db.doc("ofertas/" + id).update({ estado, estado_fecha: new Date().toISOString() }); return true; }
   catch (e) {
     justStamped.delete(id);
     if (e?.code === "invalid_argument") { canWrite = false; render(); }
-    $("tabnote").textContent = "No se pudo guardar el estado. Pide a Nicolás que te dé permiso para editar el tablero.";
+    toast("No se pudo guardar el estado. Pide a Nicolás permiso para editar el tablero.");
+    return false;
   }
+}
+
+$("list").addEventListener("change", (ev) => {
+  const sel = ev.target.closest("[data-act='estado']");
+  if (!sel) return;
+  setEstado(sel.closest(".offer").dataset.id, sel.value);
+});
+
+document.addEventListener("click", async (ev) => {
+  const a = ev.target.closest("[data-apply]");
+  if (!a || !canWrite) return;
+  const o = offers.find((x) => x.id === a.dataset.apply);
+  if (!o || (o.estado && o.estado !== "nueva")) return;
+  const prev = o.estado || "nueva";
+  if (await setEstado(o.id, "postulada")) {
+    toast("La moví a Postuladas. ¡Éxitos!", () => setEstado(o.id, prev));
+  }
+});
+
+$("refresh").addEventListener("click", async () => {
+  const b = $("refresh");
+  b.setAttribute("aria-busy", "true");
+  try {
+    if (window.__radarRefresh) await window.__radarRefresh();
+    await new Promise((r) => setTimeout(r, 500));
+    toast(meta?.ultima_ejecucion ? `Al día. Última búsqueda: ${fmtDate(meta.ultima_ejecucion)}, ${new Date(meta.ultima_ejecucion).toLocaleTimeString("es-CO", { hour: "numeric", minute: "2-digit", timeZone: "America/Bogota" })}` : "Al día.");
+  } catch (e) { toast("No pude actualizar. Revisa tu conexión e inténtalo de nuevo."); }
+  b.removeAttribute("aria-busy");
 });
 
 render();

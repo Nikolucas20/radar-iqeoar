@@ -12,10 +12,14 @@
     }) };
   }
   function emit() { listeners.forEach(function (cb) { cb(snap()); }); }
-  var ready = fetch("ofertas.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (j) {
-    data = j; emit();
-    metaListeners.forEach(function (cb) { cb({ exists: !!j.meta, data: function () { return j.meta; } }); });
-  });
+  function load() {
+    return fetch("ofertas.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (j) {
+      data = j; emit();
+      metaListeners.forEach(function (cb) { cb({ exists: !!j.meta, data: function () { return j.meta; } }); });
+    });
+  }
+  var ready = load();
+  window.__radarRefresh = load;
   var db = {
     collection: function () { return { onSnapshot: function (cb) { listeners.push(cb); if (data) cb(snap()); return function () {}; } }; },
     doc: function (path) {
