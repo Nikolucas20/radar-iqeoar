@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 66,
+    "descartadas": 70,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
     "guardadas": 0,
-    "notas": "Sin ofertas nuevas que cumplan. portales.json: la mayoría sin modalidad confirmada (Computrabajo/LinkedIn), presencial, obra o labor/término fijo o salario <2,8 M (p. ej. Alfa Colombia: salario 3,38 M pero presencial, 1 día en casa tras 2 meses; Nicomar: término fijo presencial; Interaseo: presencial y remoto sin aclarar). Indeed sin salario ni resultados remotos. WebSearch sin hallazgos nuevos.",
-    "revisadas": 66,
-    "ultima_ejecucion": "2026-10-16T07:15:37-05:00"
+    "notas": "Sin ofertas nuevas que cumplan. Korn Ferry/Opella Asistente Administrativo (3-3,5 M, híbrido, indefinido) quedó en 54 pts (<55); Jefe de Tesorería y Cartera (AVAL) pide 8-12 años, 53 pts. Computrabajo/LinkedIn: modalidad sin confirmar, presencial o salario <2,8 M. Indeed: sin salario ni resultados remotos. 1 fuente nueva agregada al grupo Novatec.",
+    "revisadas": 70,
+    "ultima_ejecucion": "2026-10-16T12:05:00-05:00"
   },
   "ofertas": [
     {
@@ -367,6 +367,13 @@
             "portal": "elempleo (copia 3)",
             "salario_texto": "Confidencial",
             "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886770962"
+          },
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886781232",
+            "fecha_publicacion": "2026-10-16",
+            "salario_texto": "$2,5 a $3 millones",
+            "contrato": "indefinido"
           }
         ],
         "kit": {
