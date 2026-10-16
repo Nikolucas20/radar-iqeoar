@@ -1,4 +1,4 @@
-name: Leer elempleo
+name: Leer portales de empleo
 
 on:
   schedule:
@@ -10,26 +10,26 @@ permissions:
   contents: write
 
 concurrency:
-  group: elempleo
+  group: portales
   cancel-in-progress: false
 
 jobs:
   leer:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Leer ofertas de elempleo
-        run: python radar/elempleo.py
+      - name: Leer elempleo, LinkedIn, Computrabajo y Magneto
+        run: python radar/portales.py
       - name: Guardar en el repo
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add radar/elempleo.json
+          git add radar/portales.json
           if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
-          git commit -m "elempleo: ofertas actualizadas"
+          git commit -m "Portales: ofertas para evaluar actualizadas"
           git pull --rebase origin main
           git push origin HEAD:main
