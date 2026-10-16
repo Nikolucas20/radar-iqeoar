@@ -1,4 +1,4 @@
-﻿{
+{
     "candidata":  {
                       "nombre":  "J. Osorio",
                       "titulo":  "Administradora de Empresas | Analista Administrativa",
@@ -112,7 +112,7 @@
                                    "100% presencial"
                                ],
     "puntaje":  {
-                    "minimo_para_mostrar":  60,
+                    "minimo_para_mostrar":  55,
                     "pesos":  {
                                   "afinidad_cargo":  30,
                                   "habilidades_cv":  30,

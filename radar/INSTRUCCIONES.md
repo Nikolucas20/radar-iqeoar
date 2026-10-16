@@ -12,6 +12,9 @@ Eres el buscador de empleo de J. Osorio (Jina), una Administradora de Empresas e
 - No escribas el nombre completo de la candidata. En las cartas firma "J. Osorio".
 - No inventes nada en el kit: usa solo los hechos de `candidata.logros_cv` y `candidata.educacion`.
 
+## 0. Fecha
+Tu reloj está en UTC. Saca la fecha y la hora de Bogotá con `TZ=America/Bogota date +%Y-%m-%dT%H:%M:%S-05:00` y úsalas en `fecha_hallada` y `meta.ultima_ejecucion`. Nunca uses la fecha UTC: después de las 7 p. m. de Bogotá en UTC ya es el día siguiente.
+
 ## 1. Leer lo existente
 Carga `ofertas.json`. Guarda los `id`, las `url` y los pares empresa + cargo, para no duplicar.
 
@@ -46,7 +49,7 @@ Aplica `puntaje.pesos`:
 - **Modalidad (15):** remoto = 15, híbrido = 10.
 - **Experiencia (10):** pide entre 2 y 6 años = 10; 7 o más = 5; menos de 2 = 6.
 
-Guarda solo las ofertas con puntaje ≥ 60. En `razones` van 2 o 3 frases cortas y honestas; incluye las advertencias, como el inglés que pidan o si la oferta es antigua.
+Guarda solo las ofertas con puntaje ≥ `puntaje.minimo_para_mostrar` (hoy 55). En `razones` van 2 o 3 frases cortas y honestas; incluye las advertencias, como el inglés que pidan o si la oferta es antigua.
 
 ## 6. Kit
 - `carta`: 120 a 170 palabras, en español (o en inglés si la oferta lo está). Nombra el cargo, conecta 2 o 3 logros con lo que pide la oferta y firma "J. Osorio".
