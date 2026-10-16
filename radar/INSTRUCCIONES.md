@@ -17,9 +17,9 @@ Carga `ofertas.json`. Guarda los `id`, las `url` y los pares empresa + cargo, pa
 
 ## 2. Buscar
 - **Indeed:** si tienes el conector (herramientas `search_jobs` / `get_job_details`), úsalo con `country_code: "CO"`, `job_type: "fulltime"` y `location` "Bogotá" o "remote". Busca cada cargo objetivo y 4 o 5 cargos similares. Para cada título prometedor, llama a `get_job_details` para leer salario, contrato y modalidad. "Permanent" cuenta como señal de indefinido, pero confírmalo en la descripción.
+- **elempleo (fuente principal en Colombia):** tu entorno no puede abrir elempleo.com, así que un lector en GitHub Actions deja sus ofertas en `radar/elempleo.json` 30 minutos antes de cada ronda. Cada oferta trae url, titulo, empresa, salario, ubicacion (ciudad y modalidad), publicada, vence, contrato, experiencia, nivel, palabras_clave y descripcion. Evalúalas todas con los mismos criterios, usando la descripción para confirmar salario, contrato y modalidad. Usa `portal: "elempleo"` y la url tal cual. No intentes abrir elempleo.com con WebFetch.
 - **Web:** haz entre 8 y 14 búsquedas con WebSearch, combinando cargos con "híbrido Bogotá", "remoto Colombia" y "término indefinido". Usa también `site:` en elempleo.com, co.computrabajo.com, magneto365.com, linkedin.com/jobs y getonbrd.com.
-  - En elempleo funcionan bien las páginas de listado, por ejemplo `https://www.elempleo.com/co/ofertas-empleo/trabajo-analista-tesoreria-modalidad-h%C3%ADbrido`, `trabajo-analista-cartera-modalidad-h%C3%ADbrido`, `trabajo-analista-administrativo-modalidad-h%C3%ADbrido` y `trabajo-asistente-gerencia-modalidad-h%C3%ADbrido`. Léelas con WebFetch.
-- **Detalle:** abre con WebFetch las ofertas prometedoras. Revisa como máximo 25 por ejecución y prioriza las publicadas en los últimos 7 días.
+- **Detalle:** abre con WebFetch las ofertas prometedoras. Revisa como máximo 25 por ejecución (sin contar las de elempleo.json, que ya traen el detalle) y prioriza las publicadas en los últimos 7 días.
 
 ## 3. Repetidas
 Agrupa según `duplicados` en perfil.json. Elige la fuente principal con `reglas_desempate`. Guarda todas las publicaciones del grupo en `fuentes` y la razón de la elección en `motivo_fuente`.

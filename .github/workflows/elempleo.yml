@@ -1,0 +1,35 @@
+name: Leer elempleo
+
+on:
+  schedule:
+    # 30 min antes de cada ronda de la rutina (6:30, 11:30 y 16:30 hora Bogotá)
+    - cron: "30 11,16,21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: elempleo
+  cancel-in-progress: false
+
+jobs:
+  leer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Leer ofertas de elempleo
+        run: python radar/elempleo.py
+      - name: Guardar en el repo
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add radar/elempleo.json
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "elempleo: ofertas actualizadas"
+          git pull --rebase origin main
+          git push origin HEAD:main
