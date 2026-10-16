@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 70,
+    "descartadas": 80,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
     "guardadas": 0,
-    "notas": "Sin ofertas nuevas que cumplan. Korn Ferry/Opella Asistente Administrativo (3-3,5 M, híbrido, indefinido) quedó en 54 pts (<55); Jefe de Tesorería y Cartera (AVAL) pide 8-12 años, 53 pts. Computrabajo/LinkedIn: modalidad sin confirmar, presencial o salario <2,8 M. Indeed: sin salario ni resultados remotos. 1 fuente nueva agregada al grupo Novatec.",
-    "revisadas": 70,
-    "ultima_ejecucion": "2026-10-16T12:05:00-05:00"
+    "notas": "Sin ofertas nuevas que cumplan. Indeed: Protección Analista de Cartera I (3 M, indefinido) es presencial; Nicomar Tesorería término fijo y presencial; GLW Asistente obra o labor y presencial; AR Specialist NetSuite remoto pide inglés C1-C2 y horario EE. UU., sin salario. Manpower CxP senior (Magneto/elempleo) sin salario y pide bilingüe/senior, no se pudo abrir el detalle. Computrabajo/LinkedIn en portales.json sin salario ni modalidad confirmada. Novatec ya registrada.",
+    "revisadas": 80,
+    "ultima_ejecucion": "2026-10-16T17:05:00-05:00"
   },
   "ofertas": [
     {
