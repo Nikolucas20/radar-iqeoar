@@ -1,790 +1,790 @@
 {
- "meta": {
-  "descartadas": 94,
-  "fuentes": [
-   "Indeed",
-   "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
-  ],
-  "guardadas": 1,
-  "notas": "Nueva: Korn Ferry/Opella Asistente Administrativo (cumple, 55, justo en el mínimo). Novatec: la copia nueva publica $2,5 a $3 M; se actualizó salario y puntaje. Descartadas, entre otras: Indeed Cartera y Crédito B2B (presencial), CIFUR Coordinador de Cartera (presencial), Asistente de presidencia Inversión SAS (presencial, sin salario), Leasing Banco (obra o labor, $1,75 M). World Vision Líder financiero (remoto, $3 a $3,5 M) quedó en 46 puntos por cargo poco afín. LinkedIn y Computrabajo en portales.json casi sin modalidad confirmada. WebFetch no abre elempleo; WebSearch no se usó.",
-  "revisadas": 95,
-  "ultima_ejecucion": "2026-10-19T07:05:16-05:00"
- },
- "ofertas": [
-  {
-   "id": "adecco-gestor-cobranza-cartera-bilingue",
-   "d": {
-    "categoria": "cumple",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Adecco Colombia (contrato directo con la compañía)",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-09-18",
+  "meta": {
+    "descartadas": 94,
     "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-09-18",
-      "portal": "elempleo",
-      "salario_texto": "Hasta $4.500.000",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/gestor-de-cobranza-y-cartera-bilingue-1886769293"
-     }
+      "Indeed",
+      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
     ],
-    "kit": {
-     "carta": "Señores Adecco:\n\nMe interesa la vacante de Gestor de Cobranza y Cartera Bilingüe. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas Abogados. Allí gestioné las cuentas por cobrar, coordiné el recaudo oportuno y expedí los certificados de retención.\n\nComo Analista Senior de Tesorería también trabajé con proveedores internacionales: hice el seguimiento de sus pagos y elaboré informes de conciliación integrando información financiera y contable. Esa experiencia me permite asegurar la correcta aplicación de los recaudos y el seguimiento de acuerdos de pago que pide la oferta.\n\nQuedo atenta a la posibilidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y coordinó el recaudo oportuno",
-      "Hizo seguimiento de pagos con proveedores internacionales",
-      "Ejecutó conciliaciones y revisiones periódicas de movimientos"
-     ],
-     "palabras_clave": [
-      "cobro de cartera internacional",
-      "acuerdos de pago",
-      "aplicación de recaudos",
-      "refacturación",
-      "inglés",
-      "orientación al cliente"
-     ]
-    },
-    "modalidad": "hibrido",
-    "motivo_fuente": "",
-    "portal": "elempleo",
-    "puntaje": 68,
-    "razones": [
-     "Pide cartera, recaudo y aplicación de pagos, el núcleo de sus 5 años como Analista Administrativa",
-     "El contrato es indefinido y directo con la empresa; 2 días de trabajo desde casa",
-     "Requisito clave: ser bilingüe en inglés. Su CV no menciona el idioma, así que conviene confirmarlo"
-    ],
-    "salario_cop": 3500000,
-    "salario_max_cop": 4500000,
-    "salario_texto": "$3,5 a $4 M (hasta $4,5 M según perfil) + bono anual",
-    "titulo": "Gestor de Cobranza y Cartera Bilingüe",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/gestor-de-cobranza-y-cartera-bilingue-1886769293"
-   }
+    "guardadas": 1,
+    "notas": "Ronda de mediodía: portales.json sin cambios desde la ronda anterior (generado 2026-10-16) y Indeed (Asistente Ejecutiva Bogotá; Cartera y Recaudo remoto) sin ofertas nuevas con salario/contrato verificables. Sin ofertas nuevas. Nueva: Korn Ferry/Opella Asistente Administrativo (cumple, 55, justo en el mínimo). Novatec: la copia nueva publica $2,5 a $3 M; se actualizó salario y puntaje. Descartadas, entre otras: Indeed Cartera y Crédito B2B (presencial), CIFUR Coordinador de Cartera (presencial), Asistente de presidencia Inversión SAS (presencial, sin salario), Leasing Banco (obra o labor, $1,75 M). World Vision Líder financiero (remoto, $3 a $3,5 M) quedó en 46 puntos por cargo poco afín. LinkedIn y Computrabajo en portales.json casi sin modalidad confirmada. WebFetch no abre elempleo; WebSearch no se usó.",
+    "revisadas": 95,
+    "ultima_ejecucion": "2026-10-19T12:06:20-05:00"
   },
-  {
-   "id": "bdo-analista-tesoreria",
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "BDO Audit S.A.",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-08-25",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-08-25",
-      "portal": "elempleo",
-      "salario_texto": "Confidencial",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886757318"
-     }
-    ],
-    "kit": {
-     "carta": "Señores BDO:\n\nMe interesa la vacante de Analista de Tesorería. Vengo de más de 5 años en Dentons Cárdenas & Cárdenas Abogados, una firma de servicios profesionales donde fui Analista Senior de Tesorería: coordiné las cuentas por pagar, los pagos nacionales y al exterior, y los informes de conciliación de proveedores internacionales.\n\nAdemás fui el punto de consulta de las demás áreas para pagos, anticipos, legalizaciones e informes financieros, y registré transacciones y soportes en el ERP Odoo. Conozco bien el ritmo y las exigencias de una firma profesional, y me gustaría aportar esa experiencia a su equipo.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó cuentas por pagar y pagos nacionales e internacionales",
-      "Fue punto de consulta de las áreas para pagos, anticipos y legalizaciones",
-      "Registró transacciones y soportes en el ERP Odoo"
-     ],
-     "palabras_clave": [
-      "plataformas bancarias",
-      "monetizaciones",
-      "pagos al exterior",
-      "cuentas por pagar",
-      "flujo de caja",
-      "comprobantes de egreso",
-      "Dynamics"
-     ]
+  "ofertas": [
+    {
+      "id": "adecco-gestor-cobranza-cartera-bilingue",
+      "d": {
+        "categoria": "cumple",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Adecco Colombia (contrato directo con la compañía)",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-09-18",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-09-18",
+            "portal": "elempleo",
+            "salario_texto": "Hasta $4.500.000",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/gestor-de-cobranza-y-cartera-bilingue-1886769293"
+          }
+        ],
+        "kit": {
+          "carta": "Señores Adecco:\n\nMe interesa la vacante de Gestor de Cobranza y Cartera Bilingüe. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas Abogados. Allí gestioné las cuentas por cobrar, coordiné el recaudo oportuno y expedí los certificados de retención.\n\nComo Analista Senior de Tesorería también trabajé con proveedores internacionales: hice el seguimiento de sus pagos y elaboré informes de conciliación integrando información financiera y contable. Esa experiencia me permite asegurar la correcta aplicación de los recaudos y el seguimiento de acuerdos de pago que pide la oferta.\n\nQuedo atenta a la posibilidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y coordinó el recaudo oportuno",
+            "Hizo seguimiento de pagos con proveedores internacionales",
+            "Ejecutó conciliaciones y revisiones periódicas de movimientos"
+          ],
+          "palabras_clave": [
+            "cobro de cartera internacional",
+            "acuerdos de pago",
+            "aplicación de recaudos",
+            "refacturación",
+            "inglés",
+            "orientación al cliente"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "",
+        "portal": "elempleo",
+        "puntaje": 68,
+        "razones": [
+          "Pide cartera, recaudo y aplicación de pagos, el núcleo de sus 5 años como Analista Administrativa",
+          "El contrato es indefinido y directo con la empresa; 2 días de trabajo desde casa",
+          "Requisito clave: ser bilingüe en inglés. Su CV no menciona el idioma, así que conviene confirmarlo"
+        ],
+        "salario_cop": 3500000,
+        "salario_max_cop": 4500000,
+        "salario_texto": "$3,5 a $4 M (hasta $4,5 M según perfil) + bono anual",
+        "titulo": "Gestor de Cobranza y Cartera Bilingüe",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/gestor-de-cobranza-y-cartera-bilingue-1886769293"
+      }
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "",
-    "portal": "elempleo",
-    "puntaje": 62,
-    "razones": [
-     "Pide pagos al exterior, reportes de cuentas por pagar y atención a clientes internos y proveedores, igual que en Dentons",
-     "Es una firma de servicios profesionales, parecida al entorno de la firma de abogados donde trabajó",
-     "El salario no se publica; la oferta tiene casi 2 meses"
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "Confidencial",
-    "titulo": "Analista de Tesorería",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886757318"
-   }
-  },
-  {
-   "id": "credibanco-analista-tesoreria",
-   "d": {
-    "categoria": "cumple",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Credibanco S.A.",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-10-06",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-10-06",
-      "portal": "elempleo",
-      "salario_texto": "$3.762.800 + extralegales",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-1886776954"
-     },
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-05-15",
-      "portal": "elempleo (publicación anterior)",
-      "salario_texto": "$3 a $3,5 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-1886712893"
-     }
-    ],
-    "kit": {
-     "carta": "Señores Credibanco:\n\nMe interesa la vacante de Analista de Tesorería en Bogotá. Soy Administradora de Empresas y hasta julio de 2026 fui Analista Senior de Tesorería en Dentons Cárdenas & Cárdenas, donde coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos.\n\nAntes, como Analista Administrativa en la misma firma, gestioné las cuentas por cobrar y el recaudo oportuno y ejecuté conciliaciones periódicas. También elaboré informes de conciliación para proveedores internacionales, integrando información financiera y contable. Tengo formación reciente en Excel Avanzado y Power BI, y me motiva el foco de Credibanco en automatizar procesos con analítica de datos.\n\nAgradezco la oportunidad de una entrevista para contarles más sobre mi experiencia.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó la recepción, conciliación y seguimiento de pagos nacionales e internacionales",
-      "Gestionó cuentas por cobrar y el recaudo oportuno",
-      "Elaboró informes de conciliación integrando información financiera y contable"
-     ],
-     "palabras_clave": [
-      "pagaduría",
-      "recaudo",
-      "conciliaciones bancarias",
-      "flujo de caja",
-      "SAP",
-      "Power BI",
-      "Power Automate",
-      "Microsoft 365"
-     ]
+    {
+      "id": "bdo-analista-tesoreria",
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "BDO Audit S.A.",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-08-25",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-08-25",
+            "portal": "elempleo",
+            "salario_texto": "Confidencial",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886757318"
+          }
+        ],
+        "kit": {
+          "carta": "Señores BDO:\n\nMe interesa la vacante de Analista de Tesorería. Vengo de más de 5 años en Dentons Cárdenas & Cárdenas Abogados, una firma de servicios profesionales donde fui Analista Senior de Tesorería: coordiné las cuentas por pagar, los pagos nacionales y al exterior, y los informes de conciliación de proveedores internacionales.\n\nAdemás fui el punto de consulta de las demás áreas para pagos, anticipos, legalizaciones e informes financieros, y registré transacciones y soportes en el ERP Odoo. Conozco bien el ritmo y las exigencias de una firma profesional, y me gustaría aportar esa experiencia a su equipo.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar y pagos nacionales e internacionales",
+            "Fue punto de consulta de las áreas para pagos, anticipos y legalizaciones",
+            "Registró transacciones y soportes en el ERP Odoo"
+          ],
+          "palabras_clave": [
+            "plataformas bancarias",
+            "monetizaciones",
+            "pagos al exterior",
+            "cuentas por pagar",
+            "flujo de caja",
+            "comprobantes de egreso",
+            "Dynamics"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "",
+        "portal": "elempleo",
+        "puntaje": 62,
+        "razones": [
+          "Pide pagos al exterior, reportes de cuentas por pagar y atención a clientes internos y proveedores, igual que en Dentons",
+          "Es una firma de servicios profesionales, parecida al entorno de la firma de abogados donde trabajó",
+          "El salario no se publica; la oferta tiene casi 2 meses"
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "Confidencial",
+        "titulo": "Analista de Tesorería",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886757318"
+      }
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Credibanco volvió a publicar la misma vacante. Se usa la del 6 de octubre porque es la más reciente y trae el salario exacto; la de mayo probablemente ya cerró.",
-    "portal": "elempleo",
-    "puntaje": 70,
-    "razones": [
-     "Pide recaudo, pagaduría y conciliaciones bancarias, que es lo que hizo como Analista Senior de Tesorería",
-     "Híbrido con 3 días en casa y salario de $3,76 M más beneficios extralegales",
-     "Valoran Power BI y Microsoft 365; pide 3 años en tesorería del sector financiero, que ella no tiene, y SAP"
-    ],
-    "salario_cop": 3762800,
-    "salario_max_cop": null,
-    "salario_texto": "$3.762.800 + beneficios extralegales",
-    "titulo": "Analista de Tesorería",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-1886776954"
-   }
-  },
-  {
-   "id": "elite-flower-especialista-credito-cartera",
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Elite Flower",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-08-24",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-08-24",
-      "portal": "elempleo",
-      "salario_texto": "Confidencial",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-credito-y-cartera-1886756726"
-     },
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-08-20",
-      "portal": "elempleo (copia 2)",
-      "salario_texto": "Confidencial",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-credito-y-cartera-1886754338"
-     }
-    ],
-    "kit": {
-     "carta": "Señores Elite Flower:\n\nMe interesa la vacante de Especialista de Crédito y Cartera. Soy Administradora de Empresas y durante más de 5 años en Dentons Cárdenas & Cárdenas gestioné las cuentas por cobrar, coordiné el recaudo oportuno y ejecuté conciliaciones y revisiones periódicas de movimientos.\n\nComo Analista Senior de Tesorería también elaboré informes de conciliación para clientes y proveedores internacionales, integrando información financiera y contable, y apoyé los informes de gestión para la dirección. Esto se ajusta a las conciliaciones con clientes, la aplicación de pagos y los informes de resultados que pide la oferta.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno",
-      "Elaboró informes de conciliación integrando información financiera y contable",
-      "Ejecutó conciliaciones y revisiones periódicas de movimientos"
-     ],
-     "palabras_clave": [
-      "análisis de crédito",
-      "asignación de cartera",
-      "aplicación de pagos",
-      "conciliaciones con clientes",
-      "informes y proyecciones",
-      "inglés B2"
-     ]
+    {
+      "id": "credibanco-analista-tesoreria",
+      "d": {
+        "categoria": "cumple",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Credibanco S.A.",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-10-06",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-10-06",
+            "portal": "elempleo",
+            "salario_texto": "$3.762.800 + extralegales",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-1886776954"
+          },
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-05-15",
+            "portal": "elempleo (publicación anterior)",
+            "salario_texto": "$3 a $3,5 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-1886712893"
+          }
+        ],
+        "kit": {
+          "carta": "Señores Credibanco:\n\nMe interesa la vacante de Analista de Tesorería en Bogotá. Soy Administradora de Empresas y hasta julio de 2026 fui Analista Senior de Tesorería en Dentons Cárdenas & Cárdenas, donde coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos.\n\nAntes, como Analista Administrativa en la misma firma, gestioné las cuentas por cobrar y el recaudo oportuno y ejecuté conciliaciones periódicas. También elaboré informes de conciliación para proveedores internacionales, integrando información financiera y contable. Tengo formación reciente en Excel Avanzado y Power BI, y me motiva el foco de Credibanco en automatizar procesos con analítica de datos.\n\nAgradezco la oportunidad de una entrevista para contarles más sobre mi experiencia.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó la recepción, conciliación y seguimiento de pagos nacionales e internacionales",
+            "Gestionó cuentas por cobrar y el recaudo oportuno",
+            "Elaboró informes de conciliación integrando información financiera y contable"
+          ],
+          "palabras_clave": [
+            "pagaduría",
+            "recaudo",
+            "conciliaciones bancarias",
+            "flujo de caja",
+            "SAP",
+            "Power BI",
+            "Power Automate",
+            "Microsoft 365"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Credibanco volvió a publicar la misma vacante. Se usa la del 6 de octubre porque es la más reciente y trae el salario exacto; la de mayo probablemente ya cerró.",
+        "portal": "elempleo",
+        "puntaje": 70,
+        "razones": [
+          "Pide recaudo, pagaduría y conciliaciones bancarias, que es lo que hizo como Analista Senior de Tesorería",
+          "Híbrido con 3 días en casa y salario de $3,76 M más beneficios extralegales",
+          "Valoran Power BI y Microsoft 365; pide 3 años en tesorería del sector financiero, que ella no tiene, y SAP"
+        ],
+        "salario_cop": 3762800,
+        "salario_max_cop": null,
+        "salario_texto": "$3.762.800 + beneficios extralegales",
+        "titulo": "Analista de Tesorería",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-1886776954"
+      }
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Elite Flower la publicó dos veces en elempleo. Se usa la más reciente.",
-    "portal": "elempleo",
-    "puntaje": 66,
-    "razones": [
-     "El contrato es indefinido y directo, y el cargo es cartera pura: conciliaciones con clientes y aplicación de pagos",
-     "Pide 2 años de experiencia; ella tiene más de 5",
-     "El salario no se publica y piden inglés B2"
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "Confidencial",
-    "titulo": "Especialista de Crédito y Cartera",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-credito-y-cartera-1886756726"
-   }
-  },
-  {
-   "id": "imocom-analista-administrativo-financiero-jr",
-   "d": {
-    "categoria": "cumple",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "IMOCOM S.A.",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-10-07",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-10-07",
-      "portal": "elempleo",
-      "salario_texto": "$3 a $3,5 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-y-financiero-junior-1886777430"
-     }
-    ],
-    "kit": {
-     "carta": "Señores IMOCOM S.A.:\n\nMe interesa la vacante de Analista Administrativo y Financiero Junior. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas, donde registré, validé y analicé transacciones en el ERP Odoo, hice conciliaciones periódicas y apoyé los informes de gestión administrativa y de control presupuestal.\n\nTambién implementé herramientas de seguimiento para controlar los gastos de transporte y fortalecí los controles de cajas menores, definiendo montos límite y estandarizando legalizaciones. Esa experiencia se ajusta directamente al control de gastos, el seguimiento al flujo de caja y los reportes que describe la oferta. Además, completé recientemente un curso de Excel Avanzado y Fundamentos de Power BI.\n\nMe encantaría conversar sobre cómo puedo aportar al área. Quedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes",
-      "Implementó herramientas de seguimiento para el control de gastos de transporte",
-      "Apoyó informes de gestión administrativa y de control presupuestal con conciliaciones periódicas"
-     ],
-     "palabras_clave": [
-      "ERP",
-      "Dynamics",
-      "flujo de caja",
-      "control de gastos",
-      "seguimiento a proyectos",
-      "Excel avanzado",
-      "reportes financieros"
-     ]
+    {
+      "id": "elite-flower-especialista-credito-cartera",
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Elite Flower",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-08-24",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-08-24",
+            "portal": "elempleo",
+            "salario_texto": "Confidencial",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-credito-y-cartera-1886756726"
+          },
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-08-20",
+            "portal": "elempleo (copia 2)",
+            "salario_texto": "Confidencial",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-credito-y-cartera-1886754338"
+          }
+        ],
+        "kit": {
+          "carta": "Señores Elite Flower:\n\nMe interesa la vacante de Especialista de Crédito y Cartera. Soy Administradora de Empresas y durante más de 5 años en Dentons Cárdenas & Cárdenas gestioné las cuentas por cobrar, coordiné el recaudo oportuno y ejecuté conciliaciones y revisiones periódicas de movimientos.\n\nComo Analista Senior de Tesorería también elaboré informes de conciliación para clientes y proveedores internacionales, integrando información financiera y contable, y apoyé los informes de gestión para la dirección. Esto se ajusta a las conciliaciones con clientes, la aplicación de pagos y los informes de resultados que pide la oferta.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno",
+            "Elaboró informes de conciliación integrando información financiera y contable",
+            "Ejecutó conciliaciones y revisiones periódicas de movimientos"
+          ],
+          "palabras_clave": [
+            "análisis de crédito",
+            "asignación de cartera",
+            "aplicación de pagos",
+            "conciliaciones con clientes",
+            "informes y proyecciones",
+            "inglés B2"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Elite Flower la publicó dos veces en elempleo. Se usa la más reciente.",
+        "portal": "elempleo",
+        "puntaje": 66,
+        "razones": [
+          "El contrato es indefinido y directo, y el cargo es cartera pura: conciliaciones con clientes y aplicación de pagos",
+          "Pide 2 años de experiencia; ella tiene más de 5",
+          "El salario no se publica y piden inglés B2"
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "Confidencial",
+        "titulo": "Especialista de Crédito y Cartera",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-credito-y-cartera-1886756726"
+      }
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "",
-    "portal": "elempleo",
-    "puntaje": 67,
-    "razones": [
-     "El cargo es casi el mismo que ejerció en Dentons durante 5 años: administración, control de gastos y reportes",
-     "Pide manejo de ERP y Excel avanzado; ella usó Odoo a diario y tiene curso de Excel Avanzado y Power BI",
-     "Pide 1 a 2 años de experiencia, así que su perfil queda por encima"
-    ],
-    "salario_cop": 3000000,
-    "salario_max_cop": 3500000,
-    "salario_texto": "$3 a $3,5 millones",
-    "titulo": "Analista Administrativo y Financiero Junior",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-y-financiero-junior-1886777430"
-   }
-  },
-  {
-   "id": "logistica-analista-tesoreria-sr",
-   "d": {
-    "categoria": "cumple",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Empresa confidencial (sector logística)",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-09-27",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-09-27",
-      "portal": "elempleo",
-      "salario_texto": "$4 a $4,5 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sr-1886772837"
-     }
-    ],
-    "kit": {
-     "carta": "Respetados señores:\n\nMe interesa la vacante de Analista de Tesorería Senior. Hasta julio de 2026 ocupé ese mismo cargo en Dentons Cárdenas & Cárdenas Abogados, donde coordiné las cuentas por pagar nacionales e internacionales y elaboré informes de conciliación para proveedores internacionales, integrando información financiera y contable.\n\nEn más de 5 años en la firma también ejecuté conciliaciones periódicas, gestioné el recaudo y fui el punto de consulta de otras áreas para pagos, anticipos, legalizaciones e informes financieros. Esa experiencia se ajusta a las conciliaciones bancarias y de proveedores, la programación de pagos y los cierres mensuales que describe la oferta.\n\nMe encantaría ampliar esta información en una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó cuentas por pagar: recepción, conciliación y seguimiento de pagos nacionales e internacionales",
-      "Elaboró informes de conciliación de proveedores internacionales",
-      "Fue punto de consulta para pagos, anticipos, legalizaciones e informes financieros"
-     ],
-     "palabras_clave": [
-      "conciliaciones bancarias",
-      "conciliación de proveedores",
-      "flujo de caja",
-      "programación de pagos",
-      "cierres mensuales",
-      "inglés intermedio"
-     ]
+    {
+      "id": "imocom-analista-administrativo-financiero-jr",
+      "d": {
+        "categoria": "cumple",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "IMOCOM S.A.",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-10-07",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-10-07",
+            "portal": "elempleo",
+            "salario_texto": "$3 a $3,5 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-y-financiero-junior-1886777430"
+          }
+        ],
+        "kit": {
+          "carta": "Señores IMOCOM S.A.:\n\nMe interesa la vacante de Analista Administrativo y Financiero Junior. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas, donde registré, validé y analicé transacciones en el ERP Odoo, hice conciliaciones periódicas y apoyé los informes de gestión administrativa y de control presupuestal.\n\nTambién implementé herramientas de seguimiento para controlar los gastos de transporte y fortalecí los controles de cajas menores, definiendo montos límite y estandarizando legalizaciones. Esa experiencia se ajusta directamente al control de gastos, el seguimiento al flujo de caja y los reportes que describe la oferta. Además, completé recientemente un curso de Excel Avanzado y Fundamentos de Power BI.\n\nMe encantaría conversar sobre cómo puedo aportar al área. Quedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes",
+            "Implementó herramientas de seguimiento para el control de gastos de transporte",
+            "Apoyó informes de gestión administrativa y de control presupuestal con conciliaciones periódicas"
+          ],
+          "palabras_clave": [
+            "ERP",
+            "Dynamics",
+            "flujo de caja",
+            "control de gastos",
+            "seguimiento a proyectos",
+            "Excel avanzado",
+            "reportes financieros"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "",
+        "portal": "elempleo",
+        "puntaje": 67,
+        "razones": [
+          "El cargo es casi el mismo que ejerció en Dentons durante 5 años: administración, control de gastos y reportes",
+          "Pide manejo de ERP y Excel avanzado; ella usó Odoo a diario y tiene curso de Excel Avanzado y Power BI",
+          "Pide 1 a 2 años de experiencia, así que su perfil queda por encima"
+        ],
+        "salario_cop": 3000000,
+        "salario_max_cop": 3500000,
+        "salario_texto": "$3 a $3,5 millones",
+        "titulo": "Analista Administrativo y Financiero Junior",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-y-financiero-junior-1886777430"
+      }
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "",
-    "portal": "elempleo",
-    "puntaje": 72,
-    "razones": [
-     "Es el mismo cargo que tuvo en Dentons: conciliaciones bancarias y de proveedores, y programación de pagos",
-     "Es el salario más alto de la búsqueda de hoy ($4 a $4,5 M) y hay 2 vacantes",
-     "Ojo: pide inglés intermedio y trabajar 2 sábados al mes"
-    ],
-    "salario_cop": 4000000,
-    "salario_max_cop": 4500000,
-    "salario_texto": "$4 a $4,5 millones",
-    "titulo": "Analista de Tesorería Senior",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sr-1886772837"
-   }
-  },
-  {
-   "id": "novatec-analista-tesoreria-fintech",
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Novatec Solutions",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-09-29",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-09-29",
-      "portal": "elempleo",
-      "salario_texto": "Confidencial",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sector-fintech-1886774009"
-     },
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-09-30",
-      "portal": "elempleo (copia 2)",
-      "salario_texto": "Confidencial",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886772899"
-     },
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-09-23",
-      "portal": "elempleo (copia 3)",
-      "salario_texto": "Confidencial",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886770962"
-     },
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886781232",
-      "fecha_publicacion": "2026-10-16",
-      "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
-     }
-    ],
-    "kit": {
-     "carta": "Señores Novatec:\n\nMe interesa la vacante de Analista de Tesorería para el sector fintech. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas, donde fui Analista Senior de Tesorería y Analista Administrativa. Allí manejé cuentas por pagar y por cobrar, el recaudo y las conciliaciones bancarias y de proveedores internacionales.\n\nTrabajé a diario integrando información financiera y contable en el ERP Odoo y apoyé los informes de gestión y de control presupuestal. Me interesa aplicar esa experiencia en un entorno fintech y seguir fortaleciendo mis capacidades analíticas, en las que me he formado con Excel Avanzado y Power BI.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Ejecutó conciliaciones de pagos nacionales e internacionales",
-      "Gestionó cartera y recaudo",
-      "Integró información financiera y contable en el ERP Odoo"
-     ],
-     "palabras_clave": [
-      "conciliaciones bancarias",
-      "flujo de efectivo",
-      "pasarelas de pago",
-      "facturación y cartera",
-      "ciclo contable",
-      "Excel avanzado"
-     ]
+    {
+      "id": "logistica-analista-tesoreria-sr",
+      "d": {
+        "categoria": "cumple",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Empresa confidencial (sector logística)",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-09-27",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-09-27",
+            "portal": "elempleo",
+            "salario_texto": "$4 a $4,5 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sr-1886772837"
+          }
+        ],
+        "kit": {
+          "carta": "Respetados señores:\n\nMe interesa la vacante de Analista de Tesorería Senior. Hasta julio de 2026 ocupé ese mismo cargo en Dentons Cárdenas & Cárdenas Abogados, donde coordiné las cuentas por pagar nacionales e internacionales y elaboré informes de conciliación para proveedores internacionales, integrando información financiera y contable.\n\nEn más de 5 años en la firma también ejecuté conciliaciones periódicas, gestioné el recaudo y fui el punto de consulta de otras áreas para pagos, anticipos, legalizaciones e informes financieros. Esa experiencia se ajusta a las conciliaciones bancarias y de proveedores, la programación de pagos y los cierres mensuales que describe la oferta.\n\nMe encantaría ampliar esta información en una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar: recepción, conciliación y seguimiento de pagos nacionales e internacionales",
+            "Elaboró informes de conciliación de proveedores internacionales",
+            "Fue punto de consulta para pagos, anticipos, legalizaciones e informes financieros"
+          ],
+          "palabras_clave": [
+            "conciliaciones bancarias",
+            "conciliación de proveedores",
+            "flujo de caja",
+            "programación de pagos",
+            "cierres mensuales",
+            "inglés intermedio"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "",
+        "portal": "elempleo",
+        "puntaje": 72,
+        "razones": [
+          "Es el mismo cargo que tuvo en Dentons: conciliaciones bancarias y de proveedores, y programación de pagos",
+          "Es el salario más alto de la búsqueda de hoy ($4 a $4,5 M) y hay 2 vacantes",
+          "Ojo: pide inglés intermedio y trabajar 2 sábados al mes"
+        ],
+        "salario_cop": 4000000,
+        "salario_max_cop": 4500000,
+        "salario_texto": "$4 a $4,5 millones",
+        "titulo": "Analista de Tesorería Senior",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sr-1886772837"
+      }
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Novatec publicó la misma vacante 3 veces en elempleo, con el mismo texto. Se usa la que especifica \"sector fintech\" en el título; postularse a una sola es suficiente.",
-    "portal": "elempleo",
-    "puntaje": 60,
-    "razones": [
-     "Combina tesorería, conciliaciones bancarias, facturación y cartera",
-     "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: hay que confirmarlo; contrato indefinido e híbrido en Bogotá",
-     "Piden Contador Público, así que hay que resaltar su experiencia contable en Dentons"
-    ],
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "salario_texto": "$2,5 a $3 millones (copia más reciente)",
-    "titulo": "Analista de Tesorería (sector fintech)",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sector-fintech-1886774009"
-   }
-  },
-  {
-   "id": "talycap-analista-administrativo-financiero",
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": null,
-    "empresa": "Talycap Global S.A.S.",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-08-27",
-    "fuentes": [
-     {
-      "contrato": "indefinido (fijo 3 meses al inicio)",
-      "fecha_publicacion": "2026-08-27",
-      "portal": "elempleo",
-      "salario_texto": "Confidencial",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativoa-y-financieroa-bogota-hibrido-1886758816"
-     },
-     {
-      "contrato": null,
-      "fecha_publicacion": "2026-10-14",
-      "portal": "Jooble",
-      "salario_texto": "A convenir",
-      "url": "https://co.jooble.org/jdp/-4841209654158931766"
-     }
-    ],
-    "kit": {
-     "carta": "Señores Talycap Global:\n\nMe interesa la vacante de Analista Administrativa y Financiera. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas Abogados, donde cubrí los dos lados del ciclo financiero: como Analista Senior de Tesorería coordiné cuentas por pagar y pagos nacionales e internacionales, y como Analista Administrativa gestioné cartera, recaudo y certificados de retención.\n\nTambién fortalecí los controles de cajas menores, diseñé manuales de procedimientos, apoyé el control presupuestal y trabajé a diario en el ERP Odoo. Tengo formación en Excel Avanzado y Power BI, que la oferta menciona como deseable.\n\nMe encantaría conversar sobre cómo puedo apoyar al equipo. Quedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó cuentas por pagar y pagos nacionales e internacionales",
-      "Gestionó cartera, recaudo y expedición de certificados de retención",
-      "Apoyó informes de control presupuestal y fortaleció los controles de cajas menores"
-     ],
-     "palabras_clave": [
-      "tesorería",
-      "flujo de caja",
-      "programación de pagos",
-      "cartera",
-      "proveedores",
-      "presupuesto",
-      "ERP",
-      "Power BI"
-     ]
+    {
+      "id": "novatec-analista-tesoreria-fintech",
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Novatec Solutions",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-09-29",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-09-29",
+            "portal": "elempleo",
+            "salario_texto": "Confidencial",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sector-fintech-1886774009"
+          },
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-09-30",
+            "portal": "elempleo (copia 2)",
+            "salario_texto": "Confidencial",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886772899"
+          },
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-09-23",
+            "portal": "elempleo (copia 3)",
+            "salario_texto": "Confidencial",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886770962"
+          },
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886781232",
+            "fecha_publicacion": "2026-10-16",
+            "salario_texto": "$2,5 a $3 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "kit": {
+          "carta": "Señores Novatec:\n\nMe interesa la vacante de Analista de Tesorería para el sector fintech. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas, donde fui Analista Senior de Tesorería y Analista Administrativa. Allí manejé cuentas por pagar y por cobrar, el recaudo y las conciliaciones bancarias y de proveedores internacionales.\n\nTrabajé a diario integrando información financiera y contable en el ERP Odoo y apoyé los informes de gestión y de control presupuestal. Me interesa aplicar esa experiencia en un entorno fintech y seguir fortaleciendo mis capacidades analíticas, en las que me he formado con Excel Avanzado y Power BI.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Ejecutó conciliaciones de pagos nacionales e internacionales",
+            "Gestionó cartera y recaudo",
+            "Integró información financiera y contable en el ERP Odoo"
+          ],
+          "palabras_clave": [
+            "conciliaciones bancarias",
+            "flujo de efectivo",
+            "pasarelas de pago",
+            "facturación y cartera",
+            "ciclo contable",
+            "Excel avanzado"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Novatec publicó la misma vacante 3 veces en elempleo, con el mismo texto. Se usa la que especifica \"sector fintech\" en el título; postularse a una sola es suficiente.",
+        "portal": "elempleo",
+        "puntaje": 60,
+        "razones": [
+          "Combina tesorería, conciliaciones bancarias, facturación y cartera",
+          "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: hay que confirmarlo; contrato indefinido e híbrido en Bogotá",
+          "Piden Contador Público, así que hay que resaltar su experiencia contable en Dentons"
+        ],
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "salario_texto": "$2,5 a $3 millones (copia más reciente)",
+        "titulo": "Analista de Tesorería (sector fintech)",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sector-fintech-1886774009"
+      }
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Se usa elempleo, que es la publicación original y muestra el contrato. Jooble solo la replica (es un agregador), aunque su fecha reciente indica que la vacante sigue activa.",
-    "portal": "elempleo",
-    "puntaje": 81,
-    "razones": [
-     "Es la oferta que mejor encaja: tesorería, cuentas por pagar, cartera, cuentas por cobrar y proveedores, todo lo de su CV",
-     "4 días desde casa y 1 en oficina (Calle 111)",
-     "Ojo: la descripción dice que empieza con contrato fijo de 3 meses y luego pasa a indefinido, y el salario es a convenir. Confírmalo antes"
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "A convenir según experiencia",
-    "titulo": "Analista Administrativa y Financiera",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativoa-y-financieroa-bogota-hibrido-1886758816"
-   }
-  },
-  {
-   "id": "tecnologia-analista-tesoreria",
-   "d": {
-    "categoria": "cumple",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Empresa confidencial (sector tecnología)",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-14",
-    "fecha_publicacion": "2026-09-17",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-09-17",
-      "portal": "elempleo",
-      "salario_texto": "$3.000.000",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886768578"
-     }
-    ],
-    "kit": {
-     "carta": "Respetados señores:\n\nMe interesa la vacante de Analista de Tesorería. Soy Administradora de Empresas y hasta julio de 2026 fui Analista Senior de Tesorería en Dentons Cárdenas & Cárdenas, donde coordiné pagos nacionales e internacionales y elaboré informes de conciliación para proveedores del exterior.\n\nDurante más de 5 años en la firma registré, validé y analicé transacciones en el ERP Odoo, custodiando los soportes, y ejecuté conciliaciones periódicas. Esa base me permite adaptarme con rapidez a SAP y a los procedimientos internos de tesorería que describe la oferta. Tengo además formación reciente en Excel Avanzado.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó pagos nacionales e internacionales con su conciliación y seguimiento",
-      "Registró y validó transacciones y comprobantes en el ERP Odoo",
-      "Ejecutó conciliaciones y revisiones periódicas de movimientos"
-     ],
-     "palabras_clave": [
-      "SAP",
-      "pagos internacionales",
-      "operaciones cambiarias",
-      "conciliaciones bancarias",
-      "comprobantes",
-      "Excel avanzado"
-     ]
+    {
+      "id": "talycap-analista-administrativo-financiero",
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": null,
+        "empresa": "Talycap Global S.A.S.",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-08-27",
+        "fuentes": [
+          {
+            "contrato": "indefinido (fijo 3 meses al inicio)",
+            "fecha_publicacion": "2026-08-27",
+            "portal": "elempleo",
+            "salario_texto": "Confidencial",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativoa-y-financieroa-bogota-hibrido-1886758816"
+          },
+          {
+            "contrato": null,
+            "fecha_publicacion": "2026-10-14",
+            "portal": "Jooble",
+            "salario_texto": "A convenir",
+            "url": "https://co.jooble.org/jdp/-4841209654158931766"
+          }
+        ],
+        "kit": {
+          "carta": "Señores Talycap Global:\n\nMe interesa la vacante de Analista Administrativa y Financiera. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas Abogados, donde cubrí los dos lados del ciclo financiero: como Analista Senior de Tesorería coordiné cuentas por pagar y pagos nacionales e internacionales, y como Analista Administrativa gestioné cartera, recaudo y certificados de retención.\n\nTambién fortalecí los controles de cajas menores, diseñé manuales de procedimientos, apoyé el control presupuestal y trabajé a diario en el ERP Odoo. Tengo formación en Excel Avanzado y Power BI, que la oferta menciona como deseable.\n\nMe encantaría conversar sobre cómo puedo apoyar al equipo. Quedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar y pagos nacionales e internacionales",
+            "Gestionó cartera, recaudo y expedición de certificados de retención",
+            "Apoyó informes de control presupuestal y fortaleció los controles de cajas menores"
+          ],
+          "palabras_clave": [
+            "tesorería",
+            "flujo de caja",
+            "programación de pagos",
+            "cartera",
+            "proveedores",
+            "presupuesto",
+            "ERP",
+            "Power BI"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Se usa elempleo, que es la publicación original y muestra el contrato. Jooble solo la replica (es un agregador), aunque su fecha reciente indica que la vacante sigue activa.",
+        "portal": "elempleo",
+        "puntaje": 81,
+        "razones": [
+          "Es la oferta que mejor encaja: tesorería, cuentas por pagar, cartera, cuentas por cobrar y proveedores, todo lo de su CV",
+          "4 días desde casa y 1 en oficina (Calle 111)",
+          "Ojo: la descripción dice que empieza con contrato fijo de 3 meses y luego pasa a indefinido, y el salario es a convenir. Confírmalo antes"
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "A convenir según experiencia",
+        "titulo": "Analista Administrativa y Financiera",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativoa-y-financieroa-bogota-hibrido-1886758816"
+      }
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "",
-    "portal": "elempleo",
-    "puntaje": 61,
-    "razones": [
-     "Pide pagos internacionales y conciliaciones bancarias, que manejó en Dentons",
-     "Pide 2 años de experiencia; ella tiene más de 5",
-     "SAP es indispensable y ella viene de Odoo: hay que mostrarlo como experiencia en ERP"
-    ],
-    "salario_cop": 3000000,
-    "salario_max_cop": 3500000,
-    "salario_texto": "$3.000.000",
-    "titulo": "Analista de Tesorería",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886768578"
-   }
-  },
-  {
-   "id": "consultores-talento-humano-analista-administrativo",
-   "d": {
-    "titulo": "Analista Administrativo",
-    "empresa": "Consultores Talento Humano",
-    "url": "https://to.indeed.com/aak6pqntjs6h",
-    "portal": "Indeed",
-    "fecha_publicacion": "2026-10-07",
-    "fecha_hallada": "2026-10-15",
-    "salario_texto": "$2.500.000 a $3.000.000 según experiencia",
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
-    "categoria": "por_verificar",
-    "puntaje": 70,
-    "razones": [
-     "Cargo objetivo exacto, híbrido en Bogotá y contrato indefinido explícito, con funciones de pagos a proveedores, conciliaciones y reportes que coinciden con tu experiencia.",
-     "El rango salarial llega a $3,0 M (máximo sobre el mínimo de $2,8 M), pero el piso es $2,5 M: negocia según tu experiencia.",
-     "Pide 2 años de experiencia y valora comercio exterior y cuenta de compensación en USD; publicada hace 8 días.",
-     "Ojo: el rango arranca por debajo de $2,8 M; confirma que te ofrezcan al menos ese valor."
-    ],
-    "kit": {
-     "carta": "Estimado equipo de Consultores Talento Humano:\n\nMe postulo al cargo de Analista Administrativo. Soy Profesional en Administración de Empresas y en Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, además de informes de conciliación para proveedores internacionales que integran información financiera y contable.\n\nTambién fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes. Ejecuté conciliaciones periódicas y apoyé informes de gestión administrativa y control presupuestal, lo que se ajusta a el seguimiento de pagos, reportes y conciliaciones que describe su vacante.\n\nMe interesa la modalidad híbrida en Bogotá y aportar orden, control y trazabilidad documental a su operación. Quedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
-      "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal."
-     ],
-     "palabras_clave": [
-      "pagos a proveedores",
-      "conciliación",
-      "obligaciones tributarias",
-      "operaciones de exportación",
-      "cuenta de compensación USD",
-      "reportes administrativos y financieros",
-      "híbrido Bogotá"
-     ]
+    {
+      "id": "tecnologia-analista-tesoreria",
+      "d": {
+        "categoria": "cumple",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Empresa confidencial (sector tecnología)",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-14",
+        "fecha_publicacion": "2026-09-17",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-09-17",
+            "portal": "elempleo",
+            "salario_texto": "$3.000.000",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886768578"
+          }
+        ],
+        "kit": {
+          "carta": "Respetados señores:\n\nMe interesa la vacante de Analista de Tesorería. Soy Administradora de Empresas y hasta julio de 2026 fui Analista Senior de Tesorería en Dentons Cárdenas & Cárdenas, donde coordiné pagos nacionales e internacionales y elaboré informes de conciliación para proveedores del exterior.\n\nDurante más de 5 años en la firma registré, validé y analicé transacciones en el ERP Odoo, custodiando los soportes, y ejecuté conciliaciones periódicas. Esa base me permite adaptarme con rapidez a SAP y a los procedimientos internos de tesorería que describe la oferta. Tengo además formación reciente en Excel Avanzado.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó pagos nacionales e internacionales con su conciliación y seguimiento",
+            "Registró y validó transacciones y comprobantes en el ERP Odoo",
+            "Ejecutó conciliaciones y revisiones periódicas de movimientos"
+          ],
+          "palabras_clave": [
+            "SAP",
+            "pagos internacionales",
+            "operaciones cambiarias",
+            "conciliaciones bancarias",
+            "comprobantes",
+            "Excel avanzado"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "",
+        "portal": "elempleo",
+        "puntaje": 61,
+        "razones": [
+          "Pide pagos internacionales y conciliaciones bancarias, que manejó en Dentons",
+          "Pide 2 años de experiencia; ella tiene más de 5",
+          "SAP es indispensable y ella viene de Odoo: hay que mostrarlo como experiencia en ERP"
+        ],
+        "salario_cop": 3000000,
+        "salario_max_cop": 3500000,
+        "salario_texto": "$3.000.000",
+        "titulo": "Analista de Tesorería",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886768578"
+      }
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Indeed",
-      "url": "https://to.indeed.com/aak6pqntjs6h",
-      "fecha_publicacion": "2026-10-07",
-      "salario_texto": "$2.500.000 a $3.000.000",
-      "contrato": "indefinido"
-     }
-    ],
-    "motivo_fuente": "Única publicación encontrada (Indeed), con salario, contrato y modalidad completos."
-   }
-  },
-  {
-   "id": "gm-financial-analista-backoffice-tesoreria",
-   "d": {
-    "titulo": "Analista Backoffice Tesorería",
-    "empresa": "GM Financial",
-    "url": "https://to.indeed.com/aaknpnrcl4xs",
-    "portal": "Indeed",
-    "fecha_publicacion": "2026-10-01",
-    "fecha_hallada": "2026-10-15",
-    "salario_texto": "No publicado",
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "contrato": null,
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
-    "categoria": "por_verificar",
-    "puntaje": 60,
-    "razones": [
-     "Rol de tesorería con pagos a proveedores, conciliaciones, reembolsos/legalizaciones y reportes, muy cercano a tu experiencia.",
-     "Faltan salario y contrato; la modalidad híbrida solo aparece como etiqueta (#LI-Hybrid), confírmala.",
-     "Pide 1 a 3 años, NIIF/USGAAP, Excel avanzado y Blackline deseable; publicada hace 14 días."
-    ],
-    "kit": {
-     "carta": "Estimado equipo de GM Financial:\n\nMe postulo al cargo de Analista Backoffice Tesorería. Soy Profesional en Administración de Empresas y como Analista Senior de Tesorería en Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, y elaboré informes de conciliación para proveedores internacionales integrando información financiera y contable.\n\nEjecuté conciliaciones periódicas, registré y validé transacciones en el ERP Odoo con custodia de soportes y fortalecí los controles de cajas menores con legalizaciones estandarizadas. Esa experiencia en pagos, conciliaciones y control de soportes se alinea con las responsabilidades de back office que describe su vacante.\n\nMe motiva aportar rigor y orden a su área de Finanzas. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
-      "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "tesorería",
-      "back office",
-      "pagos a proveedores",
-      "conciliaciones contables",
-      "extractos bancarios",
-      "reembolsos",
-      "NIIF",
-      "Excel avanzado"
-     ]
+    {
+      "id": "consultores-talento-humano-analista-administrativo",
+      "d": {
+        "titulo": "Analista Administrativo",
+        "empresa": "Consultores Talento Humano",
+        "url": "https://to.indeed.com/aak6pqntjs6h",
+        "portal": "Indeed",
+        "fecha_publicacion": "2026-10-07",
+        "fecha_hallada": "2026-10-15",
+        "salario_texto": "$2.500.000 a $3.000.000 según experiencia",
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "por_verificar",
+        "puntaje": 70,
+        "razones": [
+          "Cargo objetivo exacto, híbrido en Bogotá y contrato indefinido explícito, con funciones de pagos a proveedores, conciliaciones y reportes que coinciden con tu experiencia.",
+          "El rango salarial llega a $3,0 M (máximo sobre el mínimo de $2,8 M), pero el piso es $2,5 M: negocia según tu experiencia.",
+          "Pide 2 años de experiencia y valora comercio exterior y cuenta de compensación en USD; publicada hace 8 días.",
+          "Ojo: el rango arranca por debajo de $2,8 M; confirma que te ofrezcan al menos ese valor."
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Consultores Talento Humano:\n\nMe postulo al cargo de Analista Administrativo. Soy Profesional en Administración de Empresas y en Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, además de informes de conciliación para proveedores internacionales que integran información financiera y contable.\n\nTambién fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes. Ejecuté conciliaciones periódicas y apoyé informes de gestión administrativa y control presupuestal, lo que se ajusta a el seguimiento de pagos, reportes y conciliaciones que describe su vacante.\n\nMe interesa la modalidad híbrida en Bogotá y aportar orden, control y trazabilidad documental a su operación. Quedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+            "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal."
+          ],
+          "palabras_clave": [
+            "pagos a proveedores",
+            "conciliación",
+            "obligaciones tributarias",
+            "operaciones de exportación",
+            "cuenta de compensación USD",
+            "reportes administrativos y financieros",
+            "híbrido Bogotá"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "Indeed",
+            "url": "https://to.indeed.com/aak6pqntjs6h",
+            "fecha_publicacion": "2026-10-07",
+            "salario_texto": "$2.500.000 a $3.000.000",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada (Indeed), con salario, contrato y modalidad completos."
+      }
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Indeed",
-      "url": "https://to.indeed.com/aaknpnrcl4xs",
-      "fecha_publicacion": "2026-10-01",
-      "salario_texto": "No publicado",
-      "contrato": null
-     }
-    ],
-    "motivo_fuente": "Única publicación encontrada (Indeed)."
-   }
-  },
-  {
-   "id": "adecco-analista-recaudo-cartera-hibrido",
-   "d": {
-    "titulo": "Analista de Recaudo y Cartera (Aplicación de Pagos / Cuentas por Cobrar)",
-    "empresa": "Adecco Colombia S.A.",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudo-y-cartera-en-bogota-dc-BE877CF40AA16FA561373E686DCF3405",
-    "portal": "Computrabajo",
-    "fecha_publicacion": null,
-    "fecha_hallada": "2026-10-15",
-    "salario_texto": "A convenir",
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
-    "categoria": "por_verificar",
-    "puntaje": 73,
-    "razones": [
-     "Cargo casi idéntico a su perfil: recaudo, cuentas por cobrar, aplicación y conciliación de pagos, ERP.",
-     "Contrato indefinido y modalidad híbrida en Bogotá, pero el salario es 'a convenir': confirmar que supere $2,8 M.",
-     "Adecco es intermediaria: confirmar si el contrato indefinido es con la empresa usuaria. La fecha de publicación no aparece."
-    ],
-    "kit": {
-     "carta": "Señores Adecco:\n\nMe interesa la vacante de Analista de Recaudo y Cartera (aplicación de pagos / cuentas por cobrar). Soy Administradora de Empresas con más de 5 años de experiencia en Dentons, donde gestioné las cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención.\n\nTambién ejecuté conciliaciones periódicas y registré, validé y analicé transacciones en el ERP Odoo, custodiando los soportes. Como Analista Senior de Tesorería elaboré informes de conciliación para proveedores internacionales, lo que me permite gestionar diferencias e inconsistencias contables con atención al detalle.\n\nQuedo atenta a la posibilidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes"
-     ],
-     "palabras_clave": [
-      "aplicación de pagos",
-      "cuentas por cobrar",
-      "recaudo",
-      "cartera",
-      "conciliaciones contables",
-      "ERP",
-      "Excel"
-     ]
+    {
+      "id": "gm-financial-analista-backoffice-tesoreria",
+      "d": {
+        "titulo": "Analista Backoffice Tesorería",
+        "empresa": "GM Financial",
+        "url": "https://to.indeed.com/aaknpnrcl4xs",
+        "portal": "Indeed",
+        "fecha_publicacion": "2026-10-01",
+        "fecha_hallada": "2026-10-15",
+        "salario_texto": "No publicado",
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "contrato": null,
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "por_verificar",
+        "puntaje": 60,
+        "razones": [
+          "Rol de tesorería con pagos a proveedores, conciliaciones, reembolsos/legalizaciones y reportes, muy cercano a tu experiencia.",
+          "Faltan salario y contrato; la modalidad híbrida solo aparece como etiqueta (#LI-Hybrid), confírmala.",
+          "Pide 1 a 3 años, NIIF/USGAAP, Excel avanzado y Blackline deseable; publicada hace 14 días."
+        ],
+        "kit": {
+          "carta": "Estimado equipo de GM Financial:\n\nMe postulo al cargo de Analista Backoffice Tesorería. Soy Profesional en Administración de Empresas y como Analista Senior de Tesorería en Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, y elaboré informes de conciliación para proveedores internacionales integrando información financiera y contable.\n\nEjecuté conciliaciones periódicas, registré y validé transacciones en el ERP Odoo con custodia de soportes y fortalecí los controles de cajas menores con legalizaciones estandarizadas. Esa experiencia en pagos, conciliaciones y control de soportes se alinea con las responsabilidades de back office que describe su vacante.\n\nMe motiva aportar rigor y orden a su área de Finanzas. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+            "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "tesorería",
+            "back office",
+            "pagos a proveedores",
+            "conciliaciones contables",
+            "extractos bancarios",
+            "reembolsos",
+            "NIIF",
+            "Excel avanzado"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "Indeed",
+            "url": "https://to.indeed.com/aaknpnrcl4xs",
+            "fecha_publicacion": "2026-10-01",
+            "salario_texto": "No publicado",
+            "contrato": null
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada (Indeed)."
+      }
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Computrabajo",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudo-y-cartera-en-bogota-dc-BE877CF40AA16FA561373E686DCF3405",
-      "fecha_publicacion": null,
-      "salario_texto": "A convenir",
-      "contrato": "indefinido"
-     }
-    ],
-    "motivo_fuente": ""
-   }
-  },
-  {
-   "id": "seguros-mundial-analista-tesoreria-datos",
-   "d": {
-    "titulo": "Analista de Tesorería (datos)",
-    "empresa": "Seguros Mundial (Compañía Mundial de Seguros S.A.)",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-manejo-de-r-o-python-1886780853",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-15",
-    "fecha_hallada": "2026-10-15",
-    "salario_texto": "$3,5 a $4 millones + prestaciones y beneficios extralegales",
-    "salario_cop": 3500000,
-    "salario_max_cop": 4000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
-    "categoria": "cumple",
-    "puntaje": 61,
-    "razones": [
-     "Tesorería con control de recursos financieros y seguimiento de flujos, el núcleo de su experiencia como Analista Senior de Tesorería.",
-     "Buen salario ($3,5 a $4 M) con contrato indefinido directo y modalidad híbrida en Bogotá; pide 2 años de experiencia y ella tiene más de 5.",
-     "Ojo: el cargo tiene un fuerte componente de datos (tableros, Python o R). Su Excel avanzado y Power BI ayudan, pero Python o R no están en su CV."
-    ],
-    "kit": {
-     "carta": "Señores Seguros Mundial:\n\nMe interesa la vacante de Analista de Tesorería. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas Abogados, donde fui Analista Senior de Tesorería: coordiné las cuentas por pagar y los pagos nacionales e internacionales, y elaboré informes de conciliación integrando información financiera y contable.\n\nTambién implementé herramientas de seguimiento para controlar los gastos de transporte y apoyé los informes de gestión y de control presupuestal. Me formé recientemente en Excel Avanzado y Fundamentos de Power BI, y me motiva el foco del cargo en analizar los datos de tesorería y automatizar procesos; estoy lista para fortalecer también el manejo de Python o R.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó pagos nacionales e internacionales con su conciliación y seguimiento",
-      "Implementó herramientas de seguimiento para el control de gastos de transporte",
-      "Elaboró informes de conciliación y apoyó el control presupuestal"
-     ],
-     "palabras_clave": [
-      "tesorería",
-      "análisis de datos",
-      "tableros de visualización",
-      "Power BI",
-      "Excel avanzado",
-      "control de recursos financieros",
-      "Python o R"
-     ]
+    {
+      "id": "adecco-analista-recaudo-cartera-hibrido",
+      "d": {
+        "titulo": "Analista de Recaudo y Cartera (Aplicación de Pagos / Cuentas por Cobrar)",
+        "empresa": "Adecco Colombia S.A.",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudo-y-cartera-en-bogota-dc-BE877CF40AA16FA561373E686DCF3405",
+        "portal": "Computrabajo",
+        "fecha_publicacion": null,
+        "fecha_hallada": "2026-10-15",
+        "salario_texto": "A convenir",
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "por_verificar",
+        "puntaje": 73,
+        "razones": [
+          "Cargo casi idéntico a su perfil: recaudo, cuentas por cobrar, aplicación y conciliación de pagos, ERP.",
+          "Contrato indefinido y modalidad híbrida en Bogotá, pero el salario es 'a convenir': confirmar que supere $2,8 M.",
+          "Adecco es intermediaria: confirmar si el contrato indefinido es con la empresa usuaria. La fecha de publicación no aparece."
+        ],
+        "kit": {
+          "carta": "Señores Adecco:\n\nMe interesa la vacante de Analista de Recaudo y Cartera (aplicación de pagos / cuentas por cobrar). Soy Administradora de Empresas con más de 5 años de experiencia en Dentons, donde gestioné las cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención.\n\nTambién ejecuté conciliaciones periódicas y registré, validé y analicé transacciones en el ERP Odoo, custodiando los soportes. Como Analista Senior de Tesorería elaboré informes de conciliación para proveedores internacionales, lo que me permite gestionar diferencias e inconsistencias contables con atención al detalle.\n\nQuedo atenta a la posibilidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes"
+          ],
+          "palabras_clave": [
+            "aplicación de pagos",
+            "cuentas por cobrar",
+            "recaudo",
+            "cartera",
+            "conciliaciones contables",
+            "ERP",
+            "Excel"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "Computrabajo",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudo-y-cartera-en-bogota-dc-BE877CF40AA16FA561373E686DCF3405",
+            "fecha_publicacion": null,
+            "salario_texto": "A convenir",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": ""
+      }
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-manejo-de-r-o-python-1886780853",
-      "fecha_publicacion": "2026-10-15",
-      "salario_texto": "$3,5 a $4 millones",
-      "contrato": "indefinido"
-     },
-     {
-      "portal": "elempleo (publicación anterior)",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-de-datos-1886780120",
-      "fecha_publicacion": "2026-10-14",
-      "salario_texto": "$3,5 a $4 millones",
-      "contrato": "indefinido"
-     }
-    ],
-    "motivo_fuente": "Seguros Mundial publicó la misma vacante dos veces en elempleo; se usa la del 15 de octubre por ser la más reciente."
-   }
-  },
-  {
-   "id": "korn-ferry-opella-asistente-administrativo",
-   "d": {
-    "titulo": "Asistente Administrativo (Opella Healthcare Colombia)",
-    "empresa": "Korn Ferry (para Opella Healthcare Colombia)",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886779648",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-13",
-    "fecha_hallada": "2026-10-19",
-    "salario_texto": "$3 a $3,5 millones",
-    "salario_cop": 3000000,
-    "salario_max_cop": 3500000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
-    "categoria": "cumple",
-    "puntaje": 55,
-    "razones": [
-     "Salario desde $3 M, contrato indefinido e híbrido en Bogotá: cumple los no negociables",
-     "Es un cargo de apoyo al equipo de liderazgo (agendas, proveedores, logística de oficina), con poco componente financiero",
-     "Pide solo 6 meses a 1 año de experiencia y formación técnica o tecnológica: el cargo queda por debajo de su nivel. Vence el 12 de noviembre"
-    ],
-    "kit": {
-     "carta": "Estimados señores de Korn Ferry y Opella Healthcare:\n\nMe postulo al cargo de Asistente Administrativo. Soy Administradora de Empresas y llevo más de cinco años en Dentons, donde fui Analista Administrativa y Analista Senior de Tesorería. Allí fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.\n\nTambién diseñé manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento, y fortalecí los controles de cajas menores con legalizaciones estandarizadas y capacitación a los usuarios. Esa experiencia me permite apoyar a un equipo de liderazgo con orden, seguimiento y buena atención a proveedores y colaboradores.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.",
-      "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
-      "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios."
-     ],
-     "palabras_clave": [
-      "asistente administrativo",
-      "agendas",
-      "gestión documental",
-      "proveedores",
-      "apoyo al liderazgo",
-      "logística de eventos"
-     ]
+    {
+      "id": "seguros-mundial-analista-tesoreria-datos",
+      "d": {
+        "titulo": "Analista de Tesorería (datos)",
+        "empresa": "Seguros Mundial (Compañía Mundial de Seguros S.A.)",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-manejo-de-r-o-python-1886780853",
+        "portal": "elempleo",
+        "fecha_publicacion": "2026-10-15",
+        "fecha_hallada": "2026-10-15",
+        "salario_texto": "$3,5 a $4 millones + prestaciones y beneficios extralegales",
+        "salario_cop": 3500000,
+        "salario_max_cop": 4000000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "cumple",
+        "puntaje": 61,
+        "razones": [
+          "Tesorería con control de recursos financieros y seguimiento de flujos, el núcleo de su experiencia como Analista Senior de Tesorería.",
+          "Buen salario ($3,5 a $4 M) con contrato indefinido directo y modalidad híbrida en Bogotá; pide 2 años de experiencia y ella tiene más de 5.",
+          "Ojo: el cargo tiene un fuerte componente de datos (tableros, Python o R). Su Excel avanzado y Power BI ayudan, pero Python o R no están en su CV."
+        ],
+        "kit": {
+          "carta": "Señores Seguros Mundial:\n\nMe interesa la vacante de Analista de Tesorería. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas Abogados, donde fui Analista Senior de Tesorería: coordiné las cuentas por pagar y los pagos nacionales e internacionales, y elaboré informes de conciliación integrando información financiera y contable.\n\nTambién implementé herramientas de seguimiento para controlar los gastos de transporte y apoyé los informes de gestión y de control presupuestal. Me formé recientemente en Excel Avanzado y Fundamentos de Power BI, y me motiva el foco del cargo en analizar los datos de tesorería y automatizar procesos; estoy lista para fortalecer también el manejo de Python o R.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó pagos nacionales e internacionales con su conciliación y seguimiento",
+            "Implementó herramientas de seguimiento para el control de gastos de transporte",
+            "Elaboró informes de conciliación y apoyó el control presupuestal"
+          ],
+          "palabras_clave": [
+            "tesorería",
+            "análisis de datos",
+            "tableros de visualización",
+            "Power BI",
+            "Excel avanzado",
+            "control de recursos financieros",
+            "Python o R"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-manejo-de-r-o-python-1886780853",
+            "fecha_publicacion": "2026-10-15",
+            "salario_texto": "$3,5 a $4 millones",
+            "contrato": "indefinido"
+          },
+          {
+            "portal": "elempleo (publicación anterior)",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-de-datos-1886780120",
+            "fecha_publicacion": "2026-10-14",
+            "salario_texto": "$3,5 a $4 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Seguros Mundial publicó la misma vacante dos veces en elempleo; se usa la del 15 de octubre por ser la más reciente."
+      }
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886779648",
-      "fecha_publicacion": "2026-10-13",
-      "salario_texto": "$3 a $3,5 millones",
-      "contrato": "indefinido"
-     }
-    ],
-    "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad completos)."
-   }
-  }
- ]
+    {
+      "id": "korn-ferry-opella-asistente-administrativo",
+      "d": {
+        "titulo": "Asistente Administrativo (Opella Healthcare Colombia)",
+        "empresa": "Korn Ferry (para Opella Healthcare Colombia)",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886779648",
+        "portal": "elempleo",
+        "fecha_publicacion": "2026-10-13",
+        "fecha_hallada": "2026-10-19",
+        "salario_texto": "$3 a $3,5 millones",
+        "salario_cop": 3000000,
+        "salario_max_cop": 3500000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "cumple",
+        "puntaje": 55,
+        "razones": [
+          "Salario desde $3 M, contrato indefinido e híbrido en Bogotá: cumple los no negociables",
+          "Es un cargo de apoyo al equipo de liderazgo (agendas, proveedores, logística de oficina), con poco componente financiero",
+          "Pide solo 6 meses a 1 año de experiencia y formación técnica o tecnológica: el cargo queda por debajo de su nivel. Vence el 12 de noviembre"
+        ],
+        "kit": {
+          "carta": "Estimados señores de Korn Ferry y Opella Healthcare:\n\nMe postulo al cargo de Asistente Administrativo. Soy Administradora de Empresas y llevo más de cinco años en Dentons, donde fui Analista Administrativa y Analista Senior de Tesorería. Allí fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.\n\nTambién diseñé manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento, y fortalecí los controles de cajas menores con legalizaciones estandarizadas y capacitación a los usuarios. Esa experiencia me permite apoyar a un equipo de liderazgo con orden, seguimiento y buena atención a proveedores y colaboradores.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
+            "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios."
+          ],
+          "palabras_clave": [
+            "asistente administrativo",
+            "agendas",
+            "gestión documental",
+            "proveedores",
+            "apoyo al liderazgo",
+            "logística de eventos"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886779648",
+            "fecha_publicacion": "2026-10-13",
+            "salario_texto": "$3 a $3,5 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad completos)."
+      }
+    }
+  ]
 }
