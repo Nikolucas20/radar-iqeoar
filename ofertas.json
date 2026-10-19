@@ -1,14 +1,15 @@
 {
   "meta": {
-    "descartadas": 94,
+    "descartadas": 168,
     "fuentes": [
       "Indeed",
-      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
+      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
+      "WebSearch"
     ],
-    "guardadas": 1,
-    "notas": "Ronda de mediodía: portales.json sin cambios desde la ronda anterior (generado 2026-10-16) y Indeed (Asistente Ejecutiva Bogotá; Cartera y Recaudo remoto) sin ofertas nuevas con salario/contrato verificables. Sin ofertas nuevas. Nueva: Korn Ferry/Opella Asistente Administrativo (cumple, 55, justo en el mínimo). Novatec: la copia nueva publica $2,5 a $3 M; se actualizó salario y puntaje. Descartadas, entre otras: Indeed Cartera y Crédito B2B (presencial), CIFUR Coordinador de Cartera (presencial), Asistente de presidencia Inversión SAS (presencial, sin salario), Leasing Banco (obra o labor, $1,75 M). World Vision Líder financiero (remoto, $3 a $3,5 M) quedó en 46 puntos por cargo poco afín. LinkedIn y Computrabajo en portales.json casi sin modalidad confirmada. WebFetch no abre elempleo; WebSearch no se usó.",
-    "revisadas": 95,
-    "ultima_ejecucion": "2026-10-19T12:06:20-05:00"
+    "guardadas": 15,
+    "notas": "Ronda de tarde: portales.json nuevo (2026-10-19). 1 oferta nueva: Manpower Analista de Facturación y Gestión de Cartera (híbrido Bogotá, $3 M, indefinido; cumple, 59). Descartadas la mayoría de Computrabajo por obra o labor, término fijo o salario < $2,8 M; varias con salario e indefinido OK (Coorserpark $3,2 M, Coerenza Tesorería $3,3 M, cobranza cartera castigada $3 M) pero sin modalidad confirmada (probable presencial), no guardadas. Siigo Analista Senior Administrativo ($2,5 a 3 M, 'presencial y remoto' ambiguo) bajo el mínimo. LinkedIn sin salario/contrato/modalidad en casi todas. Indeed: sin salarios publicados; Analista Administrativa remoto sin resultados. World Vision, Novatec y Mundial ya registradas.",
+    "revisadas": 170,
+    "ultima_ejecucion": "2026-10-19T17:15:00-05:00"
   },
   "ofertas": [
     {
@@ -784,6 +785,58 @@
           }
         ],
         "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad completos)."
+      }
+    },
+    {
+      "id": "manpower-analista-facturacion-gestion-cartera-hibrido",
+      "d": {
+        "titulo": "Analista de Facturación y Gestión de Cartera // Híbrido - Bogotá",
+        "empresa": "Manpower Group Colombia (compañía de servicios con cobertura nacional)",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-facturacion-y-gestion-de-cartera-hibrido-bogota-en-bogota-dc-B9EBC3C87085323D61373E686DCF3405",
+        "portal": "Computrabajo",
+        "fecha_publicacion": null,
+        "fecha_hallada": "2026-10-19",
+        "salario_texto": "$3.000.000 mensual",
+        "salario_cop": 3000000,
+        "salario_max_cop": 3000000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "cumple",
+        "puntaje": 59,
+        "razones": [
+          "Salario $3 M, contrato a término indefinido y modalidad híbrida en Bogotá, todo explícito.",
+          "Cartera, recaudo, facturación y conciliación de ingresos coinciden con su experiencia en cuentas por cobrar.",
+          "Advertencia: la oferta no muestra fecha de publicación ni años de experiencia; publica Manpower como intermediario."
+        ],
+        "kit": {
+          "carta": "Estimado equipo de selección:\n\nMe postulo al cargo de Analista de Facturación y Gestión de Cartera. Soy Administradora de Empresas con cinco años de experiencia en el área administrativa y financiera. Gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas integrando información financiera y contable. Además registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, lo que me da rigor en la carga y validación de información. Complementé mi formación con Excel Avanzado y Fundamentos de Power BI. Me interesa aportar a la correcta facturación, el control de cartera y la conciliación de ingresos de su compañía en modalidad híbrida en Bogotá.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "facturación",
+            "cartera",
+            "recaudo",
+            "conciliación de ingresos",
+            "cobros",
+            "cargue de archivos planos",
+            "Excel"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "Computrabajo",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-facturacion-y-gestion-de-cartera-hibrido-bogota-en-bogota-dc-B9EBC3C87085323D61373E686DCF3405",
+            "fecha_publicacion": null,
+            "salario_texto": "$3.000.000 mensual",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada; trae salario, contrato y modalidad."
       }
     }
   ]
