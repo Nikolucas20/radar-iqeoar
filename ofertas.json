@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 168,
+    "descartadas": 261,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
     "guardadas": 15,
-    "notas": "Ronda de tarde: portales.json nuevo (2026-10-19). 1 oferta nueva: Manpower Analista de Facturación y Gestión de Cartera (híbrido Bogotá, $3 M, indefinido; cumple, 59). Descartadas la mayoría de Computrabajo por obra o labor, término fijo o salario < $2,8 M; varias con salario e indefinido OK (Coorserpark $3,2 M, Coerenza Tesorería $3,3 M, cobranza cartera castigada $3 M) pero sin modalidad confirmada (probable presencial), no guardadas. Siigo Analista Senior Administrativo ($2,5 a 3 M, 'presencial y remoto' ambiguo) bajo el mínimo. LinkedIn sin salario/contrato/modalidad en casi todas. Indeed: sin salarios publicados; Analista Administrativa remoto sin resultados. World Vision, Novatec y Mundial ya registradas.",
-    "revisadas": 170,
-    "ultima_ejecucion": "2026-10-19T17:15:00-05:00"
+    "notas": "Ronda de mañana: portales.json (2026-10-20) sin ofertas nuevas que cumplan. Computrabajo/LinkedIn: mayoría obra o labor, término fijo, salario < $2,8 M o presencial; varias con salario e indefinido OK (tesorería factoring $3,2 M, tesorería inmobiliaria $3,3 M, Coorserpark $3,2 M, cobranza $3 M, Magneto Analista de Tesorería $3,2 M) pero sin modalidad confirmada (WebFetch no abre esos portales), no guardadas. Alfa Colombia ($3,4 M) casi presencial. Indeed: Coordinador de Cartera CIFUR, Office Manager Gurusoft/Ergospa y Asistente de presidencia presenciales. Adecco Cash Application (Magneto, $3 a 4 M, híbrido Bogotá) agrupada con la oferta existente de Adecco y pasada a 'cumple'.",
+    "revisadas": 264,
+    "ultima_ejecucion": "2026-10-20T07:15:00-05:00"
   },
   "ofertas": [
     {
@@ -630,22 +630,22 @@
       "d": {
         "titulo": "Analista de Recaudo y Cartera (Aplicación de Pagos / Cuentas por Cobrar)",
         "empresa": "Adecco Colombia S.A.",
-        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudo-y-cartera-en-bogota-dc-BE877CF40AA16FA561373E686DCF3405",
-        "portal": "Computrabajo",
-        "fecha_publicacion": null,
+        "url": "https://www.magneto365.com/co/empleos/analista-de-cuentas-por-cobrar-cash-application-hibrido-bogota-1094722",
+        "portal": "Magneto",
+        "fecha_publicacion": "2026-10-08",
         "fecha_hallada": "2026-10-15",
-        "salario_texto": "A convenir",
-        "salario_cop": null,
-        "salario_max_cop": null,
+        "salario_texto": "$3.000.000 a $4.000.000",
+        "salario_cop": 3000000,
+        "salario_max_cop": 4000000,
         "contrato": "indefinido",
         "modalidad": "hibrido",
         "ciudad": "Bogotá",
-        "categoria": "por_verificar",
-        "puntaje": 73,
+        "categoria": "cumple",
+        "puntaje": 78,
         "razones": [
           "Cargo casi idéntico a su perfil: recaudo, cuentas por cobrar, aplicación y conciliación de pagos, ERP.",
-          "Contrato indefinido y modalidad híbrida en Bogotá, pero el salario es 'a convenir': confirmar que supere $2,8 M.",
-          "Adecco es intermediaria: confirmar si el contrato indefinido es con la empresa usuaria. La fecha de publicación no aparece."
+          "Magneto confirma salario $3 a $4 M, contrato indefinido y modalidad híbrida en Bogotá.",
+          "Adecco es intermediaria: confirmar si el indefinido es con la empresa usuaria. Magneto y Computrabajo parecen la misma vacante (agrupadas)."
         ],
         "kit": {
           "carta": "Señores Adecco:\n\nMe interesa la vacante de Analista de Recaudo y Cartera (aplicación de pagos / cuentas por cobrar). Soy Administradora de Empresas con más de 5 años de experiencia en Dentons, donde gestioné las cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención.\n\nTambién ejecuté conciliaciones periódicas y registré, validé y analicé transacciones en el ERP Odoo, custodiando los soportes. Como Analista Senior de Tesorería elaboré informes de conciliación para proveedores internacionales, lo que me permite gestionar diferencias e inconsistencias contables con atención al detalle.\n\nQuedo atenta a la posibilidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -667,6 +667,13 @@
         "estado": "nueva",
         "fuentes": [
           {
+            "portal": "Magneto",
+            "url": "https://www.magneto365.com/co/empleos/analista-de-cuentas-por-cobrar-cash-application-hibrido-bogota-1094722",
+            "fecha_publicacion": "2026-10-08",
+            "salario_texto": "$3.000.000 a $4.000.000",
+            "contrato": "indefinido"
+          },
+          {
             "portal": "Computrabajo",
             "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudo-y-cartera-en-bogota-dc-BE877CF40AA16FA561373E686DCF3405",
             "fecha_publicacion": null,
@@ -674,7 +681,7 @@
             "contrato": "indefinido"
           }
         ],
-        "motivo_fuente": ""
+        "motivo_fuente": "Magneto publica salario, contrato y modalidad completos (Computrabajo dice 'a convenir'); misma vacante de Adecco, agrupada."
       }
     },
     {
