@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 336,
+    "descartadas": 406,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
     "guardadas": 16,
-    "notas": "Ronda de mediodía: portales.json (2026-10-20 16:00 UTC) y Indeed. Nueva: Técnico(a) de Cartera Terpel (por_verificar, rango $2,5-3 M). Novatec (híbrido Bogotá) y Seguros Mundial agrupadas como fuentes extra de ofertas existentes. Computrabajo/LinkedIn con salario e indefinido pero sin modalidad confirmada no se guardaron. Indeed sin ofertas nuevas válidas (sin salario publicado y presenciales).",
-    "revisadas": 344,
-    "ultima_ejecucion": "2026-10-20T12:10:00-05:00"
+    "notas": "Ronda de tarde: portales.json (2026-10-20 20:11 UTC) e Indeed. Sin ofertas nuevas válidas: las de LinkedIn/Computrabajo con salario son presenciales, a término fijo/obra o bajo $2,8 M (Alfa Colombia $3,38 M indefinido pero presencial con 1 día en casa por ahora); Indeed sin salario publicado. Novatec y Mundial ya existían.",
+    "revisadas": 414,
+    "ultima_ejecucion": "2026-10-20T17:10:00-05:00"
   },
   "ofertas": [
     {
