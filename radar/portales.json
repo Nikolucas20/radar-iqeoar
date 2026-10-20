@@ -1,36 +1,36 @@
 {
- "generado": "2026-10-20T16:00:26+00:00",
+ "generado": "2026-10-20T20:11:03+00:00",
  "conteo": {
   "elempleo": {
    "leidas": 90,
-   "para_evaluar": 4
+   "para_evaluar": 5
   },
   "LinkedIn": {
    "leidas": 30,
-   "para_evaluar": 19
+   "para_evaluar": 18
   },
   "Computrabajo": {
    "leidas": 45,
-   "para_evaluar": 39
+   "para_evaluar": 38
   },
   "Magneto": {
-   "leidas": 12,
-   "para_evaluar": 2
+   "leidas": 8,
+   "para_evaluar": 1
   }
  },
  "ofertas": [
   {
    "portal": "elempleo",
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473",
-   "titulo": "Tecnico(a) de Cartera",
-   "empresa": "TERPEL",
-   "salario": "$2,5 a $3 millones",
-   "ubicacion": "Bogota - Hibrido",
-   "publicada": "2026-10-19",
-   "vence": "2026-12-18",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/enfermera-administrativa-cuenta-de-alto-costo-1886782883",
+   "titulo": "ENFERMERA ADMINISTRATIVA - CUENTA DE ALTO COSTO",
+   "empresa": "SIES SALUD",
+   "salario": "$4,5 a $5,5 millones",
+   "ubicacion": "Bogota - Remoto",
+   "publicada": "2026-10-20",
+   "vence": "2026-12-19",
    "contrato": "Contrato Indefinido",
    "experiencia": "1 ano de experiencia",
-   "descripcion": "En Terpel estamos comprometidos con generar oportunidades laborales diversas. \n¡Si te motiva crear, inspirar y aprender, este desafío es para ti! \nEstas en búsqueda de Técnico (a) Cartera , quien se encargará de Dar soporte en gestión de cobro de cartera, garantizar el cobro oportuno y registro ágil de los recaudos y notas contables para tener una información oportuna y confiable en la toma de decisiones. \nFunciones: \nVerificar la legalización de documentos recibidos para refinanciar la conversión y/o Normalización de deuda. \nElaborar paz y salvos y certificaciones requeridas por los clientes \nPresentar reportes como insumo para informes de cartera. \nVerificación telefónica directamente con cliente para cobro de cartera. \nFormación: Técnico/a, tecnólogo/a en carreras a las áreas de finanzas o afines, \nExperiencia: 1 a 2 años \nConocimientos Especifico: Excel Intermedio/ Avanzado - Deseable Power BI"
+   "descripcion": "IMPORTANTE CLINICA REQUIERE ENFERMERA ADMINISTRATIVA – CUENTA DE ALTO COSTO \n¿Te apasiona la gestión en salud, el análisis de información y el seguimiento de programas de alto impacto? Esta oportunidad es para ti. Buscamos una profesional comprometida, analítica y orientada a resultados que contribuya al fortalecimiento de nuestros programas de Cuenta de Alto Costo. \n Formación Académica \nProfesional en Enfermería. \nEspecialización en: \nAuditoría en Salud \nEpidemiología \nGerencia en Salud \nAdministración en Salud \nConocimientos Requeridos \nManejo de Cuenta de Alto Costo. \nGestión y seguimiento de programas PYP. \nCruce y análisis de bases de datos. \nElaboración de informes e indicadores. \nExcel Intermedio. \nManejo de herramientas ofimáticas \nExperiencia \nMínimo 1 año de experiencia en manejo de Cuentas de Alto Costo. \nPrincipales Funciones \nSeguimiento y gestión de cohortes. \nAnálisis y cruce de bases de datos. \nGeneración y presentación de informes. \nConstrucción y seguimiento de indicadores. \nMonitoreo y control de actividades relacionadas con los programas de alto costo. \nAsegurar la oportunidad y calidad en el seguimiento de pacientes y resultados. \nCompetencias que Valoramos \nCapacidad analítica. \nOrganización y planeación. \nOrientación al logro. \nAtención al detalle. \nTrabaj"
   },
   {
    "portal": "elempleo",
@@ -60,6 +60,19 @@
   },
   {
    "portal": "elempleo",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-y-contable-1886780287",
+   "titulo": "asistente administrativo y contable",
+   "empresa": "Heidi Navarro",
+   "salario": "$3,5 a $4 millones",
+   "ubicacion": "Medellin - Remoto",
+   "publicada": "2026-10-14",
+   "vence": "2026-11-28",
+   "contrato": "Contrato Definido",
+   "experiencia": "2 anos de experiencia",
+   "descripcion": "Sobre Nosotros \nSomos una empresa de rentas cortas y estamos buscando un Asistente Contable para unirse a nuestro equipo. \nDescripción del Cargo \nSe requiere un profesional con sólidos conocimientos contables y administrativos, alto sentido de responsabilidad, rigurosidad en la organización y el control documental, y comprobada ética y confidencialidad en el manejo de información financiera sensible, para desempeñarse como Asistente Administrativo y Contable. Su misión es garantizar que todas las transacciones se hagan correctamente y se lleve un registro contable adecuado para un excelente cierre de mes. \nTipo de Contrato \nContrato a término definido – 4 meses. \nResponsabilidades Principales \n• Revisar transacciones y recibos pagados con tarjetas American Express (Amex) y elaborar el reporte mensual. \n• Verificar cargos y pagos a propietarios. \n• Preparar reportes semanales. \n• Gestionar pagos a proveedores. \n• Crear y procesar facturas de mantenimiento, y elaborar el reporte de mantenimiento. \n• Actualizar mensualmente cargos y ajustes en el sistema. \n• Actualizar y revisar reportes de stock de la empresa. \n• Ejecutar todas las tareas asignadas por el supervisor directo y otros superiores de manera diligente y oportuna. \n• Proteger la información, accesos, contraseñas y correo "
+  },
+  {
+   "portal": "elempleo",
    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-de-datos-1886780120",
    "titulo": "Analista De Tesoreria De Datos",
    "empresa": "COMPANIA MUNDIAL DE SEGUROS S.A",
@@ -79,7 +92,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 18 horas",
+   "hace": "Hace 22 horas",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "Bogotá D.C. | Presencial \n Buscamos un(a) Analista Junior de Tesorería para liderar el análisis y la planeación financiera de la liquidez del vehículo, mediante la elaboración de proyecciones financieras, el seguimiento a portafolios de deuda, la estimación de gastos financieros y la evaluación de escenarios de mercado. Su gestión contribuirá a la toma de decisiones relacionadas con liquidez, financiamiento, coberturas financieras y administración eficiente de los recursos, garantizando una visión integral de las necesidades financieras de corto, mediano y largo plazo.\n 🎯 Responsabilidades principales \n • Elaborar y actualizar proyecciones de flujo de caja de corto, mediano y largo plazo.\n • Administrar y modelar el portafolio de deuda, realizando seguimiento a vencimientos, amortizaciones, tasas de interés y obligaciones financieras.\n • Calcular y proyectar gastos financieros, ingresos financieros y demás impactos asociados a la estructura de financiamiento.\n • Elaborar escenarios financieros y análisis de sensibilidad sobre variables macroeconómicas como IPC, IBR, TRM e inflación.\n • Realizar seguimiento a indicadores de liquidez y capital de trabajo, identificando riesgos y oportunidades de optimización.\n • Apoyar la definición de estrategias para la gestión eficiente de la li"
@@ -144,10 +157,23 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 1 hora",
+   "hace": "Hace 5 horas",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "Descripción\nCOORDINADOR/A DE TESORERÍA | MULTICOMPAÑÍA, COMERCIO EXTERIOR Y OPERACIÓN EE. UU. | BOGOTÁ\nEn ACIERTA HEADHUNTER lideramos esta búsqueda para un grupo empresarial con operación en Colombia y Estados Unidos, vinculado a actividades de comercio exterior, agroindustria y logística, que busca fortalecer la gestión de tesorería de sus compañías.\n¿Tienes experiencia manejando tesorería multicompañía, portales bancarios de Colombia y Estados Unidos, transferencias internacionales y régimen cambiario?\nBuscamos un/a Coordinador/a de Tesorería con alta rigurosidad, criterio financiero y capacidad para administrar simultáneamente saldos, pagos, obligaciones bancarias, tarjetas corporativas y operaciones internacionales, garantizando trazabilidad y disponibilidad de fondos.\nRevisa el perfil completo y aplica al final\n DESCRIPCIÓN GENERAL\n La posición será responsable de ejecutar, registrar y conciliar diariamente los movimientos de efectivo de las cuatro compañías del grupo, asegurando disponibilidad de recursos para la operación, pagos a proveedores, obligaciones bancarias, nómina, tarjetas corporativas y operaciones internacionales.\nTendrá responsabilidad directa sobre la administración operativa de cuentas bancarias en Colombia y Estados Unidos, seguimiento de flujo de caja, p"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4480382688",
+   "titulo": "Tesorero(a)",
+   "empresa": "Diana Torres Coaching S.A.S",
+   "salario": "",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "publicada": "",
+   "hace": "Hace 2 horas",
+   "contrato": "Jornada completa",
+   "experiencia": "No corresponde",
+   "descripcion": "Estoy buscando el siguiente perfil si te interesa o sabes de alguien comparte está información:\n ¡ESTAMOS BUSCANDO TESORERO(A) PARA LA CIUDAD DE BOGOTA! \n ¡Únete a nuestro equipo!\n Somos un reconocido club social y deportivo ubicado al norte de Bogotá, con más de 70 años de trayectoria, y buscamos un(a) Tesorero(a) con experiencia, organización y atención al detalle, que quiera aportar sus conocimientos y contribuir a una gestión financiera eficiente.\n ¿Que Buscamos?\n Mínimo 2 años de experiencia comprobable como tesorero(a) , con certificación laboral.\n Formación tecnológica o profesional en Contaduría, Administración de Empresas o áreas afines o estudiante de últimos semestres.\n Experiencia preferiblemente en el sector hotelero o en clubes sociales y deportivos; este requisito no es excluyente .\n Conocimientos en manejo de caja, conciliaciones diarias, portales bancarios empresariales, retenciones e impuestos.\n Manejo básico de Excel y software contable (Zeus).\n Integridad, confidencialidad, atención al detalle y cumplimiento de plazos.\n ¿Cual seria tu Reto?\n Administrar y conciliar diariamente los ingresos de caja, datáfonos, pasarelas de pago, transferencias y consignaciones.\n Programar pagos a proveedores y contratistas, así como gestionar nómina, seguridad social e impuesto"
   },
   {
    "portal": "LinkedIn",
@@ -157,49 +183,10 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 4 días",
-   "contrato": "Jornada completa",
-   "experiencia": "Intermedio",
-   "descripcion": "📊🚀 ¡Impulsa la gestión de riesgos financieros y contribuye a la toma de decisiones estratégicas en una importante compañía del sector financiero! 🚀📊\n En el Centro de Empleo y Talento de Colsubsidio creemos en el poder del talento y trabajamos para conectar a los mejores profesionales con oportunidades que potencian su crecimiento y desarrollo.\n 📢 Nos encontramos en la búsqueda de un(a) Profesional SARL & SARM , un experto en gestión de riesgos financieros con capacidad analítica, visión estratégica y conocimiento normativo para fortalecer los procesos de medición, monitoreo y control de riesgos.\n 🎯 ¿Cuál será tu propósito?\n Liderar la medición, monitoreo, control y gestión integral de riesgos financieros, contribuyendo al cumplimiento normativo y al fortalecimiento de la toma de decisiones mediante el desarrollo de metodologías, modelos y estrategias de mitigación.\n 👤 Perfil que buscamos\n ✅ Profesional en Economía, Administración de Empresas, Matemáticas, Ingeniería, Estadística, Finanzas o carreras afines.\n ✅ Deseable posgrado en Finanzas, Gestión de Riesgos, Economía, Gestión Financiera, Analítica o áreas relacionadas.\n ✅ Mínimo 3 años de experiencia en entidades vigiladas por la Superintendencia Financiera de Colombia.\n ✅ Experiencia en gestión de:\n 📊 Riesgo de Mercado (SARM)\n"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4456314967",
-   "titulo": "Consultor(a) Financiero(a) sector fiduciario",
-   "empresa": "Empresa Confidencial",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
    "hace": "Hace 5 días",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
-   "descripcion": "🚀 ¡Estamos buscando Consultor(a) Financiero(a) sector fiduciario! \n ¿Tienes experiencia en procesos financieros y te apasiona analizar, optimizar y transformar necesidades de negocio en soluciones funcionales? ¡Esta oportunidad puede ser para ti!\n 🔎 ¿Qué buscamos? \n Profesional en Economía, Contaduría Pública , con especialización en Administración Financiera, Finanzas, Negocios Internacionales o áreas relacionadas .\n 📌 Experiencia requerida: \n Mínimo 5 años de experiencia gestionando procesos financieros en fiducia.\n Experiencia en análisis, implementación, seguimiento y optimización de procesos.\n Interpretación y aplicación de normatividad financiera y regulatoria.\n Experiencia en análisis y definición de requerimientos funcionales.\n Mínimo 1 año de experiencia laboral certificada en el manejo y soporte funcional de sistemas CORE .\n Experiencia comprobable en el sector fiduciario , preferiblemente en procesos relacionados con fiducias, operaciones fiduciarias y/o soporte funcional de sistemas CORE del sector.\n Experiencia operativa en fondos de inversión. \n 💡 Conocimientos clave: \n NIIF y normativa tributaria y comercial.\n Contabilidad general.\n Presupuestos y costos.\n Elaboración e interpretación de estados financieros.\n Gestión de riesgos y análisis de indicadores.\n Auditoría"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4478602471",
-   "titulo": "Planner Análisis Financiero",
-   "empresa": "Coca-Cola FEMSA",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 23 horas",
-   "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "Sabemos Que Nuestro Talento Es La Clave Para El Éxito. Es Por Eso Que Te Invitamos a Destapar Tu Potencial Con Esta Nueva Oportunidad De Carrera\nEn Coca-Cola FEMSA buscamos un PLANNER ANÁLISIS FINANCIERO , responsable de analizar y monitorear modelos financieros con Monster y KO, dando seguimiento al portafolio a nivel de rentabilidad y soportando la toma de decisiones estratégicas de la compañía.\n Objetivo Del Cargo\n Analizar y monitorear modelos financieros con Monster y KO, dando seguimiento al portafolio a nivel de rentabilidad, y generando insights financieros que soporten la toma de decisiones estratégicas de la compañía, asegurando la sostenibilidad financiera y el cumplimiento de los objetivos del negocio.\n Responsabilidades Del Cargo\n Desarrollar y mantener modelos financieros para evaluar rentabilidad, eficiencia operativa e iniciativas estratégicas.\n Realizar seguimiento y análisis del desempeño del P&L, identificando riesgos, oportunidades y principales drivers del negocio.\n Ejecutar análisis de sensibilidad y simulaciones de escenarios para soportar la toma de decisiones.\n Generar insights financieros y recomendaciones para equipos comerciales, de supply chain y liderazgo.\n Monitorear resultados reales versus presupuesto, forecast y año anterior.\n Hacer seguimiento y"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4479885404",
-   "titulo": "Finance Specialist / Financial Analyst",
-   "empresa": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 4 días",
-   "contrato": "Jornada completa",
-   "experiencia": "Intermedio",
-   "descripcion": "About the Role \n We are looking for a detail-driven and proactive Finance Specialist to join our team! In this role, you will handle core operational items in the financial domain, including tax processing, credit and collection management, retail and marketing expense forecasting, budgeting, and risk management.\n If you have a strong background in finance, solid analytical skills, and a passion for continuous learning, we would love to meet you!\n Key Responsibilities \n Channel Finance Management: Follow up on customer reconciliation progress and customer inventory stocktaking, verifying completion quality against specific requirements.\n Tax Affairs Management: Timely completion of tax data processing, verification, and provision of required tax documents and materials.\n Credit & Collection Management: Regularly review customers' overdue payments and credit ratings and actively manage credit lines.\n Marketing Budgeting & Forecasting: Process monthly data and submit accruals (such as field force, RTB, and logistic services).\n Retail & Marketing Finance: \n Manage and promote store data visualization, tracking the monthly manual appending of sales and financial data.\n Manage media rebates: organize regular alignment meetings with the procurement team, identify regional challenges, a"
+   "descripcion": "📊🚀 ¡Impulsa la gestión de riesgos financieros y contribuye a la toma de decisiones estratégicas en una importante compañía del sector financiero! 🚀📊\n En el Centro de Empleo y Talento de Colsubsidio creemos en el poder del talento y trabajamos para conectar a los mejores profesionales con oportunidades que potencian su crecimiento y desarrollo.\n 📢 Nos encontramos en la búsqueda de un(a) Profesional SARL & SARM , un experto en gestión de riesgos financieros con capacidad analítica, visión estratégica y conocimiento normativo para fortalecer los procesos de medición, monitoreo y control de riesgos.\n 🎯 ¿Cuál será tu propósito?\n Liderar la medición, monitoreo, control y gestión integral de riesgos financieros, contribuyendo al cumplimiento normativo y al fortalecimiento de la toma de decisiones mediante el desarrollo de metodologías, modelos y estrategias de mitigación.\n 👤 Perfil que buscamos\n ✅ Profesional en Economía, Administración de Empresas, Matemáticas, Ingeniería, Estadística, Finanzas o carreras afines.\n ✅ Deseable posgrado en Finanzas, Gestión de Riesgos, Economía, Gestión Financiera, Analítica o áreas relacionadas.\n ✅ Mínimo 3 años de experiencia en entidades vigiladas por la Superintendencia Financiera de Colombia.\n ✅ Experiencia en gestión de:\n 📊 Riesgo de Mercado (SARM)\n"
   },
   {
    "portal": "LinkedIn",
@@ -209,7 +196,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 3 días",
+   "hace": "Hace 4 días",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "¡Estamos buscando talento para nuestro equipo! 🚀\nSi cuentas con experiencia en gestión de cartera, análisis de cuentas por cobrar y negociación con clientes , esta puede ser tu próxima oportunidad laboral.\n📍 Ubicación\nBogotá D.C. – Modalidad Presencial\n 🎓 Perfil que buscamos\n Profesional en Contaduría Pública o Administración de Empresas\n Experiencia mínima de 2 años en gestión de cartera o cuentas por cobrar\n Excelente capacidad analítica y manejo de información financiera\n Habilidad para negociación y gestión de cobros con clientes\n Excel Intermedio/ Avanzado\n Normatividad establecida para libranza Ley 1527 de 2012.\n Incorporación y gestión de las diferentes plataformas a nivel nacional: DIBANKA, SIGNUS, SICOD-SIATH, MIN DEFENSA, POLICÍA NACIONAL, SAC y otros.\n 💼 Funciones principales\n Gestionar y controlar la cartera de cuentas por cobrar de la organización.\n Realizar seguimiento y monitoreo a la cartera de clientes.\n Ejecutar gestión de cobro preventivo y correctivo.\n Realizar conciliación de pagos y depuración de cuentas.\n Analizar información financiera para optimizar el recaudo y minimizar la mora.\n 💰 Condiciones laborales\n Salario: $3.000.000 + prestaciones de ley\n Modalidad: Presencial\n Contrato: Indefinido\n Horario: Horario. Jornada máxima legal 42 horas semanales - Lun"
@@ -248,7 +235,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 3 días",
+   "hace": "Hace 4 días",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "Si buscas trabajar en una compañía que te brinde orgullo, retos y un ambiente positivo, ¡Quala es tu lugar! Somos una multinacional de consumo masivo que busca talentos apasionados por generar valor, asumir desafíos y transformar los resultados del negocio.\nEstamos buscando un(a) Analista de Cartera para integrarse a nuestro equipo y asegurar una gestión oportuna y eficiente del crédito y la cartera, contribuyendo a la continuidad de la operación y a la protección de los recursos de la compañía.\nEn este rol tendrás el reto de conectar las necesidades de las áreas, resolver situaciones que puedan afectar la operación y garantizar una gestión de cartera que genere valor para el negocio.\n ¿Qué harás?\n Asegurar una gestión oportuna del crédito y la cartera, anticipando riesgos y gestionando las situaciones que puedan afectar el recaudo, la venta y la continuidad de la operación.\n Conectar y movilizar diferentes áreas del negocio, para resolver novedades, alinear prioridades y encontrar soluciones efectivas que respondan a las necesidades de la operación.\n Analizar el comportamiento de la cartera e identificar oportunidades de mejora, haciendo seguimiento a indicadores, detectando desviaciones y proponiendo acciones que minimicen los riesgos de pérdida de valor para la compañía.\n ¿Qué"
@@ -278,6 +265,19 @@
    "contrato": "Jornada completa",
    "experiencia": "Algo de responsabilidad",
    "descripcion": "Buscamos una Analista Administrativa organizada, proactiva, discreta y orientada al detalle, responsable de brindar soporte administrativo y operativo a la compañía, garantizando el cumplimiento de los procesos internos, la adecuada gestión documental y el manejo confidencial de la información.\n Responsabilidades principales\n Gestionar y dar seguimiento a procesos administrativos, documentación y archivos de la compañía.\n Apoyar la elaboración de informes, reportes, presentaciones y bases de datos.\n Coordinar actividades administrativas, compras, proveedores, facturación y seguimiento de pagos, según las necesidades del área.\n Realizar seguimiento a solicitudes internas y asegurar el cumplimiento de los procedimientos establecidos.\n Apoyar la coordinación de reuniones, agendas y actividades corporativas.\n Brindar soporte a diferentes áreas de la compañía y atender requerimientos internos de manera oportuna.\n Garantizar la confidencialidad y el manejo responsable de la información sensible, documentos internos y datos de la compañía.\n Requisitos\n Profesional o tecnóloga en Administración de Empresas, Gestión Administrativa, Finanzas o carreras afines.\n Experiencia mínima de 2 años en cargos administrativos o de soporte operativo.\n Inglés intermedio o avanzado, con capacidad para c"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4481755657",
+   "titulo": "ANALISTA ADMINISTRATIVO | LICITACIONES, PÓLIZAS Y AMPAROS",
+   "empresa": "Digital Profit",
+   "salario": "",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "publicada": "",
+   "hace": "Hace 22 minutos",
+   "contrato": "Jornada completa",
+   "experiencia": "Sin experiencia",
+   "descripcion": "En Digital Profit , empresa del sector TI , estamos buscando un/a Analista Administrativo con experiencia en procesos administrativos y manejo de documentación contractual.\n 🎯 LO QUE REALMENTE BUSCAMOS: \n ✅ Profesional en Administración de Empresas. Este es un requisito fundamental para la posición.\n ✅ Experiencia en procesos de licitación y contratación , especialmente relacionados con pólizas, amparos y contratos .\n ✅ Experiencia en gestión y seguimiento de proveedores , documentación y procesos administrativos.\n 📌 CONDICIONES \n 💰 Salario: $2.314.095 a $2.614.095 según experiencia y perfil.\n 📄 Contrato: Indefinido\n 📍 Lugar: Bogotá\n 🏢 Modalidad: 100% presencial\n 📅 Horario: Lunes a viernes\n 🏢 Sector: Tecnología / TI\n 🚀 Si eres profesional en Administración de Empresas y tienes experiencia real en licitaciones, pólizas, amparos y contratos, queremos conocerte. \n 📩 Postúlate y haz parte de Digital Profit."
   },
   {
    "portal": "LinkedIn",
@@ -401,18 +401,6 @@
    "descripcion": "Volver al listado \n Analista II de Tesorería – Reemplazo Licencia de Maternidad \n SERVIMOS S.A.S - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.600.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Analista II de Tesorería | Licencia de Maternidad\nBuscamos Profesional en Contaduría Pública, Economía o Ingeniería Industrial con tarjeta profesional y mínimo 3 años de experiencia en tesorería, manejo de títulos valores, portales bancarios, cajas menores y procesos de pago. Es indispensable contar con manejo de Excel intermedio y SAP.\nValoramos personas con excelente comunicación, orientación al servicio, capacidad de análisis, trabajo en equipo y enfoque en la calidad.\n Sede: Puente Aranda, Bogotá\n Salario: $3.600.000\n Modalidad híbrida: 1 día de trabajo en casa\n Horario administrativo\nContrato por licencia de maternidad\n¡Postúlate y haz parte de nuestro equipo! \n Requerimientos\n Educación mínima: Universidad / Carrera Profesional\n años de experiencia\n Conocimientos: Sap\n Aptitudes asociadas a esta oferta Nuevo \n Sap \n Ver 0 aptitude",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-ii-de-tesoreria-reemplazo-licencia-de-maternidad-en-bogota-dc-EAA7ABBFD52E18E061373E686DCF3405"
-  },
-  {
-   "titulo": "Analista de Tesoreria",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Tesoreria \n AUTO MONTACARGAS GILCAR S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.600.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Empresa del sector servicios se encuentra en la búsqueda de Analista de Tesorería que se encuentre estudiando carreras contables, con conocimientos en procesos de tesorería y apoyo contable. \nFunciones: \nElaboración y seguimiento del flujo de caja de la compañía. \nProgramación y control de pagos a proveedores y obligaciones financieras. Análisis y conciliación de movimientos bancarios. \nGestión y control de saldos bancarios y disponibilidad de recursos. Elaboración de reportes e indicadores de tesorería para gerencia. Seguimiento a obligaciones financieras, vencimientos y compromisos de pago. \nControl y proyección de egresos e ingresos de caja. \nManejo y análisis de plataformas bancarias empresariales. \nApoyo en cierres contables relacionados con tesorería. \nGarantizar el cumplimiento de políticas financieras y procedimientos internos. Apoyo en procesos",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-en-bogota-dc-EDDF574E1D32FD1061373E686DCF3405"
   },
   {
    "titulo": "Analista de Tesoreria Sector Inmobiliario y/o Construcción",
@@ -638,7 +626,7 @@
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista de cartera, conciliaciones - Bogotá \n COORSERPARK S.A.S - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.200.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Importante empresa requiere para su equipo de trabajo Bachiller/Técnico \ncon experiencia Mínima de 2 años en el área de cartera, recaudo, atención al cliente, aplicaciones de pagos, conciliaciones bancarias. Manejo de office. Conocimiento en sistemas contables\nLunes a viernes 7AM-4:30PM \nSalario Promedio:$3.200.000\nContrato a termino indefinido\n Requerimientos\n Educación mínima: Universidad / Carrera técnica\n 1 año de experiencia\n Palabras clave: analyst\n Ayer (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Computrabajo\n Nos tomamos muy en serio tus comentarios y lo revisaremos lo antes posible.\n Acerca de COORSERPARK S.A.S\n Empresa dedicada a la venta de planes exequiales y prestación de servicios funerarios.\nCon mas de 20 años en el mercado y proyección de crecimiento na",
+   "descripcion": "Volver al listado \n Analista de cartera, conciliaciones - Bogotá \n COORSERPARK S.A.S - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.200.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Importante empresa requiere para su equipo de trabajo Bachiller/Técnico \ncon experiencia Mínima de 2 años en el área de cartera, recaudo, atención al cliente, aplicaciones de pagos, conciliaciones bancarias. Manejo de office. Conocimiento en sistemas contables\nLunes a viernes 7AM-4:30PM \nSalario Promedio:$3.200.000\nContrato a termino indefinido\n Requerimientos\n Educación mínima: Universidad / Carrera técnica\n 1 año de experiencia\n Palabras clave: analyst\n Hace 2 días (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Computrabajo\n Nos tomamos muy en serio tus comentarios y lo revisaremos lo antes posible.\n Acerca de COORSERPARK S.A.S\n Empresa dedicada a la venta de planes exequiales y prestación de servicios funerarios.\nCon mas de 20 años en el mercado y proyección de crecimi",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405"
   },
@@ -770,7 +758,7 @@
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Antifraude Monitoreo Transaccional - Profesionales Carreras Administrativas Ingresan Contratados \n ATENTO S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Multinacional en el sector financiero dedicada a los procesos de servicio al cliente, preocupados por fortalecer las habilidades de nuestros colaboradores.\n¿Qué necesitas para aplicar?\n- Buena ACTITUD para atender a tus clientes, ganas de aprender, crecer y ganar más dinero dentro de la compañía con disciplina.\nProceso de Seleccion Virtual con Respuesta Inmediata\n Requerimientos\n Educación mínima: Universidad / Carrera Profesional\n 1 año de experiencia\n Palabras clave: analyst, monitorista\n Hace 2 horas (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Computrabajo\n Nos tomamos muy en serio tus comentarios y lo revisaremos lo antes posible.\n Acerca de ATENTO S.A.\n En Atento somos apasionados de las experiencias de nuestros",
+   "descripcion": "Volver al listado \n Analista de Antifraude Monitoreo Transaccional - Profesionales Carreras Administrativas Ingresan Contratados \n ATENTO S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Multinacional en el sector financiero dedicada a los procesos de servicio al cliente, preocupados por fortalecer las habilidades de nuestros colaboradores.\n¿Qué necesitas para aplicar?\n- Buena ACTITUD para atender a tus clientes, ganas de aprender, crecer y ganar más dinero dentro de la compañía con disciplina.\nProceso de Seleccion Virtual con Respuesta Inmediata\n Requerimientos\n Educación mínima: Universidad / Carrera Profesional\n 1 año de experiencia\n Palabras clave: analyst, monitorista\n Hace 6 horas (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Computrabajo\n Nos tomamos muy en serio tus comentarios y lo revisaremos lo antes posible.\n Acerca de ATENTO S.A.\n En Atento somos apasionados de las experiencias de nuestros",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-antifraude-monitoreo-transaccional-profesionales-carreras-administrativas-ingresan-contratados-en-bogota-dc-A3EB61992A054B5161373E686DCF3405"
   },
@@ -782,7 +770,7 @@
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Antifraude Monitoreo Transaccional - Profesionales Carreras Administrativas Ingresan Contratados \n ATENTO S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Multinacional en el sector financiero dedicada a los procesos de servicio al cliente, preocupados por fortalecer las habilidades de nuestros colaboradores.\n¿Qué necesitas para aplicar?\n- Buena ACTITUD para atender a tus clientes, ganas de aprender, crecer y ganar más dinero dentro de la compañía con disciplina.\nProceso de Seleccion Virtual con Respuesta Inmediata\n Requerimientos\n Educación mínima: Universidad / Carrera Profesional\n 1 año de experiencia\n Palabras clave: analyst, monitorista\n Hace 2 horas (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Computrabajo\n Nos tomamos muy en serio tus comentarios y lo revisaremos lo antes posible.\n Acerca de ATENTO S.A.\n En Atento somos apasionados de las experiencias de nuestros",
+   "descripcion": "Volver al listado \n Analista de Antifraude Monitoreo Transaccional - Profesionales Carreras Administrativas Ingresan Contratados \n ATENTO S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Multinacional en el sector financiero dedicada a los procesos de servicio al cliente, preocupados por fortalecer las habilidades de nuestros colaboradores.\n¿Qué necesitas para aplicar?\n- Buena ACTITUD para atender a tus clientes, ganas de aprender, crecer y ganar más dinero dentro de la compañía con disciplina.\nProceso de Seleccion Virtual con Respuesta Inmediata\n Requerimientos\n Educación mínima: Universidad / Carrera Profesional\n 1 año de experiencia\n Palabras clave: analyst, monitorista\n Hace 6 horas (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Computrabajo\n Nos tomamos muy en serio tus comentarios y lo revisaremos lo antes posible.\n Acerca de ATENTO S.A.\n En Atento somos apasionados de las experiencias de nuestros",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-antifraude-monitoreo-transaccional-profesionales-carreras-administrativas-ingresan-contratados-en-bogota-dc-B16DC8FC385B84FE61373E686DCF3405"
   },
@@ -797,18 +785,6 @@
    "descripcion": "Líder Contable y Financiero Se requiere un Líder Contable y Financiero para asegurar la integridad contable, tributaria y financiera de las operaciones, incluidas las relacionadas con comercio exterior y zona franca. El cargo genera información bajo NIIF, fortalece el control del flujo de caja y garantiza el cumplimiento ante DIAN, SuperSociedades y DANE. Se busca liderazgo profesional para coordinar cierres, tesorería, impuestos, importaciones y reportes financieros, consolidando estados financieros confiables y optimizando la tesorería mediante el uso de herramientas especializadas. Responsabilidades: Dirigir coordinar y validar el trabajo del equipo contable integrado por Contador Principal Contador Junior y Auxiliares Contables.Distribuir cargas operativas supervisar el cumplimiento del calendario de cierres mensuales y anuales y realizar revisiones de control interno.Servir de enlace directo con la Revisoría Fiscal y coordinar los requerimientos de auditoría.Supervisar la administración del flujo de caja mediante proyecciones de ingresos pagos a proveedores nacionales e internacionales y nómina.Monitorear operaciones cambiarias que incluyen compra de divisas giros directos o financiados mensajes Swift manejo de cuenta de compensación e instrumentos financieros de cobertura.C",
    "portal": "Magneto",
    "url": "https://www.magneto365.com/co/empleos/lider-contable-y-financiero-1100429"
-  },
-  {
-   "titulo": "AUXILIAR TESORERIA I",
-   "empresa": "Homecenter",
-   "salario": "",
-   "ubicacion": "Bogotá, D.C.",
-   "publicada": "2026-10-20",
-   "vence": "2026-10-26",
-   "contrato": "FULL_TIME",
-   "descripcion": "Buscamos un Auxiliar de Tesorería para fortalecer los\nprocesos de conciliación y aseguramiento de ingresos, garantizando el control,\nla conciliación y la legalización de ventas y recaudos, así como la\nconfiabilidad de la información financiera.Se requiere experiencia en conciliación financiera y\nmedios de pago, conocimientos en recaudo, registros contables y control\ninterno, además de manejo de herramientas de análisis y sistemas\ncontables. Valoramos una alta capacidad analítica, atención al detalle y\norientación al cumplimiento.¿Qué buscamos?Tecnologo o Estudiantes universitarios o profesionales en formación de Contaduría Pública, Administración de Empresas, Economía, Finanzas y Negocios Internacionales o Ingeniería Financiera.Experiencia de hasta 1 año en conciliaciones financieras, conciliaciones bancarias, tesorería, recaudo, registros contables o análisis financiero.Manejo de Office 365, software contable y conocimientos en ERPLa persona será responsable del seguimiento, control y\nconciliación de los recaudos, asegurando la integridad de la información y el\ncumplimiento de los procesos establecidos. Buscamos un perfil comprometido, con\ninterés de crecimiento y desarrollo dentro de la compañía.¡Si te apasionan los procesos financieros, el análisis de información y quieres con",
-   "portal": "Magneto",
-   "url": "https://www.magneto365.com/co/empleos/auxiliar-tesoreria-i-1101709"
   }
  ]
 }
