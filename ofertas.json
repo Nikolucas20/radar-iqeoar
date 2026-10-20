@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 261,
+    "descartadas": 336,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
-    "guardadas": 15,
-    "notas": "Ronda de mañana: portales.json (2026-10-20) sin ofertas nuevas que cumplan. Computrabajo/LinkedIn: mayoría obra o labor, término fijo, salario < $2,8 M o presencial; varias con salario e indefinido OK (tesorería factoring $3,2 M, tesorería inmobiliaria $3,3 M, Coorserpark $3,2 M, cobranza $3 M, Magneto Analista de Tesorería $3,2 M) pero sin modalidad confirmada (WebFetch no abre esos portales), no guardadas. Alfa Colombia ($3,4 M) casi presencial. Indeed: Coordinador de Cartera CIFUR, Office Manager Gurusoft/Ergospa y Asistente de presidencia presenciales. Adecco Cash Application (Magneto, $3 a 4 M, híbrido Bogotá) agrupada con la oferta existente de Adecco y pasada a 'cumple'.",
-    "revisadas": 264,
-    "ultima_ejecucion": "2026-10-20T07:15:00-05:00"
+    "guardadas": 16,
+    "notas": "Ronda de mediodía: portales.json (2026-10-20 16:00 UTC) y Indeed. Nueva: Técnico(a) de Cartera Terpel (por_verificar, rango $2,5-3 M). Novatec (híbrido Bogotá) y Seguros Mundial agrupadas como fuentes extra de ofertas existentes. Computrabajo/LinkedIn con salario e indefinido pero sin modalidad confirmada no se guardaron. Indeed sin ofertas nuevas válidas (sin salario publicado y presenciales).",
+    "revisadas": 344,
+    "ultima_ejecucion": "2026-10-20T12:10:00-05:00"
   },
   "ofertas": [
     {
@@ -844,6 +844,58 @@
           }
         ],
         "motivo_fuente": "Única publicación encontrada; trae salario, contrato y modalidad."
+      }
+    },
+    {
+      "id": "terpel-tecnico-cartera",
+      "d": {
+        "titulo": "Técnico(a) de Cartera",
+        "empresa": "TERPEL",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473",
+        "portal": "elempleo",
+        "fecha_publicacion": "2026-10-19",
+        "fecha_hallada": "2026-10-20",
+        "salario_texto": "$2,5 a $3 millones",
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "por_verificar",
+        "puntaje": 56,
+        "razones": [
+          "Híbrido en Bogotá, contrato indefinido y publicada hace 1 día.",
+          "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar el salario real antes de avanzar.",
+          "Cargo técnico y de 1 a 2 años de experiencia, algo por debajo de su perfil; encaja en cartera, recaudo y certificaciones."
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Terpel:\n\nMe postulo al cargo de Técnico(a) de Cartera. Soy Administradora de Empresas con más de cinco años de experiencia en el área administrativa y financiera de Dentons, donde gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas con soportes custodiados en el ERP Odoo.\n\nTambién fortalecí los controles de cajas menores y diseñé manuales de procedimientos que estandarizaron el área. Manejo Excel avanzado y cuento con formación en Power BI (Colsubsidio CET, 2026), herramienta que su oferta señala como deseable.\n\nMe interesa aportar al cobro oportuno y al registro ágil de recaudos con orden y seguimiento riguroso. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "cartera",
+            "recaudo",
+            "cobro",
+            "paz y salvos",
+            "certificaciones",
+            "Excel",
+            "Power BI"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473",
+            "fecha_publicacion": "2026-10-19",
+            "salario_texto": "$2,5 a $3 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad)."
       }
     }
   ]
