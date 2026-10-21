@@ -1,14 +1,14 @@
 {
   "meta": {
-    "descartadas": 571,
+    "descartadas": 644,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
     ],
     "guardadas": 18,
-    "notas": "Ronda de mediodía: portales.json (16:10 UTC) e Indeed. 2 nuevas: Jefe de Tesorería SIES SALUD (cumple, cargo senior) y Analista administrativo Junior Cruz Verde (por verificar: modalidad). Descartadas: cartera/ tesorería de Computrabajo con obra o labor, fijo o salario < $2,8 M; Protección, Odella, Bankvision y Co-Hunters presenciales; Dumian $1,8 M obra o labor; ADL Digital Lab es presencial según la descripción.",
-    "revisadas": 581,
-    "ultima_ejecucion": "2026-10-21T12:05:27-05:00"
+    "notas": "Ronda de tarde: portales.json (20:25 UTC) e Indeed. 0 nuevas. Descartadas: Computrabajo con obra o labor, fijo o salario < $2,8 M; las indefinidas ≥ $2,8 M (Grupo Eds Autogas, Coerenza, Adecco factoring, Coorserpark, Colsubsidio) no indican modalidad remota/híbrida, Alfa Colombia es presencial (1 día en casa tras 2 meses), Protección y Pei presenciales, Marsh exige condición de discapacidad, Nicomar término fijo presencial, Nu Skin sin modalidad ni salario y cargo contable.",
+    "revisadas": 654,
+    "ultima_ejecucion": "2026-10-21T17:08:00-05:00"
   },
   "ofertas": [
     {
