@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 406,
+    "descartadas": 498,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
     "guardadas": 16,
-    "notas": "Ronda de tarde: portales.json (2026-10-20 20:11 UTC) e Indeed. Sin ofertas nuevas válidas: las de LinkedIn/Computrabajo con salario son presenciales, a término fijo/obra o bajo $2,8 M (Alfa Colombia $3,38 M indefinido pero presencial con 1 día en casa por ahora); Indeed sin salario publicado. Novatec y Mundial ya existían.",
-    "revisadas": 414,
-    "ultima_ejecucion": "2026-10-20T17:10:00-05:00"
+    "notas": "Ronda de mañana: portales.json (2026-10-21 00:10 UTC), Indeed y WebSearch. Sin ofertas nuevas válidas: las de Computrabajo/elempleo con salario ≥ $2,8 M e indefinido no publican modalidad (Adecco tesorería $3,2 M, Coerenza $3,3 M, cobranza BPO $3 M, Coorserpark $3,2 M) o son presenciales/obra o labor/fijo; ADL Digital Lab cartera $4-4,5 M es presencial; Indeed sin salario y asistente de presidencia presencial. Novatec ya existía.",
+    "revisadas": 506,
+    "ultima_ejecucion": "2026-10-21T07:08:00-05:00"
   },
   "ofertas": [
     {
