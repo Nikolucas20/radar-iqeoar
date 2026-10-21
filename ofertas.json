@@ -1,15 +1,14 @@
 {
   "meta": {
-    "descartadas": 498,
+    "descartadas": 571,
     "fuentes": [
       "Indeed",
-      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
-      "WebSearch"
+      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
     ],
-    "guardadas": 16,
-    "notas": "Ronda de mañana: portales.json (2026-10-21 00:10 UTC), Indeed y WebSearch. Sin ofertas nuevas válidas: las de Computrabajo/elempleo con salario ≥ $2,8 M e indefinido no publican modalidad (Adecco tesorería $3,2 M, Coerenza $3,3 M, cobranza BPO $3 M, Coorserpark $3,2 M) o son presenciales/obra o labor/fijo; ADL Digital Lab cartera $4-4,5 M es presencial; Indeed sin salario y asistente de presidencia presencial. Novatec ya existía.",
-    "revisadas": 506,
-    "ultima_ejecucion": "2026-10-21T07:08:00-05:00"
+    "guardadas": 18,
+    "notas": "Ronda de mediodía: portales.json (16:10 UTC) e Indeed. 2 nuevas: Jefe de Tesorería SIES SALUD (cumple, cargo senior) y Analista administrativo Junior Cruz Verde (por verificar: modalidad). Descartadas: cartera/ tesorería de Computrabajo con obra o labor, fijo o salario < $2,8 M; Protección, Odella, Bankvision y Co-Hunters presenciales; Dumian $1,8 M obra o labor; ADL Digital Lab es presencial según la descripción.",
+    "revisadas": 581,
+    "ultima_ejecucion": "2026-10-21T12:05:27-05:00"
   },
   "ofertas": [
     {
@@ -896,6 +895,106 @@
           }
         ],
         "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad)."
+      }
+    },
+    {
+      "id": "sies-salud-jefe-tesoreria",
+      "d": {
+        "titulo": "Jefe de Tesorería",
+        "empresa": "SIES SALUD",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-tesoreria-1886783169",
+        "portal": "elempleo",
+        "fecha_publicacion": "2026-10-21",
+        "fecha_hallada": "2026-10-21",
+        "salario_texto": "$8 a $10 millones",
+        "salario_cop": 8000000,
+        "salario_max_cop": 10000000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá (alrededores)",
+        "categoria": "cumple",
+        "puntaje": 62,
+        "razones": [
+          "Salario, contrato indefinido e híbrido confirmados en elempleo; experiencia pedida: 3 años.",
+          "Es un cargo de jefatura (liderar equipo, relación con entidades financieras): más senior que su perfil de analista; postular con foco en tesorería y flujo de caja.",
+          "Ubicación \"Bogotá alrededores\": confirmar sede."
+        ],
+        "kit": {
+          "carta": "Estimados señores de SIES SALUD: me postulo al cargo de Jefe de Tesorería. Soy Administradora de Empresas con cinco años de experiencia en el área financiera y administrativa. En 2026, como Analista Senior de Tesorería en Dentons, coordiné cuentas por pagar nacionales e internacionales, con recepción, conciliación y seguimiento de pagos, y elaboré informes de conciliación integrando información financiera y contable. También ejecuté conciliaciones periódicas y apoyé informes de gestión y control presupuestal, además de fortalecer los controles de cajas menores. Soy el punto de consulta de varias áreas para pagos, anticipos y legalizaciones. Me interesa asumir mayores responsabilidades en la planeación de liquidez y el flujo de caja de una organización en crecimiento. Quedo atenta a conversar. Cordialmente, J. Osorio.",
+          "logros": [
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios."
+          ],
+          "palabras_clave": [
+            "tesorería",
+            "flujo de caja",
+            "entidades financieras",
+            "liquidez",
+            "recursos financieros"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-tesoreria-1886783169",
+            "fecha_publicacion": "2026-10-21",
+            "salario_texto": "$8 a $10 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada."
+      }
+    },
+    {
+      "id": "cruz-verde-analista-administrativo-junior",
+      "d": {
+        "titulo": "Analista administrativo Junior",
+        "empresa": "Droguerías y Farmacias Cruz Verde S.A.S.",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405",
+        "portal": "Computrabajo",
+        "fecha_publicacion": null,
+        "fecha_hallada": "2026-10-21",
+        "salario_texto": "$3.078.000 mensual",
+        "salario_cop": 3078000,
+        "salario_max_cop": 3078000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "por_verificar",
+        "puntaje": 57,
+        "razones": [
+          "Salario $3,08 M e indefinido explícitos; pide Administración de Empresas y 2 años de experiencia.",
+          "La modalidad figura como \"presencial y remoto\" sin detalle: confirmar cuántos días de trabajo remoto.",
+          "Funciones comerciales (comisiones, avance de ventas), poco de cartera o tesorería; fecha de publicación no indicada."
+        ],
+        "kit": {
+          "carta": "Estimados señores de Cruz Verde: me postulo al cargo de Analista Administrativo Junior. Soy Profesional en Administración de Empresas (2024) con más de cinco años de experiencia en gestión administrativa y financiera en Dentons. Allí apoyé informes de gestión administrativa y control presupuestal, diseñé manuales de procedimientos para estandarizar el área y fortalecí los controles de cajas menores con legalizaciones estandarizadas. Registré y validé transacciones en el ERP Odoo y ejecuté conciliaciones periódicas, y manejo Excel avanzado y fundamentos de Power BI, útiles para informes de ventas y liquidación de comisiones. Me interesa aportar orden, precisión y seguimiento a su equipo. Quedo atenta. Cordialmente, J. Osorio.",
+          "logros": [
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento."
+          ],
+          "palabras_clave": [
+            "analista administrativo",
+            "informes",
+            "liquidación de comisiones",
+            "requisiciones",
+            "cronograma de formación"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "Computrabajo",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405",
+            "fecha_publicacion": null,
+            "salario_texto": "$3.078.000",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada."
       }
     }
   ]
