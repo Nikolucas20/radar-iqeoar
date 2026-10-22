@@ -1,14 +1,15 @@
 {
   "meta": {
-    "descartadas": 838,
+    "descartadas": 916,
     "fuentes": [
       "Indeed",
-      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
+      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
+      "WebSearch"
     ],
     "guardadas": 19,
-    "notas": "Ronda de mediodía: portales.json (16:05 UTC) e Indeed (CO, 3 búsquedas, 6 detalles). 1 nueva: Adecco P2P (híbrida, indefinida, salario a convenir, exige portugués). Descartadas: ADL Cartera (presencial), Odella, Dumian (obra o labor), Bankvision, Capital y Soluciones (presencial/salario bajo), Eficacia (término fijo), Computrabajo con obra o labor, término fijo, salario < $2,8 M o sin modalidad remota/híbrida confirmada; Credicorp sin salario ni modalidad.",
-    "revisadas": 849,
-    "ultima_ejecucion": "2026-10-22T12:10:00-05:00"
+    "notas": "Ronda de tarde: portales.json (20:21 UTC), Indeed (cartera Bogotá, 6 detalles previos + 2 nuevos) y 2 WebSearch. Sin ofertas nuevas que cumplan. Descartadas: FNC Cuentas por Pagar (contrato definido), ADL Cartera, Protección y Cartera Hubbing (presenciales), Iron Mountain (término fijo, $2 M), Marsh conciliación (cargo bachiller, sin salario/contrato, 45 días), Gerente de Cartera y Tesorería SIES (exige 6 años liderando), Computrabajo sin modalidad remota/híbrida confirmada u obra o labor/término fijo/salario < $2,8 M, LinkedIn Autogas (1 día en casa), Pei (presencial).",
+    "revisadas": 927,
+    "ultima_ejecucion": "2026-10-22T17:10:00-05:00"
   },
   "ofertas": [
     {
