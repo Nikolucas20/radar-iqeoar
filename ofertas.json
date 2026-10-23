@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 916,
+    "descartadas": 998,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
-    "guardadas": 19,
-    "notas": "Ronda de tarde: portales.json (20:21 UTC), Indeed (cartera Bogotá, 6 detalles previos + 2 nuevos) y 2 WebSearch. Sin ofertas nuevas que cumplan. Descartadas: FNC Cuentas por Pagar (contrato definido), ADL Cartera, Protección y Cartera Hubbing (presenciales), Iron Mountain (término fijo, $2 M), Marsh conciliación (cargo bachiller, sin salario/contrato, 45 días), Gerente de Cartera y Tesorería SIES (exige 6 años liderando), Computrabajo sin modalidad remota/híbrida confirmada u obra o labor/término fijo/salario < $2,8 M, LinkedIn Autogas (1 día en casa), Pei (presencial).",
-    "revisadas": 927,
-    "ultima_ejecucion": "2026-10-22T17:10:00-05:00"
+    "guardadas": 21,
+    "notas": "Ronda de mañana: portales.json (00:11 UTC, 64 ofertas), Indeed (cartera, cuentas por cobrar, asistente administrativa/ejecutiva; 2 detalles) y 4 WebSearch. Nuevas: SIES Analista Administrativo Servicios Farmacéuticos (cumple, 55) y BASF Asistente Administrativo (por verificar, 60, inglés avanzado). Novatec: nueva copia agregada a fuentes. Descartadas: Computrabajo con obra o labor/término fijo/salario < $2,8 M o sin modalidad remota/híbrida confirmada (tesorería $3-3,5 M indefinidos sin modalidad), cartera presenciales (Protección, 100% presencial), FNC (contrato definido), Gerente SIES, Enfermera administrativa, INVERSION asistente presidencia (presencial), Amarilo CxP (híbrido sin salario, puntaje ~54), DHL/Muncher/LinkedIn sin salario ni modalidad.",
+    "revisadas": 1011,
+    "ultima_ejecucion": "2026-10-23T07:10:00-05:00"
   },
   "ofertas": [
     {
@@ -372,6 +372,13 @@
             "portal": "elempleo",
             "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886781232",
             "fecha_publicacion": "2026-10-16",
+            "salario_texto": "$2,5 a $3 millones",
+            "contrato": "indefinido"
+          },
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886784039",
+            "fecha_publicacion": "2026-10-22",
             "salario_texto": "$2,5 a $3 millones",
             "contrato": "indefinido"
           }
@@ -1049,6 +1056,114 @@
           }
         ],
         "motivo_fuente": "Única publicación encontrada; contrato directo con la compañía."
+      }
+    },
+    {
+      "id": "sies-salud-analista-administrativo-servicios-farmaceuticos",
+      "d": {
+        "titulo": "Analista Administrativo de Servicios Farmacéuticos",
+        "empresa": "SIES SALUD",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513",
+        "portal": "elempleo",
+        "fecha_publicacion": "2026-10-21",
+        "fecha_hallada": "2026-10-23",
+        "salario_texto": "$3 a $3,5 millones",
+        "salario_cop": 3000000,
+        "salario_max_cop": 3500000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "cumple",
+        "puntaje": 55,
+        "razones": [
+          "Cargo de analista administrativa con reportes e indicadores de gestión; salario de $3 a $3,5 M, indefinido e híbrido en Bogotá.",
+          "Se queda en el límite del puntaje: el foco es operación farmacéutica e inventarios, no cartera ni tesorería; piden 1 año de experiencia (el perfil la supera)."
+        ],
+        "kit": {
+          "carta": "Señores SIES SALUD:\n\nMe postulo al cargo de Analista Administrativo de Servicios Farmacéuticos. Soy Administradora de Empresas con más de cinco años de experiencia como Analista Administrativa en Dentons, donde apoyé informes de gestión administrativa y control presupuestal y ejecuté conciliaciones periódicas.\n\nDiseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento, y fui punto de consulta para varias áreas en pagos, anticipos y legalizaciones. Además, registré, validé y analizé transacciones en el ERP Odoo, con custodia de soportes, y me formé en Excel Avanzado y Power BI, herramientas clave para consolidar información, elaborar reportes e indicadores y apoyar la toma de decisiones.\n\nMe encantaría aportar esa disciplina y orientación al detalle a su operación. Agradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Apoyó informes de gestión administrativa y control presupuestal y ejecutó conciliaciones periódicas",
+            "Diseñó manuales de procedimientos para estandarizar el área",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes"
+          ],
+          "palabras_clave": [
+            "análisis de información",
+            "reportes e indicadores de gestión",
+            "Excel avanzado",
+            "bases de datos",
+            "control de inventarios",
+            "procesos administrativos"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513",
+            "fecha_publicacion": "2026-10-21",
+            "salario_texto": "$3 a $3,5 millones",
+            "contrato": "indefinido"
+          },
+          {
+            "portal": "elempleo (copia 2)",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783507",
+            "fecha_publicacion": "2026-10-21",
+            "salario_texto": "$3 a $3,5 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "SIES SALUD publicó la misma vacante 2 veces en elempleo con el mismo texto y datos completos (salario, contrato y modalidad); se usa la primera."
+      }
+    },
+    {
+      "id": "basf-asistente-administrativo-vp-latam-west",
+      "d": {
+        "titulo": "Asistente Administrativo/a (soporte al Vicepresidente LATAM West)",
+        "empresa": "BASF Agricultural Solutions Colombia",
+        "url": "https://to.indeed.com/aagx2f7hz6kf",
+        "portal": "Indeed",
+        "fecha_publicacion": "2026-10-20",
+        "fecha_hallada": "2026-10-23",
+        "salario_texto": "No publicado",
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "por_verificar",
+        "puntaje": 60,
+        "razones": [
+          "Asistente administrativa de alta dirección en multinacional; gestiona órdenes de compra, proveedores, facturas y pagos, y la oferta aparece como Permanent e híbrida en Bogotá.",
+          "Falta el salario y hay que confirmar el contrato indefinido. Piden inglés avanzado y 5 años en soporte a ejecutivos; es el máximo de su experiencia."
+        ],
+        "kit": {
+          "carta": "Señores BASF:\n\nMe postulo al cargo de Asistente Administrativa de soporte al Vicepresidente de LATAM West. Soy Administradora de Empresas con cinco años de experiencia como Analista Administrativa y de Tesorería en Dentons, donde fui punto de consulta para varias áreas en pagos, anticipos, legalizaciones e informes financieros.\n\nCoordiné cuentas por pagar nacionales e internacionales, con recepción, conciliación y seguimiento de pagos a proveedores, y registré y validé transacciones en un ERP con custodia de soportes. También diseñé manuales de procedimientos y fortalecí controles, lo que me permite dar seguimiento ordenado a facturas, órdenes de compra y entregables de proyectos. Manejo Excel avanzado y Power BI.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos",
+            "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento"
+          ],
+          "palabras_clave": [
+            "asistencia ejecutiva",
+            "agenda ejecutiva",
+            "órdenes de compra",
+            "proveedores",
+            "facturas y pagos",
+            "SAP",
+            "seguimiento de proyectos"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "Indeed",
+            "url": "https://to.indeed.com/aagx2f7hz6kf",
+            "fecha_publicacion": "2026-10-20",
+            "salario_texto": "No publicado",
+            "contrato": "indefinido (Permanent)"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada (Indeed, enlace de la oferta de BASF)."
       }
     }
   ]
