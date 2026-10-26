@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 1185,
+    "descartadas": 1197,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
     "guardadas": 22,
-    "notas": "Ronda lunes mediodía: portales.json sin regenerar (data del 23/10, ya evaluada), Indeed (2 búsquedas, 1 detalle) y 2 WebSearch. Sin ofertas nuevas: Servicios y Asesorias Tesorería presencial; Analista de Cartera elempleo confidencial presencial pese al encabezado híbrido; asistente remota cazvid medio tiempo bajo el mínimo.",
-    "revisadas": 1209,
-    "ultima_ejecucion": "2026-10-26T12:06:30-05:00"
+    "notas": "Ronda lunes tarde: portales.json sin regenerar (data del 23/10, ya evaluada), Indeed (2 búsquedas, 2 detalles) y 1 WebSearch. Sin ofertas nuevas: Analista de Cartera I Protección es presencial; asistente administrativo bilingüe Serenity Bloom es call center con turnos rotativos/domingos sin salario ni afinidad; el resto de resultados ya estaban evaluados o eran de cargos auxiliares/salario bajo.",
+    "revisadas": 1221,
+    "ultima_ejecucion": "2026-10-26T17:05:30-05:00"
   },
   "ofertas": [
     {
