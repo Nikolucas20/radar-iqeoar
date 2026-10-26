@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 1159,
+    "descartadas": 1181,
     "fuentes": [
       "Indeed",
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "WebSearch"
     ],
     "guardadas": 22,
-    "notas": "Ronda de tarde: portales.json (20:17 UTC, 64 sin duplicar), Indeed (cartera remoto, analista administrativa Bogotá; Servicios y Asesorias tesorería presencial, G Spa Travel obra o labor presencial) y 2 WebSearch. Sin ofertas nuevas: lo relevante ya estaba guardado o se descartó por término fijo/obra o labor, salario < $2,8 M, presencial, FNC contrato definido, o sin modalidad confirmada (Alfagres, tesorería $3,5 M confidencial en Computrabajo).",
-    "revisadas": 1173,
-    "ultima_ejecucion": "2026-10-23T17:15:00-05:00"
+    "notas": "Ronda lunes: portales.json sin regenerar (misma data del 23/10, ya evaluada), Indeed (4 búsquedas, 3 detalles) y 1 WebSearch. Sin ofertas nuevas: Protección cartera presencial, Gallicol $2,5 M presencial, Estrategia Virtual presencial; el resto ya guardado o sin datos suficientes.",
+    "revisadas": 1195,
+    "ultima_ejecucion": "2026-10-26T07:06:53-05:00"
   },
   "ofertas": [
     {
