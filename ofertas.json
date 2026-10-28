@@ -1,14 +1,15 @@
 {
   "meta": {
-    "descartadas": 1532,
+    "descartadas": 1601,
     "fuentes": [
       "Indeed",
-      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
+      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
+      "WebSearch"
     ],
-    "guardadas": 25,
-    "notas": "Ronda miércoles mañana: portales.json nuevo (28/10 00:46 UTC) e Indeed (1 búsqueda, sin salario publicado y casi todo de septiembre/principios de octubre). Nueva: Especialista de Tesorería bilingüe B2 (Compensar, $12,5-15 M híbrido indefinido; exige inglés B2). Descartadas por encaje: SIES Supervisor de Tesorería (cargo directivo, <55), Falabella Control Financiero (<55), Federación de Cafeteros (contrato definido), Magneto cumplimiento y Juan Valdez (sin modalidad/salario claro). LinkedIn/Computrabajo sin salario ni modalidad visibles.",
-    "revisadas": 1559,
-    "ultima_ejecucion": "2026-10-28T07:20:00-05:00"
+    "guardadas": 26,
+    "notas": "Ronda miércoles mediodía: portales.json sin cambios desde la ronda de la mañana (28/10 00:46 UTC); Indeed (1 búsqueda) sin salario y con ofertas de septiembre/principios de octubre; 2 WebSearch sin ofertas con fecha. Nueva: Bolsa Mercantil, Profesional de contabilidad CxC ($4-4,5 M, híbrido, indefinido; pide Contaduría Pública, encaje parcial). LinkedIn (Compensar, QBCo, Talent Search) sin salario ni modalidad visibles; Protección presencial.",
+    "revisadas": 1629,
+    "ultima_ejecucion": "2026-10-28T12:10:00-05:00"
   },
   "ofertas": [
     {
@@ -1370,6 +1371,56 @@
           }
         ],
         "motivo_fuente": "Única publicación encontrada (elempleo) con salario, contrato y modalidad completos."
+      }
+    },
+    {
+      "id": "bolsa-mercantil-profesional-contabilidad-cxc",
+      "d": {
+        "titulo": "Profesional de contabilidad - cuentas por cobrar",
+        "empresa": "Bolsa Mercantil de Colombia",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contabilidad-cuentas-por-cobrar-1886785469",
+        "portal": "elempleo",
+        "fecha_publicacion": "2026-10-26",
+        "fecha_hallada": "2026-10-28",
+        "salario_texto": "$4 a $4,5 millones",
+        "salario_cop": 4000000,
+        "salario_max_cop": 4500000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "cumple",
+        "puntaje": 58,
+        "razones": [
+          "Salario $4-4,5 M, indefinido e híbrido en Bogotá; gestión de cuentas por cobrar y conciliaciones, núcleo de su experiencia.",
+          "Advertencia: pide profesional en Contaduría Pública y 4 años de experiencia en CxC y contabilidad; ella es Administradora de Empresas, el encaje del perfil es parcial."
+        ],
+        "kit": {
+          "carta": "Señores Bolsa Mercantil de Colombia:\n\nMe interesa la vacante de Profesional de Contabilidad - cuentas por cobrar. Soy Administradora de Empresas y en Dentons gestioné las cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención.\n\nComo Analista Senior de Tesorería coordiné cuentas por pagar nacionales e internacionales y elaboré informes de conciliación integrando información financiera y contable. Además registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, y ejecuté conciliaciones periódicas que apoyaron los informes de gestión y el control presupuestal.\n\nCreo que esa experiencia responde a la necesidad de confiabilidad y control de la información financiera que describe el cargo. Quedo atenta a la posibilidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención",
+            "Elaboró informes de conciliación integrando información financiera y contable",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes"
+          ],
+          "palabras_clave": [
+            "cuentas por cobrar",
+            "conciliaciones",
+            "contabilidad financiera",
+            "información financiera",
+            "cierre contable",
+            "reportes"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contabilidad-cuentas-por-cobrar-1886785469",
+            "fecha_publicacion": "2026-10-26",
+            "salario_texto": "$4 a $4,5 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": ""
       }
     }
   ]
