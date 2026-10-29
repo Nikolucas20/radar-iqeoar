@@ -1,15 +1,15 @@
 {
  "meta": {
-  "descartadas": 1841,
+  "descartadas": 1958,
   "fuentes": [
    "Indeed",
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "WebSearch"
   ],
-  "guardadas": 27,
-  "notas": "Ronda 29/10 mediodía: portales.json sin cambios desde 01:16 UTC (60 ofertas); sin ofertas nuevas válidas. Descartadas: SIES Salud Supervisor de Tesorería (híbrido, $8-10 M, indefinido, pero cargo de liderazgo, puntaje ~51) y Falabella Control Financiero (~51); Chaneme y Ferroaluminios tesorería presenciales; Computrabajo resto presencial/obra o labor/sin modalidad. Indeed: Gallicol ($2,5 M, presencial), Inversión SAS, GuruSoft, New Image, Nextech y Nicomar (presenciales; Nicomar término fijo). elempleo/Computrabajo no abren con WebFetch. WebSearch sin hallazgos nuevos.",
-  "revisadas": 1870,
-  "ultima_ejecucion": "2026-10-29T12:10:00-05:00"
+  "guardadas": 28,
+  "notas": "Ronda 29/10 tarde: portales.json nuevo (17:37 UTC, 118 ofertas). Nueva: KOA Analista de Tesorería (híbrido, indefinido, rango $2,5–3 M; elempleo+Computrabajo agrupadas). Descartadas: Computrabajo/LinkedIn presenciales, obra o labor, término fijo o salario <$2,8 M; KPMG asistente de impuestos y cargos de otra área; Indeed: Protección ($3 M, presencial), Chalver (presencial), Dumian ($1,8 M, obra o labor). Varias de Computrabajo/LinkedIn (Eds Autogas, Talent Search People, cartera y conciliaciones $3,2 M) no publican modalidad: sin verificar.",
+  "revisadas": 1988,
+  "ultima_ejecucion": "2026-10-29T17:20:00-05:00"
  },
  "ofertas": [
   {
@@ -1473,6 +1473,65 @@
      }
     ],
     "motivo_fuente": "Única fuente con datos completos; LinkedIn la publica sin salario ni contrato."
+   }
+  },
+  {
+   "id": "koa-analista-tesoreria-pago-proveedores",
+   "d": {
+    "titulo": "Analista de Tesorería (Pago a proveedores) Bogotá",
+    "empresa": "KOA Compañía de Financiamiento S.A.",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-pago-a-proveedores-bogota-1886787079",
+    "portal": "elempleo",
+    "fecha_publicacion": "2026-10-29",
+    "fecha_hallada": "2026-10-29",
+    "salario_texto": "$2,5 a $3 millones",
+    "salario_cop": 2500000,
+    "salario_max_cop": 3000000,
+    "contrato": "indefinido",
+    "modalidad": "hibrido",
+    "ciudad": "Bogotá",
+    "categoria": "por_verificar",
+    "puntaje": 60,
+    "razones": [
+     "Cargo de tesorería con pagos a proveedores, conciliación de saldos bancarios y compras de cartera, muy cercano a tu experiencia en Dentons.",
+     "Híbrido en Bogotá y contrato indefinido explícitos, pero el rango $2,5–3 M cruza tu mínimo de $2,8 M: confirma el salario real.",
+     "Pide 2 años de experiencia; publicada hoy, vence el 28-dic."
+    ],
+    "kit": {
+     "carta": "Estimado equipo de KOA Compañía de Financiamiento:\n\nMe postulo al cargo de Analista de Tesorería (Pago a proveedores). Como Analista Senior de Tesorería en Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, y elaboré informes de conciliación para proveedores internacionales. Además fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes. Esa experiencia me permite ejecutar giros diarios con oportunidad y control. Soy Profesional en Administración de Empresas (Areandina, 2024) y tengo Excel Avanzado y fundamentos de Power BI. Me gustaría aportar a la liquidez y al cumplimiento de los pagos de KOA.\n\nCordialmente,\nJ. Osorio",
+     "logros": [
+      "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+      "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
+      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+     ],
+     "palabras_clave": [
+      "tesorería",
+      "pago a proveedores",
+      "pagos administrativos",
+      "saldos bancarios",
+      "traslados entre bancos",
+      "compras de cartera",
+      "liquidez"
+     ]
+    },
+    "estado": "nueva",
+    "fuentes": [
+     {
+      "portal": "elempleo",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-pago-a-proveedores-bogota-1886787079",
+      "fecha_publicacion": "2026-10-29",
+      "salario_texto": "$2,5 a $3 millones",
+      "contrato": "indefinido"
+     },
+     {
+      "portal": "Computrabajo",
+      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-pago-a-proveedores-bogota-en-bogota-dc-2B68614F80FE6D5561373E686DCF3405",
+      "fecha_publicacion": "2026-10-29",
+      "salario_texto": "A convenir",
+      "contrato": "indefinido"
+     }
+    ],
+    "motivo_fuente": "elempleo publica salario, contrato y modalidad híbrida; Computrabajo trae salario a convenir."
    }
   }
  ]
