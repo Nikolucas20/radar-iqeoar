@@ -6,8 +6,8 @@
       "Indeed",
       "WebSearch"
     ],
-    "guardadas": 29,
-    "notas": "Ronda 30/10 tarde: portales.json sin cambios desde la ronda de la mañana (01:23 UTC). Indeed: Protección Analista de Cartera ($3 M, indefinido) y Servicios y Asesorias Analista de Tesorería ($2,976 M) descartadas por ser presenciales. WebSearch sin ofertas nuevas verificables (una Accounts Payable Analyst híbrida en Computrabajo sin salario/contrato visibles, inglés B1: no se pudo verificar). Sin ofertas nuevas.",
+    "guardadas": 30,
+    "notas": "Ronda 30/10 tarde: portales.json sin cambios desde la ronda de la mañana (01:23 UTC). Indeed: Protección Analista de Cartera ($3 M, indefinido) y Servicios y Asesorias Analista de Tesorería ($2,976 M) descartadas por ser presenciales. WebSearch sin ofertas nuevas verificables (una Accounts Payable Analyst híbrida en Computrabajo sin salario/contrato visibles, inglés B1: no se pudo verificar).  Portales.json se actualizó a las 17:12 UTC: nueva Compensar Analista de Tesorería (híbrido, indefinido, $2,5–3 M, por_verificar, 69). Cinte Analista Contable/Financiero descartada por puntaje (~52; pide contaduría/economía y salario inconsistente).",
     "revisadas": 2059,
     "ultima_ejecucion": "2026-10-30T12:15:00-05:00"
   },
@@ -1594,6 +1594,58 @@
             "portal": "elempleo",
             "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362",
             "fecha_publicacion": "2026-10-29",
+            "salario_texto": "$2,5 a $3 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados."
+      }
+    },
+    {
+      "id": "compensar-analista-tesoreria-comercializadora-maquinaria",
+      "d": {
+        "titulo": "Analista de Tesorería (empresa comercializadora de maquinaria, vía Compensar)",
+        "empresa": "Agencia de Empleo y Fomento Empresarial Compensar (para empresa comercializadora de maquinaria)",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-162632835911-1886787467",
+        "portal": "elempleo",
+        "fecha_publicacion": "2026-10-30",
+        "fecha_hallada": "2026-10-30",
+        "salario_texto": "$2,5 a $3 millones (la descripción indica $2.800.000 + prestaciones)",
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "por_verificar",
+        "puntaje": 69,
+        "razones": [
+          "Cargo de tesorería con pagos a proveedores, flujo de caja y conciliaciones bancarias, muy cercano a tu trabajo en Dentons.",
+          "El rango publicado ($2,5–3 M) cruza tu mínimo de $2,8 M; la descripción dice $2,8 M, así que confírmalo antes de postularte.",
+          "Híbrido (1 o 2 días en casa), contrato indefinido; pide 2 años de experiencia y la contrata una empresa por medio de la agencia."
+        ],
+        "kit": {
+          "carta": "Estimado equipo de la Agencia de Empleo de Compensar:\n\nMe postulo al cargo de Analista de Tesorería. En Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, e integré información financiera y contable en informes de conciliación para proveedores. Ejecuté conciliaciones periódicas, fortalecí los controles de cajas menores y registré y validé transacciones en el ERP Odoo con custodia de soportes. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI. Me interesa aportar al plan de tesorería, los pagos a proveedores y el seguimiento del flujo de caja de la empresa.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+            "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal."
+          ],
+          "palabras_clave": [
+            "tesorería",
+            "plan de tesorería",
+            "pagos a proveedores",
+            "flujo de caja",
+            "conciliaciones bancarias",
+            "nómina",
+            "recaudo"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-162632835911-1886787467",
+            "fecha_publicacion": "2026-10-30",
             "salario_texto": "$2,5 a $3 millones",
             "contrato": "indefinido"
           }
