@@ -1,15 +1,13 @@
 {
  "meta": {
-  "descartadas": 1958,
+  "descartadas": 2016,
   "fuentes": [
-   "Indeed",
-   "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
-   "WebSearch"
+   "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
   ],
-  "guardadas": 28,
-  "notas": "Ronda 29/10 tarde: portales.json nuevo (17:37 UTC, 118 ofertas). Nueva: KOA Analista de Tesorería (híbrido, indefinido, rango $2,5–3 M; elempleo+Computrabajo agrupadas). Descartadas: Computrabajo/LinkedIn presenciales, obra o labor, término fijo o salario <$2,8 M; KPMG asistente de impuestos y cargos de otra área; Indeed: Protección ($3 M, presencial), Chalver (presencial), Dumian ($1,8 M, obra o labor). Varias de Computrabajo/LinkedIn (Eds Autogas, Talent Search People, cartera y conciliaciones $3,2 M) no publican modalidad: sin verificar.",
-  "revisadas": 1988,
-  "ultima_ejecucion": "2026-10-29T17:20:00-05:00"
+  "guardadas": 29,
+  "notas": "Ronda 30/10 mañana: portales.json (01:23 UTC, 59 ofertas). Solo WebSearch/WebFetch y portales.json; no se consultó Indeed. Nueva: Freightwise Analista Sr. de Cuentas por Cobrar (híbrido, indefinido, $2,5–3 M). Agrupadas fuentes de LinkedIn en KOA y Grupo QBCo. Descartadas: Computrabajo con obra o labor/término fijo, LinkedIn presencial (Chaneme, Atlas Copco) y cargos fuera del perfil. Varias de Computrabajo indefinido ($3–3,3 M: Coerenza, Eds Autogas, Coorserpark, Colsubsidio) no publican modalidad: sin verificar; Marsh y Supply Capital híbridas pero puntaje <55.",
+  "revisadas": 2047,
+  "ultima_ejecucion": "2026-10-30T07:20:00-05:00"
  },
  "ofertas": [
   {
@@ -1470,6 +1468,13 @@
       "fecha_publicacion": "2026-10-28",
       "salario_texto": "A convenir",
       "contrato": "indefinido"
+     },
+     {
+      "portal": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4484296159",
+      "fecha_publicacion": "2026-10-28",
+      "salario_texto": null,
+      "contrato": null
      }
     ],
     "motivo_fuente": "Única fuente con datos completos; LinkedIn la publica sin salario ni contrato."
@@ -1529,9 +1534,69 @@
       "fecha_publicacion": "2026-10-29",
       "salario_texto": "A convenir",
       "contrato": "indefinido"
+     },
+     {
+      "portal": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4485232145",
+      "fecha_publicacion": "2026-10-30",
+      "salario_texto": null,
+      "contrato": null
      }
     ],
     "motivo_fuente": "elempleo publica salario, contrato y modalidad híbrida; Computrabajo trae salario a convenir."
+   }
+  },
+  {
+   "id": "freightwise-analista-senior-cuentas-por-cobrar",
+   "d": {
+    "titulo": "Analista Senior de Cuentas por Cobrar",
+    "empresa": "FREIGHTWISE S.A.S.",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362",
+    "portal": "elempleo",
+    "fecha_publicacion": "2026-10-29",
+    "fecha_hallada": "2026-10-30",
+    "salario_texto": "$2,5 a $3 millones",
+    "salario_cop": 2500000,
+    "salario_max_cop": 3000000,
+    "contrato": "indefinido",
+    "modalidad": "hibrido",
+    "ciudad": "Bogotá",
+    "categoria": "por_verificar",
+    "puntaje": 68,
+    "razones": [
+     "Cargo de cuentas por cobrar y recaudo con ERP, Excel y Power BI, muy alineado con tu experiencia en Dentons.",
+     "El rango $2,5–3 M cruza tu mínimo de $2,8 M: confirma el salario real antes de postularte.",
+     "Pide inglés al 80% y experiencia de 2 años; la empresa opera en Ecuador y Colombia."
+    ],
+    "kit": {
+     "carta": "Estimado equipo de FREIGHTWISE S.A.S.:\n\nMe postulo al cargo de Analista Senior de Cuentas por Cobrar. Como Analista Administrativa en Dentons (2020–2026) gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas. Registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, y apoyé informes de gestión y control presupuestal. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI, herramientas que su perfil destaca para los reportes de cartera. Me interesa aportar al control del ciclo de recaudo de su operación en Colombia y Ecuador.\n\nCordialmente,\nJ. Osorio",
+     "logros": [
+      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+     ],
+     "palabras_clave": [
+      "cuentas por cobrar",
+      "recaudo",
+      "cartera",
+      "ERP",
+      "Excel avanzado",
+      "Power BI",
+      "factoring",
+      "facturación"
+     ]
+    },
+    "estado": "nueva",
+    "fuentes": [
+     {
+      "portal": "elempleo",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362",
+      "fecha_publicacion": "2026-10-29",
+      "salario_texto": "$2,5 a $3 millones",
+      "contrato": "indefinido"
+     }
+    ],
+    "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados."
    }
   }
  ]
