@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 2106,
+    "descartadas": 2161,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed",
       "WebSearch"
     ],
     "guardadas": 31,
-    "notas": "Ronda 02/11 (tarde): portales.json sin cambios (generado 31/10 01:06 UTC), ya evaluado en la ronda anterior. Indeed remoto: solo soporte/business analyst sin salario ni perfil. WebSearch (3 búsquedas): sin ofertas nuevas verificables con fecha reciente. Sin ofertas nuevas.",
-    "revisadas": 2146,
-    "ultima_ejecucion": "2026-11-02T12:46:22-05:00"
+    "notas": "Ronda 02/11 (noche): portales.json regenerado (02/11 20:58 UTC), 55 ofertas nuevas evaluadas; ninguna cumple: presenciales (Chaneme, Profamilia, Protección), salario <2,8 M u obra/labor/término fijo (Computrabajo), o modalidad/salario no confirmados (Alfagres 3 M indefinido sin modalidad; Michael Page 2,8 M recepcionista). SBS Seguros es solo para personas con discapacidad certificada. Indeed (cartera Bogotá, asistente remoto): sin salario publicado, sin ofertas verificables. Sin ofertas nuevas.",
+    "revisadas": 2201,
+    "ultima_ejecucion": "2026-11-02T17:04:43-05:00"
   },
   "ofertas": [
     {
