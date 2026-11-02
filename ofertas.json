@@ -7,9 +7,9 @@
       "WebSearch"
     ],
     "guardadas": 31,
-    "notas": "Ronda 02/11: portales.json (generado 31/10 01:06 UTC) trae 61 ofertas sin evaluar; la mayoría descartadas por salario <2,8 M, obra o labor/término fijo, presencial, o sin modalidad confirmable (LinkedIn/Computrabajo sin datos). Indeed: ofertas de cartera/finanzas recientes son 100% presenciales. WebSearch sin ofertas nuevas verificables. Se guarda 1 nueva (Cinte).",
-    "revisadas": 2138,
-    "ultima_ejecucion": "2026-11-02T07:09:57-05:00"
+    "notas": "Ronda 02/11 (tarde): portales.json sin cambios (generado 31/10 01:06 UTC), ya evaluado en la ronda anterior. Indeed remoto: solo soporte/business analyst sin salario ni perfil. WebSearch (3 búsquedas): sin ofertas nuevas verificables con fecha reciente. Sin ofertas nuevas.",
+    "revisadas": 2146,
+    "ultima_ejecucion": "2026-11-02T12:46:22-05:00"
   },
   "ofertas": [
     {
