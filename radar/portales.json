@@ -1,37 +1,24 @@
 {
- "generado": "2026-11-02T20:58:18+00:00",
+ "generado": "2026-11-03T03:09:22+00:00",
  "conteo": {
   "elempleo": {
    "leidas": 90,
-   "para_evaluar": 4
+   "para_evaluar": 2
   },
   "LinkedIn": {
    "leidas": 30,
-   "para_evaluar": 13
+   "para_evaluar": 10
   },
   "Computrabajo": {
    "leidas": 45,
    "para_evaluar": 36
   },
   "Magneto": {
-   "leidas": 15,
+   "leidas": 14,
    "para_evaluar": 3
   }
  },
  "ofertas": [
-  {
-   "portal": "elempleo",
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-personas-en-condicion-de-discapacidad-1886787507",
-   "titulo": "Analista Administrativo (Personas en condición de Discapacidad)",
-   "empresa": "SBS SEGUROS COLOMBIA",
-   "salario": "$2,5 a $3 millones",
-   "ubicacion": "Bogota - Hibrido",
-   "publicada": "2026-10-30",
-   "vence": "2026-12-29",
-   "contrato": "Contrato Indefinido",
-   "experiencia": "1 ano de experiencia",
-   "descripcion": "La presente vacante hace parte de procesos de inclusión laboral para personas con Discapacidad Física, con su certificado de discapacidad vigente: \nEn SBS Seguros Colombia S.A. nos encontramos en la búsqueda de Analista Administrativo, que tenemos para ti: \nSalario: $2.900.000 + Tarjeta People Pass de Snacks, Auxilio de Dotación \nTipo de contrato: Termino indefinido \nHorario: Lunes-Viernes - Modalidad: Hibrida \nRequisitos del cargo: \nNivel educativo: Bachiller Académico \nExperiencia laboral: 1 año \nFunciones del cargo: Creación de informes en Excel con calidad y oportunidad, para lo cual se requiere, manejo de Excel intermedio - avanzado ( se realiza prueba para validar el manejo). \nRelacionamiento constante con las diferentes áreas de apoyo y atención según los ANS de los recursos asignados a su cargo. \nLocalidad del puesto de trabajo: Usaquén - Bogotá"
-  },
   {
    "portal": "elempleo",
    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-financiero-senior-1886787299",
@@ -59,32 +46,6 @@
    "descripcion": "¿Eres un/a apasionado/a por el área tributaria? En KPMG estamos interesados en personas extraordinarias, equitativas, diversas e inclusivas, es por esto por lo que abrimos las puertas de nuestro equipo para el cargo de Asistente de Impuestos. \nPara aplicar debes cumplir con los siguientes requisitos: \n- Profesional, en proceso de grado o estudiante de dos últimos semestres en Contaduría pública. \n-Experiencia en preparación de retención en la fuente, IVA, reteICA e ICA \n-Conocimiento en preparación de medios magnéticos nacionales y distritales -Excel intermedio \n-Conocimiento en preparación de medios magnéticos nacionales \n¿Por qué trabajar con nosotros? ¿Qué te ofrecemos? \n- Contrato a término indefinido directamente con la Firma. \n- Paquete de beneficios que conocerás durante el proceso de selección. \n- Oportunidades de entrenamiento y capacitación. \n¡En KPMG somos íntegros, éticos e inclusivos; nos destacamos por nuestra excelencia, somos valientes, ¡nos respetamos a partir de nuestras diferencias y hacemos lo que es importante! Si te identificas con nuestros valores y cumples con los requisitos, ¡Aplica ahora! \n#MakeYourMark #BeExtraordinary #BeKPMG"
   },
   {
-   "portal": "elempleo",
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-estrategia-de-cobranzas-1886785935",
-   "titulo": "Analista de Estrategia de Cobranzas",
-   "empresa": "CREDIMINUTO S.A.S",
-   "salario": "$2,5 a $3 millones",
-   "ubicacion": "Bogota - Hibrido",
-   "publicada": "2026-10-27",
-   "vence": "2026-12-26",
-   "contrato": "Contrato Indefinido",
-   "experiencia": "2 anos de experiencia",
-   "descripcion": "¡Estamos buscando Analista de Estrategia de Cobranzas! \nBuscamos un profesional analítico, estratégico y orientado a resultados, que contribuya a optimizar la recuperación de cartera mediante el análisis de información y el diseño de estrategias de cobranza. \n¿Cuál será tu reto? \nDiseñar estrategias de cobranza y segmentación de cartera. \nAnalizar indicadores de recuperación, morosidad y efectividad. \nDefinir criterios de priorización y asignación de cartera. \nCoordinar análisis de datos y convertir resultados en acciones de mejora. \nProponer estrategias que fortalezcan la recuperación y eficiencia de la gestión. \n¿Qué buscamos? \nTecnólogo o profesional en Ingeniería Industrial, Administración, Economía, Estadística, Finanzas, Sistemas, Matemáticas, Ciencia de Datos o carreras afines. \nMínimo 2 años de experiencia en análisis de cartera, estrategias de cobranza o gestión de morosidad. \nExcel avanzado y deseable manejo de Power BI. \nPensamiento analítico, capacidad de decisión y orientación a resultados. \nSi te apasiona transformar datos en estrategias y generar impacto en los resultados del negocio, ¡queremos conocerte!"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484280908",
-   "titulo": "Analista de Tesorería",
-   "empresa": "Chaneme Comercial",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "Intermedio",
-   "descripcion": "¡Buscamos tu Talento!\nChaneme Comercial, Grupo A, reconocida empresa del sector de Autopartes, se encuentra en la búsqueda de Analista de Tesorería para la ciudad de Bogotá con el fin de realizar las siguientes funciones.\n Tu reto será,\n Planear, validar y ejecutar de manera eficiente el flujo de caja de las compañías del Grupo A. Asimismo, debe verificar los recaudos y las obligaciones adquiridas con proveedores y acreedores, garantizando el uso óptimo y eficiente de los recursos monetarios.\n Requisitos y Condiciones,\n Profesional en Administración de Empresas, Contaduría Pública, Economía y/o profesiones afines.\nExperiencia de 3 años como Analista en grupos empresariales del sector manufactura, comercial, industrial y/o de servicios.\n Indispensable \n Herramientas de Google\nManejo de SAP\n Condiciones, \n Lugar de trabajo: Puente Aranda.\n Horario: Lunes a Jueves 7:30 a.m a 5:15 p.m a Viernes 7:30 a.m a 3:30 p.m\n Modalidad: Presencial.\n Salario fijo mensual desde $3.000.000 + Prestaciones de Ley\n Contrato: Indefinido.\n Beneficios de compañía."
-  },
-  {
    "portal": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4485232145",
    "titulo": "Analista de Tesorería Pago a proveedores Bogotá",
@@ -105,7 +66,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 2 horas",
+   "hace": "Hace 8 horas",
    "contrato": "Jornada completa",
    "experiencia": "No corresponde",
    "descripcion": "Job Description\n ¿Por qué GM Financial?\n GM Financial es la subsidiaria financiera cautiva, de propiedad total, de General Motors y tiene su sede en Fort Worth, Estados Unidos. Somos un proveedor global de soluciones de financiamiento automotriz, con operaciones en América del Norte, América del Sur y la región de Asia-Pacífico. A través de nuestras relaciones de larga trayectoria con concesionarios de automóviles, ofrecemos atractivas opciones de financiamiento minorista y programas de leasing para atender las necesidades específicas de cada cliente. También ofrecemos productos de crédito comercial a concesionarios para ayudarlos a financiar y hacer crecer sus negocios.\nEn GM Financial, los miembros de nuestro equipo definen y dan forma a nuestra cultura: un entorno que da la bienvenida a nuevas ideas, fomenta la integridad y crea un sentido de comunidad y pertenencia. Aquí hacemos más que trabajar: prosperamos.\n Nuestro propósito: Impulsamos las innovaciones que mueven y conectan a las personas con lo que importa.\nThis position will be posted until filled.\n Responsibilities\n Sobre el rol:\n El área de Finanzas, busca crear una organización ganadora y generar un desempeño de negocio sobresaliente a través del desarrollo de las personas y los equipos.\nBuscamos gente ingeniosa e in"
@@ -131,7 +92,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 9 horas",
+   "hace": "Hace 15 horas",
    "contrato": "Jornada completa",
    "experiencia": "Algo de responsabilidad",
    "descripcion": "¿Dónde trabajarás? \n Formarás parte de una importante empresa farmacéutica con reconocimiento a nivel internacional localizada en Colombia.\n ¿Qué harás? \n En tu día a día: \n Gestionarás y realizarás el seguimiento de las cuentas por cobrar, asegurando el cumplimiento de los plazos de pago establecidos.\n Analizarás el riesgo crediticio de clientes actuales y potenciales para apoyar la toma de decisiones comerciales.\n Realizarás conciliaciones de pagos recibidos y mantendrás actualizada la información de cartera.\n Elaborarás y darás seguimiento a indicadores financieros como DSO, antigüedad de saldos e índices de morosidad.\n Negociarás acuerdos y planes de pago con clientes para optimizar la recuperación de cartera.\n Coordinarás y programarás los pagos a proveedores, garantizando el cumplimiento de las obligaciones financieras de la compañía.\n Llevarás a cabo conciliaciones periódicas con proveedores para identificar y resolver posibles discrepancias.\n Participarás en la gestión integral de licitaciones, coordinando la recopilación de documentación y el seguimiento de los procesos.\n Gestionarás acuerdos comerciales, descuentos y provisiones asociados a clientes.\n Revisarás y conciliarás las retenciones aplicadas por clientes, asegurando su correcta contabilización.\n Elaborarás repo"
@@ -144,23 +105,10 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 2 horas",
+   "hace": "Hace 8 horas",
    "contrato": "Jornada completa",
    "experiencia": "No corresponde",
    "descripcion": "Job Description\n ¿Por qué GM Financial?\n GM Financial es la subsidiaria financiera cautiva, de propiedad total, de General Motors y tiene su sede en Fort Worth, Estados Unidos. Somos un proveedor global de soluciones de financiamiento automotriz, con operaciones en América del Norte, América del Sur y la región de Asia-Pacífico. A través de nuestras relaciones de larga trayectoria con concesionarios de automóviles, ofrecemos atractivas opciones de financiamiento minorista y programas de leasing para atender las necesidades específicas de cada cliente. También ofrecemos productos de crédito comercial a concesionarios para ayudarlos a financiar y hacer crecer sus negocios.\nEn GM Financial, los miembros de nuestro equipo definen y dan forma a nuestra cultura: un entorno que da la bienvenida a nuevas ideas, fomenta la integridad y crea un sentido de comunidad y pertenencia. Aquí hacemos más que trabajar: prosperamos.\n Nuestro propósito : Impulsamos las innovaciones que mueven y conectan a las personas con lo que importa.\nThis position will be posted until filled.\n Responsibilities\n Sobre el Rol\n Responsable de brindar soporte operativo, analítico y de monitoreo a los procesos de Salvage & Remarketing, contribuyendo al cumplimiento de los objetivos de recuperación de cartera castigada"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4482235222",
-   "titulo": "Administrador de cartera",
-   "empresa": "Compensar",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "Intermedio",
-   "descripcion": "¿Tienes experiencia en gestión, recuperación y seguimiento de cartera y te apasiona el análisis de información y el cumplimiento de indicadores? ¡Esta oportunidad puede ser para ti!\n Tu Misión \n Serás responsable de administrar la cartera asignada, planificando, orientando y realizando seguimiento a las actividades de cobro, metas e indicadores, con el propósito de asegurar la recuperación oportuna de los recursos colocados a través de créditos. Buscamos una persona innovadora, con capacidad para identificar oportunidades de mejora, proponer soluciones eficientes y contribuir a la optimización continua de los procesos de cartera .\n ¿Cuáles serán tus principales responsabilidades? \n Gestionar y hacer seguimiento a la cartera asignada, de acuerdo con las políticas y procedimientos establecidos.\n Implementar planes y estrategias para la recuperación de cartera de créditos .\n Identificar alertas tempranas frente al deterioro de la cartera y proponer acciones de mitigación.\n Analizar indicadores relacionados con provisiones, cobertura y rotación de cartera .\n Elaborar informes periódicos sobre el estado y comportamiento de la cartera.\n Generar planes de mejora para garantizar el cumplimiento de las metas y objetivos del proceso.\n Realizar seguimiento al cumplimiento de políticas, norm"
   },
   {
    "portal": "LinkedIn",
@@ -213,19 +161,6 @@
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "🚀 ¡Tu talento nos impulsa! Oportunidad laboral para personas con discapacidad\n En nuestra organización creemos que la diversidad fortalece los equipos, impulsa la innovación y genera mejores resultados. Por eso, estamos buscando personas con discapacidad que deseen desarrollar su potencial y construir su carrera profesional en áreas administrativas, financieras, legales, tecnológicas y de gestión de proyectos.\n Si eres una persona comprometida, organizada, con ganas de aprender y aportar valor a una compañía en crecimiento, esta oportunidad es para ti.\n ¿Qué buscamos?\n Tecnólogos o profesionales en:\n Administración de Empresas\n Contaduría Pública\n Finanzas\n Economía\n Ingeniería Industrial\n Derecho\n Ingeniería de Sistemas\n Gestión de Proyectos\n Marketing y comunicaciones\n Carreras afines\n Valoramos especialmente:\n Experiencia o interés en procesos administrativos, financieros, legales, tecnológicos o de proyectos.\n Manejo de herramientas ofimáticas (Excel, Word, PowerPoint y herramientas colaborativas).\n Capacidad de análisis, organización y atención al detalle.\n Habilidades de comunicación y trabajo en equipo.\n Actitud proactiva y orientación al logro.\n ¿Cuál será tu aporte?\n Apoyar la ejecución y seguimiento de proyectos estratégicos.\n Gestionar y actualizar información, bases d"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484279438",
-   "titulo": "Invoicing Analyst- Administrative Bilingual role",
-   "empresa": "Marsh",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "We are seeking a talented individual to join our Insurance Operations team at Marsh . This role will be based in Bogotá, Colombia . This is a hybrid role that has a requirement of working at least three days a week in the office.\nWe are looking for a dedicated and detail-oriented Invoicing Analyst to join our team. This role offers an excellent opportunity for someone at the beginning of their career to gain experience within a leading global insurance brokerage and risk management firm. The analyst will provide administrative and technical support to client-facing brokers, operations leaders, and clients by processing insurance documentation, responding to transaction-related inquiries, maintaining accurate system records, and supporting the day-to-day delivery of insurance solutions.\nThis is an entry-level individual contributor role. The successful candidate will be expected to take ownership of assigned tasks, resolve operational matters, and complete work accurately and on time, with guidance from senior team members when required.\nWe will count on you to:\n Ensure the timely and accurate production and processing of draft policy wordings and endorsements for Senior Account Executives and Principals.\n Prepare draft renewal reports, insurance manuals, questionnaires, and other"
   },
   {
    "portal": "LinkedIn",
@@ -469,18 +404,6 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-bogota-contratacion-inmediata-en-bogota-dc-4D33EDF0A5AC6A9A61373E686DCF3405"
   },
   {
-   "titulo": "Analista Integral - Cartera Comisiones",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Integral - Cartera Comisiones \n FINANZAUTO S.A. BIC - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.751.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n ¡Nos encontramos en búsqueda de talento como el tuyo! \nFinanzauto S.A. BIC primera entidad financiera no bancaria certificada como empresa B, se encuentra en la búsqueda de un Analista Integral de Cartera Comisiones.\nObjetivo del cargo: \nAsegurar la integridad y veracidad de la información de las pólizas vigentes mediante la identificación proactiva de inconsistencias y el seguimiento riguroso de las renovaciones, para garantizar una transición operativa eficiente hacia el equipo de conciliaciones y la actualización oportuna de los sistemas internos.\nRequisitos: \n• Estudiante activo de VI semestre en carreras administrativas, contables, financieras, económicas, ingenierías y/o afines..\n• Uso intermedio de herramientas Microsoft: Word, Excel, Power Point. \n• Experiencia de dos (2) años en el cargo y/o afines.\nCondiciones: \n• Horario: lunes a vierne",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-integral-cartera-comisiones-en-bogota-dc-D3F226DA62DE9DCE61373E686DCF3405"
-  },
-  {
    "titulo": "analista de cartera tecnólogo o profesional en area contable cartera o afines - Importante Club en el Norte de Bogotá",
    "empresa": "",
    "salario": "",
@@ -491,6 +414,18 @@
    "descripcion": "Volver al listado \n analista de cartera tecnólogo o profesional en area contable cartera o afines - Importante Club en el Norte de Bogotá \n Trabajadores Temporales S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n Reconocida empresa usuaria del sector gastronómico y de eventos (Club Social) requiere para su equipo de trabajo ANALISTA DE CARTERA!\nBuscamos una persona responsable, honesta, puntual y respetuosa, con excelente actitud de servicio, orden, agilidad y facilidad para el trabajo en equipo.\nRequisitos del perfil:\nTécnico o profesional en areas contables, cartera o afines.\nExperiencia minima de 3 años \nFunciones principales:\nAnalizar detalladamente las cuentas por cobrar a socios y terceros \nGestionar la plataforma Credibanco, realizar los debitos en los cortes programados \nRealizar informes de cartera, fundación, cuotas extraorinarias \nCondiciones laborales:\nSalario: $ 2.200.000 + 500.000 tabla de objetivos \nHorario: Lunes a Viernes \nRequerimientos\nEducación mínima: Técnico o prof",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-tecnologo-o-profesional-en-area-contable-cartera-o-afines-importante-club-en-el-norte-de-bogota-en-bogota-dc-2727B3D036D3D26661373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Integral - Cartera Comisiones",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Integral - Cartera Comisiones \n FINANZAUTO S.A. BIC - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.751.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n ¡Nos encontramos en búsqueda de talento como el tuyo! \nFinanzauto S.A. BIC primera entidad financiera no bancaria certificada como empresa B, se encuentra en la búsqueda de un Analista Integral de Cartera Comisiones.\nObjetivo del cargo: \nAsegurar la integridad y veracidad de la información de las pólizas vigentes mediante la identificación proactiva de inconsistencias y el seguimiento riguroso de las renovaciones, para garantizar una transición operativa eficiente hacia el equipo de conciliaciones y la actualización oportuna de los sistemas internos.\nRequisitos: \n• Estudiante activo de VI semestre en carreras administrativas, contables, financieras, económicas, ingenierías y/o afines..\n• Uso intermedio de herramientas Microsoft: Word, Excel, Power Point. \n• Experiencia de dos (2) años en el cargo y/o afines.\nCondiciones: \n• Horario: lunes a vierne",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-integral-cartera-comisiones-en-bogota-dc-D3F226DA62DE9DCE61373E686DCF3405"
   },
   {
    "titulo": "analista de cartera",
@@ -673,6 +608,18 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-antifraude-monitoreo-transaccional-profesionales-carreras-administrativas-ingresan-contratados-en-bogota-dc-B7853A83BC74AFBF61373E686DCF3405"
   },
   {
+   "titulo": "Coordinador(a) de Mantenimiento Sector Retail",
+   "empresa": "Confidencial",
+   "salario": "",
+   "ubicacion": "Bogotá, D.C.",
+   "publicada": "2026-11-02",
+   "vence": "2026-12-14",
+   "contrato": "FULL_TIME",
+   "descripcion": "¡Lidera equipos, garantiza la continuidad operativa e impulsa la excelencia en nuestra infraestructura!Importante compañía multinacional del sector retail busca un(a) Coordinador(a) de Mantenimiento con experiencia en gestión de infraestructura, liderazgo de equipos técnicos y coordinación de operaciones de mantenimiento en múltiples sedes.Buscamos un profesional orientado a resultados, con capacidad de planificación y liderazgo, que garantice el funcionamiento óptimo de nuestra red de tiendas y Centros de Distribución (CD).🎯 ¿Cuál será tu reto?Planear, coordinar y supervisar los procesos de mantenimiento preventivo y correctivo de tiendas y Centros de Distribución a nivel nacional, liderando equipos técnicos y proveedores, administrando recursos y garantizando la continuidad operativa de las instalaciones.🔧 Principales responsabilidadesCoordinar y supervisar los equipos técnicos encargados del mantenimiento de tiendas y Centros de Distribución.Liderar la ejecución de planes de mantenimiento preventivo y correctivo.Garantizar la atención oportuna de novedades y requerimientos de infraestructura.Coordinar mantenimientos eléctricos, mecánicos, hidrosanitarios, locativos, sistemas de refrigeración y contra incendios.Administrar proveedores, contratistas y contratos de mantenimiento.",
+   "portal": "Magneto",
+   "url": "https://www.magneto365.com/co/empleos/coordinador-a-de-mantenimiento-sector-retail-1121732"
+  },
+  {
    "titulo": "Coordinador(a) de Calidad Sector Retail",
    "empresa": "Confidencial",
    "salario": "",
@@ -695,18 +642,6 @@
    "descripcion": "Importante compañía multinacional del sector retail busca un Coordinador de Proyectos que quiera asumir grandes retos, liderando proyectos de construcción, remodelación y apertura de nuevos puntos de venta a nivel nacional.Buscamos un profesional con visión estratégica, capacidad de liderazgo y experiencia en gestión de obras, que garantice la ejecución eficiente de los proyectos, optimizando recursos y asegurando el cumplimiento de los estándares técnicos, financieros y de calidad de la organización.🎯 ¿Cuál será tu propósito?Planear, coordinar y supervisar la ejecución de proyectos de construcción, remodelación y expansión de puntos de venta, asegurando el cumplimiento de los cronogramas, presupuestos, especificaciones técnicas y estándares de calidad establecidos.👷 ¿Qué buscamos en ti?Profesional en Ingeniería Civil, Arquitectura o carreras afines.Experiencia de 3 a 5 años en coordinación, administración y supervisión de obras civiles y proyectos de construcción.Conocimientos técnicos en instalaciones mecánicas, eléctricas, hidrosanitarias, sistemas contra incendios y estructuras.Manejo de AutoCAD, Excel avanzado y herramientas de Microsoft Office.Experiencia en coordinación de contratistas, proveedores e interventorías.Disponibilidad para viajar a nivel nacional.🚀 ¿Cuáles será",
    "portal": "Magneto",
    "url": "https://www.magneto365.com/co/empleos/coordinador-de-proyectos-construccion-y-expansion-1121708"
-  },
-  {
-   "titulo": "Ejecutiva Empresarial / Asesor Externo B2b / Ejecutivo De Cuenta",
-   "empresa": "Grupo Soluciones Horizonte",
-   "salario": "3500000 a 3600000 COP",
-   "ubicacion": "Bogotá, D.C.",
-   "publicada": "2026-11-02",
-   "vence": "2026-11-30",
-   "contrato": "FULL_TIME",
-   "descripcion": "¡ÚNETE A NUESTRO EQUIPO Y DESCUBRE TU POTENCIAL! Importante empresa líder en el sector funerario, esta en la búsqueda de un Ejecutivo Comercial Externo (Empresarial) apasionado por las ventas y con ganas de ser parte de un equipo dinámico y en crecimiento. ¡Esta es tu oportunidad para avanzar en tu carrera! ¿Qué harás con nosotros? Prospectar y abrir nuevas oportunidades de negocio con empresas. Gestionar y fortalecer la cartera de clientes asignada. Fidelizar y mantener relaciones sólidas con nuestros clientes. Responder de manera oportuna a los requerimientos y necesidades de los clientes. Realizar visitas periódicas a clientes empresariales (mínimo una vez al mes, o según requerimiento). ¿Qué necesitas para unirte? Experiencia mínima de 1 año en ventas de intangibles, atención al cliente y técnicas de cierre de ventas. Pasión por el trabajo de campo (visitas a empresas). Título de Bachiller Académico (certificado de 11°). Actitud proactiva, habilidades de comunicación y orientación a resultados. Horario de trabajo: Lunes a Jueves de 7:00 am a 5:00 pm y viernes 4:00 pm Ubicación: Bogota o Alrededores Lo que te ofrecemos: Salario base de $1.750095, más un auxilio de transporte de $249.000+ Bono por cumplimiento $ 260000 + comisiones sin techo (a partir de $3.600.000+, dependiend",
-   "portal": "Magneto",
-   "url": "https://www.magneto365.com/co/empleos/ejecutiva-empresarial-asesor-externo-b2b-ejecutivo-de-cuenta-1121690"
   }
  ]
 }
