@@ -1,19 +1,18 @@
 {
  "meta": {
-  "descartadas": 2295,
+  "descartadas": 2353,
   "fuentes": [
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "Indeed",
    "WebSearch"
   ],
   "guardadas": 31,
-  "notas": "Ronda 03/11 (tarde): portales.json regenerado (48 ofertas; 3 elempleo, 11 LinkedIn, 33 Computrabajo, 1 Magneto). Sin ofertas nuevas que cumplan: la mayoría con salario < 2,8 M, presencial, término fijo/obra o sin modalidad confirmada; Analista financiero Senior (ADL, 9 M híbrido) puntúa 47; Asistente Ejecutiva (STAFFING, híbrido, 2-3 M) puntúa 54 (<55). Indeed y WebSearch sin salario/modalidad verificables.",
-  "revisadas": 2335,
-  "ultima_ejecucion": "2026-11-03T17:10:00-05:00"
+  "notas": "Ronda 04/11 (mediodía): portales.json (48 ofertas: 3 elempleo, 11 LinkedIn, 33 Computrabajo) + Indeed (asistentes de gerencia en Bogotá sin salario, antiguas) + WebSearch. Sin ofertas nuevas guardadas: la mayoría con salario < 2,8 M, obra o labor/término fijo o presencial. Quedan sin modalidad confirmada (no guardadas): Coovitel Analista de cartera (2,95 M, indefinido), Michael Page Analista Admin y Recepcionista (2,8 M, indefinido, probable presencial), Fonbienestar cartera y cobranzas (salario a convenir). LinkedIn no accesible desde WebFetch.",
+  "revisadas": 2393,
+  "ultima_ejecucion": "2026-11-04T12:05:19-05:00"
  },
  "ofertas": [
   {
-   "id": "adecco-gestor-cobranza-cartera-bilingue",
    "d": {
     "categoria": "cumple",
     "ciudad": "Bogotá",
@@ -61,10 +60,10 @@
     "salario_texto": "$3,5 a $4 M (hasta $4,5 M según perfil) + bono anual",
     "titulo": "Gestor de Cobranza y Cartera Bilingüe",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/gestor-de-cobranza-y-cartera-bilingue-1886769293"
-   }
+   },
+   "id": "adecco-gestor-cobranza-cartera-bilingue"
   },
   {
-   "id": "bdo-analista-tesoreria",
    "d": {
     "categoria": "por_verificar",
     "ciudad": "Bogotá",
@@ -113,10 +112,10 @@
     "salario_texto": "Confidencial",
     "titulo": "Analista de Tesorería",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886757318"
-   }
+   },
+   "id": "bdo-analista-tesoreria"
   },
   {
-   "id": "credibanco-analista-tesoreria",
    "d": {
     "categoria": "cumple",
     "ciudad": "Bogotá",
@@ -173,10 +172,10 @@
     "salario_texto": "$3.762.800 + beneficios extralegales",
     "titulo": "Analista de Tesorería",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-1886776954"
-   }
+   },
+   "id": "credibanco-analista-tesoreria"
   },
   {
-   "id": "elite-flower-especialista-credito-cartera",
    "d": {
     "categoria": "por_verificar",
     "ciudad": "Bogotá",
@@ -231,10 +230,10 @@
     "salario_texto": "Confidencial",
     "titulo": "Especialista de Crédito y Cartera",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-credito-y-cartera-1886756726"
-   }
+   },
+   "id": "elite-flower-especialista-credito-cartera"
   },
   {
-   "id": "imocom-analista-administrativo-financiero-jr",
    "d": {
     "categoria": "cumple",
     "ciudad": "Bogotá",
@@ -283,10 +282,10 @@
     "salario_texto": "$3 a $3,5 millones",
     "titulo": "Analista Administrativo y Financiero Junior",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-y-financiero-junior-1886777430"
-   }
+   },
+   "id": "imocom-analista-administrativo-financiero-jr"
   },
   {
-   "id": "logistica-analista-tesoreria-sr",
    "d": {
     "categoria": "cumple",
     "ciudad": "Bogotá",
@@ -334,10 +333,10 @@
     "salario_texto": "$4 a $4,5 millones",
     "titulo": "Analista de Tesorería Senior",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sr-1886772837"
-   }
+   },
+   "id": "logistica-analista-tesoreria-sr"
   },
   {
-   "id": "novatec-analista-tesoreria-fintech",
    "d": {
     "categoria": "por_verificar",
     "ciudad": "Bogotá",
@@ -369,18 +368,18 @@
       "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886770962"
      },
      {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886781232",
+      "contrato": "indefinido",
       "fecha_publicacion": "2026-10-16",
+      "portal": "elempleo",
       "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886781232"
      },
      {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886784039",
+      "contrato": "indefinido",
       "fecha_publicacion": "2026-10-22",
+      "portal": "elempleo",
       "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-hibrido-en-bogota-1886784039"
      }
     ],
     "kit": {
@@ -413,10 +412,10 @@
     "salario_texto": "$2,5 a $3 millones (copia más reciente)",
     "titulo": "Analista de Tesorería (sector fintech)",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-sector-fintech-1886774009"
-   }
+   },
+   "id": "novatec-analista-tesoreria-fintech"
   },
   {
-   "id": "talycap-analista-administrativo-financiero",
    "d": {
     "categoria": "por_verificar",
     "ciudad": "Bogotá",
@@ -473,10 +472,10 @@
     "salario_texto": "A convenir según experiencia",
     "titulo": "Analista Administrativa y Financiera",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativoa-y-financieroa-bogota-hibrido-1886758816"
-   }
+   },
+   "id": "talycap-analista-administrativo-financiero"
   },
   {
-   "id": "tecnologia-analista-tesoreria",
    "d": {
     "categoria": "cumple",
     "ciudad": "Bogotá",
@@ -524,30 +523,26 @@
     "salario_texto": "$3.000.000",
     "titulo": "Analista de Tesorería",
     "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-1886768578"
-   }
+   },
+   "id": "tecnologia-analista-tesoreria"
   },
   {
-   "id": "consultores-talento-humano-analista-administrativo",
    "d": {
-    "titulo": "Analista Administrativo",
-    "empresa": "Consultores Talento Humano",
-    "url": "https://to.indeed.com/aak6pqntjs6h",
-    "portal": "Indeed",
-    "fecha_publicacion": "2026-10-07",
-    "fecha_hallada": "2026-10-15",
-    "salario_texto": "$2.500.000 a $3.000.000 según experiencia",
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 70,
-    "razones": [
-     "Cargo objetivo exacto, híbrido en Bogotá y contrato indefinido explícito, con funciones de pagos a proveedores, conciliaciones y reportes que coinciden con tu experiencia.",
-     "El rango salarial llega a $3,0 M (máximo sobre el mínimo de $2,8 M), pero el piso es $2,5 M: negocia según tu experiencia.",
-     "Pide 2 años de experiencia y valora comercio exterior y cuenta de compensación en USD; publicada hace 8 días.",
-     "Ojo: el rango arranca por debajo de $2,8 M; confirma que te ofrezcan al menos ese valor."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Consultores Talento Humano",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-15",
+    "fecha_publicacion": "2026-10-07",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-07",
+      "portal": "Indeed",
+      "salario_texto": "$2.500.000 a $3.000.000",
+      "url": "https://to.indeed.com/aak6pqntjs6h"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de Consultores Talento Humano:\n\nMe postulo al cargo de Analista Administrativo. Soy Profesional en Administración de Empresas y en Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, además de informes de conciliación para proveedores internacionales que integran información financiera y contable.\n\nTambién fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes. Ejecuté conciliaciones periódicas y apoyé informes de gestión administrativa y control presupuestal, lo que se ajusta a el seguimiento de pagos, reportes y conciliaciones que describe su vacante.\n\nMe interesa la modalidad híbrida en Bogotá y aportar orden, control y trazabilidad documental a su operación. Quedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -566,40 +561,41 @@
       "híbrido Bogotá"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Indeed",
-      "url": "https://to.indeed.com/aak6pqntjs6h",
-      "fecha_publicacion": "2026-10-07",
-      "salario_texto": "$2.500.000 a $3.000.000",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada (Indeed), con salario, contrato y modalidad completos.",
+    "portal": "Indeed",
+    "puntaje": 70,
+    "razones": [
+     "Cargo objetivo exacto, híbrido en Bogotá y contrato indefinido explícito, con funciones de pagos a proveedores, conciliaciones y reportes que coinciden con tu experiencia.",
+     "El rango salarial llega a $3,0 M (máximo sobre el mínimo de $2,8 M), pero el piso es $2,5 M: negocia según tu experiencia.",
+     "Pide 2 años de experiencia y valora comercio exterior y cuenta de compensación en USD; publicada hace 8 días.",
+     "Ojo: el rango arranca por debajo de $2,8 M; confirma que te ofrezcan al menos ese valor."
     ],
-    "motivo_fuente": "Única publicación encontrada (Indeed), con salario, contrato y modalidad completos."
-   }
+    "salario_cop": 2500000,
+    "salario_max_cop": 3000000,
+    "salario_texto": "$2.500.000 a $3.000.000 según experiencia",
+    "titulo": "Analista Administrativo",
+    "url": "https://to.indeed.com/aak6pqntjs6h"
+   },
+   "id": "consultores-talento-humano-analista-administrativo"
   },
   {
-   "id": "gm-financial-analista-backoffice-tesoreria",
    "d": {
-    "titulo": "Analista Backoffice Tesorería",
-    "empresa": "GM Financial",
-    "url": "https://to.indeed.com/aaknpnrcl4xs",
-    "portal": "Indeed",
-    "fecha_publicacion": "2026-10-01",
-    "fecha_hallada": "2026-10-15",
-    "salario_texto": "No publicado",
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "contrato": null,
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 60,
-    "razones": [
-     "Rol de tesorería con pagos a proveedores, conciliaciones, reembolsos/legalizaciones y reportes, muy cercano a tu experiencia.",
-     "Faltan salario y contrato; la modalidad híbrida solo aparece como etiqueta (#LI-Hybrid), confírmala.",
-     "Pide 1 a 3 años, NIIF/USGAAP, Excel avanzado y Blackline deseable; publicada hace 14 días."
+    "ciudad": "Bogotá",
+    "contrato": null,
+    "empresa": "GM Financial",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-15",
+    "fecha_publicacion": "2026-10-01",
+    "fuentes": [
+     {
+      "contrato": null,
+      "fecha_publicacion": "2026-10-01",
+      "portal": "Indeed",
+      "salario_texto": "No publicado",
+      "url": "https://to.indeed.com/aaknpnrcl4xs"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de GM Financial:\n\nMe postulo al cargo de Analista Backoffice Tesorería. Soy Profesional en Administración de Empresas y como Analista Senior de Tesorería en Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, y elaboré informes de conciliación para proveedores internacionales integrando información financiera y contable.\n\nEjecuté conciliaciones periódicas, registré y validé transacciones en el ERP Odoo con custodia de soportes y fortalecí los controles de cajas menores con legalizaciones estandarizadas. Esa experiencia en pagos, conciliaciones y control de soportes se alinea con las responsabilidades de back office que describe su vacante.\n\nMe motiva aportar rigor y orden a su área de Finanzas. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
@@ -619,40 +615,47 @@
       "Excel avanzado"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Indeed",
-      "url": "https://to.indeed.com/aaknpnrcl4xs",
-      "fecha_publicacion": "2026-10-01",
-      "salario_texto": "No publicado",
-      "contrato": null
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada (Indeed).",
+    "portal": "Indeed",
+    "puntaje": 60,
+    "razones": [
+     "Rol de tesorería con pagos a proveedores, conciliaciones, reembolsos/legalizaciones y reportes, muy cercano a tu experiencia.",
+     "Faltan salario y contrato; la modalidad híbrida solo aparece como etiqueta (#LI-Hybrid), confírmala.",
+     "Pide 1 a 3 años, NIIF/USGAAP, Excel avanzado y Blackline deseable; publicada hace 14 días."
     ],
-    "motivo_fuente": "Única publicación encontrada (Indeed)."
-   }
+    "salario_cop": null,
+    "salario_max_cop": null,
+    "salario_texto": "No publicado",
+    "titulo": "Analista Backoffice Tesorería",
+    "url": "https://to.indeed.com/aaknpnrcl4xs"
+   },
+   "id": "gm-financial-analista-backoffice-tesoreria"
   },
   {
-   "id": "adecco-analista-recaudo-cartera-hibrido",
    "d": {
-    "titulo": "Analista de Recaudo y Cartera (Aplicación de Pagos / Cuentas por Cobrar)",
-    "empresa": "Adecco Colombia S.A.",
-    "url": "https://www.magneto365.com/co/empleos/analista-de-cuentas-por-cobrar-cash-application-hibrido-bogota-1094722",
-    "portal": "Magneto",
-    "fecha_publicacion": "2026-10-08",
-    "fecha_hallada": "2026-10-15",
-    "salario_texto": "$3.000.000 a $4.000.000",
-    "salario_cop": 3000000,
-    "salario_max_cop": 4000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "cumple",
-    "puntaje": 78,
-    "razones": [
-     "Cargo casi idéntico a su perfil: recaudo, cuentas por cobrar, aplicación y conciliación de pagos, ERP.",
-     "Magneto confirma salario $3 a $4 M, contrato indefinido y modalidad híbrida en Bogotá.",
-     "Adecco es intermediaria: confirmar si el indefinido es con la empresa usuaria. Magneto y Computrabajo parecen la misma vacante (agrupadas)."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Adecco Colombia S.A.",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-15",
+    "fecha_publicacion": "2026-10-08",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-08",
+      "portal": "Magneto",
+      "salario_texto": "$3.000.000 a $4.000.000",
+      "url": "https://www.magneto365.com/co/empleos/analista-de-cuentas-por-cobrar-cash-application-hibrido-bogota-1094722"
+     },
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": null,
+      "portal": "Computrabajo",
+      "salario_texto": "A convenir",
+      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudo-y-cartera-en-bogota-dc-BE877CF40AA16FA561373E686DCF3405"
+     }
     ],
     "kit": {
      "carta": "Señores Adecco:\n\nMe interesa la vacante de Analista de Recaudo y Cartera (aplicación de pagos / cuentas por cobrar). Soy Administradora de Empresas con más de 5 años de experiencia en Dentons, donde gestioné las cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención.\n\nTambién ejecuté conciliaciones periódicas y registré, validé y analicé transacciones en el ERP Odoo, custodiando los soportes. Como Analista Senior de Tesorería elaboré informes de conciliación para proveedores internacionales, lo que me permite gestionar diferencias e inconsistencias contables con atención al detalle.\n\nQuedo atenta a la posibilidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -671,47 +674,47 @@
       "Excel"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Magneto",
-      "url": "https://www.magneto365.com/co/empleos/analista-de-cuentas-por-cobrar-cash-application-hibrido-bogota-1094722",
-      "fecha_publicacion": "2026-10-08",
-      "salario_texto": "$3.000.000 a $4.000.000",
-      "contrato": "indefinido"
-     },
-     {
-      "portal": "Computrabajo",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudo-y-cartera-en-bogota-dc-BE877CF40AA16FA561373E686DCF3405",
-      "fecha_publicacion": null,
-      "salario_texto": "A convenir",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Magneto publica salario, contrato y modalidad completos (Computrabajo dice 'a convenir'); misma vacante de Adecco, agrupada.",
+    "portal": "Magneto",
+    "puntaje": 78,
+    "razones": [
+     "Cargo casi idéntico a su perfil: recaudo, cuentas por cobrar, aplicación y conciliación de pagos, ERP.",
+     "Magneto confirma salario $3 a $4 M, contrato indefinido y modalidad híbrida en Bogotá.",
+     "Adecco es intermediaria: confirmar si el indefinido es con la empresa usuaria. Magneto y Computrabajo parecen la misma vacante (agrupadas)."
     ],
-    "motivo_fuente": "Magneto publica salario, contrato y modalidad completos (Computrabajo dice 'a convenir'); misma vacante de Adecco, agrupada."
-   }
+    "salario_cop": 3000000,
+    "salario_max_cop": 4000000,
+    "salario_texto": "$3.000.000 a $4.000.000",
+    "titulo": "Analista de Recaudo y Cartera (Aplicación de Pagos / Cuentas por Cobrar)",
+    "url": "https://www.magneto365.com/co/empleos/analista-de-cuentas-por-cobrar-cash-application-hibrido-bogota-1094722"
+   },
+   "id": "adecco-analista-recaudo-cartera-hibrido"
   },
   {
-   "id": "seguros-mundial-analista-tesoreria-datos",
    "d": {
-    "titulo": "Analista de Tesorería (datos)",
-    "empresa": "Seguros Mundial (Compañía Mundial de Seguros S.A.)",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-manejo-de-r-o-python-1886780853",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-15",
-    "fecha_hallada": "2026-10-15",
-    "salario_texto": "$3,5 a $4 millones + prestaciones y beneficios extralegales",
-    "salario_cop": 3500000,
-    "salario_max_cop": 4000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "cumple",
-    "puntaje": 61,
-    "razones": [
-     "Tesorería con control de recursos financieros y seguimiento de flujos, el núcleo de su experiencia como Analista Senior de Tesorería.",
-     "Buen salario ($3,5 a $4 M) con contrato indefinido directo y modalidad híbrida en Bogotá; pide 2 años de experiencia y ella tiene más de 5.",
-     "Ojo: el cargo tiene un fuerte componente de datos (tableros, Python o R). Su Excel avanzado y Power BI ayudan, pero Python o R no están en su CV."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Seguros Mundial (Compañía Mundial de Seguros S.A.)",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-15",
+    "fecha_publicacion": "2026-10-15",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-15",
+      "portal": "elempleo",
+      "salario_texto": "$3,5 a $4 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-manejo-de-r-o-python-1886780853"
+     },
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-14",
+      "portal": "elempleo (publicación anterior)",
+      "salario_texto": "$3,5 a $4 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-de-datos-1886780120"
+     }
     ],
     "kit": {
      "carta": "Señores Seguros Mundial:\n\nMe interesa la vacante de Analista de Tesorería. Soy Administradora de Empresas con más de 5 años en Dentons Cárdenas & Cárdenas Abogados, donde fui Analista Senior de Tesorería: coordiné las cuentas por pagar y los pagos nacionales e internacionales, y elaboré informes de conciliación integrando información financiera y contable.\n\nTambién implementé herramientas de seguimiento para controlar los gastos de transporte y apoyé los informes de gestión y de control presupuestal. Me formé recientemente en Excel Avanzado y Fundamentos de Power BI, y me motiva el foco del cargo en analizar los datos de tesorería y automatizar procesos; estoy lista para fortalecer también el manejo de Python o R.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -730,47 +733,40 @@
       "Python o R"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-manejo-de-r-o-python-1886780853",
-      "fecha_publicacion": "2026-10-15",
-      "salario_texto": "$3,5 a $4 millones",
-      "contrato": "indefinido"
-     },
-     {
-      "portal": "elempleo (publicación anterior)",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-de-datos-1886780120",
-      "fecha_publicacion": "2026-10-14",
-      "salario_texto": "$3,5 a $4 millones",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Seguros Mundial publicó la misma vacante dos veces en elempleo; se usa la del 15 de octubre por ser la más reciente.",
+    "portal": "elempleo",
+    "puntaje": 61,
+    "razones": [
+     "Tesorería con control de recursos financieros y seguimiento de flujos, el núcleo de su experiencia como Analista Senior de Tesorería.",
+     "Buen salario ($3,5 a $4 M) con contrato indefinido directo y modalidad híbrida en Bogotá; pide 2 años de experiencia y ella tiene más de 5.",
+     "Ojo: el cargo tiene un fuerte componente de datos (tableros, Python o R). Su Excel avanzado y Power BI ayudan, pero Python o R no están en su CV."
     ],
-    "motivo_fuente": "Seguros Mundial publicó la misma vacante dos veces en elempleo; se usa la del 15 de octubre por ser la más reciente."
-   }
+    "salario_cop": 3500000,
+    "salario_max_cop": 4000000,
+    "salario_texto": "$3,5 a $4 millones + prestaciones y beneficios extralegales",
+    "titulo": "Analista de Tesorería (datos)",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-manejo-de-r-o-python-1886780853"
+   },
+   "id": "seguros-mundial-analista-tesoreria-datos"
   },
   {
-   "id": "korn-ferry-opella-asistente-administrativo",
    "d": {
-    "titulo": "Asistente Administrativo (Opella Healthcare Colombia)",
-    "empresa": "Korn Ferry (para Opella Healthcare Colombia)",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886779648",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-13",
-    "fecha_hallada": "2026-10-19",
-    "salario_texto": "$3 a $3,5 millones",
-    "salario_cop": 3000000,
-    "salario_max_cop": 3500000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "cumple",
-    "puntaje": 55,
-    "razones": [
-     "Salario desde $3 M, contrato indefinido e híbrido en Bogotá: cumple los no negociables",
-     "Es un cargo de apoyo al equipo de liderazgo (agendas, proveedores, logística de oficina), con poco componente financiero",
-     "Pide solo 6 meses a 1 año de experiencia y formación técnica o tecnológica: el cargo queda por debajo de su nivel. Vence el 12 de noviembre"
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Korn Ferry (para Opella Healthcare Colombia)",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-19",
+    "fecha_publicacion": "2026-10-13",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-13",
+      "portal": "elempleo",
+      "salario_texto": "$3 a $3,5 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886779648"
+     }
     ],
     "kit": {
      "carta": "Estimados señores de Korn Ferry y Opella Healthcare:\n\nMe postulo al cargo de Asistente Administrativo. Soy Administradora de Empresas y llevo más de cinco años en Dentons, donde fui Analista Administrativa y Analista Senior de Tesorería. Allí fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.\n\nTambién diseñé manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento, y fortalecí los controles de cajas menores con legalizaciones estandarizadas y capacitación a los usuarios. Esa experiencia me permite apoyar a un equipo de liderazgo con orden, seguimiento y buena atención a proveedores y colaboradores.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -788,40 +784,40 @@
       "logística de eventos"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886779648",
-      "fecha_publicacion": "2026-10-13",
-      "salario_texto": "$3 a $3,5 millones",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad completos).",
+    "portal": "elempleo",
+    "puntaje": 55,
+    "razones": [
+     "Salario desde $3 M, contrato indefinido e híbrido en Bogotá: cumple los no negociables",
+     "Es un cargo de apoyo al equipo de liderazgo (agendas, proveedores, logística de oficina), con poco componente financiero",
+     "Pide solo 6 meses a 1 año de experiencia y formación técnica o tecnológica: el cargo queda por debajo de su nivel. Vence el 12 de noviembre"
     ],
-    "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad completos)."
-   }
+    "salario_cop": 3000000,
+    "salario_max_cop": 3500000,
+    "salario_texto": "$3 a $3,5 millones",
+    "titulo": "Asistente Administrativo (Opella Healthcare Colombia)",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886779648"
+   },
+   "id": "korn-ferry-opella-asistente-administrativo"
   },
   {
-   "id": "manpower-analista-facturacion-gestion-cartera-hibrido",
    "d": {
-    "titulo": "Analista de Facturación y Gestión de Cartera // Híbrido - Bogotá",
-    "empresa": "Manpower Group Colombia (compañía de servicios con cobertura nacional)",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-facturacion-y-gestion-de-cartera-hibrido-bogota-en-bogota-dc-B9EBC3C87085323D61373E686DCF3405",
-    "portal": "Computrabajo",
-    "fecha_publicacion": null,
-    "fecha_hallada": "2026-10-19",
-    "salario_texto": "$3.000.000 mensual",
-    "salario_cop": 3000000,
-    "salario_max_cop": 3000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "cumple",
-    "puntaje": 59,
-    "razones": [
-     "Salario $3 M, contrato a término indefinido y modalidad híbrida en Bogotá, todo explícito.",
-     "Cartera, recaudo, facturación y conciliación de ingresos coinciden con su experiencia en cuentas por cobrar.",
-     "Advertencia: la oferta no muestra fecha de publicación ni años de experiencia; publica Manpower como intermediario."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Manpower Group Colombia (compañía de servicios con cobertura nacional)",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-19",
+    "fecha_publicacion": null,
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": null,
+      "portal": "Computrabajo",
+      "salario_texto": "$3.000.000 mensual",
+      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-facturacion-y-gestion-de-cartera-hibrido-bogota-en-bogota-dc-B9EBC3C87085323D61373E686DCF3405"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de selección:\n\nMe postulo al cargo de Analista de Facturación y Gestión de Cartera. Soy Administradora de Empresas con cinco años de experiencia en el área administrativa y financiera. Gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas integrando información financiera y contable. Además registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, lo que me da rigor en la carga y validación de información. Complementé mi formación con Excel Avanzado y Fundamentos de Power BI. Me interesa aportar a la correcta facturación, el control de cartera y la conciliación de ingresos de su compañía en modalidad híbrida en Bogotá.\n\nCordialmente,\nJ. Osorio",
@@ -840,40 +836,40 @@
       "Excel"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Computrabajo",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-facturacion-y-gestion-de-cartera-hibrido-bogota-en-bogota-dc-B9EBC3C87085323D61373E686DCF3405",
-      "fecha_publicacion": null,
-      "salario_texto": "$3.000.000 mensual",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada; trae salario, contrato y modalidad.",
+    "portal": "Computrabajo",
+    "puntaje": 59,
+    "razones": [
+     "Salario $3 M, contrato a término indefinido y modalidad híbrida en Bogotá, todo explícito.",
+     "Cartera, recaudo, facturación y conciliación de ingresos coinciden con su experiencia en cuentas por cobrar.",
+     "Advertencia: la oferta no muestra fecha de publicación ni años de experiencia; publica Manpower como intermediario."
     ],
-    "motivo_fuente": "Única publicación encontrada; trae salario, contrato y modalidad."
-   }
+    "salario_cop": 3000000,
+    "salario_max_cop": 3000000,
+    "salario_texto": "$3.000.000 mensual",
+    "titulo": "Analista de Facturación y Gestión de Cartera // Híbrido - Bogotá",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-facturacion-y-gestion-de-cartera-hibrido-bogota-en-bogota-dc-B9EBC3C87085323D61373E686DCF3405"
+   },
+   "id": "manpower-analista-facturacion-gestion-cartera-hibrido"
   },
   {
-   "id": "terpel-tecnico-cartera",
    "d": {
-    "titulo": "Técnico(a) de Cartera",
-    "empresa": "TERPEL",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-19",
-    "fecha_hallada": "2026-10-20",
-    "salario_texto": "$2,5 a $3 millones",
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 56,
-    "razones": [
-     "Híbrido en Bogotá, contrato indefinido y publicada hace 1 día.",
-     "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar el salario real antes de avanzar.",
-     "Cargo técnico y de 1 a 2 años de experiencia, algo por debajo de su perfil; encaja en cartera, recaudo y certificaciones."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "TERPEL",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-20",
+    "fecha_publicacion": "2026-10-19",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-19",
+      "portal": "elempleo",
+      "salario_texto": "$2,5 a $3 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de Terpel:\n\nMe postulo al cargo de Técnico(a) de Cartera. Soy Administradora de Empresas con más de cinco años de experiencia en el área administrativa y financiera de Dentons, donde gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas con soportes custodiados en el ERP Odoo.\n\nTambién fortalecí los controles de cajas menores y diseñé manuales de procedimientos que estandarizaron el área. Manejo Excel avanzado y cuento con formación en Power BI (Colsubsidio CET, 2026), herramienta que su oferta señala como deseable.\n\nMe interesa aportar al cobro oportuno y al registro ágil de recaudos con orden y seguimiento riguroso. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
@@ -892,40 +888,40 @@
       "Power BI"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473",
-      "fecha_publicacion": "2026-10-19",
-      "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad).",
+    "portal": "elempleo",
+    "puntaje": 56,
+    "razones": [
+     "Híbrido en Bogotá, contrato indefinido y publicada hace 1 día.",
+     "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar el salario real antes de avanzar.",
+     "Cargo técnico y de 1 a 2 años de experiencia, algo por debajo de su perfil; encaja en cartera, recaudo y certificaciones."
     ],
-    "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad)."
-   }
+    "salario_cop": 2500000,
+    "salario_max_cop": 3000000,
+    "salario_texto": "$2,5 a $3 millones",
+    "titulo": "Técnico(a) de Cartera",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473"
+   },
+   "id": "terpel-tecnico-cartera"
   },
   {
-   "id": "sies-salud-jefe-tesoreria",
    "d": {
-    "titulo": "Jefe de Tesorería",
-    "empresa": "SIES SALUD",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-tesoreria-1886783169",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-21",
-    "fecha_hallada": "2026-10-21",
-    "salario_texto": "$8 a $10 millones",
-    "salario_cop": 8000000,
-    "salario_max_cop": 10000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá (alrededores)",
     "categoria": "cumple",
-    "puntaje": 62,
-    "razones": [
-     "Salario, contrato indefinido e híbrido confirmados en elempleo; experiencia pedida: 3 años.",
-     "Es un cargo de jefatura (liderar equipo, relación con entidades financieras): más senior que su perfil de analista; postular con foco en tesorería y flujo de caja.",
-     "Ubicación \"Bogotá alrededores\": confirmar sede."
+    "ciudad": "Bogotá (alrededores)",
+    "contrato": "indefinido",
+    "empresa": "SIES SALUD",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-21",
+    "fecha_publicacion": "2026-10-21",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-21",
+      "portal": "elempleo",
+      "salario_texto": "$8 a $10 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-tesoreria-1886783169"
+     }
     ],
     "kit": {
      "carta": "Estimados señores de SIES SALUD: me postulo al cargo de Jefe de Tesorería. Soy Administradora de Empresas con cinco años de experiencia en el área financiera y administrativa. En 2026, como Analista Senior de Tesorería en Dentons, coordiné cuentas por pagar nacionales e internacionales, con recepción, conciliación y seguimiento de pagos, y elaboré informes de conciliación integrando información financiera y contable. También ejecuté conciliaciones periódicas y apoyé informes de gestión y control presupuestal, además de fortalecer los controles de cajas menores. Soy el punto de consulta de varias áreas para pagos, anticipos y legalizaciones. Me interesa asumir mayores responsabilidades en la planeación de liquidez y el flujo de caja de una organización en crecimiento. Quedo atenta a conversar. Cordialmente, J. Osorio.",
@@ -942,40 +938,40 @@
       "recursos financieros"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-tesoreria-1886783169",
-      "fecha_publicacion": "2026-10-21",
-      "salario_texto": "$8 a $10 millones",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada.",
+    "portal": "elempleo",
+    "puntaje": 62,
+    "razones": [
+     "Salario, contrato indefinido e híbrido confirmados en elempleo; experiencia pedida: 3 años.",
+     "Es un cargo de jefatura (liderar equipo, relación con entidades financieras): más senior que su perfil de analista; postular con foco en tesorería y flujo de caja.",
+     "Ubicación \"Bogotá alrededores\": confirmar sede."
     ],
-    "motivo_fuente": "Única publicación encontrada."
-   }
+    "salario_cop": 8000000,
+    "salario_max_cop": 10000000,
+    "salario_texto": "$8 a $10 millones",
+    "titulo": "Jefe de Tesorería",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-tesoreria-1886783169"
+   },
+   "id": "sies-salud-jefe-tesoreria"
   },
   {
-   "id": "cruz-verde-analista-administrativo-junior",
    "d": {
-    "titulo": "Analista administrativo Junior",
-    "empresa": "Droguerías y Farmacias Cruz Verde S.A.S.",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405",
-    "portal": "Computrabajo",
-    "fecha_publicacion": null,
-    "fecha_hallada": "2026-10-21",
-    "salario_texto": "$3.078.000 mensual",
-    "salario_cop": 3078000,
-    "salario_max_cop": 3078000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 57,
-    "razones": [
-     "Salario $3,08 M e indefinido explícitos; pide Administración de Empresas y 2 años de experiencia.",
-     "La modalidad figura como \"presencial y remoto\" sin detalle: confirmar cuántos días de trabajo remoto.",
-     "Funciones comerciales (comisiones, avance de ventas), poco de cartera o tesorería; fecha de publicación no indicada."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Droguerías y Farmacias Cruz Verde S.A.S.",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-21",
+    "fecha_publicacion": null,
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": null,
+      "portal": "Computrabajo",
+      "salario_texto": "$3.078.000",
+      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405"
+     }
     ],
     "kit": {
      "carta": "Estimados señores de Cruz Verde: me postulo al cargo de Analista Administrativo Junior. Soy Profesional en Administración de Empresas (2024) con más de cinco años de experiencia en gestión administrativa y financiera en Dentons. Allí apoyé informes de gestión administrativa y control presupuestal, diseñé manuales de procedimientos para estandarizar el área y fortalecí los controles de cajas menores con legalizaciones estandarizadas. Registré y validé transacciones en el ERP Odoo y ejecuté conciliaciones periódicas, y manejo Excel avanzado y fundamentos de Power BI, útiles para informes de ventas y liquidación de comisiones. Me interesa aportar orden, precisión y seguimiento a su equipo. Quedo atenta. Cordialmente, J. Osorio.",
@@ -992,40 +988,40 @@
       "cronograma de formación"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Computrabajo",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405",
-      "fecha_publicacion": null,
-      "salario_texto": "$3.078.000",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada.",
+    "portal": "Computrabajo",
+    "puntaje": 57,
+    "razones": [
+     "Salario $3,08 M e indefinido explícitos; pide Administración de Empresas y 2 años de experiencia.",
+     "La modalidad figura como \"presencial y remoto\" sin detalle: confirmar cuántos días de trabajo remoto.",
+     "Funciones comerciales (comisiones, avance de ventas), poco de cartera o tesorería; fecha de publicación no indicada."
     ],
-    "motivo_fuente": "Única publicación encontrada."
-   }
+    "salario_cop": 3078000,
+    "salario_max_cop": 3078000,
+    "salario_texto": "$3.078.000 mensual",
+    "titulo": "Analista administrativo Junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405"
+   },
+   "id": "cruz-verde-analista-administrativo-junior"
   },
   {
-   "id": "adecco-analista-pagos-tesoreria-p2p-bilingue-portugues",
    "d": {
-    "titulo": "Analista de pagos y tesorería P2P Bilingüe Portugués",
-    "empresa": "Adecco Colombia S.A.",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-pagos-y-tesoreria-p2p-bilingue-portugues-en-bogota-dc-BDC3752A74E1BDCD61373E686DCF3405",
-    "portal": "Computrabajo",
-    "fecha_publicacion": null,
-    "fecha_hallada": "2026-10-22",
-    "salario_texto": "A convenir",
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 64,
-    "razones": [
-     "Híbrido en Bogotá y contrato indefinido directo con la compañía; el salario es «a convenir», por eso queda por verificar.",
-     "Encaja con tesorería, pagos, conciliaciones bancarias y ERP; pide mínimo 2 años de experiencia.",
-     "Advertencia: exige portugués conversacional indispensable, que no figura en el perfil."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Adecco Colombia S.A.",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-22",
+    "fecha_publicacion": null,
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": null,
+      "portal": "Computrabajo",
+      "salario_texto": "A convenir",
+      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-pagos-y-tesoreria-p2p-bilingue-portugues-en-bogota-dc-BDC3752A74E1BDCD61373E686DCF3405"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de selección de Adecco Colombia:\n\nMe postulo al cargo de Analista de pagos y tesorería P2P. En mi trayectoria en Dentons, como Analista Senior de Tesorería, coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, además de elaborar informes de conciliación para proveedores internacionales integrando información financiera y contable.\n\nTambién ejecuté conciliaciones periódicas y registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes. Fui punto de consulta para pagos, anticipos y legalizaciones, y fortalecí los controles de cajas menores. Soy Profesional en Administración de Empresas y cuento con Excel avanzado y Power BI.\n\nHoy no puedo declarar un nivel conversacional de portugués, por lo que quedo atenta a si ese requisito es flexible. Agradezco su tiempo y quedo disponible para una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -1045,39 +1041,47 @@
       "portugués"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Computrabajo",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-pagos-y-tesoreria-p2p-bilingue-portugues-en-bogota-dc-BDC3752A74E1BDCD61373E686DCF3405",
-      "fecha_publicacion": null,
-      "salario_texto": "A convenir",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada; contrato directo con la compañía.",
+    "portal": "Computrabajo",
+    "puntaje": 64,
+    "razones": [
+     "Híbrido en Bogotá y contrato indefinido directo con la compañía; el salario es «a convenir», por eso queda por verificar.",
+     "Encaja con tesorería, pagos, conciliaciones bancarias y ERP; pide mínimo 2 años de experiencia.",
+     "Advertencia: exige portugués conversacional indispensable, que no figura en el perfil."
     ],
-    "motivo_fuente": "Única publicación encontrada; contrato directo con la compañía."
-   }
+    "salario_cop": null,
+    "salario_max_cop": null,
+    "salario_texto": "A convenir",
+    "titulo": "Analista de pagos y tesorería P2P Bilingüe Portugués",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-pagos-y-tesoreria-p2p-bilingue-portugues-en-bogota-dc-BDC3752A74E1BDCD61373E686DCF3405"
+   },
+   "id": "adecco-analista-pagos-tesoreria-p2p-bilingue-portugues"
   },
   {
-   "id": "sies-salud-analista-administrativo-servicios-farmaceuticos",
    "d": {
-    "titulo": "Analista Administrativo de Servicios Farmacéuticos",
-    "empresa": "SIES SALUD",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-21",
-    "fecha_hallada": "2026-10-23",
-    "salario_texto": "$3 a $3,5 millones",
-    "salario_cop": 3000000,
-    "salario_max_cop": 3500000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "cumple",
-    "puntaje": 55,
-    "razones": [
-     "Cargo de analista administrativa con reportes e indicadores de gestión; salario de $3 a $3,5 M, indefinido e híbrido en Bogotá.",
-     "Se queda en el límite del puntaje: el foco es operación farmacéutica e inventarios, no cartera ni tesorería; piden 1 año de experiencia (el perfil la supera)."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "SIES SALUD",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-23",
+    "fecha_publicacion": "2026-10-21",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-21",
+      "portal": "elempleo",
+      "salario_texto": "$3 a $3,5 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513"
+     },
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-21",
+      "portal": "elempleo (copia 2)",
+      "salario_texto": "$3 a $3,5 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783507"
+     }
     ],
     "kit": {
      "carta": "Señores SIES SALUD:\n\nMe postulo al cargo de Analista Administrativo de Servicios Farmacéuticos. Soy Administradora de Empresas con más de cinco años de experiencia como Analista Administrativa en Dentons, donde apoyé informes de gestión administrativa y control presupuestal y ejecuté conciliaciones periódicas.\n\nDiseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento, y fui punto de consulta para varias áreas en pagos, anticipos y legalizaciones. Además, registré, validé y analizé transacciones en el ERP Odoo, con custodia de soportes, y me formé en Excel Avanzado y Power BI, herramientas clave para consolidar información, elaborar reportes e indicadores y apoyar la toma de decisiones.\n\nMe encantaría aportar esa disciplina y orientación al detalle a su operación. Agradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -1095,46 +1099,39 @@
       "procesos administrativos"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513",
-      "fecha_publicacion": "2026-10-21",
-      "salario_texto": "$3 a $3,5 millones",
-      "contrato": "indefinido"
-     },
-     {
-      "portal": "elempleo (copia 2)",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783507",
-      "fecha_publicacion": "2026-10-21",
-      "salario_texto": "$3 a $3,5 millones",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "SIES SALUD publicó la misma vacante 2 veces en elempleo con el mismo texto y datos completos (salario, contrato y modalidad); se usa la primera.",
+    "portal": "elempleo",
+    "puntaje": 55,
+    "razones": [
+     "Cargo de analista administrativa con reportes e indicadores de gestión; salario de $3 a $3,5 M, indefinido e híbrido en Bogotá.",
+     "Se queda en el límite del puntaje: el foco es operación farmacéutica e inventarios, no cartera ni tesorería; piden 1 año de experiencia (el perfil la supera)."
     ],
-    "motivo_fuente": "SIES SALUD publicó la misma vacante 2 veces en elempleo con el mismo texto y datos completos (salario, contrato y modalidad); se usa la primera."
-   }
+    "salario_cop": 3000000,
+    "salario_max_cop": 3500000,
+    "salario_texto": "$3 a $3,5 millones",
+    "titulo": "Analista Administrativo de Servicios Farmacéuticos",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513"
+   },
+   "id": "sies-salud-analista-administrativo-servicios-farmaceuticos"
   },
   {
-   "id": "basf-asistente-administrativo-vp-latam-west",
    "d": {
-    "titulo": "Asistente Administrativo/a (soporte al Vicepresidente LATAM West)",
-    "empresa": "BASF Agricultural Solutions Colombia",
-    "url": "https://to.indeed.com/aagx2f7hz6kf",
-    "portal": "Indeed",
-    "fecha_publicacion": "2026-10-20",
-    "fecha_hallada": "2026-10-23",
-    "salario_texto": "No publicado",
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 60,
-    "razones": [
-     "Asistente administrativa de alta dirección en multinacional; gestiona órdenes de compra, proveedores, facturas y pagos, y la oferta aparece como Permanent e híbrida en Bogotá.",
-     "Falta el salario y hay que confirmar el contrato indefinido. Piden inglés avanzado y 5 años en soporte a ejecutivos; es el máximo de su experiencia."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "BASF Agricultural Solutions Colombia",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-23",
+    "fecha_publicacion": "2026-10-20",
+    "fuentes": [
+     {
+      "contrato": "indefinido (Permanent)",
+      "fecha_publicacion": "2026-10-20",
+      "portal": "Indeed",
+      "salario_texto": "No publicado",
+      "url": "https://to.indeed.com/aagx2f7hz6kf"
+     }
     ],
     "kit": {
      "carta": "Señores BASF:\n\nMe postulo al cargo de Asistente Administrativa de soporte al Vicepresidente de LATAM West. Soy Administradora de Empresas con cinco años de experiencia como Analista Administrativa y de Tesorería en Dentons, donde fui punto de consulta para varias áreas en pagos, anticipos, legalizaciones e informes financieros.\n\nCoordiné cuentas por pagar nacionales e internacionales, con recepción, conciliación y seguimiento de pagos a proveedores, y registré y validé transacciones en un ERP con custodia de soportes. También diseñé manuales de procedimientos y fortalecí controles, lo que me permite dar seguimiento ordenado a facturas, órdenes de compra y entregables de proyectos. Manejo Excel avanzado y Power BI.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -1153,39 +1150,39 @@
       "seguimiento de proyectos"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Indeed",
-      "url": "https://to.indeed.com/aagx2f7hz6kf",
-      "fecha_publicacion": "2026-10-20",
-      "salario_texto": "No publicado",
-      "contrato": "indefinido (Permanent)"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada (Indeed, enlace de la oferta de BASF).",
+    "portal": "Indeed",
+    "puntaje": 60,
+    "razones": [
+     "Asistente administrativa de alta dirección en multinacional; gestiona órdenes de compra, proveedores, facturas y pagos, y la oferta aparece como Permanent e híbrida en Bogotá.",
+     "Falta el salario y hay que confirmar el contrato indefinido. Piden inglés avanzado y 5 años en soporte a ejecutivos; es el máximo de su experiencia."
     ],
-    "motivo_fuente": "Única publicación encontrada (Indeed, enlace de la oferta de BASF)."
-   }
+    "salario_cop": null,
+    "salario_max_cop": null,
+    "salario_texto": "No publicado",
+    "titulo": "Asistente Administrativo/a (soporte al Vicepresidente LATAM West)",
+    "url": "https://to.indeed.com/aagx2f7hz6kf"
+   },
+   "id": "basf-asistente-administrativo-vp-latam-west"
   },
   {
-   "id": "adl-digital-lab-analista-cartera-bogota",
    "d": {
-    "titulo": "Analista de Cartera | Bogotá",
-    "empresa": "ADL Digital Lab (convocatoria confidencial, sector servicios)",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-1886783023",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-20",
-    "fecha_hallada": "2026-10-23",
-    "salario_texto": "$4 a $4,5 millones (listado); la descripción dice 'a convenir'",
-    "salario_cop": 4000000,
-    "salario_max_cop": 4500000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 68,
-    "razones": [
-     "Cargo similar con recaudo, aplicación de pagos y cuentas por cobrar; 3 años de experiencia.",
-     "Advertencia: el listado dice Híbrido y $4–4,5 M, pero la descripción dice Presencial y salario a convenir; confirmar antes de postular."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "ADL Digital Lab (convocatoria confidencial, sector servicios)",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-23",
+    "fecha_publicacion": "2026-10-20",
+    "fuentes": [
+     {
+      "contrato": "Indefinido",
+      "fecha_publicacion": "2026-10-20",
+      "portal": "elempleo",
+      "salario_texto": "$4 a $4,5 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-1886783023"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de selección:\n\nMe postulo al cargo de Analista de Cartera. Soy Administradora de Empresas con cinco años de experiencia en el área financiera y administrativa de Dentons, donde gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas con registro y validación de transacciones en el ERP Odoo.\n\nTambién coordiné cuentas por pagar nacionales e internacionales y fortalecí los controles de cajas menores con montos límite y legalizaciones estandarizadas. Cuento con Excel avanzado y Fundamentos de Power BI, lo que me permite elaborar indicadores y análisis de cartera.\n\nQuedo atenta a ampliar mi perfil en una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -1204,39 +1201,39 @@
       "castigo de cartera"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-1886783023",
-      "fecha_publicacion": "2026-10-20",
-      "salario_texto": "$4 a $4,5 millones",
-      "contrato": "Indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada.",
+    "portal": "elempleo",
+    "puntaje": 68,
+    "razones": [
+     "Cargo similar con recaudo, aplicación de pagos y cuentas por cobrar; 3 años de experiencia.",
+     "Advertencia: el listado dice Híbrido y $4–4,5 M, pero la descripción dice Presencial y salario a convenir; confirmar antes de postular."
     ],
-    "motivo_fuente": "Única publicación encontrada."
-   }
+    "salario_cop": 4000000,
+    "salario_max_cop": 4500000,
+    "salario_texto": "$4 a $4,5 millones (listado); la descripción dice 'a convenir'",
+    "titulo": "Analista de Cartera | Bogotá",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-1886783023"
+   },
+   "id": "adl-digital-lab-analista-cartera-bogota"
   },
   {
-   "id": "distriquimicos-aldir-asistente-cartera-enfoque-contable",
    "d": {
-    "titulo": "Asistente de Cartera | Enfoque Contable",
-    "empresa": "DISTRIQUIMICOS ALDIR SAS",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-de-cartera-enfoque-contable-1886785001",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-25",
-    "salario_texto": "$2,5 a $3 millones",
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 64,
-    "razones": [
-     "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar que el piso real sea suficiente.",
-     "Cartera, aplicación de pagos y conciliaciones bancarias encajan con su experiencia; pide 2 años y Siigo.",
-     "Pide tecnólogo en contabilidad o estudiante de Contaduría; su perfil es administrativo, no contable."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "DISTRIQUIMICOS ALDIR SAS",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-27",
+    "fecha_publicacion": "2026-10-25",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-25",
+      "portal": "elempleo",
+      "salario_texto": "$2,5 a $3 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-de-cartera-enfoque-contable-1886785001"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de Distriquímicos ALDIR:\n\nMe postulo al cargo de Asistente de Cartera – Enfoque Contable. Durante seis años en Dentons gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas de forma rigurosa. También coordiné cuentas por pagar, registré y validé transacciones en el ERP Odoo y fortalecí los controles de cajas menores. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con formación en Excel Avanzado y Power BI. Me interesa aportar orden, análisis de cartera y seguimiento a su equipo, en la modalidad híbrida en Bogotá.\n\nCordialmente,\nJ. Osorio",
@@ -1255,40 +1252,40 @@
       "cuentas por cobrar"
      ]
     },
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-de-cartera-enfoque-contable-1886785001",
-      "fecha_publicacion": "2026-10-25",
-      "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
-     }
-    ],
+    "modalidad": "hibrido",
     "motivo_fuente": "Única publicación encontrada.",
-    "fecha_hallada": "2026-10-27",
-    "estado": "nueva"
-   }
+    "portal": "elempleo",
+    "puntaje": 64,
+    "razones": [
+     "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar que el piso real sea suficiente.",
+     "Cartera, aplicación de pagos y conciliaciones bancarias encajan con su experiencia; pide 2 años y Siigo.",
+     "Pide tecnólogo en contabilidad o estudiante de Contaduría; su perfil es administrativo, no contable."
+    ],
+    "salario_cop": 2500000,
+    "salario_max_cop": 3000000,
+    "salario_texto": "$2,5 a $3 millones",
+    "titulo": "Asistente de Cartera | Enfoque Contable",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-de-cartera-enfoque-contable-1886785001"
+   },
+   "id": "distriquimicos-aldir-asistente-cartera-enfoque-contable"
   },
   {
-   "id": "ravago-analista-administrativo",
    "d": {
-    "titulo": "Analista administrativo",
-    "empresa": "Ravago Americas",
-    "url": "https://www.linkedin.com/jobs/view/4482993717",
-    "portal": "LinkedIn",
-    "fecha_publicacion": "2026-10-27",
-    "salario_texto": "Confidencial",
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "contrato": null,
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 55,
-    "razones": [
-     "Salario confidencial y contrato sin especificar: confirmar indefinido y salario ≥ $2,8 M.",
-     "Cargo exacto de Analista Administrativo, híbrido en Bogotá, pide 3 a 5 años.",
-     "Enfoque en novedades de nómina y RR. HH., poco relacionado con cartera o tesorería."
+    "ciudad": "Bogotá",
+    "contrato": null,
+    "empresa": "Ravago Americas",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-27",
+    "fecha_publicacion": "2026-10-27",
+    "fuentes": [
+     {
+      "contrato": null,
+      "fecha_publicacion": "2026-10-27",
+      "portal": "LinkedIn",
+      "salario_texto": "Confidencial",
+      "url": "https://www.linkedin.com/jobs/view/4482993717"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de Ravago:\n\nMe postulo al cargo de Analista Administrativo. Como Analista Administrativa en Dentons (2020–2026) apoyé informes de gestión administrativa y control presupuestal, diseñé manuales de procedimientos para estandarizar el área y fortalecí los controles de cajas menores con legalizaciones estandarizadas y capacitación a usuarios. Además, registré y validé transacciones en el ERP Odoo con custodia de soportes y fui punto de consulta para pagos, anticipos y legalizaciones. Soy Profesional en Administración de Empresas y tengo Excel Avanzado, lo que me permite apoyar procesos administrativos con orden y trazabilidad en modalidad híbrida en Bogotá.\n\nCordialmente,\nJ. Osorio",
@@ -1306,41 +1303,40 @@
       "recursos humanos"
      ]
     },
-    "fuentes": [
-     {
-      "portal": "LinkedIn",
-      "url": "https://www.linkedin.com/jobs/view/4482993717",
-      "fecha_publicacion": "2026-10-27",
-      "salario_texto": "Confidencial",
-      "contrato": null
-     }
-    ],
+    "modalidad": "hibrido",
     "motivo_fuente": "Única publicación encontrada.",
-    "fecha_hallada": "2026-10-27",
-    "estado": "nueva"
-   }
+    "portal": "LinkedIn",
+    "puntaje": 55,
+    "razones": [
+     "Salario confidencial y contrato sin especificar: confirmar indefinido y salario ≥ $2,8 M.",
+     "Cargo exacto de Analista Administrativo, híbrido en Bogotá, pide 3 a 5 años.",
+     "Enfoque en novedades de nómina y RR. HH., poco relacionado con cartera o tesorería."
+    ],
+    "salario_cop": null,
+    "salario_max_cop": null,
+    "salario_texto": "Confidencial",
+    "titulo": "Analista administrativo",
+    "url": "https://www.linkedin.com/jobs/view/4482993717"
+   },
+   "id": "ravago-analista-administrativo"
   },
   {
-   "id": "compensar-especialista-tesoreria-bilingue-b2",
    "d": {
-    "titulo": "Especialista de Tesorería Bilingüe B2 (empresa SaaS, vía Compensar)",
-    "empresa": "Agencia de Empleo y Fomento Empresarial Compensar (para empresa de tecnología SaaS)",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/16265491151especialista-de-tesoreria-bilingue-b2-1886785598",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-26",
-    "fecha_hallada": "2026-10-28",
-    "salario_texto": "$12,5 a $15 millones",
-    "salario_cop": 12500000,
-    "salario_max_cop": 15000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "cumple",
-    "puntaje": 85,
-    "razones": [
-     "Salario $12,5–15 M, contrato indefinido y híbrido en Bogotá: cumple los no negociables; pide facturación, recaudo, flujo de caja y pagos, muy cercano a su experiencia.",
-     "Advertencia: exige inglés B2 o superior (indispensable) y 5 años de experiencia; confirmar nivel de inglés antes de postular.",
-     "Publicada por una agencia de empleo en nombre de la empresa; vence 2026-12-25."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Agencia de Empleo y Fomento Empresarial Compensar (para empresa de tecnología SaaS)",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-28",
+    "fecha_publicacion": "2026-10-26",
+    "fuentes": [
+     {
+      "contrato": "Indefinido",
+      "fecha_publicacion": "2026-10-26",
+      "portal": "elempleo",
+      "salario_texto": "$12,5 a $15 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/16265491151especialista-de-tesoreria-bilingue-b2-1886785598"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de selección:\n\nMe postulo al cargo de Especialista de Tesorería (Treasury Specialist). Durante seis años en Dentons coordiné cuentas por pagar nacionales e internacionales, con recepción, conciliación y seguimiento de pagos, y gestioné cuentas por cobrar y el recaudo oportuno de la cartera. Elaboré informes de conciliación para proveedores internacionales integrando información financiera y contable, y registré y validé transacciones en el ERP Odoo con custodia de soportes.\n\nTambién fortalecí los controles de cajas menores y diseñé manuales de procedimientos. Soy Profesional en Administración de Empresas y cuento con Excel Avanzado y fundamentos de Power BI, que encajan con las proyecciones y reportes que piden.\n\nQuedo atenta a conversar.\n\nJ. Osorio",
@@ -1360,39 +1356,40 @@
       "inglés B2"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/16265491151especialista-de-tesoreria-bilingue-b2-1886785598",
-      "fecha_publicacion": "2026-10-26",
-      "salario_texto": "$12,5 a $15 millones",
-      "contrato": "Indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada (elempleo) con salario, contrato y modalidad completos.",
+    "portal": "elempleo",
+    "puntaje": 85,
+    "razones": [
+     "Salario $12,5–15 M, contrato indefinido y híbrido en Bogotá: cumple los no negociables; pide facturación, recaudo, flujo de caja y pagos, muy cercano a su experiencia.",
+     "Advertencia: exige inglés B2 o superior (indispensable) y 5 años de experiencia; confirmar nivel de inglés antes de postular.",
+     "Publicada por una agencia de empleo en nombre de la empresa; vence 2026-12-25."
     ],
-    "motivo_fuente": "Única publicación encontrada (elempleo) con salario, contrato y modalidad completos."
-   }
+    "salario_cop": 12500000,
+    "salario_max_cop": 15000000,
+    "salario_texto": "$12,5 a $15 millones",
+    "titulo": "Especialista de Tesorería Bilingüe B2 (empresa SaaS, vía Compensar)",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/16265491151especialista-de-tesoreria-bilingue-b2-1886785598"
+   },
+   "id": "compensar-especialista-tesoreria-bilingue-b2"
   },
   {
-   "id": "bolsa-mercantil-profesional-contabilidad-cxc",
    "d": {
-    "titulo": "Profesional de contabilidad - cuentas por cobrar",
-    "empresa": "Bolsa Mercantil de Colombia",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contabilidad-cuentas-por-cobrar-1886785469",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-26",
-    "fecha_hallada": "2026-10-28",
-    "salario_texto": "$4 a $4,5 millones",
-    "salario_cop": 4000000,
-    "salario_max_cop": 4500000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "cumple",
-    "puntaje": 58,
-    "razones": [
-     "Salario $4-4,5 M, indefinido e híbrido en Bogotá; gestión de cuentas por cobrar y conciliaciones, núcleo de su experiencia.",
-     "Advertencia: pide profesional en Contaduría Pública y 4 años de experiencia en CxC y contabilidad; ella es Administradora de Empresas, el encaje del perfil es parcial."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Bolsa Mercantil de Colombia",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-28",
+    "fecha_publicacion": "2026-10-26",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-26",
+      "portal": "elempleo",
+      "salario_texto": "$4 a $4,5 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contabilidad-cuentas-por-cobrar-1886785469"
+     }
     ],
     "kit": {
      "carta": "Señores Bolsa Mercantil de Colombia:\n\nMe interesa la vacante de Profesional de Contabilidad - cuentas por cobrar. Soy Administradora de Empresas y en Dentons gestioné las cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención.\n\nComo Analista Senior de Tesorería coordiné cuentas por pagar nacionales e internacionales y elaboré informes de conciliación integrando información financiera y contable. Además registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, y ejecuté conciliaciones periódicas que apoyaron los informes de gestión y el control presupuestal.\n\nCreo que esa experiencia responde a la necesidad de confiabilidad y control de la información financiera que describe el cargo. Quedo atenta a la posibilidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
@@ -1410,40 +1407,46 @@
       "reportes"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contabilidad-cuentas-por-cobrar-1886785469",
-      "fecha_publicacion": "2026-10-26",
-      "salario_texto": "$4 a $4,5 millones",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "",
+    "portal": "elempleo",
+    "puntaje": 58,
+    "razones": [
+     "Salario $4-4,5 M, indefinido e híbrido en Bogotá; gestión de cuentas por cobrar y conciliaciones, núcleo de su experiencia.",
+     "Advertencia: pide profesional en Contaduría Pública y 4 años de experiencia en CxC y contabilidad; ella es Administradora de Empresas, el encaje del perfil es parcial."
     ],
-    "motivo_fuente": ""
-   }
+    "salario_cop": 4000000,
+    "salario_max_cop": 4500000,
+    "salario_texto": "$4 a $4,5 millones",
+    "titulo": "Profesional de contabilidad - cuentas por cobrar",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contabilidad-cuentas-por-cobrar-1886785469"
+   },
+   "id": "bolsa-mercantil-profesional-contabilidad-cxc"
   },
   {
-   "id": "grupo-qbco-analista-cartera",
    "d": {
-    "titulo": "Analista de Cartera",
-    "empresa": "Grupo QBCo",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-639CC4C7A272200F61373E686DCF3405",
-    "portal": "Computrabajo",
-    "fecha_publicacion": "2026-10-28",
-    "fecha_hallada": "2026-10-29",
-    "salario_texto": "A convenir",
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "por_verificar",
-    "puntaje": 60,
-    "razones": [
-     "Cargo exacto de cartera y recaudo, con cuentas por cobrar y conciliaciones que coinciden con tu experiencia en Dentons.",
-     "Contrato indefinido explícito, pero el salario es 'a convenir': confirma que supere $2,8 M.",
-     "Modalidad publicada como 'Presencial y remoto' (probable híbrido): confirma días remotos y ciudad."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Grupo QBCo",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-29",
+    "fecha_publicacion": "2026-10-28",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-28",
+      "portal": "Computrabajo",
+      "salario_texto": "A convenir",
+      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-639CC4C7A272200F61373E686DCF3405"
+     },
+     {
+      "contrato": null,
+      "fecha_publicacion": "2026-10-28",
+      "portal": "LinkedIn",
+      "salario_texto": null,
+      "url": "https://www.linkedin.com/jobs/view/4484296159"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de Grupo QBCo:\n\nMe postulo al cargo de Analista de Cartera. Como Analista Administrativa y Senior de Tesorería en Dentons (2020–2026) gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y coordiné cuentas por pagar nacionales e internacionales con conciliación y seguimiento de pagos. Ejecuté conciliaciones periódicas y registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, lo que me permite hacer seguimiento diario de facturas y de la cartera vencida. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI. Me interesa aportar al recaudo oportuno y al flujo de caja de la compañía.\n\nCordialmente,\nJ. Osorio",
@@ -1462,47 +1465,54 @@
       "flujo de caja"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "Computrabajo",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-639CC4C7A272200F61373E686DCF3405",
-      "fecha_publicacion": "2026-10-28",
-      "salario_texto": "A convenir",
-      "contrato": "indefinido"
-     },
-     {
-      "portal": "LinkedIn",
-      "url": "https://www.linkedin.com/jobs/view/4484296159",
-      "fecha_publicacion": "2026-10-28",
-      "salario_texto": null,
-      "contrato": null
-     }
-    ],
-    "motivo_fuente": "Única fuente con datos completos; LinkedIn la publica sin salario ni contrato."
-   }
-  },
-  {
-   "id": "koa-analista-tesoreria-pago-proveedores",
-   "d": {
-    "titulo": "Analista de Tesorería (Pago a proveedores) Bogotá",
-    "empresa": "KOA Compañía de Financiamiento S.A.",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-pago-a-proveedores-bogota-1886787079",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-29",
-    "fecha_hallada": "2026-10-29",
-    "salario_texto": "$2,5 a $3 millones",
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "contrato": "indefinido",
     "modalidad": "hibrido",
-    "ciudad": "Bogotá",
-    "categoria": "por_verificar",
+    "motivo_fuente": "Única fuente con datos completos; LinkedIn la publica sin salario ni contrato.",
+    "portal": "Computrabajo",
     "puntaje": 60,
     "razones": [
-     "Cargo de tesorería con pagos a proveedores, conciliación de saldos bancarios y compras de cartera, muy cercano a tu experiencia en Dentons.",
-     "Híbrido en Bogotá y contrato indefinido explícitos, pero el rango $2,5–3 M cruza tu mínimo de $2,8 M: confirma el salario real.",
-     "Pide 2 años de experiencia; publicada hoy, vence el 28-dic."
+     "Cargo exacto de cartera y recaudo, con cuentas por cobrar y conciliaciones que coinciden con tu experiencia en Dentons.",
+     "Contrato indefinido explícito, pero el salario es 'a convenir': confirma que supere $2,8 M.",
+     "Modalidad publicada como 'Presencial y remoto' (probable híbrido): confirma días remotos y ciudad."
+    ],
+    "salario_cop": null,
+    "salario_max_cop": null,
+    "salario_texto": "A convenir",
+    "titulo": "Analista de Cartera",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-639CC4C7A272200F61373E686DCF3405"
+   },
+   "id": "grupo-qbco-analista-cartera"
+  },
+  {
+   "d": {
+    "categoria": "por_verificar",
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "KOA Compañía de Financiamiento S.A.",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-29",
+    "fecha_publicacion": "2026-10-29",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-29",
+      "portal": "elempleo",
+      "salario_texto": "$2,5 a $3 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-pago-a-proveedores-bogota-1886787079"
+     },
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-29",
+      "portal": "Computrabajo",
+      "salario_texto": "A convenir",
+      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-pago-a-proveedores-bogota-en-bogota-dc-2B68614F80FE6D5561373E686DCF3405"
+     },
+     {
+      "contrato": null,
+      "fecha_publicacion": "2026-10-30",
+      "portal": "LinkedIn",
+      "salario_texto": null,
+      "url": "https://www.linkedin.com/jobs/view/4485232145"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de KOA Compañía de Financiamiento:\n\nMe postulo al cargo de Analista de Tesorería (Pago a proveedores). Como Analista Senior de Tesorería en Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, y elaboré informes de conciliación para proveedores internacionales. Además fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes. Esa experiencia me permite ejecutar giros diarios con oportunidad y control. Soy Profesional en Administración de Empresas (Areandina, 2024) y tengo Excel Avanzado y fundamentos de Power BI. Me gustaría aportar a la liquidez y al cumplimiento de los pagos de KOA.\n\nCordialmente,\nJ. Osorio",
@@ -1521,54 +1531,40 @@
       "liquidez"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-pago-a-proveedores-bogota-1886787079",
-      "fecha_publicacion": "2026-10-29",
-      "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
-     },
-     {
-      "portal": "Computrabajo",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-pago-a-proveedores-bogota-en-bogota-dc-2B68614F80FE6D5561373E686DCF3405",
-      "fecha_publicacion": "2026-10-29",
-      "salario_texto": "A convenir",
-      "contrato": "indefinido"
-     },
-     {
-      "portal": "LinkedIn",
-      "url": "https://www.linkedin.com/jobs/view/4485232145",
-      "fecha_publicacion": "2026-10-30",
-      "salario_texto": null,
-      "contrato": null
-     }
-    ],
-    "motivo_fuente": "elempleo publica salario, contrato y modalidad híbrida; Computrabajo trae salario a convenir."
-   }
-  },
-  {
-   "id": "freightwise-analista-senior-cuentas-por-cobrar",
-   "d": {
-    "titulo": "Analista Senior de Cuentas por Cobrar",
-    "empresa": "FREIGHTWISE S.A.S.",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362",
+    "modalidad": "hibrido",
+    "motivo_fuente": "elempleo publica salario, contrato y modalidad híbrida; Computrabajo trae salario a convenir.",
     "portal": "elempleo",
-    "fecha_publicacion": "2026-10-29",
-    "fecha_hallada": "2026-10-30",
-    "salario_texto": "$2,5 a $3 millones",
+    "puntaje": 60,
+    "razones": [
+     "Cargo de tesorería con pagos a proveedores, conciliación de saldos bancarios y compras de cartera, muy cercano a tu experiencia en Dentons.",
+     "Híbrido en Bogotá y contrato indefinido explícitos, pero el rango $2,5–3 M cruza tu mínimo de $2,8 M: confirma el salario real.",
+     "Pide 2 años de experiencia; publicada hoy, vence el 28-dic."
+    ],
     "salario_cop": 2500000,
     "salario_max_cop": 3000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
+    "salario_texto": "$2,5 a $3 millones",
+    "titulo": "Analista de Tesorería (Pago a proveedores) Bogotá",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-pago-a-proveedores-bogota-1886787079"
+   },
+   "id": "koa-analista-tesoreria-pago-proveedores"
+  },
+  {
+   "d": {
     "categoria": "por_verificar",
-    "puntaje": 68,
-    "razones": [
-     "Cargo de cuentas por cobrar y recaudo con ERP, Excel y Power BI, muy alineado con tu experiencia en Dentons.",
-     "El rango $2,5–3 M cruza tu mínimo de $2,8 M: confirma el salario real antes de postularte.",
-     "Pide inglés al 80% y experiencia de 2 años; la empresa opera en Ecuador y Colombia."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "FREIGHTWISE S.A.S.",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-30",
+    "fecha_publicacion": "2026-10-29",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-29",
+      "portal": "elempleo",
+      "salario_texto": "$2,5 a $3 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de FREIGHTWISE S.A.S.:\n\nMe postulo al cargo de Analista Senior de Cuentas por Cobrar. Como Analista Administrativa en Dentons (2020–2026) gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas. Registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, y apoyé informes de gestión y control presupuestal. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI, herramientas que su perfil destaca para los reportes de cartera. Me interesa aportar al control del ciclo de recaudo de su operación en Colombia y Ecuador.\n\nCordialmente,\nJ. Osorio",
@@ -1588,40 +1584,40 @@
       "facturación"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362",
-      "fecha_publicacion": "2026-10-29",
-      "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
-     }
-    ],
-    "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados."
-   }
-  },
-  {
-   "id": "compensar-analista-tesoreria-comercializadora-maquinaria",
-   "d": {
-    "titulo": "Analista de Tesorería (empresa comercializadora de maquinaria, vía Compensar)",
-    "empresa": "Agencia de Empleo y Fomento Empresarial Compensar (para empresa comercializadora de maquinaria)",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-162632835911-1886787467",
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados.",
     "portal": "elempleo",
-    "fecha_publicacion": "2026-10-30",
-    "fecha_hallada": "2026-10-30",
-    "salario_texto": "$2,5 a $3 millones (la descripción indica $2.800.000 + prestaciones)",
+    "puntaje": 68,
+    "razones": [
+     "Cargo de cuentas por cobrar y recaudo con ERP, Excel y Power BI, muy alineado con tu experiencia en Dentons.",
+     "El rango $2,5–3 M cruza tu mínimo de $2,8 M: confirma el salario real antes de postularte.",
+     "Pide inglés al 80% y experiencia de 2 años; la empresa opera en Ecuador y Colombia."
+    ],
     "salario_cop": 2500000,
     "salario_max_cop": 3000000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
+    "salario_texto": "$2,5 a $3 millones",
+    "titulo": "Analista Senior de Cuentas por Cobrar",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362"
+   },
+   "id": "freightwise-analista-senior-cuentas-por-cobrar"
+  },
+  {
+   "d": {
     "categoria": "por_verificar",
-    "puntaje": 69,
-    "razones": [
-     "Cargo de tesorería con pagos a proveedores, flujo de caja y conciliaciones bancarias, muy cercano a tu trabajo en Dentons.",
-     "El rango publicado ($2,5–3 M) cruza tu mínimo de $2,8 M; la descripción dice $2,8 M, así que confírmalo antes de postularte.",
-     "Híbrido (1 o 2 días en casa), contrato indefinido; pide 2 años de experiencia y la contrata una empresa por medio de la agencia."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Agencia de Empleo y Fomento Empresarial Compensar (para empresa comercializadora de maquinaria)",
+    "estado": "nueva",
+    "fecha_hallada": "2026-10-30",
+    "fecha_publicacion": "2026-10-30",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-30",
+      "portal": "elempleo",
+      "salario_texto": "$2,5 a $3 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-162632835911-1886787467"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de la Agencia de Empleo de Compensar:\n\nMe postulo al cargo de Analista de Tesorería. En Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, e integré información financiera y contable en informes de conciliación para proveedores. Ejecuté conciliaciones periódicas, fortalecí los controles de cajas menores y registré y validé transacciones en el ERP Odoo con custodia de soportes. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI. Me interesa aportar al plan de tesorería, los pagos a proveedores y el seguimiento del flujo de caja de la empresa.\n\nCordialmente,\nJ. Osorio",
@@ -1640,40 +1636,40 @@
       "recaudo"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-162632835911-1886787467",
-      "fecha_publicacion": "2026-10-30",
-      "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados.",
+    "portal": "elempleo",
+    "puntaje": 69,
+    "razones": [
+     "Cargo de tesorería con pagos a proveedores, flujo de caja y conciliaciones bancarias, muy cercano a tu trabajo en Dentons.",
+     "El rango publicado ($2,5–3 M) cruza tu mínimo de $2,8 M; la descripción dice $2,8 M, así que confírmalo antes de postularte.",
+     "Híbrido (1 o 2 días en casa), contrato indefinido; pide 2 años de experiencia y la contrata una empresa por medio de la agencia."
     ],
-    "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados."
-   }
+    "salario_cop": 2500000,
+    "salario_max_cop": 3000000,
+    "salario_texto": "$2,5 a $3 millones (la descripción indica $2.800.000 + prestaciones)",
+    "titulo": "Analista de Tesorería (empresa comercializadora de maquinaria, vía Compensar)",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-tesoreria-bogota-162632835911-1886787467"
+   },
+   "id": "compensar-analista-tesoreria-comercializadora-maquinaria"
   },
   {
-   "id": "cinte-analista-contable-financiero",
    "d": {
-    "titulo": "Analista Contable / Financiero",
-    "empresa": "Cinte Colombia SAS",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-contable-financiero-1886787515",
-    "portal": "elempleo",
-    "fecha_publicacion": "2026-10-30",
-    "fecha_hallada": "2026-11-02",
-    "salario_texto": "$4 a $4,5 millones (la descripción indica $3,5–4 M)",
-    "salario_cop": 4000000,
-    "salario_max_cop": 4500000,
-    "contrato": "indefinido",
-    "modalidad": "hibrido",
-    "ciudad": "Bogotá",
     "categoria": "cumple",
-    "puntaje": 60,
-    "razones": [
-     "Cargo contable/financiero con tesorería y conciliaciones bancarias, cercano a tu experiencia en Dentons, aunque el título es más contable que administrativo.",
-     "Híbrido en Bogotá (1 día en oficina), contrato indefinido y salario de $4 M o más publicados; la descripción menciona $3,5–4 M, así que confirma el valor.",
-     "Pide profesional en Contaduría o Economía (tu título es Administración de Empresas), 2 a 3 años de experiencia y manejo de herramientas de IA."
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Cinte Colombia SAS",
+    "estado": "nueva",
+    "fecha_hallada": "2026-11-02",
+    "fecha_publicacion": "2026-10-30",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": "2026-10-30",
+      "portal": "elempleo",
+      "salario_texto": "$4 a $4,5 millones",
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-contable-financiero-1886787515"
+     }
     ],
     "kit": {
      "carta": "Estimado equipo de Cinte Colombia:\n\nMe postulo al cargo de Analista Contable / Financiero. En Dentons coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos, y elaboré informes de conciliación para proveedores integrando información financiera y contable. Ejecuté conciliaciones periódicas, apoyé informes de gestión y control presupuestal, y registré y validé transacciones en el ERP Odoo con custodia de soportes. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI. Me interesa aportar a su operación de tesorería, conciliaciones bancarias y reportes financieros bajo la modalidad híbrida.\n\nCordialmente,\nJ. Osorio",
@@ -1692,18 +1688,22 @@
       "contrato indefinido"
      ]
     },
-    "estado": "nueva",
-    "fuentes": [
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-contable-financiero-1886787515",
-      "fecha_publicacion": "2026-10-30",
-      "salario_texto": "$4 a $4,5 millones",
-      "contrato": "indefinido"
-     }
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados.",
+    "portal": "elempleo",
+    "puntaje": 60,
+    "razones": [
+     "Cargo contable/financiero con tesorería y conciliaciones bancarias, cercano a tu experiencia en Dentons, aunque el título es más contable que administrativo.",
+     "Híbrido en Bogotá (1 día en oficina), contrato indefinido y salario de $4 M o más publicados; la descripción menciona $3,5–4 M, así que confirma el valor.",
+     "Pide profesional en Contaduría o Economía (tu título es Administración de Empresas), 2 a 3 años de experiencia y manejo de herramientas de IA."
     ],
-    "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados."
-   }
+    "salario_cop": 4000000,
+    "salario_max_cop": 4500000,
+    "salario_texto": "$4 a $4,5 millones (la descripción indica $3,5–4 M)",
+    "titulo": "Analista Contable / Financiero",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-contable-financiero-1886787515"
+   },
+   "id": "cinte-analista-contable-financiero"
   }
  ]
 }
