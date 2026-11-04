@@ -1,15 +1,13 @@
 {
  "meta": {
-  "descartadas": 2353,
+  "descartadas": 2411,
   "fuentes": [
-   "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
-   "Indeed",
-   "WebSearch"
+   "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)"
   ],
   "guardadas": 31,
-  "notas": "Ronda 04/11 (mediodía): portales.json (48 ofertas: 3 elempleo, 11 LinkedIn, 33 Computrabajo) + Indeed (asistentes de gerencia en Bogotá sin salario, antiguas) + WebSearch. Sin ofertas nuevas guardadas: la mayoría con salario < 2,8 M, obra o labor/término fijo o presencial. Quedan sin modalidad confirmada (no guardadas): Coovitel Analista de cartera (2,95 M, indefinido), Michael Page Analista Admin y Recepcionista (2,8 M, indefinido, probable presencial), Fonbienestar cartera y cobranzas (salario a convenir). LinkedIn no accesible desde WebFetch.",
-  "revisadas": 2393,
-  "ultima_ejecucion": "2026-11-04T12:05:19-05:00"
+  "notas": "Ronda 04/11 (tarde): portales.json (58 ofertas sin ver). Sin ofertas nuevas guardadas. Mejor candidata: Almaviva Analista de Facturación SAP (3,0 M, indefinido, híbrido Bogotá) puntaje ~50 < 55. Sin modalidad/salario confirmados (no guardadas): LinkedIn Talent Search People Analista de Cartera y CxP farmacéutico, San Gabriel Analista Comercial y de Cartera. Coovitel Analista de cartera (2,95 M, indefinido) ya vista, modalidad no confirmada. Resto con salario < 2,8 M, obra o labor/término fijo o presencial. Indeed/WebSearch no usados en esta ronda.",
+  "revisadas": 2451,
+  "ultima_ejecucion": "2026-11-04T17:10:00-05:00"
  },
  "ofertas": [
   {
