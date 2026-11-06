@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 2565,
+    "descartadas": 2624,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
-    "guardadas": 34,
-    "notas": "Ronda 05/11 (tarde): portales.json nuevo (19:01 UTC, 65 ofertas); 3 guardadas (Almaviva, TCS, Proyección Profesional). Computrabajo con salario/contrato indefinido ≥$2,8M (tesorería Adecco/Darplas/Michael Page) sin modalidad explícita: no guardadas. Indeed 1 búsqueda y 1 WebSearch sin novedades.",
-    "revisadas": 2608,
-    "ultima_ejecucion": "2026-11-05T17:10:00-05:00"
+    "guardadas": 35,
+    "notas": "Ronda 06/11: portales.json nuevo (01:50 UTC). 1 guardada (Skandia, por_verificar). Computrabajo con salario ≥$2,8M e indefinido (Adecco tesorería, Darplas, Coovitel cartera) sin modalidad explícita: no guardadas. Indeed 1 búsqueda y 1 WebSearch sin novedades.",
+    "revisadas": 2668,
+    "ultima_ejecucion": "2026-11-06T07:10:00-05:00"
   },
   "ofertas": [
     {
@@ -1855,6 +1855,58 @@
           }
         ],
         "motivo_fuente": "Única publicación encontrada (elempleo)."
+      }
+    },
+    {
+      "id": "skandia-analista-jr-gestion-recaudos-cartera",
+      "d": {
+        "titulo": "Analista Jr de Gestión de Recaudos y Cartera",
+        "empresa": "Skandia",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851",
+        "portal": "elempleo",
+        "fecha_publicacion": "2026-11-05",
+        "fecha_hallada": "2026-11-06",
+        "salario_texto": "$2,5 a $3 millones",
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "por_verificar",
+        "puntaje": 64,
+        "razones": [
+          "Cargo muy afín (recaudo y cartera) y híbrido en Bogotá con contrato indefinido.",
+          "El rango salarial cruza el umbral: el piso ($2,5 M) está por debajo de $2,8 M; confirmar el salario real.",
+          "Pide más de 1 año de experiencia y Excel intermedio; es un cargo junior."
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Skandia: me postulo al cargo de Analista Jr de Gestión de Recaudos y Cartera. Soy Profesional en Administración de Empresas (Areandina, 2024) y durante seis años en Dentons gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención. También ejecuté conciliaciones periódicas, registré y validé transacciones en el ERP Odoo con custodia de soportes y apoyé informes de gestión administrativa y control presupuestal. Como Analista Senior de Tesorería coordiné pagos nacionales e internacionales y elaboré informes de conciliación integrando información financiera y contable. Domino Excel avanzado y Fundamentos de Power BI, lo que me permite analizar la información con rigor y entregar resultados confiables. Me motiva aportar a una operación de recaudo precisa y oportuna. Quedo atenta a conversar. Cordialmente, J. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "recaudo",
+            "cartera",
+            "acreditación",
+            "gestión operativa",
+            "Excel",
+            "aportes",
+            "primas"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851",
+            "fecha_publicacion": "2026-11-05",
+            "salario_texto": "$2,5 a $3 millones",
+            "contrato": "Contrato Indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad)."
       }
     }
   ]
