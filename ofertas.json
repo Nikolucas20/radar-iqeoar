@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 2695,
+    "descartadas": 2784,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
-    "guardadas": 37,
-    "notas": "Ronda 06/11 tarde: portales.json nuevo (18:23 UTC) con 62 ofertas por evaluar; 2 guardadas (1 cumple, 1 por_verificar). Descartadas por obra/labor, término fijo, salario < 2,8 M o presencial; varias de Computrabajo/LinkedIn sin modalidad confirmable. Indeed: cartera Bogotá sin novedades válidas.",
-    "revisadas": 2741,
-    "ultima_ejecucion": "2026-11-06T17:10:00-05:00"
+    "guardadas": 38,
+    "notas": "Ronda 09/11: portales.json (generado 07/11 01:10 UTC) sin ofertas nuevas válidas; Computrabajo/LinkedIn casi todas sin modalidad confirmable, obra/labor, término fijo o salario < 2,8 M. Indeed: 1 por_verificar (Esri, híbrido, indefinido, sin salario); Qnt, Inversión SAS y Servicios y Asesorías son presenciales (descartadas). elempleo.com no resuelve en este entorno (WebFetch bloqueado).",
+    "revisadas": 2831,
+    "ultima_ejecucion": "2026-11-09T07:07:22-05:00"
   },
   "ofertas": [
     {
@@ -2013,6 +2013,57 @@
           }
         ],
         "motivo_fuente": "Única publicación encontrada (publicada por la empresa en LinkedIn)."
+      }
+    },
+    {
+      "id": "esri-analista-administrativa-hibrido-usaquen",
+      "d": {
+        "titulo": "Analista Administrativa",
+        "empresa": "Esri Colombia | Ecuador | Panamá",
+        "url": "https://to.indeed.com/aaqngzkx9lwr",
+        "portal": "Indeed",
+        "fecha_publicacion": "2026-11-06",
+        "fecha_hallada": "2026-11-09",
+        "salario_texto": "No publicado",
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá (Usaquén)",
+        "categoria": "por_verificar",
+        "puntaje": 59,
+        "razones": [
+          "Cargo exacto (Analista Administrativa), híbrido en Bogotá y contrato indefinido con periodo de prueba, publicado hace 3 días.",
+          "El salario no está publicado: confirmar que supere $2,8 M antes de postularte.",
+          "Pide 2 años de experiencia, profesional en Administración y Excel avanzado; encaja con tu perfil."
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Esri Colombia:\n\nMe postulo al cargo de Analista Administrativa. Soy Administradora de Empresas con cinco años de experiencia en Dentons, donde elaboré informes de gestión administrativa y de conciliación integrando información financiera y contable, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes.\n\nTambién diseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento, y fortalecí controles de cajas menores con legalizaciones estandarizadas y capacitación a usuarios. Cuento con formación en Excel Avanzado y Fundamentos de Power BI (Colsubsidio CET, 2026), útil para el seguimiento de indicadores y reportes que piden.\n\nMe interesa aportar en la mejora y automatización de procesos administrativos en modalidad híbrida en Bogotá. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "informes de gestión",
+            "KPI",
+            "Excel avanzado",
+            "procesos administrativos",
+            "documentación de calidad",
+            "automatización de procesos"
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "Indeed",
+            "url": "https://to.indeed.com/aaqngzkx9lwr",
+            "fecha_publicacion": "2026-11-06",
+            "salario_texto": "No publicado",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada (Indeed)."
       }
     }
   ]
