@@ -1,15 +1,15 @@
 {
  "meta": {
-  "descartadas": 2859,
+  "descartadas": 2939,
   "fuentes": [
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "Indeed (conector)",
    "WebSearch"
   ],
   "guardadas": 38,
-  "notas": "Ronda 09/11 (tarde): portales.json sin regenerar desde 07/11 (Computrabajo/LinkedIn sin salario/contrato/modalidad confirmables; Magneto/elempleo nuevas son contador/seguridad, fuera de perfil). Indeed: Innovamos Analista de Cartera descartada (obra o labor, $2,12 M, presencial); Mundosoft soporte funcional remoto sin salario fuera de perfil; Esri ya registrada. Sin ofertas nuevas.",
-  "revisadas": 2906,
-  "ultima_ejecucion": "2026-11-09T12:10:00-05:00"
+  "notas": "Ronda 09/11 (tarde, 2): portales.json regenerado 16:41 Bogotá. Revisadas ~61 nuevas: descartadas Protección (presencial), Coltoys (presencial), Adecco jefe de cartera (término definido), varias Computrabajo por obra/labor, término fijo o salario < $2,8 M. Alfagres (Analista de Crédito y Cartera, $3 M indefinido), Cartera y Ventas ($3,15 M indefinido) y TCS Admin Analyst sin modalidad confirmable ni puntaje ≥55: no guardadas. Indeed: sin ofertas nuevas relevantes. Sin ofertas nuevas.",
+  "revisadas": 2986,
+  "ultima_ejecucion": "2026-11-09T17:10:00-05:00"
  },
  "ofertas": [
   {
