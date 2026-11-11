@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 3029,
+    "descartadas": 3099,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 38,
-    "notas": "Ronda 10/11 (tarde): portales.json nuevo (18:52 UTC), ~60 ofertas evaluadas. Descartadas por salario <2,8 M, obra/labor, término fijo, presencial o seniority/cargo no afín. Dudosas sin modalidad ni salario confirmables (Alfagres cartera $3 M indefinido; Talent Search cartera+CxP farmacéutico; TCS ya registrada) no guardadas. Indeed (2 búsquedas): sin resultados útiles. Sin ofertas nuevas.",
-    "revisadas": 3076,
-    "ultima_ejecucion": "2026-11-10T17:09:00-05:00"
+    "notas": "Ronda 11/11 (mañana): portales.json nuevo (01:32 UTC), 60 ofertas sin registrar evaluadas + 10 de Indeed (listado; la mayoría sin salario ni antigüedad útil, ya vistas o antiguas). Descartadas por salario <2,8 M, obra/labor, término fijo, presencial (p. ej. Protección Analista de Cartera I $3 M indefinido es presencial; Programa Valentina CxC presencial en Cota), seniority/cargo no afín o 'Jefe de cartera' a término definido. Dudosas sin modalidad confirmable (HERIX analista contable administrativo $3,1 M indefinido, cargo contable) no guardadas. Sin ofertas nuevas.",
+    "revisadas": 3146,
+    "ultima_ejecucion": "2026-11-11T07:05:41-05:00"
   },
   "ofertas": [
     {
