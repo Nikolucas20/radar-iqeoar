@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T18:52:51+00:00",
+ "generado": "2026-11-11T01:32:30+00:00",
  "conteo": {
   "elempleo": {
    "leidas": 90,
@@ -15,10 +15,23 @@
   },
   "Magneto": {
    "leidas": 16,
-   "para_evaluar": 2
+   "para_evaluar": 3
   }
  },
  "ofertas": [
+  {
+   "portal": "elempleo",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/business-analyst-analista-de-producto-financiero-medios-de-pago-1886792384",
+   "titulo": "Business Analyst | Analista de Producto Financiero | Medios de Pago",
+   "empresa": "BANCO DE BOGOTA",
+   "salario": "$5,5 a $6 millones",
+   "ubicacion": "Bogota - Hibrido",
+   "publicada": "2026-11-10",
+   "vence": "2027-01-09",
+   "contrato": "Contrato Indefinido",
+   "experiencia": "4 anos de experiencia",
+   "descripcion": "En Banco de Bogotá buscamos un(a) Analista III de Producto - Medios de Pago, responsable de contribuir a la implementación y evolución de la estrategia integral de producto y propuesta de valor para el portafolio de tarjetas débito y crédito, asegurando el crecimiento sostenible del negocio, la rentabilidad y una experiencia de cliente diferencial. \nLa persona seleccionada actuará como enlace entre el Banco, las franquicias, aliados estratégicos, proveedores y demás actores del ecosistema de pagos, identificando oportunidades, tendencias del mercado y necesidades del sector que puedan convertirse en iniciativas de valor para la organización. Su gestión estará orientada a traducir las necesidades y oportunidades identificadas en el entorno en estrategias, campañas, mejoras de producto y proyectos que fortalezcan la competitividad y el posicionamiento del portafolio. \nAsimismo, participará en la implementación y seguimiento de iniciativas de alto impacto relacionadas con medios de pago, alianzas comerciales, productos cobranded y propuestas de valor, garantizando una adecuada articulación entre las diferentes áreas involucradas y contribuyendo al cumplimiento de los objetivos comerciales y estratégicos del negocio. \n¿Qué debes tener? \nFormación académica \nProfesional en Administrac"
+  },
   {
    "portal": "elempleo",
    "url": "https://www.elempleo.com/co/ofertas-trabajo/financiero-senior-1886791996",
@@ -31,19 +44,6 @@
    "contrato": "Contrato Indefinido",
    "experiencia": "6 anos de experiencia",
    "descripcion": "¡Estamos buscando Analista Financiero Senior con inglés B2 o superior! \n¿Qué harás? \nApoyar el cierre de mes: asientos contables, reclasificaciones y revisión del libro mayor. \nAnalizar y explicar variaciones frente al forecast y al presupuesto. \nParticipar en el forecast, el presupuesto y la planeación del negocio. \nTrabajar con los líderes de Operaciones y Ventas para encontrar oportunidades de ahorro, productividad y rentabilidad. \nApoyar el cumplimiento de SOX y los controles internos. \nCapacitar a los equipos del negocio en temas financieros. \n¿Qué buscamos? \nProfesional en Contaduría, Finanzas, Administración, Economía o afines. \nInglés B2 o superior. \nMás de 6 años de experiencia en análisis financiero, contabilidad o FP&A. \nExperiencia en cierre de mes, forecast y presupuesto. \nConocimiento de controles internos y SOX. \nExcel avanzado y herramientas de reporte financiero. \nHabilidad para explicar conceptos financieros a personas no financieras. \n¿Qué ofrecemos? \nContrato indefinido. \nTrabajo remoto desde cualquier ciudad de Colombia o esquema híbrido en Bogotá. \nLunes a viernes. \nSalario competitivo entre 10 a 12millones de pesos mensuales, de acuerdo a experiencia. \n La oportunidad de trabajar en un entorno multinacional y en inglés."
-  },
-  {
-   "portal": "elempleo",
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/business-analyst-analista-de-producto-financiero-medios-de-pago-1886791559",
-   "titulo": "Business Analyst | Analista de Producto Financiero | Medios de Pago",
-   "empresa": "BANCO DE BOGOTA",
-   "salario": "$5,5 a $6 millones",
-   "ubicacion": "Bogota - Hibrido",
-   "publicada": "2026-11-09",
-   "vence": "2027-01-08",
-   "contrato": "Contrato Indefinido",
-   "experiencia": "4 anos de experiencia",
-   "descripcion": "En Banco de Bogotá buscamos un(a) Analista III de Producto - Medios de Pago, responsable de contribuir a la implementación y evolución de la estrategia integral de producto y propuesta de valor para el portafolio de tarjetas débito y crédito, asegurando el crecimiento sostenible del negocio, la rentabilidad y una experiencia de cliente diferencial. \nLa persona seleccionada actuará como enlace entre el Banco, las franquicias, aliados estratégicos, proveedores y demás actores del ecosistema de pagos, identificando oportunidades, tendencias del mercado y necesidades del sector que puedan convertirse en iniciativas de valor para la organización. Su gestión estará orientada a traducir las necesidades y oportunidades identificadas en el entorno en estrategias, campañas, mejoras de producto y proyectos que fortalezcan la competitividad y el posicionamiento del portafolio. \nAsimismo, participará en la implementación y seguimiento de iniciativas de alto impacto relacionadas con medios de pago, alianzas comerciales, productos cobranded y propuestas de valor, garantizando una adecuada articulación entre las diferentes áreas involucradas y contribuyendo al cumplimiento de los objetivos comerciales y estratégicos del negocio. \n¿Qué debes tener? \nFormación académica \nProfesional en Administrac"
   },
   {
    "portal": "elempleo",
@@ -92,7 +92,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 3 horas",
+   "hace": "Hace 10 horas",
    "contrato": "Jornada completa",
    "experiencia": "Algo de responsabilidad",
    "descripcion": "Sobre el rol: \n 💡 Tus Desafíos y Responsabilidades \n Orquestar el ciclo contable y financiero integral de los países asignados, garantizando exactitud, oportunidad y cumplimiento normativo (IFRS/local).\n Optimizar la liquidez mediante el análisis y proyección del flujo de caja, junto a la ejecución rigurosa de conciliaciones bancarias y de balance.\n Liderar la atención a auditorías internas y externas, asegurando el estricto apego a las disposiciones fiscales de cada jurisdicción.\n Automatizar procesos y flujos de reporte para agilizar los cierres mensuales y maximizar la visibilidad de la data financiero\n Indispensables (Must-have): \n Formación: Profesional graduado en Contaduría Pública.\n Experiencia: 3+ años en contabilidad, gestión de tesorería y auditorías.\n Conocimiento técnico: Dominio de normativas IFRS, legislación fiscal y manejo avanzado de ERPs (preferiblemente NetSuite).\n Mentalidad analítica: Capacidad de autogestión, alto detalle numérico y enfoque en mejora continua.\n Diferenciadores (Nice-to-have): \n Experiencia previa en operaciones multi-país y transacciones intercompany .\n Manejo de Google Workspace a nivel avanzado.\n Experiencia previa en proyectos de automatización de procesos contables/financieros.\n Beneficios \n 🌟 XBalance: Nuestro Compromiso Contigo \n En X"
@@ -105,23 +105,10 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 23 horas",
+   "hace": "Hace 1 día",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "Profesional Especializado de Tesorería y Back Office Financiero \n Una importante entidad del sector financiero se encuentra en la búsqueda de un(a) Profesional Especializado de Tesorería y Back Office Financiero , un rol orientado a garantizar el adecuado registro, control, conciliación y reconocimiento contable de las operaciones especializadas de tesorería, asegurando la calidad de la información financiera, el cumplimiento normativo y la correcta contabilización de los diferentes productos financieros del Banco.\n ¿Cuál será tu desafío? \n Serás responsable de analizar, validar y controlar la contabilización de las operaciones de tesorería en moneda legal y extranjera, garantizando la correcta aplicación de los lineamientos contables y regulatorios asociados a productos financieros e inversiones.\n Además, participarás en la implementación contable de nuevos productos financieros, el seguimiento de cambios regulatorios y la generación de reportes para entes de control, áreas de negocio y alta dirección, contribuyendo a la integridad, trazabilidad y oportunidad de la información financiera.\n Este rol requiere una visión integral de las operaciones de tesorería, comprendiendo la interacción entre el Front Office y el Back Office , así como el impacto contable de las operaciones rea"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4487522994",
-   "titulo": "Líder de Tesorería",
-   "empresa": "Gamma Recruitment",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "Líder de Tesorería \n Nos encontramos en la búsqueda de un(a) Líder de Tesorería para gestionar y supervisar los procesos financieros de la compañía, garantizando el control de las operaciones bancarias nacionales e internacionales, la confiabilidad de la información financiera y la optimización de los recursos.\n Misión del cargo \n Liderar la operación de Tesorería, asegurando el control de las operaciones financieras, remesas de dinero, fondos de inversión y transacciones internacionales. Realizar seguimiento a las tasas de cambio, analizar indicadores financieros y garantizar la articulación entre Tesorería y Contabilidad, contribuyendo a la eficiencia operativa y a la toma de decisiones estratégicas.\n Principales responsabilidades \n Supervisar los pagos y movimientos bancarios nacionales e internacionales, garantizando su adecuado registro y control.\n Validar los saldos de las cuentas bancarias y gestionar las conciliaciones financieras, asegurando la disponibilidad de soportes y la resolución de partidas pendientes.\n Gestionar las operaciones relacionadas con corresponsales bancarios, remesas de dinero y transacciones Cross Border.\n Elaborar, revisar y realizar seguimiento a reportes bancarios y reportes asociados a Cuentas de Compensación.\n Gestionar y monitorear fondos de in"
   },
   {
    "portal": "LinkedIn",
@@ -131,7 +118,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 10 minutos",
+   "hace": "Hace 6 horas",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "Estamos en búsqueda de un apasionado Profesional Especializado Back Office de Tesorería Derivados que quiera unirse a nuestro equipo. Si eres profesional en áreas administrativas, financieras, económicas o afines, cuentas con especialización en temas relacionados con Tesorería y Mercados de Capitales, y te apasiona la operación financiera, el control y la gestión de riesgos, ¡esta oportunidad es para ti!\n Tu misión será administrar de forma integral las operaciones de derivados y títulos asociados, asegurando su correcta ejecución, liquidación, gestión de colaterales y cumplimiento normativo. Serás una pieza clave para garantizar la integridad operativa, la trazabilidad de las operaciones y la mitigación de riesgos dentro de la operación de tesorería.\n Únete a nosotros y desarrolla tu carrera en un entorno dinámico, estratégico y enfocado en la excelencia operativa y la transformación digital.\n Requerimientos\n Profesional en áreas administrativas, finanzas, economía, contaduría, ingeniería industrial o carreras afines.\n Especialización con énfasis en formación financiera aplicable a operaciones de Tesorería y Mercado de Capitales.\n Conocimiento en Mercado de Capitales, Derivados y productos de Tesorería (TES, Bonos, CDT, entre otros).\n Experiencia en procesos de Back Office de Te"
@@ -144,10 +131,23 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 3 días",
+   "hace": "Hace 4 días",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "📍 Bogotá D.C. | Presencial \n Buscamos un(a) Analista de Riesgos Financieros para apoyar la estructuración, implementación y monitoreo del marco de gestión de riesgos financieros de PEI Asset Management, con foco en riesgos de mercado, liquidez y contraparte. Tendrá un rol clave en el análisis y desarrollo de estrategias de prevención, mitigación y cobertura, aportando desde un enfoque técnico y analítico a la toma de decisiones financieras de la organización.\n 📌 Responsabilidades principales \n Analizar, simular y apoyar la implementación de productos y estrategias de cobertura como swaps, forwards y opciones.\n Analizar la exposición a tasas de interés y tasas de cambio en las estructuras de capital y deuda de los vehículos administrados.\n Desarrollar y mantener modelos de brechas de liquidez (GAP), análisis de estrés (stress testing) y proyecciones de flujo de caja.\n Elaborar análisis cuantitativos y modelos financieros que apoyen la toma de decisiones del área, la alta dirección y los diferentes comités.\n Analizar el impacto de los riesgos financieros y de contraparte sobre los vehículos bajo administración.\n Apoyar la evaluación de alternativas para la mitigación del riesgo de impago.\n Apoyar el desarrollo, documentación y actualización de metodologías, políticas y manuales par"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4488115553",
+   "titulo": "Asistente de Tesorería",
+   "empresa": "TEMPOTRABAJO S.A.S",
+   "salario": "",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "publicada": "",
+   "hace": "Hace 4 días",
+   "contrato": "Jornada completa",
+   "experiencia": "Intermedio",
+   "descripcion": "Importante empresa dedicada a la fabricación, venta y distribución de insumos ferreteros a nivel nacional esta en búsqueda de un Asistente de Tesorería para incorporarse a nuestro equipo en de trabajo .\n En esta posición, serás responsable de gestionar y realizar las operaciones diarias, asegurando y controlando las entradas,salidas y liquidez para garantizar los pagos a tiempo.\n Requisitos\n Tecnólogo o estudiante con mínimo 4 semestres de aprobación en contaduría y afines.\n Dos (2) años de experiencia como Asistente/ Auxiliar de Tesorería\n Manejo de herramientas ofimáticas y software.\n Ofrecemos\n Contrato: obra labor (Posterior a esto pasamos a indefinido)\n Salario: 2.000.000+ prestaciones de ley + Auxilio de Transporte.\n Horario: de lunes a viernes de 7am - 5 pm.\n Funciones\n Gestión de Pagos y Cobros.\n Conciliaciones Bancarias\n Control de caja y flujo de efectivo.\n Relación operativa con bancos \n Manejo de Excel intermedio \n Sistemas contables\n Facturación electrónica y portales fiscales.\n Archivar los documentos soporte de las operaciones de la compañía de acuerdo a procedimientos establecidos\n Si cumples con los requisitos, estamos ansiosos por conocer tu perfil y cómo puedes añadir valor a nuestro equipo."
   },
   {
    "portal": "LinkedIn",
@@ -278,6 +278,54 @@
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "¡En ALFA abrimos nuestras puertas al mejor talento!\nSomos un grupo empresarial conformado por 5 compañías del sector de la construcción, que día a día soñamos, innovamos, construimos, desafiamos y asumimos retos porque somos constructores de grandes resultados.\nNos encontramos en la búsqueda de un Estudiante sexto semestre en adelante o Profesional en Ingeniería Industrial, Carreras Administrativas, Mercadeo y Afines, con un mínimo de un (1) año de experiencia en áreas de Producto o Categorías de Mercadeo. Su rol principal será brindar respaldo técnico, administrativo y de procesamiento de datos en el back-end operativo de la Unidad de Negocio, ejecutando con rigor tareas diarias como la conciliación de bases de datos, actualización de maestros de productos, diligenciamiento de plantillas y consolidación de reportes rutinarios. Para ello, requerimos un perfil con dominio avanzado de Excel y habilidades en analítica de datos que garanticen la continuidad operativa y la disponibilidad de información confiable para la toma de decisiones.\n Conocimientos Técnicos y Herramientas\n Excel: Avanzado (indispensable) o Power BI: Intermedio (deseable).\n Paquete Office: Intermedio.\n Manejo y analítica de datos, creación de reportes y conceptos de Branding.\n Te Ofrecemos\n 💼 Contrato: indefinido"
+  },
+  {
+   "titulo": "Analista de egresos y tesoreria",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista de egresos y tesoreria \n SOPORTE EN RECURSOS HUMANOS LTDA - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n Empresa de Ingeniería con más de 45 años de trayectoria busca profesional organizado(a), analítico(a), proactivo(a) y resolutivo(a), con experiencia en procesos de tesorería y egresos, para fortalecer su equipo financiero.\nBuscamos una persona orientada al detalle, con capacidad para trabajar con altos volúmenes de información y facilidad para resolver situaciones del día a día, que disfrute trabajar en equipo y adaptarse a entornos dinámicos.\n ¿Cuál será tu reto?\nSerás responsable de apoyar y ejecutar procesos relacionados con egresos, tesorería, pagos y control financiero, realizando seguimiento a la información financiera y contable y contribuyendo al adecuado manejo de los recursos de la compañía.\n Principales responsabilidades\nPreparar y gestionar pagos a proveedores, nómina, liquidaciones, impuestos, PSE y demás obligaciones.\nManejar portales bancarios y realizar opera",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-egresos-y-tesoreria-en-bogota-dc-A1997A90F6738C1961373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Senior de Tesorería y Egresos",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Senior de Tesorería y Egresos \n SOPORTE EN RECURSOS HUMANOS LTDA - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 5.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Empresa de Ingeniería con más de 45 años de trayectoria busca profesional organizado(a), proactivo(a), analítico(a) y resolutivo(a), con experiencia en tesorería y capacidad para asumir retos en un entorno dinámico y de alto volumen de información financiera.\n ¿Cuál será tu reto?\nSerás un apoyo clave para la gestión de Tesorería, participando en la operación, análisis, control y seguimiento de los recursos financieros de la compañía, asegurando el adecuado manejo de los flujos de caja, pagos, conciliaciones e información financiera.\n Principales responsabilidades\nGestionar y controlar el libro de bancos, realizando conciliaciones de ingresos y egresos.\nMonitorear diariamente los saldos y niveles de liquidez de las cuentas bancarias y fiducias.\nProgramar y ejecutar pagos a proveedores, nómina, impuestos y demás obligaciones.\nManejar portales bancarios cor",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-senior-de-tesoreria-y-egresos-en-bogota-dc-8B271B7A35835BEB61373E686DCF3405"
+  },
+  {
+   "titulo": "analista de tesorería",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n analista de tesorería \n AUTOPISTAS DEL NORDESTE - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término indefinido \n Tiempo Completo \n Buscamos un profesional comprometido, organizado y orientado a resultados, con capacidad para gestionar y coordinar procesos de tesorería y pagos, garantizando el cumplimiento de las obligaciones financieras, legales y tributarias de la organización.\nPerfil requerido:\nProfesional en Economía, Contaduría Pública, Administración de Empresas o carreras afines.\nExperiencia mínima de dos (2) años en proyectos de infraestructura vial (requisito excluyente).\nConocimientos en gestión de pagos, procesos de tesorería y cumplimiento de obligaciones legales y tributarias.\nHabilidades de organización, análisis, planeación y atención al detalle.\nCapacidad para trabajar en equipo y gestionar procesos de manera eficiente.\nResponsabilidades principales: Coordinar y controlar las actividades relacionadas con la programación y ejecución de pagos. Verificar el cumplimiento de los requisitos legales, contables y tributa",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-en-bogota-dc-C225D286687E8BCB61373E686DCF3405"
+  },
+  {
+   "titulo": "Analista de Tesorería Sr - Profesional, Bilingue, Contabilidad, Finanzas",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista de Tesorería Sr - Profesional, Bilingue, Contabilidad, Finanzas \n Soluciones Inmediatas - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.200.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n ¡IMPULSA TU CARRERA EN EL ÁREA FINANCIERA!\nANALISTA DE TESORERÍA SR. | BOGOTÁ\n¿Tienes experiencia en Tesorería y procesos financieros y estás buscando un nuevo reto profesional? Esta oportunidad puede ser para ti.\nEstamos en búsqueda de un/a Analista de Tesorería SR. con experiencia sólida en gestión financiera, capacidad analítica y orientación al detalle para hacer parte de nuestro equipo de trabajo en Bogotá.\nPERFIL QUE BUSCAMOS\nProfesional en:\nContaduría Pública\nFinanzas\nAdministración Financiera\nEconomía\nCarreras afines\nExperiencia superior a 3 años en cargos relacionados con Tesorería y procesos financieros.\nEXPERIENCIA REQUERIDA\nBuscamos experiencia comprobada en:\nGestión y control de procesos de tesorería.\nConciliaciones bancarias.\nConciliaciones con proveedores.\nElaboración, seguimiento y control de flujos d",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-sr-profesional-bilingue-contabilidad-finanzas-en-bogota-dc-6CA50225721D37CE61373E686DCF3405"
   },
   {
    "titulo": "Analista de Tesorería Pago a proveedores Bogotá",
@@ -412,40 +460,52 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cumplimiento-de-operaciones-de-tesoreria-en-bogota-dc-7B181EBF096A384461373E686DCF3405"
   },
   {
-   "titulo": "Analista de Tesorería y Cartera",
+   "titulo": "analista de cartera",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Tesorería y Cartera \n Importante empresa del sector - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n Importante compañía se encuentra en búsqueda de un(a) Analista de Tesorería y Cartera, responsable de gestionar y controlar las operaciones de tesorería, recaudo y cartera, garantizando la adecuada administración de los recursos financieros, el cumplimiento oportuno de los pagos y la conciliación de los movimientos bancarios y contables.\nFunciones:\nGestionar y controlar las operaciones de tesorería, cartera y recaudo de la compañía.\nRealizar conciliaciones bancarias y verificar la consistencia de los movimientos financieros y contables.\nManejo de SAP u otros ERP financieros\nAfines\nBeneficios:\nSalario base de $2.180.670 + Auxilio de alimentación $300.000 + Auxilio de movilización $250.000 + comisiones por cumplimiento + prestaciones de ley y auxilio de transporte\nContrato inicial por obra o labor\nHorarios de lunes a viernes horario oficina, 1 sábado al mes - 42 horas semanales\n100% presencial. En Bo",
+   "descripcion": "Volver al listado \n analista de cartera \n MULTISOLUCIONES A&A SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término indefinido \n Tiempo Completo \n Analista de Cartera\nModalidad: Presencial – Trabajo en oficina.\nPerfil requerido\nBuscamos estudiante de últimos semestres, tecnólogo o profesional en Administración de Empresas, Economía, Contaduría Pública, Finanzas o carreras afines, con experiencia de 1 a 2 años en procesos de gestión de cartera, cobranza y conciliación de recaudos. Se valorará especialmente la experiencia en los sectores inmobiliario, financiero, construcción o fiduciario.\nFunciones principales:\n- Gestionar y realizar seguimiento a la cartera de clientes, garantizando el cumplimiento de los compromisos de pago.\n- Ejecutar procesos de cobranza preventiva y correctiva.\n- Realizar conciliaciones de recaudos y aplicación de pagos con entidades fiduciarias.\n- Hacer seguimiento a los estados de cuenta, saldos pendientes y acuerdos de pago.\n- Gestionar y verificar documentación relacionada con los procesos de cartera.\n- Brinda",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-y-cartera-en-bogota-dc-B3E5074583630D8061373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-EDC4574B3FB583A961373E686DCF3405"
   },
   {
-   "titulo": "Analista Senior de Tesorería y Egresos - contratacion inmediata",
+   "titulo": "Analista de Facturación y Cartera - contratacion inmediata",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista Senior de Tesorería y Egresos - contratacion inmediata \n GRUPO ALIANZA - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 5.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Empresa de Ingeniería con más de 45 años de trayectoria busca profesional organizado(a), proactivo(a), analítico(a) y resolutivo(a), con experiencia en tesorería y capacidad para asumir retos en un entorno dinámico y de alto volumen de información financiera.\n ¿Cuál será tu reto?\nSerás un apoyo clave para la gestión de Tesorería, participando en la operación, análisis, control y seguimiento de los recursos financieros de la compañía, asegurando el adecuado manejo de los flujos de caja, pagos, conciliaciones e información financiera.\n Principales responsabilidades\nGestionar y controlar el libro de bancos, realizando conciliaciones de ingresos y egresos.\nMonitorear diariamente los saldos y niveles de liquidez de las cuentas bancarias y fiducias.\nProgramar y ejecutar pagos a proveedores, nómina, impuestos y demás obligaciones.\nManejar p",
+   "descripcion": "Volver al listado \n Analista de Facturación y Cartera - contratacion inmediata \n SOPORTE EN RECURSOS HUMANOS LTDA - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n ¡Estamos buscando Analista de Facturación y Cartera!\nEmpresa de Ingeniería con más de 45 años de trayectoria se encuentra en busqueda de una persona proactiva, organizada, analítica, responsable y con orientación a resultados, que disfrute trabajar en equipos dinámicos y tenga capacidad para manejar altos volúmenes de información y múltiples actividades simultáneamente..\nRequisitos:\nprofesional en carreras administrativas, financieras, contables o afines, con mínimo 3 años de experiencia en procesos de facturación, cartera y gestión financiera.\n ¿Cuál será tu reto?\nSerás responsable de apoyar y gestionar procesos clave del área financiera, realizando seguimiento al área comercial para garantizar la correcta y oportuna facturación de clientes, así como el manejo de cartera y diferentes procesos contables y financieros.\n ¿Qué experienci",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-senior-de-tesoreria-y-egresos-contratacion-inmediata-en-bogota-dc-53010C0A09931AC261373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-facturacion-y-cartera-contratacion-inmediata-en-bogota-dc-60F7009D0FCE4C9461373E686DCF3405"
   },
   {
-   "titulo": "analista de tesorería",
+   "titulo": "Analista de Cartera - Sector Financiero",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n analista de tesorería \n TMF COLOMBIA LTDA. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.490.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Presencial y remoto \n Nunca solicitamos ningún tipo de pago como parte de nuestro proceso de selección y siempre contactamos a los candidatos a través de nuestras cuentas y plataformas corporativas. Si se te solicita un pago o te piden realizar una compra, es probable que sea un fraude. Por favor, verifica si el puesto que te interesa está publicado aquí, en nuestro sitio web.\nACERCA DE TMF GROUP\nTMF Group es un proveedor líder de servicios administrativos, ayudando a los clientes a invertir y operar de manera segura en todo el mundo. Como somos una empresa global con más de 11,000 colegas en más de 125 oficinas en 87 jurisdicciones, buscamos activamente personas con talento y potencial para prosperar en TMF Group, independientemente de su origen, y ofrecemos oportunidades laborales al espectro más amplio de personas. Una vez que estés a bordo, fomentamos y promovemos a individuos talentoso",
+   "descripcion": "Volver al listado \n Analista de Cartera - Sector Financiero \n SERDAN - MISION TEMPORAL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Analista de Cartera Sector Financiero\n¡Importante entidad del sector financiero requiere para su equipo de trabajo un(a) Analista de Cartera!\nBuscamos profesionales en formación con experiencia en procesos contables, manejo de cartera y operaciones relacionadas con créditos.\nFunciones principales:\nVerificar el cumplimiento de las políticas y requisitos establecidos antes del desembolso de créditos y su registro en los aplicativos correspondientes.\nValidar la correcta contabilización de créditos y garantías.\nRevisar los procesos de nómina para garantizar el adecuado cobro de los créditos, de acuerdo con las políticas internas y la Convención Colectiva.\nGestionar procesos relacionados con levantamiento de hipotecas o prendas, ampliación y constitución de garantías.\nRealizar traslados y cancelaciones de créditos de exempleados.\nElaborar y enviar inf",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-en-bogota-dc-7810C00079F12DAF61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-sector-financiero-en-bogota-dc-22154B7AFE59AB8061373E686DCF3405"
+  },
+  {
+   "titulo": "Tecnico, tecnologo contable /Analista Cartera/ Contable / Facturación/Excel Avanzado/Siigo - Bogotá /Contratación inmediata",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Tecnico, tecnologo contable /Analista Cartera/ Contable / Facturación/Excel Avanzado/Siigo - Bogotá /Contratación inmediata \n Manpower Group Colombia - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.200.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Analista de Cartera y Facturación Electrónica | SIIGO y Excel Avanzado | Sector Logístico\nImportante empresa del sector de logística y comercio exterior busca Analista de Cartera y Facturación Electrónica para gestionar procesos de recaudo, cartera, conciliaciones contables y facturación electrónica.\nFunciones principales\nGestión y recuperación de cartera nacional e internacional.\nElaboración y seguimiento de facturación electrónica.\nConciliaciones bancarias, contables y de cartera.\nAplicación de pagos y elaboración de recibos de caja.\nSeguimiento a cartera vencida y gestión de cobro.\nVerificación de recaudos, consignaciones y estados de cuenta.\nRegistro de soportes contables y bancarios.\nControl de facturas emitidas, radicadas y pagadas.\nActualización de clientes ",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-carteratecnico-tecnologo-contable-facturacionexcel-avanzadosiigo-ultimo-semestre-bogota-contratacion-inmediata-en-bogota-dc-1798B5EDA88212A761373E686DCF3405"
   },
   {
    "titulo": "Analista de Procesos Notariales, Inmobiliarios, de Cartera y Escrituración",
@@ -458,6 +518,18 @@
    "descripcion": "Volver al listado \n Analista de Procesos Notariales, Inmobiliarios, de Cartera y Escrituración \n Multiempleos S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.954.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Importante empresa del sector construcción está en búsqueda de un/a Analista de Trámites para fortalecer su equipo en el área de cartera y escrituración.\n Requisitos:\nFormación tecnológica finalizada o estudiante universitario de últimos semestres.\nCarreras en administración, construcción o áreas comerciales.\nExperiencia mínima de 1 año en trámites, cartera, funciones notariales o similares.\n Conocimiento y experiencia en:\nAtención de solicitudes y reclamos de clientes.\nAuditoría de negocios y coordinación de devoluciones no viables.\nCoordinación de firmas de promesas y cesiones.\nAsesoría en créditos y gestión con entidades financieras.\nSeguimiento a cartera de proyectos a escriturar.\nRadicación y envío de documentación a notarías, bancos y fiducias.\nActualización de sistemas y reportes.\n Horario:\nLunes a jueves de 8:0",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-procesos-notariales-inmobiliarios-de-cartera-y-escrituracion-en-bogota-dc-F1A41E73608CF2F461373E686DCF3405"
+  },
+  {
+   "titulo": "Analista de Procesos Notariales, Inmobiliarios, de Cartera y Escrituración",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista de Procesos Notariales, Inmobiliarios, de Cartera y Escrituración \n Multiempleos S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.054.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Importante empresa del sector construcción está en búsqueda de un/a Analista de Trámites para fortalecer su equipo en el área de cartera y escrituración.\n Requisitos:\nFormación tecnológica finalizada o estudiante universitario de últimos semestres.\nCarreras en administración, construcción o áreas comerciales.\nExperiencia mínima de 1 año en trámites, cartera, funciones notariales o similares.\n Conocimiento y experiencia en:\nAtención de solicitudes y reclamos de clientes.\nAuditoría de negocios y coordinación de devoluciones no viables.\nCoordinación de firmas de promesas y cesiones.\nAsesoría en créditos y gestión con entidades financieras.\nSeguimiento a cartera de proyectos a escriturar.\nRadicación y envío de documentación a notarías, bancos y fiducias.\nActualización de sistemas y reportes.\n Horario:\nLunes a jueves de 8:0",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-procesos-notariales-inmobiliarios-de-cartera-y-escrituracion-en-bogota-dc-30823E482BBF9E6261373E686DCF3405"
   },
   {
    "titulo": "Analista de Facturación y Cartera - contratacion inmediata",
@@ -604,76 +676,52 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-y-facturacion-electronica-siigo-y-excel-avanzado-sector-logistico-bogota-en-bogota-dc-72EC4D13AF812E2F61373E686DCF3405"
   },
   {
-   "titulo": "Analista de Cartera - Bogotá contratación inmediata",
+   "titulo": "Analista de compras y administrativa - Bogota calle 100",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Cartera - Bogotá contratación inmediata \n GRUPO ALIANZA - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n ¡Buscamos Analista de Cartera para unirse a nuestro equipo en Bogotá!\n¿Tienes experiencia en gestión de cartera, recaudo y conocimientos contables? ¡Esta oportunidad es para ti!\n Cargo\nAnalista de Cartera\n Ubicación: Bogotá D.C. zona norte \nImportante: Los candidatos deben residir en el norte de Bogotá (desde Chapinero en adelante).\n Salario y beneficios\nSalario básico: $1.750.905\nBonificación por cumplimiento de objetivos: Hasta $1.500.000\nIngresos totales de hasta $3.250.905\nContrato por obra o labor.\n Horario\nLunes a viernes: 8:00 a.m. a 5:00 p.m.\nSábados: 8:00 a.m. a 12:00 m.\n Requisitos\nTécnico o Tecnólogo graduado en Contaduría, Administración de Empresas, Finanzas o áreas afines.\nTambién pueden aplicar personas que actualmente se encuentren estudiando carreras relacionadas.\nMínimo 1 año de experiencia como Analista de Cartera o en cargos similares.\n Co",
+   "descripcion": "Volver al listado \n Analista de compras y administrativa - Bogota calle 100 \n VIVARSA S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Estamos contratando para el area administrativa una persona que:\n Gestione la compra de productos y servicios\nSolicite y analice cotizaciones, realice negociaciones con proveedores, hacer seguimiento a pedidos, mantener comunicación con proveedores y apoyar en labores administrativas a la gerencia general. buscamos que la persona tenga excelente comunicación oral y escrita y orientación a resultados. se labora de lunes a viernes y estamos ubicados muy cerca a la estación de Transmilenio de calle 100. salario para la vacante $2000000 mas todo lo de ley.\n Requerimientos\n Educación mínima: Universidad / Carrera técnica\n 3 años de experiencia\n Palabras clave: analyst, shopping, purchases, orders, adquisicion, compras\n Hace 3 horas (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Compu",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-bogota-contratacion-inmediata-en-bogota-dc-4D33EDF0A5AC6A9A61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-compras-y-administrativa-bogota-calle-100-en-bogota-dc-90358457B74159E561373E686DCF3405"
   },
   {
-   "titulo": "analista de cartera",
+   "titulo": "Analista financiero Bancolombia tecnólogos o estudiantes carreras administrativas o financieras",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n analista de cartera \n DISTRIBUCIONES J O S.A.S - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n * Gestionar y controlar el recaudo oportuno de cartera.\n* Realizar seguimiento a las metas mensuales de recaudo.\n* Identificar diariamente los ingresos registrados en cuentas bancarias.\n* Elaborar recibos de caja y organizar sus respectivos soportes.\n* Realizar cruces de anticipos, descuentos, notas crédito y ajustes.\n* Contactar clientes para informar y solucionar diferencias en los pagos.\n* Mantener conciliada y actualizada la cartera de los clientes asignados.\n* Registrar y mantener la información conciliada en el ERP.\n Requerimientos\n Educación mínima: Universidad / Carrera tecnológica\n 1 año de experiencia\n Conocimientos: Caja, Cartera, Cartera de clientes, Cobro de cartera, Estados financieros, Notas de crédito, Recaudo, Recibo, Seguimiento, Soporte\n Aptitudes asociadas a esta oferta Nuevo \n Caja \n Cartera \n Cartera de clientes \n Cobro de cartera \n Estados financieros \n",
+   "descripcion": "Volver al listado \n Analista financiero Bancolombia tecnólogos o estudiantes carreras administrativas o financieras \n LIQUITTY COLOMBIA - CIBERGESTION COLOMBIA. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.900.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n ¡Únete a nuestro equipo como Guía Inmobiliario en Bogotá! \n¿Te apasiona ayudar a las personas a cumplir el sueño de tener vivienda propia? ¿Eres una persona organizada, comprometida y con un enfoque impecable al detalle?\nEn Cibergestión, estamos buscando un profesional para nuestra área de Formalización y Desembolso de Crédito de Vivienda. Queremos a alguien que garantice una gestión oportuna, trazable y de calidad en el proceso que transforma vidas: desde la aprobación del crédito hasta su desembolso.\n ¿Qué harás en este rol?\nTu misión será asegurar que el proceso fluya con excelencia a través de las siguientes responsabilidades:\nGestión y seguimiento riguroso de casos de crédito de vivienda.\nValidación de documentación y cumplimiento de requisitos operativos.\nCoordin",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-CEA248272841916861373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-financiero-bancolombia-tecnologos-o-estudiantes-carreras-administrativas-o-financieras-en-bogota-dc-075CF9BF07B4D18461373E686DCF3405"
   },
   {
-   "titulo": "Analista de Cartera",
+   "titulo": "Analista administrativo Jurídico - Proyecto",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Cartera \n Importante empresa del sector - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.010.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Presencial y remoto \n Somos una empresa Multilatina, líder en instalación, mantenimiento y modernización de equipos de transporte vertical. Si quieres crecer profesionalmente y construir experiencias para tu vida, esta oportunidad es para ti.\nBuscamos atraer a nuestro equipo el mejor talento humano por ello nos encontramos en la búsqueda de Analista de Cartera para la ciudad de Bogota, quien tendrá como función principal Analizar, controlar y ejecutar el recaudo de dinero de las cuentas por cobrar de nuestros clientes, importante que cuentes con buen manejo de Excel , manejo de ERP´S y Facturación Electrónica.\nRequisitos: Tecnico o Tecnólogo en carreras administrativas, contaduría pública, administracion y/o afines con 2 años de experiencia en áreas de cobranza y cartera, Realizando recuperación de la cartera comercial.\nImportante: Contrato Fijo por cubrimiento de Licencia de Maternidad, aproximad",
+   "descripcion": "Volver al listado \n Analista administrativo Jurídico - Proyecto \n Diane & Geordi - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.480.470,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Buscamos un Analista Jurídico por un proyecto que brinde soporte integral a la gestión legal de la compañía, con enfoque en la administración y seguimiento de proyectos inmobiliarios, gestión contractual, control documental e identificación oportuna de riesgos jurídicos.\nFunciones principales\nRecopilar, registrar, actualizar y administrar la información documental y jurídica relacionada con los proyectos inmobiliarios.\nRevisar y realizar seguimiento a contratos comerciales, civiles, inmobiliarios y de arrendamiento.\nVerificar condiciones contractuales, fechas de vencimiento, renovaciones, obligaciones y compromisos establecidos.\nRealizar seguimiento a pólizas, garantías y seguros, identificando vencimientos, inconsistencias y posibles alertas.\nIdentificar cláusulas, condiciones o situaciones contractuales que requieran revisión o validación jurídica.\nG",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-3E9827B5EF204D5B61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-juridico-administrativo-proyecto-en-bogota-dc-9AD087F0F3CCA4DC61373E686DCF3405"
   },
   {
-   "titulo": "Analista de Crédito y Cartera - Cartera, Conciliación, cobranza",
+   "titulo": "analista contable administrativo",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Crédito y Cartera - Cartera, Conciliación, cobranza \n Alfagres S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.000.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n ¡En ALFA abrimos nuestras puertas al mejor talento!\nSomos un grupo empresarial conformado por 5 compañías del sector de la construcción, que día a día soñamos, innovamos, construimos, desafiamos y asumimos retos porque somos constructores de grandes resultados.\nBuscamos profesional en Finanzas, Contaduría, Administración de Empresas o carreras afines, con mínimo 2 años de experiencia en áreas de crédito, cartera y recaudo, áreas financieras, realizando seguimiento y control de cartera, conciliación, manejo de estados de cuenta y gestión de novedades relacionadas con facturación y recaudo, atención a cliente interno y externo.\nSe requiere atención al detalle y alto nivel de servicio conocimiento en contabilidad, finanzas, gestión de cartera y/o análisis financiero, y es deseable el manejo de Excel, preferiblemente, SAP.\n Te ofrec",
+   "descripcion": "Volver al listado \n analista contable administrativo \n HERIX LABS SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.100.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Importante oportunidad laboral en HERIX LABS SAS para un profesional dedicado y con experiencia en contabilidad y administración.\nBuscamos un Analista Contable Administrativo para incorporarse a nuestro equipo.\nEn este rol, serás responsable de gestionar y supervisar las operaciones contables, asegurando la precisión y el cumplimiento normativo en todos los procesos financieros.\nTu capacidad para analizar y reportar datos financieros de manera clara y efectiva será fundamental para el éxito de nuestro departamento financiero.\nEntre tus responsabilidades principales se incluyen l el mantenimiento de registros contables, Facturación, soporte administrativo transversal \nRequisitos mínimos incluyen una sólida formación académica en Contabilidad con experiencia comprobada en roles similares.\nDebes demostrar una capacidad excepcional para el análisis y la interpretación de datos financiero",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-credito-y-cartera-cartera-conciliacion-cobranza-en-bogota-dc-B18649CD12E9423861373E686DCF3405"
-  },
-  {
-   "titulo": "Analista de Cartera consumo masivo - Cobro de Cartera",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Cartera consumo masivo - Cobro de Cartera \n PROFITLINE SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.300.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n En Profitline buscamos un perfil analítico y operativo, con experiencia en cartera de consumo masivo, conciliaciones bancarias y aplicación de pagos, que pueda gestionar altos volúmenes de transacciones y garantizar la exactitud de la información financiera.\nBuscamos una persona que domine Excel, tenga experiencia práctica en SAP y sepa gestionar las diferencias que afectan el saldo de los clientes, trabajando de manera articulada con las áreas comerciales y financieras para facilitar la liberación oportuna de cupos y mantener la cartera al día.\n¿Cuál será tu reto?\nGestionar integralmente los procesos operativos de cartera, asegurando la correcta aplicación de pagos, conciliación de saldos y resolución de novedades transaccionales en una operación de consumo masivo de alta volumetría.\n¿Qué harás?\nConciliación bancaria: validar movimientos ban",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-consumo-masivo-cobro-de-cartera-en-bogota-dc-110EE417583B44A361373E686DCF3405"
-  },
-  {
-   "titulo": "Analista de Cartera – Sector Financiero",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Cartera – Sector Financiero \n SERDAN - MISION TEMPORAL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.500.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Analista de Cartera Sector Financiero\nImportante entidad del sector financiero requiere para su equipo de trabajo un(a) Analista de Cartera, quien será responsable de verificar, aplicar y elaborar las actividades relacionadas con la cartera generada por los desembolsos realizados a clientes Empresariales y de Gobierno, garantizando la atención oportuna y el cumplimiento de los acuerdos de servicio.\n Condiciones de la vacante\nCiudad: Bogotá D.C.\nDisponibilidad: Inmediata\nHorario: Lunes a viernes, 8:00 a.m. a 5:00 p.m.\nDuración: Contrato de obra o labor por temporada de 1 a 3 meses.\nSalario: $2.765.000\n Requisitos académicos\nTécnico o Tecnólogo en carreras administrativas, contables o afines.\nEstudiante de primeros semestres de carreras administrativas, preferiblemente Contaduría Pública.\nExperiencia mínima de 1 año en cartera, actividades contable",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-sector-financiero-en-bogota-dc-599E51F2C5032A2361373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-administrativo-en-bogota-dc-9A2752D7ADDD295A61373E686DCF3405"
   },
   {
    "titulo": "Analista administrativa - Bogota",
@@ -686,54 +734,6 @@
    "descripcion": "Volver al listado \n Analista administrativa - Bogota \n Autofinanciera s.a - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.900.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n ¡Haz parte de un equipo que impulsa la operación de una gran compañía! Buscamos Analista Administrativo Bogotá | Presencial \n¿Eres una persona organizada, analítica y disfrutas coordinar procesos administrativos que hacen posible el buen funcionamiento de una empresa?\nEn Autofinanciera, compañía con más de 55 años de trayectoria, buscamos un/a Analista Administrativo con iniciativa, capacidad de organización y orientación al detalle, que quiera crecer profesionalmente apoyando procesos estratégicos de compras, proveedores, gestión administrativa y control operativo. \nSi te apasiona la organización y el seguimiento de procesos, ¡esta oportunidad es para ti!\n¿Cuál será tu misión?\nApoyar las actividades de orden administrativo, asegurando que todas las operaciones relacionadas con arrendamientos, proveedores, viajes, servicios públicos y documentación estén debid",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativa-bogota-en-bogota-dc-DA5E06B1D512E83161373E686DCF3405"
-  },
-  {
-   "titulo": "Analista Administrativo – SAP / Compras y Facturación",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo – SAP / Compras y Facturación \n SERDAN - MISION TEMPORAL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Analista Técnico 1 de Jefatura Mesa Transaccional\n Ciudad: Bogotá D.C.\n Horario: Lunes a viernes, 8:00 a. m. a 5:00 p. m.\n Disponibilidad: Inmediata\n Contrato: Obra o labor temporada de 1 a 6 meses\n Salario: $2.765.000 + prestaciones de ley\nPerfil del cargo\nImportante entidad del sector financiero requiere para su equipo de trabajo un(a) Analista Técnico 1 de Jefatura Mesa Transaccional, quien brindará apoyo en procesos administrativos, compras, contratación y facturación, realizando seguimiento y gestión de la información requerida por el área.\nBuscamos una persona organizada, analítica, con atención al detalle y manejo de herramientas ofimáticas.\nRequisitos\n Formación académica\nEstudiante de tercer semestre en adelante de:\nEconomía\nContaduría Pública\nAdministración de Empresas\nCarreras profesionales afines\n Experiencia\nMínimo 1 añ",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-sap-compras-y-facturacion-en-bogota-dc-0AC47FBDE21038BB61373E686DCF3405"
-  },
-  {
-   "titulo": "Analista Administrativo y Recepcionista",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo y Recepcionista \n Michael Page - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.800.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n  Técnico, tecnólogo o profesional en áreas administrativas, contables o afines.\n Mínimo 1 año de experiencia en cargos similares (recepción, asistente administrativo, auxiliar contable, etc.).\n Excel intermedio y dominio de herramientas ofimáticas.\n Excelente presentación personal y habilidades de comunicación.\n Organización, actitud de servicio, proactividad y manejo de múltiples tareas.\nAtender la recepción de la oficina: manejo de llamadas, visitas, mensajería y correspondencia.\nCoordinar la logística de reuniones, reservas y eventos internos.\nGestionar compras menores, solicitudes de suministros y servicios generales.\nApoyar en la administración de proveedores y seguimiento de pagos.\nControlar y actualizar bases de datos administrativas (inventario, contratos, reportes).\nElaborar reportes simples de gastos y apoyar en tareas contables básicas.\nApoyar al equip",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-recepcionista-en-bogota-dc-60CBE783276A27F961373E686DCF3405"
-  },
-  {
-   "titulo": "Analista Contable y Administrativo",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Contable y Administrativo \n Wama Pharma SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.000.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n En WaMa Pharma SAS estamos buscando incorporar a nuestro equipo un(a) Analista Contable y Administrativo(a), una persona organizada, analítica y orientada al detalle, con experiencia en procesos contables, financieros y administrativos.\nLo que buscamos\nContador(a) Público(a) o estudiante de últimos semestres de Contaduría Pública.\nExperiencia mínima de 1 año como asistente o analista administrativo, financiero y/o contable.\nManejo de herramientas digitales: procesadores de texto, hojas de cálculo, software contable (en especial Siigo), entre otras.\nCapacidad de organización, seguimiento, análisis y gestión de información.\n¿Cuáles serán tus responsabilidades?\n* Gestión administrativa\nPlanificar, coordinar y organizar actividades administrativas.\nRedactar comunicaciones y documentos requeridos.\nResguardar y gestionar información de manera adecuada.\nElaborar reportes e informes solicitados",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-y-administrativo-en-bogota-dc-47514BC2A0058CBE61373E686DCF3405"
-  },
-  {
-   "titulo": "Analista Administrativo de control",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo de control \n Inversiones D Santa - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.500.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Empresa del sector gastronómico y entretenimiento requiere Analista Administrativo de Control, / Auditor de control interno. \nexperiencia en control de información, auditoría operativa y manejo de procesos administrativos y financieros.\nNos encontramos ubicados al sur de la ciudad, al lado de plaza de las Américas\nFunciones:\nControl y revisión de cuadres de caja y ventas.\nArqueos y control de efectivo.\nVerificación de facturación electrónica y vouchers.\nConciliación de ventas vs. sistema, bancos y medios de pago.\nRevisión de cortesías, gastos y bonificaciones.\nAnálisis y reporte de inconsistencias.\nManejo y actualización de bases de datos y reportes en Excel.\nControl documental y apoyo en procesos de auditoría interna.\nRequisitos:\nTécnico o tecnólogo en Administración, Contabilidad o áreas afines.\nMínimo 2 años de experiencia en control, auditoría, caja, contabilidad o áreas adminis",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-control-en-bogota-dc-E8D0C6C7F00EF1C161373E686DCF3405"
   },
   {
    "titulo": "Gerente Financiero y Contable, Sector Construcción - Bogotá",
@@ -758,6 +758,18 @@
    "descripcion": "Importante empresa del sector agroindustrial e infraestructura se encuentra en búsqueda de un Gerente Financiero y Contable, con amplia experiencia liderando procesos financieros, contables y tributarios, así como equipos de trabajo.Requisitos:Profesional en Contaduría Pública con tarjeta profesional vigente.Especialización en Gerencia Financiera, Tributaria, Finanzas Corporativas o áreas afines.Mínimo 10 años de experiencia en áreas financieras y contables.Mínimo 5 años liderando equipos de trabajo de al menos 4 personas.Experiencia en planeación financiera, presupuestos, flujo de caja, tesorería, cierres contables y cumplimiento tributario.Conocimiento sólido en NIIF, legislación tributaria colombiana, estados financieros, auditorías y revisoría fiscal.Experiencia en manejo de ERP; preferiblemente Siesa, incluyendo implementación o migración de información contable.Experiencia en empresas de los sectores de construcción, infraestructura, ingeniería, proyectos agroindustriales o sectores afines, preferiblemente en cargos de liderazgo financiero y contable.Funciones principales:Planear, dirigir y controlar la gestión financiera, contable, tributaria y presupuestal.Garantizar la liquidez, el control del flujo de caja y el uso eficiente de los recursos.Liderar cierres contables opo",
    "portal": "Magneto",
    "url": "https://www.magneto365.com/co/empleos/gerente-financiero-y-contable-bogota-1128196"
+  },
+  {
+   "titulo": "Coordinador de Impuestos",
+   "empresa": "Confidencial",
+   "salario": "4000000 COP",
+   "ubicacion": "Bogotá, D.C.",
+   "publicada": "2026-11-11",
+   "vence": "2026-12-29",
+   "contrato": "FULL_TIME",
+   "descripcion": "Coordinador de Impuestos 🚀 ¡Los números cuentan historias, pero una buena estrategia tributaria marca la diferencia!Estamos buscando Coordinador(a) de Impuestos. 📊Buscamos un profesional apasionado por el mundo tributario, con rigurosidad técnica, capacidad analítica y habilidades de liderazgo, que quiera asumir nuevos retos y contribuir al cumplimiento y la gestión fiscal de nuestra organización.🎯 ¿Cuál será tu reto?Liderar y coordinar los procesos tributarios de la compañía, garantizando el cumplimiento de las obligaciones fiscales nacionales y territoriales, la correcta aplicación de la normativa vigente y la mitigación de riesgos tributarios.🔎 ¿Qué buscamos en ti?Profesional en Contaduría Pública con tarjeta profesional vigente.Experiencia mínima de 2 años en impuestos, contabilidad fiscal o firmas de auditoría.Conocimientos sólidos en normativa tributaria colombiana.Experiencia en elaboración y presentación de declaraciones tributarias e información exógena nacional y distrital.Manejo intermedio-avanzado de Excel.Deseable especialización o formación complementaria en impuestos o gerencia tributaria.Deseable experiencia con sistemas ERP como SAP o Siigo.💡 ¿Cuáles serán tus principales responsabilidades?Coordinar la liquidación, revisión y presentación de las obligaciones trib",
+   "portal": "Magneto",
+   "url": "https://www.magneto365.com/co/empleos/coordinador-de-impuestos-1133363"
   }
  ]
 }
