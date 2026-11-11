@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 3174,
+    "descartadas": 3244,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 38,
-    "notas": "Ronda 11/11 (mediodía): portales.json sin cambios desde la ronda de la mañana (generado 01:32 UTC), sus 60 ofertas ya evaluadas; Indeed (3 búsquedas) y WebSearch sin ofertas nuevas válidas (sin salario/modalidad confirmable o antiguas). Sin ofertas nuevas.",
-    "revisadas": 3221,
-    "ultima_ejecucion": "2026-11-11T12:10:00-05:00"
+    "notas": "Ronda 11/11 (tarde): portales.json regenerado 18:57 UTC (58 ofertas); casi todas descartadas por salario <2,8M, contrato obra/fijo, presencial o modalidad no confirmable; Indeed (1 búsqueda + 2 detalles: presencial / obra o labor) y WebSearch sin ofertas nuevas válidas. Sin ofertas nuevas.",
+    "revisadas": 3291,
+    "ultima_ejecucion": "2026-11-11T17:05:00-05:00"
   },
   "ofertas": [
     {
