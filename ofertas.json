@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 3323,
+    "descartadas": 3431,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 38,
-    "notas": "Ronda 12/11 (mañana): portales.json generado 02:32 UTC (66 ofertas); casi todas descartadas por salario <2,8M, obra/fijo, presencial o puntaje <55 (p. ej. Coovitel cartera 2,95M indef. sin modalidad confirmada; Marsh cobranzas/administrativo híbrido sin salario, puntaje <55). Indeed: 2 búsquedas sin ofertas válidas. WebSearch: 3 búsquedas; Computrabajo y Magneto no resolvieron por WebFetch (dominio no permitido), por lo que dos pistas (Business Analyst Cobranza remoto 3M, Asistente Ejecutiva Magneto 2-3M híbrido) quedaron sin verificar. Sin ofertas nuevas.",
-    "revisadas": 3370,
-    "ultima_ejecucion": "2026-11-12T07:06:03-05:00"
+    "notas": "Ronda 12/11 (mediodía): portales.json 02:32 UTC (108 ofertas leídas); ninguna nueva válida: salario <2,8M, obra/fijo, presencial, cargos fuera de perfil o sin modalidad confirmada (Coovitel cartera 2,95M indef. y Herix analista contable administrativo 3,1M indef. sin modalidad publicada). Indeed: 2 búsquedas (cartera Bogotá; asistente ejecutiva remoto), sin ofertas válidas. WebSearch no ejecutado. Sin ofertas nuevas.",
+    "revisadas": 3478,
+    "ultima_ejecucion": "2026-11-12T12:05:09-05:00"
   },
   "ofertas": [
     {
