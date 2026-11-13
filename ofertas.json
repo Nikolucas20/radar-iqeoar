@@ -1,14 +1,14 @@
 {
   "meta": {
-    "descartadas": 3593,
+    "descartadas": 3605,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)"
     ],
     "guardadas": 38,
-    "notas": "Ronda 13/11 (mañana): portales.json 02:09 UTC (64 ofertas). Ninguna guardada. Aval Analista de Operaciones II Recaudos (híbrido Bogotá, indef., 3-3,5M) puntúa 54 (<55). Computrabajo con salario>=2,8M indef.: Coovitel cartera 2,95M y Coorserpark cartera 3,2M (horario fijo L-V, bachiller/técnico) sin modalidad publicada; Protección Cartera I 3,0M presencial; resto presencial/fijo/obra/bajo salario. Korn Ferry/Opella ya registrado. Indeed: 3 búsquedas (cartera remoto; asistente administrativa Bogotá), sin salario publicado en los resultados; Esri ya registrado. Sin ofertas nuevas.",
-    "revisadas": 3640,
-    "ultima_ejecucion": "2026-11-13T07:15:00-05:00"
+    "notas": "Ronda 13/11 (mediodía): portales.json sin cambios (02:09 UTC), ya evaluado en la ronda anterior. Indeed: 2 búsquedas (analista de cartera Bogotá; analista administrativa financiera remoto). EC Cargo cartera (presencial) e Innovamos cartera (obra o labor, 2,12M) descartadas; resto sin salario/contrato publicado o antiguas. Sin ofertas nuevas.",
+    "revisadas": 3652,
+    "ultima_ejecucion": "2026-11-13T12:05:14-05:00"
   },
   "ofertas": [
     {
