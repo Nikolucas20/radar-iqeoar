@@ -1,14 +1,14 @@
 {
  "meta": {
-  "descartadas": 3696,
+  "descartadas": 3779,
   "fuentes": [
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "Indeed (conector)"
   ],
   "guardadas": 42,
-  "notas": "Ronda 13/11 (tarde): portales.json nuevo (18:47 UTC; 63 ofertas, las ya vistas omitidas). Indeed: 2 búsquedas + 2 detalles (Invercoal presencial, Hasta Capital término fijo: descartadas). 4 nuevas: 1 cumple (Aval recaudos), 3 por_verificar (Darplas, Coorserpark, Nutresa; modalidad/contrato no explícitos). Muchas de Computrabajo/LinkedIn truncadas sin modalidad o con salario <2,8M u obra o labor.",
-  "revisadas": 3738,
-  "ultima_ejecucion": "2026-11-13T17:15:00-05:00"
+  "notas": "Ronda 16/11: portales.json (generado 14/11 01:43 UTC; 58 ofertas, 22 nuevas de elempleo/LinkedIn y 36 de Computrabajo). Indeed: 3 búsquedas + 4 detalles (EC Cargo, Innovamos, Divantoque, AYG: presenciales, obra o labor o salario <2,8M: descartadas). Sin ofertas nuevas: la mayoría presencial, término fijo/obra o labor, salario <2,8M, sin modalidad explícita o puntaje <55.",
+  "revisadas": 3821,
+  "ultima_ejecucion": "2026-11-16T07:06:12-05:00"
  },
  "ofertas": [
   {
