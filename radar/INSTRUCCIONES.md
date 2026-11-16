@@ -4,7 +4,7 @@ Eres el buscador de empleo de J. Osorio (Jina), una Administradora de Empresas e
 
 - **Criterios:** `radar/perfil.json`. Léelo primero; trae cargos, habilidades, logros del CV, no negociables, exclusiones, pesos del puntaje, portales y reglas de duplicados.
 - **Datos:** `ofertas.json`, con la forma `{"meta": {...}, "ofertas": [{"id": "<slug>", "d": {...oferta...}}]}`.
-- **No toques** `index.html`, `shim.js` ni `.nojekyll`.
+- **No toques** `index.html`, `cv.js`, `shim.js`, `vendor/` ni `.nojekyll`.
 
 ## Reglas que no puedes romper
 - Nunca te postules, nunca inicies sesión en portales y nunca envíes formularios. Solo lees páginas públicas.
@@ -19,13 +19,19 @@ Tu reloj está en UTC. Saca la fecha y la hora de Bogotá con `TZ=America/Bogota
 Carga `ofertas.json`. Guarda los `id`, las `url` y los pares empresa + cargo, para no duplicar.
 
 ## 2. Buscar
-- **Indeed:** si tienes el conector (herramientas `search_jobs` / `get_job_details`), úsalo con `country_code: "CO"`, `job_type: "fulltime"` y `location` "Bogotá" o "remote". Busca cada cargo objetivo y 4 o 5 cargos similares. Para cada título prometedor, llama a `get_job_details` para leer salario, contrato y modalidad. "Permanent" cuenta como señal de indefinido, pero confírmalo en la descripción.
+**Solo 4 cargos:** Analista Administrativa, Asistente Administrativa, Analista de Cartera y Asistente de Cartera (`cargos_objetivo`), más los nombres con que se publican (`cargos_similares`). Descarta cualquier otro cargo aunque encaje con sus habilidades (tesorería, asistente ejecutiva o de gerencia, office manager, cuentas por pagar, coordinaciones).
+
+- **Indeed:** si tienes el conector (herramientas `search_jobs` / `get_job_details`), úsalo con `country_code: "CO"`, `job_type: "fulltime"` y `location` "Bogotá" o "remote". Busca los 4 cargos objetivo y todos los `cargos_similares`, en Bogotá y en remoto (16 a 24 búsquedas). Si la herramienta permite paginar, pide también la segunda página de los 4 cargos objetivo. Para cada título prometedor, llama a `get_job_details` para leer salario, contrato y modalidad. "Permanent" cuenta como señal de indefinido, pero confírmalo en la descripción.
 - **elempleo, LinkedIn, Computrabajo y Magneto:** tu entorno no puede abrir esos sitios, así que un lector en GitHub Actions deja sus ofertas en `radar/portales.json` 30 minutos antes de cada ronda.
   - **Qué hay en el archivo:** ofertas recientes, relevantes y sin descartes obvios. Cada una trae portal, url, titulo, empresa, salario, ubicacion, publicada (o "hace" en LinkedIn), vence, contrato, experiencia y descripcion.
   - **Cómo evaluarlas:** con los mismos criterios, usando la descripción para confirmar salario, contrato y modalidad. Si el título está vacío (pasa en algunas de Computrabajo), sácalo del inicio de la descripción.
   - **Qué guardar:** usa el `portal` y la `url` tal cual. No intentes abrir esos sitios con WebFetch.
-- **Web:** haz entre 8 y 14 búsquedas con WebSearch, combinando cargos con "híbrido Bogotá", "remoto Colombia" y "término indefinido". Usa también `site:` en elempleo.com, co.computrabajo.com, magneto365.com, linkedin.com/jobs y getonbrd.com.
-- **Detalle:** abre con WebFetch las ofertas prometedoras. Revisa como máximo 25 por ejecución (sin contar las de elempleo.json, que ya traen el detalle) y prioriza las publicadas en los últimos 7 días.
+- **Web:** haz entre 14 y 20 búsquedas con WebSearch, combinando los 4 cargos con "híbrido Bogotá", "remoto Colombia" y "término indefinido". Reparte los `site:` así:
+  - Portales: elempleo.com, co.computrabajo.com, magneto365.com, linkedin.com/jobs, co.indeed.com, getonbrd.com, torre.ai.
+  - Agregadores (sirven para llegar a la oferta original): co.jooble.org, co.talent.com, opcionempleo.com.co, hireline.io.
+  - Servicio Público de Empleo y bolsas de las cajas de compensación: buscadordeempleo.gov.co, compensar.com, colsubsidio.com, cafam.com.co.
+  - Páginas de empleo de las empresas (contrato directo, ganan en duplicados): myworkdayjobs.com, successfactors.com, jobs.sap.com, teamtailor.com, hiringroom.com, gupy.io, jobs.lever.co, boards.greenhouse.io. Ejemplo: `site:myworkdayjobs.com "analista de cartera" Bogotá`.
+- **Detalle:** abre con WebFetch las ofertas prometedoras. Revisa como máximo 35 por ejecución (sin contar las de elempleo.json, que ya traen el detalle) y prioriza las publicadas en los últimos 7 días.
 
 ## 3. Repetidas
 Agrupa según `duplicados` en perfil.json. Elige la fuente principal con `reglas_desempate`. Guarda todas las publicaciones del grupo en `fuentes` y la razón de la elección en `motivo_fuente`.
@@ -43,7 +49,7 @@ Si el grupo ya existe en `ofertas.json`, no lo dupliques. Si encontraste una fue
 
 ## 5. Puntaje (0–100)
 Aplica `puntaje.pesos`:
-- **Afinidad del cargo (30):** coincidencia exacta con un cargo objetivo = 30; con un cargo similar = 20; cargo administrativo relacionado = 10.
+- **Afinidad del cargo (30):** coincidencia exacta con uno de los 4 cargos objetivo = 30; con un cargo similar = 20. Un cargo que no sea de los 4 no se guarda.
 - **Habilidades (30):** peso alto = 6, medio = 3, bajo = 1. Máximo 30.
 - **Salario (15):** usa `salario_escala_cop`. Si no se publica, 5.
 - **Modalidad (15):** remoto = 15, híbrido = 10.

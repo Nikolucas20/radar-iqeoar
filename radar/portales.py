@@ -19,11 +19,17 @@ SALIDA = AQUI / "portales.json"
 DIAS = 6  # solo ofertas publicadas en los últimos N días
 HOY = dt.date.today()
 
+# Solo 4 cargos (Analista/Asistente Administrativa, Analista/Asistente de Cartera) y los nombres con que se publican.
 CARGOS = [
-    "analista de tesoreria", "analista de cartera", "analista administrativo", "analista administrativo y financiero",
-    "asistente de gerencia", "asistente ejecutiva", "asistente administrativa", "analista cuentas por pagar",
-    "analista cuentas por cobrar", "office manager", "coordinadora administrativa", "analista de recaudo",
+    "analista administrativa", "analista administrativo", "analista administrativo y financiero",
+    "asistente administrativa", "asistente administrativo", "asistente administrativa y financiera", "auxiliar administrativa",
+    "analista de cartera", "analista de cartera y recaudo", "analista de recaudo", "analista de cobranza", "analista cuentas por cobrar",
+    "asistente de cartera", "auxiliar de cartera", "asistente de cobranza",
 ]
+# El título tiene que ser de uno de los 4 cargos (o un sinónimo directo).
+CARGO_OK = re.compile(
+    r"(analista|asistente|auxiliar|gestor|gestora|profesional|especialista|ejecutiv[oa])\b.{0,30}(administrativ|cartera|cobr|recaud|cuentas por cobrar)"
+    r"|cartera|recaudo|cobranza|cuentas por cobrar|administrative (assistant|analyst)|accounts receivable|collections?\b|credit and collections", re.I)
 EXCLUIR = re.compile(r"obra o labor|obra labor|prestaci[oó]n de servicios|aprendiz|practicante|pasant|t[eé]rmino fijo|temporal|100\s*% presencial|freelance|FIXED_TERM|PART_TIME|TEMPORARY|CONTRACTOR|INTERN", re.I)
 DESCRIPCION_MAX = 1300
 
@@ -133,7 +139,7 @@ def elempleo():
                 print("elempleo listado:", c, e)
             time.sleep(0.8)
     out = []
-    for url in sorted(urls, key=lambda u: u[-10:], reverse=True)[:90]:
+    for url in sorted(urls, key=lambda u: u[-10:], reverse=True)[:130]:
         try:
             page = get(url)
         except Exception as e:
@@ -158,16 +164,23 @@ def elempleo():
 # ---------- LinkedIn (vista pública para invitados) ----------
 def linkedin():
     ids = []
+    # Bogotá (remoto o híbrido) y todo Colombia (solo remoto); dos páginas de resultados cada una.
     for c in CARGOS:
-        q = urllib.parse.urlencode({"keywords": c, "location": "Bogotá, Colombia", "f_WT": "2,3", "f_TPR": f"r{DIAS * 86400}", "start": 0})
-        try:
-            page = get("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?" + q)
-            ids += [i for i in re.findall(r"urn:li:jobPosting:(\d+)", page) if i not in ids]
-        except Exception as e:
-            print("linkedin listado:", c, e)
-        time.sleep(2)
+        for loc, wt in (("Bogotá, Colombia", "2,3"), ("Colombia", "2")):
+            for start in (0, 25):
+                q = urllib.parse.urlencode({"keywords": c, "location": loc, "f_WT": wt, "f_TPR": f"r{DIAS * 86400}", "start": start})
+                try:
+                    page = get("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?" + q)
+                    nuevos = [i for i in re.findall(r"urn:li:jobPosting:(\d+)", page) if i not in ids]
+                    ids += nuevos
+                except Exception as e:
+                    print("linkedin listado:", c, loc, e)
+                    nuevos = []
+                time.sleep(2)
+                if len(nuevos) < 10:
+                    break
     out = []
-    for i in ids[:30]:
+    for i in ids[:70]:
         try:
             page = get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{i}")
         except Exception as e:
@@ -199,17 +212,22 @@ def computrabajo():
     urls = []
     for c in CARGOS:
         slug = re.sub(r"\s+", "-", c)
-        try:
-            page = get(f"https://co.computrabajo.com/trabajo-de-{slug}-en-bogota-dc")
-            for h in re.findall(r'href="(/ofertas-de-trabajo/[^"#]+)', page):
-                u = "https://co.computrabajo.com" + h
-                if u not in urls:
-                    urls.append(u)
-        except Exception as e:
-            print("computrabajo listado:", c, e)
-        time.sleep(1)
+        for pagina in ("", "?p=2"):
+            try:
+                page = get(f"https://co.computrabajo.com/trabajo-de-{slug}-en-bogota-dc{pagina}")
+                antes = len(urls)
+                for h in re.findall(r'href="(/ofertas-de-trabajo/[^"#]+)', page):
+                    u = "https://co.computrabajo.com" + h
+                    if u not in urls:
+                        urls.append(u)
+            except Exception as e:
+                print("computrabajo listado:", c, pagina, e)
+                break
+            time.sleep(1)
+            if len(urls) - antes < 10:
+                break
     out = []
-    for url in urls[:45]:
+    for url in urls[:90]:
         try:
             page = get(url)
         except Exception as e:
@@ -231,7 +249,7 @@ def computrabajo():
 
 
 # ---------- Magneto ----------
-RELEVANTE = re.compile(r"tesor|cartera|recaud|cobr|administrativ|asistente|cuentas por|office|gerencia|ejecutiv|coordinador|financ|pagos|factur|backoffice|back office", re.I)
+RELEVANTE = re.compile(r"cartera|recaud|cobr|cuentas por cobrar|administrativ|administrative|accounts receivable|collections", re.I)
 
 
 def magneto():
@@ -247,7 +265,7 @@ def magneto():
             print("magneto listado:", path, e)
         time.sleep(1)
     out = []
-    for url in urls[:40]:
+    for url in urls[:60]:
         try:
             page = get(url)
         except Exception as e:
@@ -281,7 +299,7 @@ def main():
     vistas, salida = set(), []
     for o in todas:
         clave = (o.get("url"), (o.get("empresa", "") + "|" + o.get("titulo", "")).lower())
-        if o.get("url") in ya or clave in vistas or not RELEVANTE.search(o.get("titulo", "") or o.get("descripcion", "")[:200]):
+        if o.get("url") in ya or clave in vistas or not CARGO_OK.search(o.get("titulo", "") or o.get("descripcion", "")[:200]):
             continue
         vistas.add(clave)
         f = fecha_iso(o.get("publicada", ""))

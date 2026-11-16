@@ -65,6 +65,12 @@
   --tab-ok: #1d7458;
   --tab-check: #96600f;
   --tab-track: #962a58;
+  --tab-cv: #7a4fc4;
+  --cv-soft: #ece4f8;
+  --doc-paper: #ffffff;
+  --doc-ink: #161616;
+  --doc-muted: #4a4a4a;
+  --doc-mark: #fff1a8;
   --ok-soft: #e2f0ea;
   --check-soft: #f7ecd9;
   --track-soft: #f6e1ea;
@@ -83,14 +89,14 @@
   :root:not([data-theme="light"]) {
     --cover: #1a0920; --cover-2: #331033; --cover-ink: #f8f0f6; --cover-soft: #c7b2cc; --gold: #dcb862; --gold-soft: #3a2d12; --gold-ink: #efd48f;
     --paper: #1c1322; --desk: #120b17; --ink: #f3ecf5; --muted: #b5a6bc; --rule: #31253a; --note: #261a2e; --note-ink: #f3ecf5;
-    --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
+    --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --tab-cv: #b49bf0; --cv-soft: #2a1f42; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
     --link: #efd48f; --go: #dcb862; --go-ink: #1a0920; --focus: #efd48f; --on-tab: #160a1b; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 18px 40px -20px rgba(0,0,0,.85); color-scheme: dark;
   }
 }
 :root, :root[data-theme] {
   --cover: #1a0920; --cover-2: #331033; --cover-ink: #f8f0f6; --cover-soft: #c7b2cc; --gold: #dcb862; --gold-soft: #3a2d12; --gold-ink: #efd48f;
   --paper: #1c1322; --desk: #120b17; --ink: #f3ecf5; --muted: #b5a6bc; --rule: #31253a; --note: #261a2e; --note-ink: #f3ecf5;
-  --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
+  --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --tab-cv: #b49bf0; --cv-soft: #2a1f42; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
   --link: #efd48f; --go: #dcb862; --go-ink: #1a0920; --focus: #efd48f; --on-tab: #160a1b; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 18px 40px -20px rgba(0,0,0,.85); color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -140,11 +146,12 @@ h1 em { font-style: normal; color: var(--gold); font-weight: 700; }
 .tab { --c: var(--tab-ok); appearance: none; border: 0; cursor: pointer; font: 700 15px var(--font); color: var(--on-tab); background: var(--c); padding: 11px 20px 16px; border-radius: 10px 10px 0 0; letter-spacing: .01em; display: inline-flex; gap: 8px; align-items: center; white-space: nowrap; transform: translateY(6px); opacity: .78; transition: transform .2s cubic-bezier(.2,.8,.2,1), opacity .2s; }
 .tab[data-tab="por_verificar"] { --c: var(--tab-check); }
 .tab[data-tab="seguimiento"] { --c: var(--tab-track); }
+.tab[data-tab="cv"] { --c: var(--tab-cv); }
 .tab:hover { transform: translateY(2px); }
 .tab[aria-selected="true"] { transform: translateY(0); opacity: 1; }
 .tab .n { background: color-mix(in srgb, var(--on-tab) 22%, transparent); border-radius: 999px; padding: 0 8px; font-size: 13px; }
 @media (max-width: 560px) {
-  .tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding-left: 0; overflow: visible; }
+  .tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; padding-left: 0; overflow: visible; }
   .tab { font-size: 13.5px; padding: 9px 6px 14px; justify-content: center; flex-wrap: wrap; white-space: normal; text-align: center; line-height: 1.15; gap: 4px; }
   .cover { padding-block: 26px 58px; }
   .musts { display: none; }
@@ -206,13 +213,77 @@ select:hover { border-color: var(--muted); }
 @keyframes spin { to { transform: rotate(360deg); } }
 .toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 20; background: var(--cover); color: var(--cover-ink); border-radius: 999px; padding: 10px 10px 10px 18px; display: flex; gap: 12px; align-items: center; box-shadow: 0 12px 30px -10px rgba(0,0,0,.55); font-size: 15px; max-width: calc(100% - 32px); }
 .toast button { appearance: none; border: 0; background: var(--gold); color: #2a0f33; font: 700 14px var(--font); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
-.toast button[hidden] { display: none; }</style>
+.toast button[hidden] { display: none; }
+/* Mejorar mi CV */
+.cv-panel { display: grid; gap: 22px; padding-block: 20px 24px; }
+.cv-in { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 14px; align-items: stretch; }
+@media (max-width: 720px) { .cv-in { grid-template-columns: 1fr; } }
+.cv-drop { border: 2px dashed var(--rule); border-radius: 14px; padding: 18px; display: grid; gap: 6px; cursor: pointer; background: var(--desk); transition: border-color .15s; }
+.cv-drop:hover, .cv-drop.over { border-color: var(--tab-cv); }
+.cv-drop b { font-size: 16px; }
+.cv-drop span { color: var(--muted); font-size: 14px; }
+.cv-drop input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.cv-drop:focus-within { outline: 3px solid var(--focus); outline-offset: 2px; }
+.cv-opts { display: grid; gap: 10px; align-content: start; }
+.cv-opts label { font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); display: grid; gap: 6px; }
+.cv-opts select { width: 100%; text-transform: none; letter-spacing: 0; }
+.cv-file { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 14px; color: var(--muted); }
+.cv-file button { padding: 4px 12px; font-size: 13px; }
+.cv-empty { color: var(--muted); margin: 0; padding-block: 18px; text-align: center; }
+.cv-score { display: flex; gap: 20px; align-items: center; }
+.cv-score h3 { font-family: var(--display); font-size: clamp(22px, 3vw, 28px); font-weight: 600; margin: 0 0 4px; }
+.cv-dial { --v: 0; flex: none; width: 104px; height: 104px; border-radius: 50%; display: grid; place-content: center; text-align: center; background: radial-gradient(closest-side, var(--paper) 78%, transparent 80%), conic-gradient(var(--tab-cv) calc(var(--v) * 1%), var(--rule) 0); }
+.cv-dial b { font-family: var(--display); font-size: 36px; line-height: 1; }
+.cv-dial small { font-size: 11px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+@media (max-width: 560px) { .cv-score { gap: 14px; } .cv-dial { width: 84px; height: 84px; } .cv-dial b { font-size: 28px; } }
+.cv-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+@media (max-width: 720px) { .cv-cols { grid-template-columns: 1fr; } }
+.cv-group { display: grid; gap: 8px; align-content: start; }
+#cv-out { display: grid; gap: 28px; }
+.cv-group h4 { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.cv-group .hint { font-size: 14px; }
+.cv-checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.cv-checks li { display: grid; grid-template-columns: 12px minmax(0, 1fr); gap: 10px; align-items: start; background: var(--desk); border-radius: 12px; padding: 12px 14px; }
+.cv-checks p { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+.cv-dot { width: 12px; height: 12px; border-radius: 50%; margin-top: 5px; background: var(--tab-ok); }
+.cv-checks .warn .cv-dot { background: var(--tab-check); }
+.cv-checks .fail .cv-dot { background: var(--tab-track); }
+.cv-tag { font-size: 12px; font-weight: 700; color: var(--tab-ok); }
+.cv-checks .warn .cv-tag { color: var(--tab-check); }
+.cv-checks .fail .cv-tag { color: var(--tab-track); }
+.cv-weak { margin: 0; padding-left: 18px; font-size: 14.5px; display: grid; gap: 4px; }
+.cv-group .kit-row { flex-wrap: wrap; margin-bottom: 0; }
+.cv-group .kit-row .actions { gap: 6px; }
+.cv-doc { background: var(--doc-paper); color: var(--doc-ink); border-radius: 6px; padding: 40px 44px; font: 400 14px/1.45 Arial, Helvetica, sans-serif; max-width: 820px; box-shadow: 0 1px 3px rgba(0,0,0,.3); overflow-wrap: anywhere; }
+@media (max-width: 560px) { .cv-doc { padding: 22px 18px; font-size: 13px; } }
+.cv-doc h1 { font: 700 24px/1.2 Arial, Helvetica, sans-serif; letter-spacing: 0; margin: 0; color: var(--doc-ink); }
+.cv-doc h2 { font: 700 13px/1.3 Arial, Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .06em; margin: 16px 0 6px; padding-bottom: 3px; border-bottom: 1px solid var(--doc-ink); }
+.cv-doc p { margin: 0 0 4px; }
+.cv-doc ul { margin: 0 0 6px; padding-left: 18px; }
+.cv-doc li { margin-bottom: 2px; }
+.cv-doc .d-title { font-weight: 700; font-size: 15px; margin-top: 2px; }
+.cv-doc .d-contact { color: var(--doc-muted); }
+.cv-doc .d-role { margin-top: 8px; }
+.cv-doc mark { background: var(--doc-mark); color: var(--doc-ink); padding: 0 3px; }
+.cv-doc [contenteditable]:focus { outline: 2px dashed var(--tab-cv); outline-offset: 2px; }
+#print-root { display: none; }
+@media print {
+  @page { size: letter; margin: 12mm 15mm; }
+  body { background: #fff !important; }
+  body > :not(#print-root) { display: none !important; }
+  #print-root { display: block !important; }
+  #print-root .cv-doc { box-shadow: none; padding: 0; max-width: none; border-radius: 0; font-size: 10.5pt; line-height: 1.35; }
+  #print-root .cv-doc h2 { margin-top: 11px; break-after: avoid; }
+  #print-root .cv-doc li { break-inside: avoid; }
+  #print-root .cv-doc mark { background: none; }
+}
+</style>
 
 <header class="cover">
   <div class="cover-in">
     <div>
       <h1>El próximo paso de <em>Jina</em></h1>
-      <p class="lede" id="lede">Cada mañana busco las ofertas que están a la altura de tu experiencia en tesorería, cartera y administración.</p>
+      <p class="lede" id="lede">Cada mañana busco ofertas de Analista y Asistente Administrativa, y de Analista y Asistente de Cartera, a la altura de tu experiencia.</p>
       <ul class="tally">
         <li><b class="num" id="k-hoy">–</b> nuevas hoy</li>
         <li><b class="num" id="k-cumplen">–</b> cumplen todo</li>
@@ -233,6 +304,7 @@ select:hover { border-color: var(--muted); }
     <button class="tab" role="tab" data-tab="cumple" aria-selected="true" id="tab-cumple">Cumplen todo <span class="n num" id="n-cumple">0</span></button>
     <button class="tab" role="tab" data-tab="por_verificar" aria-selected="false" id="tab-verificar">Por verificar <span class="n num" id="n-verificar">0</span></button>
     <button class="tab" role="tab" data-tab="seguimiento" aria-selected="false" id="tab-seguimiento">Postuladas <span class="n num" id="n-seguimiento">0</span></button>
+    <button class="tab" role="tab" data-tab="cv" aria-selected="false" id="tab-cv">Mejorar mi CV</button>
   </div>
   <section class="sheet" id="sheet" role="tabpanel">
     <div class="sheet-head">
@@ -247,16 +319,38 @@ select:hover { border-color: var(--muted); }
       </div>
     </div>
     <ul class="list" id="list"></ul>
+    <div class="cv-panel" id="cvpanel" hidden>
+      <div class="cv-in">
+        <label class="cv-drop" id="cv-drop">
+          <input type="file" id="cv-file" accept="application/pdf,.pdf">
+          <b>Sube tu hoja de vida en PDF</b>
+          <span>Toca aquí o arrastra el archivo. Se lee en este dispositivo y no se sube a ningún lado.</span>
+          <span class="cv-file"><span id="cv-file-name">Ningún archivo todavía</span></span>
+        </label>
+        <div class="cv-opts">
+          <label for="cv-rol">Cargo al que apuntas
+            <select id="cv-rol"><option value="analista_administrativa">Analista Administrativa</option><option value="asistente_administrativa">Asistente Administrativa</option><option value="analista_cartera">Analista de Cartera</option><option value="asistente_cartera">Asistente de Cartera</option></select>
+          </label>
+          <label for="cv-vac">Comparar con una vacante
+            <select id="cv-vac"><option value="">Sin vacante específica</option></select>
+          </label>
+          <div class="cv-file"><button class="btn" type="button" id="cv-clear" hidden>Quitar mi CV de este dispositivo</button></div>
+        </div>
+      </div>
+      <div id="cv-out"></div>
+    </div>
   </section>
 </main>
 <div class="toast" id="toast" role="status" hidden><span id="toast-msg"></span><button type="button" id="toast-undo" hidden>Deshacer</button></div>
 
+<script src="cv.js"></script>
 <script>
 const ESTADOS = { nueva: "Nueva", postulada: "Postulada", entrevista: "Entrevista", descartada: "Descartada" };
 const TABS = {
   cumple: { c: "var(--tab-ok)", s: "var(--ok-soft)", note: "Cumplen salario, contrato y modalidad según lo que publica la oferta." },
   por_verificar: { c: "var(--tab-check)", s: "var(--check-soft)", note: "Encajan con tu perfil pero no dicen salario o contrato, o tienen una condición que conviene preguntar antes." },
-  seguimiento: { c: "var(--tab-track)", s: "var(--track-soft)", note: "Las ofertas a las que ya te postulaste. Cuando te llamen, márcala como Entrevista. Cada paso cuenta." }
+  seguimiento: { c: "var(--tab-track)", s: "var(--track-soft)", note: "Las ofertas a las que ya te postulaste. Cuando te llamen, márcala como Entrevista. Cada paso cuenta." },
+  cv: { c: "var(--tab-cv)", s: "var(--cv-soft)", note: "Revisa tu hoja de vida como lo hacen los filtros automáticos (ATS) y descarga una versión mejorada para el cargo que elijas." }
 };
 const ICON = {
   go: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>',
@@ -331,6 +425,11 @@ function render() {
   $("n-cumple").textContent = offers.filter((o) => live(o) && o.categoria === "cumple" && !tracked(o)).length;
   $("n-verificar").textContent = offers.filter((o) => live(o) && o.categoria === "por_verificar" && !tracked(o)).length;
   $("n-seguimiento").textContent = offers.filter(tracked).length;
+  const isCv = tab === "cv";
+  document.querySelector(".filters").hidden = isCv;
+  $("list").hidden = isCv;
+  $("cvpanel").hidden = !isCv;
+  if (isCv) { window.RadarCV?.show(offers); return; }
 
   const portals = [...new Set(offers.flatMap((o) => [o.portal, ...(o.fuentes || []).map((f) => f.portal)]).filter(Boolean))].sort();
   const pSel = $("f-portal"), cur = pSel.value;
@@ -439,6 +538,7 @@ $("list").addEventListener("click", async (ev) => {
 });
 
 let toastTimer = null;
+window.radarToast = (msg) => toast(msg);
 function toast(msg, undo) {
   $("toast-msg").textContent = msg;
   const b = $("toast-undo");
