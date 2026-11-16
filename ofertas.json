@@ -1,14 +1,14 @@
 {
  "meta": {
-  "descartadas": 3779,
+  "descartadas": 3786,
   "fuentes": [
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "Indeed (conector)"
   ],
   "guardadas": 42,
-  "notas": "Ronda 16/11: portales.json (generado 14/11 01:43 UTC; 58 ofertas, 22 nuevas de elempleo/LinkedIn y 36 de Computrabajo). Indeed: 3 búsquedas + 4 detalles (EC Cargo, Innovamos, Divantoque, AYG: presenciales, obra o labor o salario <2,8M: descartadas). Sin ofertas nuevas: la mayoría presencial, término fijo/obra o labor, salario <2,8M, sin modalidad explícita o puntaje <55.",
-  "revisadas": 3821,
-  "ultima_ejecucion": "2026-11-16T07:06:12-05:00"
+  "notas": "Ronda 16/11 (tarde): portales.json sin cambios (generado 14/11), ya evaluado en la ronda de la mañana. Indeed: 2 búsquedas (analista administrativa remoto; cartera y recaudo Bogotá), 7 resultados: RR. HH./soporte de software no encajan, el resto ya descartado o sin salario/modalidad verificable. Sin ofertas nuevas.",
+  "revisadas": 3828,
+  "ultima_ejecucion": "2026-11-16T12:06:00-05:00"
  },
  "ofertas": [
   {
