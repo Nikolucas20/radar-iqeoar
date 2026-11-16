@@ -204,6 +204,11 @@ select:hover { border-color: var(--muted); }
 .kit-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
 .letter { margin: 0; white-space: pre-wrap; background: var(--paper); border-radius: 10px; padding: 14px 16px; font-size: 15px; max-width: 72ch; }
 .kit ul { margin: 0; padding-left: 18px; }
+.kit ul.fit { list-style: none; padding: 0; display: grid; gap: 8px; }
+.fit li { display: flex; flex-wrap: wrap; gap: 2px 8px; align-items: baseline; font-size: 15px; }
+.fit-ev { flex-basis: 100%; color: var(--muted); font-size: 13.5px; }
+.fit-opt { color: var(--muted); font-size: 13px; }
+.fit-why { margin: 0 0 10px; font-size: 15px; }
 .copy { padding: 6px 14px; font-size: 13px; }
 .empty { padding-block: 44px; text-align: center; color: var(--muted); }
 .empty strong { display: block; color: var(--ink); font-family: var(--display); font-size: 22px; font-weight: 600; margin-bottom: 4px; }
@@ -251,7 +256,15 @@ select:hover { border-color: var(--muted); }
 .cv-tag { font-size: 12px; font-weight: 700; color: var(--tab-ok); }
 .cv-checks .warn .cv-tag { color: var(--tab-check); }
 .cv-checks .fail .cv-tag { color: var(--tab-track); }
-.cv-weak { margin: 0; padding-left: 18px; font-size: 14.5px; display: grid; gap: 4px; }
+.cv-read { background: var(--desk); border-radius: 14px; padding: 14px 16px; box-shadow: inset 4px 0 0 var(--tab-cv); }
+.cv-read p { margin: 0; }
+.cv-top, .cv-changes { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 15px; }
+.cv-rw, .cv-fit { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.cv-rw li { background: var(--desk); border-radius: 12px; padding: 12px 14px; display: grid; gap: 2px; }
+.cv-rw p { margin: 0 0 6px; font-size: 14.5px; }
+.cv-rw .hint { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.cv-fit li { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; border-bottom: 1px solid var(--rule); padding-bottom: 8px; }
+.cv-fit .hint { flex-basis: 100%; font-size: 14px; }
 .cv-group .kit-row { flex-wrap: wrap; margin-bottom: 0; }
 .cv-group .kit-row .actions { gap: 6px; }
 .cv-doc { background: var(--doc-paper); color: var(--doc-ink); border-radius: 6px; padding: 40px 44px; font: 400 14px/1.45 Arial, Helvetica, sans-serif; max-width: 820px; box-shadow: 0 1px 3px rgba(0,0,0,.3); overflow-wrap: anywhere; }
@@ -345,6 +358,8 @@ select:hover { border-color: var(--muted); }
 
 <script src="cv.js"></script>
 <script>
+const FIT = { postular: "Postúlate", intentar: "Vale la pena intentarlo", no_postular: "Mejor no" };
+const REQ = { cumple: ["good", "Cumple"], en_parte: ["new", "En parte"], no: ["ask", "No"], sin_dato: ["", "Sin dato"] };
 const ESTADOS = { nueva: "Nueva", postulada: "Postulada", entrevista: "Entrevista", descartada: "Descartada" };
 const TABS = {
   cumple: { c: "var(--tab-ok)", s: "var(--ok-soft)", note: "Cumplen salario, contrato y modalidad según lo que publica la oferta." },
@@ -492,9 +507,14 @@ function row(o) {
         </select></span>
       </div>
       ${isOpen ? `<div class="kit">
+        ${kit.encaje?.requisitos?.length ? `<div><h4 style="margin-bottom:8px">Encaje con la oferta: ${esc(FIT[kit.encaje.veredicto] || "Por revisar")}</h4>
+          ${kit.encaje.motivo ? `<p class="fit-why">${esc(kit.encaje.motivo)}</p>` : ""}
+          <ul class="fit">${kit.encaje.requisitos.map((r) => `<li><span class="chip ${REQ[r.estado]?.[0] || ""}">${REQ[r.estado]?.[1] || esc(r.estado)}</span> <b>${esc(r.requisito)}</b>${r.tipo === "deseable" ? " <span class='fit-opt'>(deseable)</span>" : ""}${r.evidencia ? `<span class="fit-ev">${esc(r.evidencia)}</span>` : ""}</li>`).join("")}</ul></div>` : ""}
         ${kit.carta ? `<div><div class="kit-row"><h4>Carta de presentación</h4><button class="btn copy" data-copy="carta">${ICON.copy}Copiar</button></div><p class="letter">${esc(kit.carta)}</p></div>` : ""}
         ${(kit.logros || []).length ? `<div><div class="kit-row"><h4>Logros para destacar</h4><button class="btn copy" data-copy="logros">${ICON.copy}Copiar</button></div><ul>${kit.logros.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>` : ""}
         ${(kit.palabras_clave || []).length ? `<div><h4 style="margin-bottom:8px">Palabras clave para tu CV y LinkedIn</h4><div class="chips">${kit.palabras_clave.map((k) => `<span class="chip">${esc(k)}</span>`).join("")}</div></div>` : ""}
+        ${(kit.preguntas || []).length ? `<div><h4 style="margin-bottom:8px">Para completar tu CV</h4><ul>${kit.preguntas.map((q) => `<li>${esc(q)}</li>`).join("")}</ul></div>` : ""}
+        ${String(kit.carta || "").includes("[") ? "<p class='hint'>Antes de enviar la carta, completa lo que está entre corchetes [ ]: solo tú sabes esa parte.</p>" : ""}
         ${!kit.carta && !(kit.logros || []).length ? "<p class='hint'>Esta oferta todavía no tiene kit.</p>" : ""}
       </div>` : ""}
     </div>

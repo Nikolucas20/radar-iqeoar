@@ -46,16 +46,16 @@
   const ROLES = {
     analista_administrativa: { titulo: "Analista Administrativa", alias: ["analista administrativ", "administrative analyst"],
       kws: ["gestionAdm", "cxp", "proveedores", "compras", "caja", "legal", "concil", "presupuesto", "informes", "kpi", "procesos", "docs", "factura", "clienteInt", "erp", "excel", "powerbi"],
-      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en áreas administrativas, de tesorería y cartera. Experiencia en ${f.lista}. Enfoque en el control, la estandarización de procesos y el soporte a las áreas de la compañía.` },
+      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en áreas administrativas, de tesorería y cartera. Experiencia en ${f.lista}.` },
     asistente_administrativa: { titulo: "Asistente Administrativa", alias: ["asistente administrativ", "auxiliar administrativ", "administrative assistant"],
       kws: ["docs", "correspondencia", "agenda", "clienteInt", "caja", "legal", "compras", "proveedores", "factura", "cxp", "actas", "informes", "inventario", "viajes", "m365", "excel", "erp"],
-      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia brindando soporte administrativo y financiero. Experiencia en ${f.lista}. Ha diseñado manuales de procedimientos y fortalecido los controles de caja menor.` },
+      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia brindando soporte administrativo y financiero. Experiencia en ${f.lista}.` },
     analista_cartera: { titulo: "Analista de Cartera", alias: ["analista de cartera", "analista de recaudo", "analista de cobranza", "cuentas por cobrar", "accounts receivable"],
       kws: ["cartera", "recaudo", "cxc", "cobro", "concil", "concilBanc", "aplicacion", "edades", "acuerdos", "provision", "factura", "retencion", "estadosCta", "kpi", "informes", "erp", "excel", "powerbi"],
-      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en cartera, recaudo y tesorería. Experiencia en ${f.lista}. Orientada al recaudo oportuno, la conciliación de saldos y el reporte claro de la cartera.` },
+      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en cartera, recaudo y tesorería. Experiencia en ${f.lista}.` },
     asistente_cartera: { titulo: "Asistente de Cartera", alias: ["asistente de cartera", "auxiliar de cartera", "asistente de cobranza", "asistente de recaudo"],
       kws: ["cartera", "recaudo", "cxc", "cobro", "aplicacion", "concil", "estadosCta", "seguimiento", "factura", "retencion", "docs", "clienteInt", "excel", "erp", "m365"],
-      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en recaudo, cuentas por cobrar y soporte administrativo. Experiencia en ${f.lista}. Ha gestionado el recaudo oportuno, conciliaciones periódicas y la expedición de certificados de retención.` },
+      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en recaudo, cuentas por cobrar y soporte administrativo. Experiencia en ${f.lista}.` },
   };
 
   const HEADINGS = {
@@ -69,7 +69,7 @@
   };
   const MONTH = "(ene|feb|mar|abr|may|jun|jul|ago|sep|sept|oct|nov|dic|jan|apr|aug|dec)[a-z]*\\.?";
   const VERBS = /^(gestion|coordin|implement|elabor|concili|ejecut|disen|reduj|optimic|lider|control|analic|registr|valid|administr|negoci|recuper|depur|automatic|estandaric|fortalec|organic|supervis|realic|planifiqu|planific|logr|aument|disminu|mejor|consolid|prepar|program|tramit|verifiqu|verific|atend|apli|factur|cobr|report|actualic|capacit|establec|desarroll|propus|propuso|identific|resolv|manej|direct|garantic|redact|diseñ|dise)/;
-  const WEAK = /^(responsable de|encargad[ao] de|apoyo (en|a|al|de)|funciones|tareas|ayud|colabor(e|o|ar)|me encargaba|se encarg|labores de)/;
+  const WEAK = /^(responsable del?|encargad[ao] del?|apoyo (en|a|al|del?)|funciones( de)?|tareas( de)?|ayud[a-z]*|colabor[a-z]*( en)?|me encargaba( del?)?|se encarg[a-z]*( del?)?|labores( de)?)(?![a-z])/;
   const CLICHES = ["persona responsable", "proactiva", "proactivo", "trabajo en equipo", "honesta", "puntual", "dinamica", "capacidad de aprendizaje", "facilidad de aprendizaje", "excelentes relaciones interpersonales", "buena presentacion", "me considero", "soy una persona"];
 
   let painted = "", perfil = null, cv = null, role = "analista_cartera", vacante = "", offers = [], loading = false, built = null;
@@ -163,9 +163,27 @@
     return list;
   }
 
+  // Evidencia = lo que hizo (logros del CV). Un curso no es experiencia (regla de Career Desk).
   function evidenceText() {
-    const c = perfil?.candidata || {};
-    return norm([...(c.logros_cv || []), ...(c.educacion || [])].join("\n"));
+    return norm((perfil?.candidata?.logros_cv || []).join("\n"));
+  }
+
+  // Líneas de una sección: desde su título hasta el siguiente título.
+  function section(lines, key) {
+    const isHead = (l) => l.length < 45 && Object.values(HEADINGS).some((re) => re.test(l.replace(/^[^a-z]+/, "")));
+    const i = lines.findIndex((l) => l.length < 45 && HEADINGS[key].test(l.replace(/^[^a-z]+/, "")));
+    if (i < 0) return [];
+    const out = [];
+    for (let j = i + 1; j < lines.length && !isHead(lines[j]); j++) out.push(lines[j]);
+    return out;
+  }
+
+  // "Responsable de X" no se cambia por un verbo más fuerte: no sabemos qué hizo. Se pregunta.
+  function rewrite(line) {
+    const n = norm(line);
+    const m = n.match(WEAK);
+    const rest = m ? line.slice(m[0].length).replace(/^\s*(la|el|los|las|del|de)?\s*/i, "").replace(/\.$/, "") : line;
+    return `[agrega: qué hiciste] ${rest} [agrega: qué resultado tuvo, con cifra si la tienes]`;
   }
 
   function analyze(d) {
@@ -185,7 +203,7 @@
     add("formato", !d.multiCol, 8, d.multiCol ? "Diseño a dos columnas" : "Una sola columna",
       d.multiCol ? "Muchos ATS leen de izquierda a derecha y mezclan las dos columnas: tu experiencia puede quedar revuelta con tus datos o habilidades. Usa una sola columna." : "El orden de lectura es claro para un ATS.");
     add("formato", d.images === 0, 5, d.images ? `${d.images} ${d.images === 1 ? "imagen o foto" : "imágenes o gráficos"}` : "Sin fotos ni gráficos",
-      d.images ? "Los ATS ignoran las imágenes y algunos rechazan el archivo. Quita la foto, logos y barras de nivel; si una empresa pide foto, la piden aparte." : "Nada que el filtro no pueda leer.");
+      d.images ? "Los ATS no leen imágenes: logos, barras de nivel y gráficos se pierden. En Colombia muchas hojas de vida llevan foto; es tu decisión, pero para los filtros automáticos es más seguro enviarla sin foto." : "Nada que el filtro no pueda leer.");
     add("formato", d.icons === 0, 3, d.icons ? "Íconos en el texto" : "Sin íconos raros",
       d.icons ? "Los íconos de teléfono, correo o viñetas decorativas salen como símbolos extraños. Escribe 'Celular:', 'Correo:' o usa viñetas simples (•)." : "Las viñetas y los datos se leen bien.");
 
@@ -237,8 +255,45 @@
     add("contenido", !sensitive && cliches.length <= 1, 4, sensitive ? "Datos personales que sobran" : cliches.length > 1 ? "Frases genéricas" : "Sin datos de más",
       sensitive ? "Quita cédula, estado civil, edad, fecha de nacimiento y tipo de sangre: no suman puntos y exponen tus datos. Se piden en la contratación." : cliches.length > 1 ? `Frases como "${cliches.slice(0, 2).join('", "')}" no le dicen nada al filtro. Cámbialas por un logro concreto.` : "Solo lo que suma.", 0.5);
 
+    // Habilidades sin evidencia: aparecen en la lista de habilidades y en ningún otro lado del CV.
+    const skillLines = section(lines, "habilidades");
+    const rest = lines.filter((l) => !skillLines.includes(l)).join("\n");
+    const unproven = [...new Set(skillLines.flatMap((l) => l.split(/[,;·•|/]| y /)).map((x) => x.replace(/^[^a-z0-9]+|[^a-z0-9)]+$/g, "").trim()).filter((x) => x.length > 2 && x.length < 40))]
+      .filter((x) => !rest.includes(x) && !CLICHES.some((c) => x.includes(c) || c.includes(x)));
+
+    // Encaje con la vacante (job-fit): cumple = está en tu experiencia; en parte = solo en la lista de habilidades
+    // o lo respaldan tus logros pero el CV no lo dice; no = nada lo muestra. Se cuentan por separado, sin porcentajes.
+    let fit = null;
+    const o = offers.find((x) => x.id === vacante);
+    if (o && (o.kit?.palabras_clave || []).length) {
+      const ev = evidenceText(), skills = skillLines.join("\n");
+      const rows = o.kit.palabras_clave.map((p) => {
+        const k = kws.find((x) => x.label === p) || kw(p, norm(p).trim());
+        const inRest = has(rest, k), inSkills = has(skills, k), inEv = has(ev, k);
+        const estado = inRest ? "cumple" : inSkills ? "en_parte" : inEv ? "en_parte" : "no";
+        const nota = inRest ? "Tu CV lo muestra en tu experiencia." : inSkills ? "Solo está en tu lista de habilidades: muestra dónde lo usaste." : inEv ? "Lo hiciste, pero tu CV no lo dice: agrégalo." : "Nada en tu CV lo muestra.";
+        return { req: p, estado, nota };
+      });
+      const n = (e) => rows.filter((r) => r.estado === e).length;
+      const [c1, c2, c3] = [n("cumple"), n("en_parte"), n("no")];
+      const veredicto = c3 <= 1 && c1 >= rows.length / 2 ? "postular" : c1 + c2 >= rows.length / 2 ? "intentar" : "no";
+      fit = { rows, cumple: c1, parte: c2, no: c3, veredicto, oferta: o };
+    }
+
     const score = Math.round(checks.reduce((a, c) => a + c.pts, 0));
-    return { checks, score, words, keywords: { found: kFound, missing: kMissing }, weak: weak.slice(0, 5), found };
+    const top3 = checks.filter((c) => c.pts < c.max).sort((a, b) => (b.max - b.pts) - (a.max - a.pts)).slice(0, 3);
+    return { checks, score, words, keywords: { found: kFound, missing: kMissing }, weak: weak.slice(0, 5), found, unproven: unproven.slice(0, 8), fit, top3 };
+  }
+
+  // Lo que un reclutador ve hojeando: nombre, titular y el cargo más reciente.
+  function quickRead(d, a) {
+    const r = ROLES[role];
+    const titular = d.lines.slice(0, 8).find((l) => !/@|\d{6,}/.test(l) && l.length > 8 && l !== guessName(d)) || "";
+    const reciente = d.lines.find((l) => /(19|20)\d{2}/.test(l) && /analista|asistente|auxiliar|coordinador|gestor|jefe|ejecutiv/i.test(l)) || "";
+    const titled = a.checks.find((c) => c.titulo.startsWith("El cargo"))?.estado === "ok";
+    return { titular, reciente, mensaje: titled
+      ? `En 30 segundos se entiende que buscas un cargo de ${r.titulo}.`
+      : `En 30 segundos no queda claro que buscas un cargo de ${r.titulo}. Es lo primero que conviene arreglar.` };
   }
 
   // ---------- Versión mejorada ----------
@@ -255,14 +310,15 @@
 
   function build(d) {
     const r = ROLES[role], c = perfil.candidata || {};
+    // Solo lo que el CV o sus logros muestran en uso; un curso va en Cursos, no en Herramientas.
     const ev = norm(d.text) + "\n" + evidenceText();
     const kws = roleKeywords().filter((k) => has(ev, k));
     const comp = kws.filter((k) => !["erp", "excel", "powerbi", "m365"].includes(Object.keys(K).find((x) => K[x] === k))).slice(0, 10);
     const tools = [];
     if (/odoo/.test(ev)) tools.push("ERP Odoo"); else if (has(ev, K.erp)) tools.push("ERP");
     for (const t of ["sap", "siigo", "world office", "helisa"]) if (norm(d.text).includes(t)) tools.push(t.replace(/\b\w/g, (x) => x.toUpperCase()).replace("Sap", "SAP"));
-    if (has(ev, K.excel)) tools.push("Excel avanzado");
-    if (has(ev, K.powerbi)) tools.push("Power BI");
+    if (has(norm(d.text), K.excel)) tools.push("Excel avanzado");
+    if (has(norm(d.text), K.powerbi)) tools.push("Power BI");
     if (has(norm(d.text), K.m365)) tools.push("Microsoft 365");
     const lista = comp.slice(0, 4).map((k) => k.label.toLowerCase()).join(", ").replace(/, ([^,]*)$/, " y $1");
     const email = (d.text.match(/[\w.+-]+@[\w-]+\.[\w.]+/) || [""])[0];
@@ -327,22 +383,54 @@
       const lines = [...tmp.querySelectorAll("h1,h2,p,li")].map((e) => e.textContent.trim());
       after = analyze({ text: lines.join("\n"), lines, pages: 1, images: 0, icons: 0, multiCol: false });
     }
+    const q = quickRead(cv, a);
+    const sens = a.checks.find((c) => c.titulo === "Datos personales que sobran");
+    const fitLabel = { postular: "Postúlate", intentar: "Vale la pena intentarlo", no: "Mejor busca otra" };
+    const fitState = { cumple: ["good", "Cumple"], en_parte: ["new", "En parte"], no: ["ask", "No aparece"] };
+    const changes = built ? [
+      [`Titular: "${r.titulo}"`, "Los filtros y los reclutadores buscan por el nombre exacto del cargo."],
+      ["Perfil y Competencias con palabras de la vacante", "Solo las que tus logros muestran en uso; nada que no hayas hecho."],
+      [`Logros ordenados para ${r.titulo}`, "Arriba en cada cargo van los que más pide este cargo. El texto de cada logro es el tuyo, sin cambiar verbos."],
+      ["Una columna, sin foto ni íconos, títulos estándar", "Así el ATS lee todo en orden."],
+      ...(sens && sens.estado !== "ok" ? [["Sin cédula, estado civil ni edad", "No suman puntos y exponen tus datos; se entregan en la contratación."]] : []),
+      ["Lo resaltado en amarillo", "Datos que no encontré en tu CV. Solo tú puedes completarlos."],
+    ] : [];
     out.innerHTML = `
       <div class="cv-score">
         <div class="cv-dial" style="--v:${a.score}" role="img" aria-label="Puntaje ATS ${a.score} de 100"><b class="num">${a.score}</b><small>de 100</small></div>
         <div><h3>${verdict(a.score)}</h3><p class="hint">Revisé tu CV como lo hacen los filtros automáticos (ATS) de Computrabajo, elempleo, Magneto, LinkedIn y los portales de las empresas, para el cargo de <b>${esc(r.titulo)}</b>${vacante ? " y la vacante elegida" : ""}.${after && after.score > a.score ? ` La versión mejorada de abajo llega a <b class="num">${after.score}</b>.` : ""}</p></div>
       </div>
+      ${a.words >= 25 ? `<div class="cv-group cv-read"><h4>Lo que un reclutador ve en 30 segundos</h4>
+        <p>${esc(q.mensaje)}</p>
+        ${q.titular ? `<p class="hint">Titular: <b>${esc(q.titular)}</b></p>` : ""}
+        ${q.reciente ? `<p class="hint">Cargo más reciente que vi: <b>${esc(q.reciente)}</b></p>` : ""}
+      </div>` : ""}
+      ${a.top3.length ? `<div class="cv-group"><h4>Los 3 cambios que más importan</h4><ol class="cv-top">${a.top3.map((c) => `<li><b>${esc(c.titulo)}.</b> ${esc(c.detalle)}</li>`).join("")}</ol></div>` : ""}
       <div class="cv-cols">${group("formato", "Que el filtro lo pueda leer")}${group("contenido", "Que el filtro te elija")}</div>
+      ${a.fit ? `<div class="cv-group"><h4>Encaje con ${esc(a.fit.oferta.titulo)}</h4>
+        <p><b>${fitLabel[a.fit.veredicto]}.</b> ${a.fit.cumple} cumple, ${a.fit.parte} en parte y ${a.fit.no} sin mostrar, de ${a.fit.rows.length} cosas que pide la vacante. Es un consejo, no una predicción: tú decides.</p>
+        <ul class="cv-fit">${a.fit.rows.map((x) => `<li><span class="chip ${fitState[x.estado][0]}">${fitState[x.estado][1]}</span><b>${esc(x.req)}</b><span class="hint">${esc(x.nota)}</span></li>`).join("")}</ul>
+      </div>` : ""}
       ${a.words >= 25 ? `<div class="cv-group"><h4>Palabras clave para ${esc(r.titulo)}</h4>
         <p class="hint">Ya las tienes:</p><div class="chips">${a.keywords.found.map((k) => `<span class="chip good">${esc(k.label)}</span>`).join("") || "<span class='hint'>Ninguna todavía.</span>"}</div>
-        ${backed.length ? `<p class="hint">Te faltan y tu experiencia las respalda, agrégalas:</p><div class="chips">${backed.map((k) => `<span class="chip new">${esc(k.label)}</span>`).join("")}</div>` : ""}
-        ${other.length ? `<p class="hint">Te faltan. Agrégalas solo si las has hecho:</p><div class="chips">${other.map((k) => `<span class="chip ask">${esc(k.label)}</span>`).join("")}</div>` : ""}
+        ${backed.length ? `<p class="hint">Te faltan y tus logros muestran que las hiciste, agrégalas:</p><div class="chips">${backed.map((k) => `<span class="chip new">${esc(k.label)}</span>`).join("")}</div>` : ""}
+        ${other.length ? `<p class="hint">No aparecen en tu CV. Agrégalas solo si las has hecho:</p><div class="chips">${other.map((k) => `<span class="chip ask">${esc(k.label)}</span>`).join("")}</div>` : ""}
       </div>` : ""}
-      ${a.weak.length ? `<div class="cv-group"><h4>Frases para reescribir</h4><ul class="cv-weak">${a.weak.map((l) => `<li>${esc(l)}</li>`).join("")}</ul><p class="hint">Empieza con un verbo de logro y, si puedes, una cifra: "Gestioné la cartera de 120 clientes y reduje la vencida a 30 días".</p></div>` : ""}
+      ${a.weak.length ? `<div class="cv-group"><h4>Frases para reescribir</h4>
+        <p class="hint">Dicen una función, no lo que lograste. No sé qué hiciste exactamente, así que no te pongo un verbo más fuerte: completa lo que está entre corchetes.</p>
+        <ul class="cv-rw">${a.weak.map((l) => `<li><span class="hint">Hoy dice</span><p>${esc(l)}</p><span class="hint">Mejor así</span><p>${esc(rewrite(l))}</p></li>`).join("")}</ul></div>` : ""}
+      ${a.unproven.length ? `<div class="cv-group"><h4>Habilidades sin respaldo</h4>
+        <p class="hint">Están en tu lista de habilidades pero en ningún logro. ¿Dónde las usaste? Agrega una línea en tu experiencia; si no podrías hablar dos minutos de ella en una entrevista, mejor quítala.</p>
+        <div class="chips">${a.unproven.map((x) => `<span class="chip ask">${esc(x)}</span>`).join("")}</div></div>` : ""}
       ${built ? `<div class="cv-group"><div class="kit-row"><h4>Tu CV mejorado para ${esc(r.titulo)}</h4>
         <span class="actions"><button class="btn copy" type="button" id="cv-copy">Copiar texto</button><button class="btn btn-go copy" type="button" id="cv-print">Descargar PDF</button></span></div>
-        <p class="hint">Una columna, títulos estándar y solo hechos de tu experiencia. Toca cualquier texto para editarlo; lo resaltado falta por completar. Si te falta algún cargo anterior, agrégalo antes de descargar.</p>
-        <article class="cv-doc" id="cv-doc">${built}</article></div>` : ""}`;
+        <p class="hint">Una columna, títulos estándar y solo hechos de tu experiencia, con tus mismas palabras. Toca cualquier texto para editarlo. Si te falta algún cargo anterior, agrégalo antes de descargar.</p>
+        <article class="cv-doc" id="cv-doc">${built}</article>
+        <h4 style="margin-top:8px">Qué cambié y por qué</h4>
+        <ul class="cv-changes">${changes.map(([w, y]) => `<li><b>${esc(w)}.</b> ${esc(y)}</li>`).join("")}</ul>
+        ${other.length ? `<h4 style="margin-top:8px">No está en tu CV</h4><p class="hint">Lo pide el cargo y no lo puse porque nada en tu CV lo muestra: ${other.map((k) => esc(k.label)).join(", ")}. Si lo has hecho, agrégalo con un ejemplo.</p>` : ""}
+        <p class="hint"><b>Antes de enviarlo</b>, busca lo resaltado y los corchetes [ ]: solo tú puedes completarlos.</p>
+      </div>` : ""}`;
   }
 
   async function onFile(file) {

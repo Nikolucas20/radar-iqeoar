@@ -58,14 +58,30 @@ Aplica `puntaje.pesos`:
 Guarda solo las ofertas con puntaje ≥ `puntaje.minimo_para_mostrar` (hoy 55). En `razones` van 2 o 3 frases cortas y honestas; incluye las advertencias, como el inglés que pidan o si la oferta es antigua.
 
 ## 6. Kit
-- `carta`: 120 a 170 palabras, en español (o en inglés si la oferta lo está). Nombra el cargo, conecta 2 o 3 logros con lo que pide la oferta y firma "J. Osorio".
-- `logros`: los 3 que más encajan.
-- `palabras_clave`: 4 a 8 términos de la oferta.
+Sigue las reglas de las skills de Career Desk (job-fit y cover-letter). **Nada se inventa:** solo se afirma lo que dicen `candidata.logros_cv` y `candidata.educacion`, con sus mismos verbos. No subas lo que hizo ("apoyó" no es "lideró"), no agregues herramientas, cifras ni fechas que no estén, y no uses palabras de grado ("amplia", "sólida", "experta"). Un curso no es experiencia.
+
+- `encaje`: cómo encaja su perfil con lo que pide la oferta.
+  - `requisitos`: de 4 a 8, con las palabras de la oferta. Cada uno es `{requisito, tipo: "imprescindible" | "deseable", estado, evidencia}`.
+  - `estado`: `cumple` (un logro lo muestra en uso; cítalo en `evidencia`), `en_parte` (lo más cercano que tiene, o solo un curso), `no` (nada lo muestra) o `sin_dato` (puede tenerlo y no está escrito).
+  - `veredicto`: `postular`, `intentar` (vale la pena si se atienden las brechas) o `no_postular`.
+  - `motivo`: dos frases. Cuenta cada estado por separado ("3 cumple, 1 en parte, 1 no de 5 imprescindibles"). Nunca des porcentajes de encaje.
+  - Un muro real (inglés avanzado obligatorio, una certificación o presencialidad) se nombra como muro.
+- `carta`: de 180 a 280 palabras, en el idioma de la oferta, dirigida a "Equipo de selección" salvo que la oferta nombre a una persona.
+  - Abre con el cargo por su nombre y `[tu razón: una frase sobre por qué esta empresa o cargo]`. No inventes entusiasmo.
+  - En el medio van 2 o 3 cosas que pide la oferta, cada una respondida con un logro concreto.
+  - Cierra con una despedida sencilla y la firma "J. Osorio".
+  - Lo que sabes de la empresa sale solo de la oferta. No afirmes fecha de ingreso, disponibilidad ni planes.
+  - Sin frases de cajón: nada de "me dirijo a ustedes", "me apasiona", "soy la candidata ideal", "trabajo en equipo", "proactiva", "dinámica" ni "rápido aprendizaje". Frases cortas, en primera persona.
+- `logros`: los 3 que más encajan, copiados tal cual.
+- `palabras_clave`: de 4 a 8 términos exactos de la oferta. La pestaña "Mejorar mi CV" los usa para comparar el CV con la vacante.
+- `preguntas`: hasta 3, sobre los requisitos `sin_dato` o `en_parte` ("¿Dónde has usado SAP? Si lo usaste, agrégalo a tu CV").
+
+Nunca pongas el nombre, los datos ni el texto del CV en WebSearch: busca solo con empresa y cargo.
 
 ## 7. Guardar
 Agrega cada oferta nueva como `{"id": "<slug a-z0-9- de máx. 80>", "d": {...}}`. Los campos de `d` son:
 
-`titulo, empresa, url, portal, fecha_publicacion (AAAA-MM-DD), fecha_hallada (hoy en Bogotá, AAAA-MM-DD), salario_texto, salario_cop (número o null), salario_max_cop (número o null), contrato ("indefinido" o null), modalidad ("remoto" | "hibrido"), ciudad, categoria ("cumple" | "por_verificar"), puntaje, razones [], kit {carta, logros [], palabras_clave []}, estado: "nueva", fuentes [{portal, url, fecha_publicacion, salario_texto, contrato}], motivo_fuente`
+`titulo, empresa, url, portal, fecha_publicacion (AAAA-MM-DD), fecha_hallada (hoy en Bogotá, AAAA-MM-DD), salario_texto, salario_cop (número o null), salario_max_cop (número o null), contrato ("indefinido" o null), modalidad ("remoto" | "hibrido"), ciudad, categoria ("cumple" | "por_verificar"), puntaje, razones [], kit {carta, logros [], palabras_clave [], encaje {requisitos [], veredicto, motivo}, preguntas []}, estado: "nueva", fuentes [{portal, url, fecha_publicacion, salario_texto, contrato}], motivo_fuente`
 
 Después:
 - Elimina las ofertas con `fecha_hallada` de hace más de 30 días.
