@@ -353,6 +353,14 @@
 
   // ---------- Pantalla ----------
   const STATE = { ok: "Bien", warn: "Mejorable", fail: "Corregir" };
+  const ESTILOS = { moderno: "Moderno", elegante: "Elegante", clasico: "Clásico" };
+  const TONOS = { vino: ["Vinotinto", "#7a1f45"], azul: ["Azul", "#1f4e79"], verde: ["Verde", "#1d6b52"], grafito: ["Grafito", "#33363b"] };
+  let estilo = "moderno", tono = "vino";
+  try {
+    estilo = localStorage.getItem(KEY + "-estilo") || estilo; if (!ESTILOS[estilo]) estilo = "moderno";
+    tono = localStorage.getItem(KEY + "-tono") || tono; if (!TONOS[tono]) tono = "vino";
+  } catch (e) {}
+  const docAttrs = () => `data-estilo="${estilo}" style="--accent:${TONOS[tono][1]}"`;
   function verdict(s) { return s >= 80 ? "Pasa bien los filtros" : s >= 60 ? "Pasa, pero pierde puntos" : "Lo pueden descartar"; }
 
   function paint() {
@@ -424,11 +432,16 @@
         <div class="chips">${a.unproven.map((x) => `<span class="chip ask">${esc(x)}</span>`).join("")}</div></div>` : ""}
       ${built ? `<div class="cv-group"><div class="kit-row"><h4>Tu CV mejorado para ${esc(r.titulo)}</h4>
         <span class="actions"><button class="btn copy" type="button" id="cv-copy">Copiar texto</button><button class="btn btn-go copy" type="button" id="cv-print">Descargar PDF</button></span></div>
+        <div class="cv-style">
+          <label>Estilo <select id="cv-estilo">${Object.entries(ESTILOS).map(([k, v]) => `<option value="${k}"${k === estilo ? " selected" : ""}>${v}</option>`).join("")}</select></label>
+          <span class="cv-tonos" role="radiogroup" aria-label="Color">${Object.entries(TONOS).map(([k, [n, c]]) => `<button type="button" role="radio" class="cv-tono" data-tono="${k}" aria-checked="${k === tono}" aria-label="${n}" title="${n}" style="--c:${c}"></button>`).join("")}</span>
+        </div>
         <p class="hint">Una columna, títulos estándar y solo hechos de tu experiencia, con tus mismas palabras. Toca cualquier texto para editarlo. Si te falta algún cargo anterior, agrégalo antes de descargar.</p>
-        <article class="cv-doc" id="cv-doc">${built}</article>
+        <article class="cv-doc" id="cv-doc" ${docAttrs()}>${built}</article>
         <h4 style="margin-top:8px">Qué cambié y por qué</h4>
         <ul class="cv-changes">${changes.map(([w, y]) => `<li><b>${esc(w)}.</b> ${esc(y)}</li>`).join("")}</ul>
         ${other.length ? `<h4 style="margin-top:8px">No está en tu CV</h4><p class="hint">Lo pide el cargo y no lo puse porque nada en tu CV lo muestra: ${other.map((k) => esc(k.label)).join(", ")}. Si lo has hecho, agrégalo con un ejemplo.</p>` : ""}
+        <p class="hint"><b>Para guardar el PDF:</b> toca Descargar PDF y, en Destino, elige "Guardar como PDF" (no tu impresora). Si sale sin color, activa "Gráficos de fondo" en Más opciones de configuración. El color y la letra no afectan a los filtros ATS: el texto sigue siendo real y en una columna.</p>
         <p class="hint"><b>Antes de enviarlo</b>, busca lo resaltado y los corchetes [ ]: solo tú puedes completarlos.</p>
       </div>` : ""}`;
   }
@@ -452,7 +465,7 @@
     if (!doc) return;
     let root = $("print-root");
     if (!root) { root = document.createElement("div"); root.id = "print-root"; document.body.appendChild(root); }
-    root.innerHTML = `<article class="cv-doc">${doc.innerHTML}</article>`;
+    root.innerHTML = `<article class="cv-doc" ${docAttrs()}>${doc.innerHTML}</article>`;
     root.querySelectorAll("[contenteditable]").forEach((e) => e.removeAttribute("contenteditable"));
     const name = (doc.querySelector("h1")?.textContent || "CV").trim();
     const prev = document.title;
@@ -480,7 +493,20 @@
       paint();
     });
     $("cv-clear").addEventListener("click", () => { cv = null; built = null; try { localStorage.removeItem(KEY); } catch (e) {} paint(); });
+    $("cv-out").addEventListener("change", (e) => {
+      if (e.target.id !== "cv-estilo") return;
+      estilo = e.target.value;
+      try { localStorage.setItem(KEY + "-estilo", estilo); } catch (x) {}
+      $("cv-doc").dataset.estilo = estilo;
+    });
     $("cv-out").addEventListener("click", async (e) => {
+      const t = e.target.closest("[data-tono]");
+      if (t) {
+        tono = t.dataset.tono;
+        try { localStorage.setItem(KEY + "-tono", tono); } catch (x) {}
+        $("cv-doc").style.setProperty("--accent", TONOS[tono][1]);
+        document.querySelectorAll(".cv-tono").forEach((b) => b.setAttribute("aria-checked", String(b === t)));
+      }
       if (e.target.closest("#cv-print")) printDoc();
       const b = e.target.closest("#cv-copy");
       if (b) {

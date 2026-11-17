@@ -267,10 +267,11 @@ select:hover { border-color: var(--muted); }
 .cv-fit .hint { flex-basis: 100%; font-size: 14px; }
 .cv-group .kit-row { flex-wrap: wrap; margin-bottom: 0; }
 .cv-group .kit-row .actions { gap: 6px; }
-.cv-doc { background: var(--doc-paper); color: var(--doc-ink); border-radius: 6px; padding: 40px 44px; font: 400 14px/1.45 Arial, Helvetica, sans-serif; max-width: 820px; box-shadow: 0 1px 3px rgba(0,0,0,.3); overflow-wrap: anywhere; }
+/* Hoja de vida: una columna y texto real (lo que lee un ATS); el estilo solo cambia tipografía y color. */
+.cv-doc { --accent: #7a1f45; --accent-soft: color-mix(in srgb, var(--accent) 12%, var(--doc-paper)); background: var(--doc-paper); color: var(--doc-ink); border-radius: 6px; padding: 40px 48px; font: 400 14px/1.5 Arial, Helvetica, sans-serif; max-width: 820px; box-shadow: 0 1px 3px rgba(0,0,0,.3); overflow-wrap: anywhere; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 @media (max-width: 560px) { .cv-doc { padding: 22px 18px; font-size: 13px; } }
-.cv-doc h1 { font: 700 24px/1.2 Arial, Helvetica, sans-serif; letter-spacing: 0; margin: 0; color: var(--doc-ink); }
-.cv-doc h2 { font: 700 13px/1.3 Arial, Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .06em; margin: 16px 0 6px; padding-bottom: 3px; border-bottom: 1px solid var(--doc-ink); }
+.cv-doc h1 { font: 700 26px/1.15 Arial, Helvetica, sans-serif; letter-spacing: 0; margin: 0; color: var(--doc-ink); text-wrap: balance; }
+.cv-doc h2 { font: 700 12.5px/1.3 Arial, Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .08em; margin: 16px 0 6px; padding-bottom: 3px; border-bottom: 1px solid var(--doc-ink); color: var(--doc-ink); }
 .cv-doc p { margin: 0 0 4px; }
 .cv-doc ul { margin: 0 0 6px; padding-left: 18px; }
 .cv-doc li { margin-bottom: 2px; }
@@ -279,17 +280,44 @@ select:hover { border-color: var(--muted); }
 .cv-doc .d-role { margin-top: 8px; }
 .cv-doc mark { background: var(--doc-mark); color: var(--doc-ink); padding: 0 3px; }
 .cv-doc [contenteditable]:focus { outline: 2px dashed var(--tab-cv); outline-offset: 2px; }
+
+/* Moderno: franja de color arriba, nombre y títulos en el color, viñetas de color */
+.cv-doc[data-estilo="moderno"] { font-family: "Hanken Grotesk", Arial, sans-serif; border-top: 10px solid var(--accent); }
+.cv-doc[data-estilo="moderno"] h1 { font: 800 30px/1.1 "Hanken Grotesk", Arial, sans-serif; color: var(--accent); letter-spacing: -.01em; }
+.cv-doc[data-estilo="moderno"] .d-title { color: var(--doc-ink); font-weight: 600; font-size: 15.5px; margin-top: 4px; }
+.cv-doc[data-estilo="moderno"] .d-contact { margin-top: 4px; padding-bottom: 12px; border-bottom: 2px solid var(--accent-soft); }
+.cv-doc[data-estilo="moderno"] h2 { font-family: "Hanken Grotesk", Arial, sans-serif; color: var(--accent); border-bottom: 0; padding: 0 0 0 10px; border-left: 4px solid var(--accent); margin-top: 18px; letter-spacing: .1em; }
+.cv-doc[data-estilo="moderno"] li::marker { color: var(--accent); }
+.cv-doc[data-estilo="moderno"] .d-role b { color: var(--accent); }
+
+/* Elegante: encabezado centrado con serif, líneas finas */
+.cv-doc[data-estilo="elegante"] { font-family: "Hanken Grotesk", Arial, sans-serif; }
+.cv-doc[data-estilo="elegante"] h1, .cv-doc[data-estilo="elegante"] .d-title, .cv-doc[data-estilo="elegante"] .d-contact { text-align: center; }
+.cv-doc[data-estilo="elegante"] h1 { font: 600 32px/1.1 "Bodoni Moda", Georgia, serif; color: var(--accent); }
+.cv-doc[data-estilo="elegante"] .d-title { font-weight: 600; letter-spacing: .03em; text-transform: uppercase; font-size: 13px; margin-top: 6px; }
+.cv-doc[data-estilo="elegante"] .d-contact { padding-bottom: 12px; border-bottom: 1px solid var(--accent); }
+.cv-doc[data-estilo="elegante"] h2 { font: 600 16px/1.3 "Bodoni Moda", Georgia, serif; text-transform: none; letter-spacing: 0; color: var(--accent); border-bottom: 1px solid var(--accent-soft); }
+.cv-doc[data-estilo="elegante"] li::marker { color: var(--accent); }
+
+.cv-style { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.cv-style label { display: inline-flex; gap: 8px; align-items: center; }
+.cv-style select { text-transform: none; letter-spacing: 0; }
+.cv-tonos { display: inline-flex; gap: 8px; }
+.cv-tono { appearance: none; width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--paper); background: var(--c); box-shadow: 0 0 0 1.5px var(--rule); cursor: pointer; padding: 0; }
+.cv-tono[aria-checked="true"] { box-shadow: 0 0 0 2.5px var(--ink); }
 #print-root { display: none; }
 @media print {
-  @page { size: letter; margin: 12mm 15mm; }
+  /* Margen de página en cero: el navegador no imprime fecha ni dirección; el margen lo pone la hoja misma. */
+  @page { size: letter; margin: 0; }
   body { background: #fff !important; }
   body > :not(#print-root) { display: none !important; }
   #print-root { display: block !important; }
-  #print-root .cv-doc { box-shadow: none; padding: 0; max-width: none; border-radius: 0; font-size: 10.5pt; line-height: 1.35; }
+  #print-root .cv-doc { box-shadow: none; padding: 13mm 16mm 12mm; max-width: none; border-radius: 0; font-size: 10.5pt; line-height: 1.38; }
   #print-root .cv-doc h2 { margin-top: 11px; break-after: avoid; }
   #print-root .cv-doc li { break-inside: avoid; }
   #print-root .cv-doc mark { background: none; }
 }
+
 </style>
 
 <header class="cover">
