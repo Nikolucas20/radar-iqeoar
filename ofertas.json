@@ -1,15 +1,15 @@
 {
  "meta": {
-  "descartadas": 3970,
+  "descartadas": 3986,
   "fuentes": [
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "Indeed (conector)",
    "WebSearch"
   ],
   "guardadas": 42,
-  "notas": "Ronda 17/11 (mañana): portales.json 17/11 04:26 UTC, 81 ofertas sin guardar evaluadas (2 ya estaban guardadas). Descartadas por presencial, término fijo/obra o labor, salario <2,8 M, cargo no objetivo o muro (Unisys exige certificado de discapacidad). Computrabajo y LinkedIn sin modalidad verificable (Computrabajo indefinido 3-3,5 M sin modalidad: no guardadas). Indeed: 5 búsquedas; Panamericana de Viajes presencial 2,12 M. Sin ofertas nuevas.",
-  "revisadas": 4012,
-  "ultima_ejecucion": "2026-11-17T07:20:00-05:00"
+  "notas": "Ronda 17/11 (mediodía): portales.json sin cambios desde la ronda de la mañana (04:26 UTC), ya evaluado. Indeed: 2 búsquedas; EC Cargo, Innovamos (obra o labor, 2,12 M) y Chalver son presenciales. WebSearch: 4 búsquedas sin ofertas nuevas que cumplan (remotas con salario <2,8 M o no indefinidas). Sin ofertas nuevas.",
+  "revisadas": 4028,
+  "ultima_ejecucion": "2026-11-17T12:05:11-05:00"
  },
  "ofertas": [
   {
