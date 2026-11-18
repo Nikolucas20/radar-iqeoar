@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T20:09:34+00:00",
+ "generado": "2026-11-18T19:46:50+00:00",
  "conteo": {
   "elempleo": {
    "leidas": 130,
@@ -7,17 +7,30 @@
   },
   "LinkedIn": {
    "leidas": 70,
-   "para_evaluar": 24
+   "para_evaluar": 28
   },
   "Computrabajo": {
    "leidas": 90,
-   "para_evaluar": 53
+   "para_evaluar": 59
   },
   "Magneto": {
    "leidas": 3
   }
  },
  "ofertas": [
+  {
+   "portal": "elempleo",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886799677",
+   "titulo": "Tecnico(a) de Cartera",
+   "empresa": "TERPEL",
+   "salario": "$2,5 a $3 millones",
+   "ubicacion": "Bogota - Hibrido",
+   "publicada": "2026-11-18",
+   "vence": "2027-01-17",
+   "contrato": "Contrato Indefinido",
+   "experiencia": "1 ano de experiencia",
+   "descripcion": "En Terpel estamos comprometidos con generar oportunidades laborales diversas. \n¡Si te motiva crear, inspirar y aprender, este desafío es para ti! \nEstas en búsqueda de Técnico (a) Cartera , quien se encargará de Dar soporte en gestión de cobro de cartera, garantizar el cobro oportuno y registro ágil de los recaudos y notas contables para tener una información oportuna y confiable en la toma de decisiones. \nFunciones: \nVerificar la legalización de documentos recibidos para refinanciar la conversión y/o Normalización de deuda. \nElaborar paz y salvos y certificaciones requeridas por los clientes \nPresentar reportes como insumo para informes de cartera. \nVerificación telefónica directamente con cliente para cobro de cartera. \nFormación: Técnico/a, tecnólogo/a en carreras a las áreas de finanzas o afines, \nExperiencia: 1 a 2 años \nConocimientos Especifico: Excel Intermedio/ Avanzado - Deseable Power BI"
+  },
   {
    "portal": "elempleo",
    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-1886798420",
@@ -32,19 +45,6 @@
    "descripcion": "¡Haz parte de una de las mejores cadenas del país! \nDesde Alimentos al Consumidor, unidad de negocio de Grupo Nutresa, operadora de reconocidas marcas como Hamburguesas El Corral, Papa John’s, Leños & Carbón, Beer Station, El Corral Gourmet, entre otras, estamos en búsqueda de nuestro próximo Analista Administrativo. \nBuscamos personas organizadas, resolutivas y con gran vocación de servicio al cliente interno, que contribuyan a garantizar el soporte administrativo de la oficina, el control de gastos corporativos (vales, tiquetes, tarjetas de acceso), la gestión de insumos y la correcta contabilización de facturas. \nRequisitos: \nProfesionales en Administración de empresas, Ingenieria industrial o finanzas y negocios internaciones \nExperiencia mínima de 2 años en apoyo administrativo, control de gastos o asistencia de gerencia; recepción, verificación y contabilización de facturas en sistemas contables; cotizando y coordinando servicios corporativos (agencias de viaje, empresas de seguridad, papelería y aseo). \nExcelente manejo de correo corporativo, atención al detalle para el control de formatos/firmas y Excel básico-intermedio. \nActitud proactiva, orden y excelente comunicación. \nTe ofrecemos: \nDesarrollo profesional y crecimiento interno \nSalario: 3.502.000 (Pagos quincenales)"
   },
   {
-   "portal": "elempleo",
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativo-1886792563",
-   "titulo": "Asistente Administrativo",
-   "empresa": "KORN FERRY",
-   "salario": "$3 a $3,5 millones",
-   "ubicacion": "Bogota - Hibrido",
-   "publicada": "2026-11-11",
-   "vence": "2026-12-11",
-   "contrato": "Contrato Indefinido",
-   "experiencia": "1 ano de experiencia",
-   "descripcion": "Asistente Administrativo – Opella Healthcare Colombia \nBuscamos un/a Asistente Administrativo para brindar apoyo administrativo y operativo al equipo de liderazgo, contribuyendo al adecuado funcionamiento de las actividades y espacios de la oficina. \nResponsabilidades principales: \n* Apoyar la organización, gestión y seguimiento de actividades y requerimientos administrativos del equipo de liderazgo. \n* Coordinar agendas, programar reuniones, gestionar documentos y administrar calendarios gerenciales. \n* Realizar seguimiento a compromisos y apoyar la planificación de las actividades de los líderes. \n* Apoyar la organización y logística de celebraciones, eventos y actividades especiales de la oficina. \n* Coordinar y hacer seguimiento a proveedores y servicios requeridos para las actividades de la oficina. \n* Atender solicitudes administrativas de los colaboradores y canalizarlas con las áreas correspondientes. \n* Apoyar otras actividades administrativas y operativas necesarias para el buen funcionamiento de la oficina."
-  },
-  {
    "portal": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4490740929",
    "titulo": "Analista Administrativo IT",
@@ -52,7 +52,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 4 días",
+   "hace": "Hace 5 días",
    "contrato": "Jornada completa",
    "experiencia": "Algo de responsabilidad",
    "descripcion": "🚀 ¡Únete a nuestro equipo como Analista Administrativo IT! \n ¿Te apasiona la gestión administrativa y financiera, y te interesa contribuir al éxito de proyectos tecnológicos? Esta oportunidad es para ti.\n 🎯 ¿Cuál será tu misión? \n Apoyar la gestión administrativa, presupuestal y contractual del área de Tecnología, asegurando el control, seguimiento y ejecución oportuna de los procesos, contribuyendo a la eficiencia operativa y al adecuado uso de los recursos.\n 💡 Principales responsabilidades \n ✅ Seguimiento y control de presupuestos OPEX y CAPEX.\n ✅ Gestión de compras, solicitudes de pedido (SOLPED), órdenes de compra y HES.\n ✅ Administración y seguimiento de contratos, renovaciones y documentación contractual.\n ✅ Coordinación de viajes nacionales e internacionales del área.\n ✅ Apoyo en provisiones, conciliaciones y cierres financieros mensuales.\n ✅ Seguimiento de requerimientos con proveedores y áreas internas.\n ✅ Identificación de oportunidades de mejora en procesos administrativos y financieros.\n 🎓 Perfil que buscamos \n Profesional en Administración de Empresas, Ingeniería Industrial, Contaduría, Finanzas o carreras afines.\n Mínimo 2 años de experiencia en gestión presupuestal, compras, facturación y contratos.\n Conocimiento y manejo de SAP.\n Excel intermedio o avanzado.\n Capa"
@@ -65,36 +65,36 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 3 días",
+   "hace": "Hace 4 días",
    "contrato": "Jornada completa",
    "experiencia": "Sin experiencia",
    "descripcion": "MISIÓN DEL CARGO\nRealizar la correcta administración de los aliados asignados, garantizando el registro y control de las operaciones, en la totalidad desus procesos, producción, facturación , recaudos, comisiones, contabilización y servicio al cliente incluido quejas y reclamos, deacuerdo con las políticas de la compañía y condiciones técnicas establecidas, logrando la satisfacción operacional de calidad a losclientes."
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4490288613",
-   "titulo": "Analista de Cartera y Cuentas por Pagar (Sector Farmacéutico)",
-   "empresa": "Talent Search People",
+   "url": "https://www.linkedin.com/jobs/view/4492072752",
+   "titulo": "Asistente Administrativo de cohortes",
+   "empresa": "Audifarma S.A",
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 1 día",
+   "hace": "Hace 1 hora",
    "contrato": "Jornada completa",
-   "experiencia": "Algo de responsabilidad",
-   "descripcion": "¿Dónde trabajarás? \n Formarás parte de una importante empresa farmacéutica con reconocimiento a nivel internacional localizada en Colombia.\n ¿Qué harás? \n En tu día a día: \n Gestionarás y realizarás el seguimiento de las cuentas por cobrar, asegurando el cumplimiento de los plazos de pago establecidos.\n Analizarás el riesgo crediticio de clientes actuales y potenciales para apoyar la toma de decisiones comerciales.\n Realizarás conciliaciones de pagos recibidos y mantendrás actualizada la información de cartera.\n Elaborarás y darás seguimiento a indicadores financieros como DSO, antigüedad de saldos e índices de morosidad.\n Negociarás acuerdos y planes de pago con clientes para optimizar la recuperación de cartera.\n Coordinarás y programarás los pagos a proveedores, garantizando el cumplimiento de las obligaciones financieras de la compañía.\n Llevarás a cabo conciliaciones periódicas con proveedores para identificar y resolver posibles discrepancias.\n Participarás en la gestión integral de licitaciones, coordinando la recopilación de documentación y el seguimiento de los procesos.\n Gestionarás acuerdos comerciales, descuentos y provisiones asociados a clientes.\n Revisarás y conciliarás las retenciones aplicadas por clientes, asegurando su correcta contabilización.\n Elaborarás repo"
+   "experiencia": "Intermedio",
+   "descripcion": "Asistente Administrativo de Cohortes – Bogotá\n Importante IPS especializada se encuentra en búsqueda de un Asistente Administrativo de Cohortes para la ciudad de Bogotá .\n Objetivo Del Cargo\n Desarrollar actividades administrativas que apoyen la gestión y ejecución de los programas de las diferentes cohortes a nivel nacional, garantizando el adecuado seguimiento de los procesos, la consolidación de información y el cumplimiento de los lineamientos establecidos.\n Requisitos\n Tecnólogo en Gestión Administrativa, Procesos Industriales o carreras afines.\n Mínimo 1 año de experiencia en cargos administrativos relacionados.\n Experiencia en el sector salud.\n Manejo de herramientas ofimáticas y bases de datos.\n Habilidades de organización, seguimiento, trabajo en equipo y atención al detalle.\n Lugar de trabajo: Bogotá.\n Tipo de contrato: obra o labor.\nSi cumples con el perfil y deseas hacer parte de nuestro equipo, ¡postúlate!\n ✨ Ofrecemos\n Vinculación directa con la empresa.\n Estabilidad laboral y desarrollo profesional.\n Programas de bienestar y capacitación.\n Un ambiente de trabajo colaborativo, humano y orientado al servicio.\n 👉 ¡Postúlate y haz parte de una organización que entrega esperanza de vida a través de su talento y compromiso!"
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4479230869",
-   "titulo": "Administrative Assistant",
-   "empresa": "DiDi",
+   "url": "https://www.linkedin.com/jobs/view/4492079436",
+   "titulo": "Analista Administrativo Salud",
+   "empresa": "Comfandi",
    "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "ubicacion": "Cali, Valle del Cauca, Colombia",
    "publicada": "",
-   "hace": "Hace 3 horas",
+   "hace": "Hace 1 hora",
    "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "About The Company\n DiDi es la plataforma de tecnología de movilidad más grande del mundo. Con más de 10 años en el mercado, somos la empresa líder en servicios basados en aplicaciones para transporte inteligente, entrega de alimentos y servicios de pago. Haciendo la vida mejor y más fácil para las personas todos los días.\nCuando te unes a Didi, vas a formar parte de una comunidad abierta, inclusiva y diversa de más de 12,000 empleados en todo el mundo. Desde el primer día encontrará una rica cultura global colaborativa donde sus responsabilidades tendrán un impacto directo en la estrategia y el crecimiento de la empresa.\n About The Team/role\n Tu principal misión será actuar como el corazón logístico y analítico de nuestras iniciativas. Buscamos a alguien con excepcionales habilidades de organización, atención al detalle y pasión por los datos, que nos ayude a garantizar que cada evento y experiencia de los empleados sea impecable y medible.\n In this role, you'll be...\n Gestión de Experiencias (Eventos): Apoyar la coordinación logística integral (antes, durante y después) de nuestras actividades y eventos de oficina, asegurando que cada detalle planificado se ejecute con excelencia.\n Control de Inventario: Gestionar, rastrear y administrar de manera eficiente el inventario de mate"
+   "experiencia": "Intermedio",
+   "descripcion": "En Comfandi buscamos Analista Administrativo Salud.\n Perfil Requerido\n Contador, economista, administrador de empresas\n Experiencia\n Experiencia entre 1 y 2 años en procesos de salud de IPS y clínicas. Deseable conocimiento en la vertical de Salud SAP Conocimiento en la legislación de salud en Colombia. EN EL ROL DE AUDITORIAS DE CONTROL INTERNO Y SEGUIMIENTO A PROCESOS: Para auditorias de control interno: Indispensable con experiencia entre 1 y 2 años en Auditorías de Control Interno (en el área Financiera). Deseable más no indispensable que esta experiencia haya sido en el sector Salud y conocimiento en SAP.\n Tu Misión\n Preparar, formular, evaluar, la información necesaria relacionada con el proceso asignado de conformidad con los lineamientos estratégicos de COMFANDI, aplicando los principios, conceptos y técnicas disponibles con el fin de apoyar la toma de decisiones mediante el análisis y procesamiento de información.\n Principales Responsabilidades\n Elaborar y analizar informes financieros, administrativos y de gestión.\n Realizar seguimiento a presupuestos, costos, facturación, cartera e inventarios.\n Apoyar auditorías internas, controles y planes de mejora de procesos.\n Gestionar bases de datos, conciliaciones y reportes para la toma de decisiones.\n Participar en proyectos "
   },
   {
    "portal": "LinkedIn",
@@ -104,75 +104,88 @@
    "salario": "",
    "ubicacion": "Cali, Valle del Cauca, Colombia",
    "publicada": "",
-   "hace": "Hace 3 días",
+   "hace": "Hace 4 días",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "Restaurante Hacienda del Bosque - ¡Estamos buscando talento! \n En Hacienda del Bosque queremos integrar a nuestro equipo de trabajo una persona comprometida, organizada y orientada al detalle para desempeñarse como Analista Administrativo/a , contribuyendo a la gestión contable y financiera de la compañía.\n Requisitos\n Formación académica: Tecnólogo/a o profesional en áreas administrativas o afines.\n Experiencia: Mínimo 2 años en cargos similares, certificables.\n Conocimientos técnicos\n Manejo avanzado de Excel. (no negociable)\n Manejo Sistema Zeus (no negociable)\n Consolidación de informes.\n Gestión y control de inventarios.\n Organización de archivo.\n Atención de solicitudes.\n Propósito del cargo\n Brindar apoyo a la gestión administrativa y financiera del área contable de Hacienda del Bosque, garantizando el cumplimiento de las políticas, los procedimientos internos y la normatividad aplicable al sector gastronómico.\n ¿Te interesa esta oportunidad? Si cumples con el perfil y deseas hacer parte de nuestro equipo, ¡postúlate y comparte tu talento con Hacienda del Bosque!"
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4482175254",
-   "titulo": "Asistente Administrativo (Personas con Discapacidad)",
-   "empresa": "WTW",
+   "url": "https://www.linkedin.com/jobs/view/4492078387",
+   "titulo": "Asistente Administrativo Dirigida a personas en Condición de Discapacidad (PCD)",
+   "empresa": "Casa Inglesa Colombia",
    "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "ubicacion": "Tenjo, Cundinamarca, Colombia",
    "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "Description\n El Rol \n Apoyo en actividades administrativas básicas.\n Gestión documental (archivo físico y digital, escaneo, organización)\n Registro y actualización de información en sistemas internos.\n Elaboración de informes simples y listados.\n Seguimiento a tareas operativas mediante checklists y control de pendientes. \n Qualifications\n Los Requerimientos\n Bachiller culminado (requisito mínimo)\n Formación técnica en áreas administrativas u operativas (deseable – no excluyente)\n Conocimientos básicos en paquete Office\n Experiencia en funciones administrativas, operativas y de apoyo mínimo 6 meses.\n Organización y planeación\n Trabajo en equipo\n Proactividad\n Comunicación asertiva\n Gestión del tiempo\n Flexibilidad y adaptabilidad\n Resolución de problemas\n Vacante inclusiva\n Requiere certificado de discapacidad emitido por la Secretaría de Salud\n Cargo compatible con personas con discapacidad física, auditiva, visual baja o intelectual leve, con ajustes razonables\n Igualdad de oportunidades en el empleo"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4491740092",
-   "titulo": "Auxiliar administrativo",
-   "empresa": "Atmos Experience",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 7 minutos",
+   "hace": "Hace 1 hora",
    "contrato": "Jornada completa",
    "experiencia": "Sin experiencia",
-   "descripcion": "En Atmos Experience queremos sumar a nuestro equipo una persona organizada, proactiva y con habilidades de comunicación para apoyar nuestros procesos administrativos y de prospección comercial.\n ¿Cuáles serán tus funciones? \n Creación, investigación y actualización de bases de datos comerciales.\n Identificación de empresas y clientes potenciales.\n Realización de llamadas telefónicas y contacto con prospectos.\n Registro y seguimiento de información en CRM.\n Apoyo a la gestión administrativa y comercial.\n Perfil que buscamos: \n Técnico, tecnólogo o estudiante de carreras administrativas, mercadeo o afines.\n Manejo básico/intermedio de Excel.\n Buena comunicación verbal y escrita.\n Facilidad para realizar llamadas y contactar nuevos clientes.\n Organización, atención al detalle y orientación a resultados.\n Modalidad: Presencial | Bogotá.\n Si te interesa crecer profesionalmente y hacer parte de una empresa con proyección internacional, ¡queremos conocerte!\n SALARIO SMLV"
+   "descripcion": "Estamos en la búsqueda de Talento que quiera ser parte de una industria dinámica, retadora y en constante evolución.\nAsistente Administrativo\nEn nuestra organización estamos convencidos de que la diversidad nos hace más fuertes. Por eso, abrimos dos vacantes laborales dirigidas a personas en condición de discapacidad. Ofreciendo un entorno saludable, respetuoso, accesible e inclusivo.\n¿Qué necesitas para aplicar?\n Ganas de aprender y aportar desde sus capacidades y talentos.\n ¡Que te Ofrecemos!\n Contrato indefinido\n Horario de L-V 7:00 a 4:00 y sábados medio día.\n Pagos mensuales.\n Bienestar laboral\n Igualdad de oportunidades"
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4489674781",
-   "titulo": "AUXILIAR ADMINISTRATIVO",
-   "empresa": "DHL Supply Chain",
-   "salario": "",
-   "ubicacion": "Cota, Cundinamarca, Colombia",
-   "publicada": "",
-   "hace": "Hace 4 días",
-   "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "Company Overview\n Conectando Personas Mejorando Vidas\n Conviértete en un DHL y consigue lo esencial de tu vida diaria, a través de los mejores beneficios, buscamos tu seguridad, tu salud y la de tu familia.\nConstruye tu carrera con nosotros y ten la oportunidad de crecer a través de experiencias multiculturales y retos que te desafiarán cada día.\nEste no será un trabajo más, será su oportunidad de impactar positivamente en el medio ambiente y en las personas dentro y fuera de DHL.\nComo empresa global, valoramos la diversidad de nuestros empleados como una verdadera fortaleza, y esta fortaleza solo se puede aprovechar si hacemos que todos sientan que realmente pueden ser ellos mismos a diario, independientemente de su origen étnico, religión, orientación sexual, sexo, discapacidad o cualquier otra característica personal.\nA eso nos referimos cuando hablamos de inclusión.\n Diversidad es nuestra fuerza.\n Ser DHL significa desarrollar al máximo tus capacidades.\nEsta posición es para SUPPLA S.A\nDescripción del Rol\nObjetivo del Cargo\nGarantizar la ejecución eficiente de los procesos administrativos y logísticos asociados a las operaciones de recibo, almacenamiento y despacho de mercancía, mediante el control documental, la actualización de información en los sistemas, el seguimiento de"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4466342766",
-   "titulo": "Asistente administrativo Salud y seguridad en el trabajo ( HR) Enfocada para personas con condición de discapacidad PCD",
-   "empresa": "Unisys",
+   "url": "https://www.linkedin.com/jobs/view/4492087130",
+   "titulo": "Asistente Administrativa (Persona con Discapacidad) (PCD)",
+   "empresa": "Chaneme Comercial",
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 2 días",
+   "hace": "Hace 1 hora",
    "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "What Success Looks Like In This Role\n Ubicación: Bogotá, Colombia (modalidad híbrida)\n Tipo de contrato: Término indefinido\n Jornada: Tiempo completo\nPropósito del cargo\nBuscamos un(a) Profesional Administrativo HSE para apoyar actividades relacionadas con Salud y Seguridad en el Trabajo (SST), gestión administrativa, documentación, seguimiento de procesos y soporte a iniciativas de Recursos Humanos, contribuyendo al cumplimiento de los estándares organizacionales y normativos.\nRequisitos obligatorios\n Contar con certificación de discapacidad vigente.\n Residir en Bogotá, Colombia.\n Ser Técnico, Tecnólogo o Profesional graduado en áreas administrativas, de gestión humana, seguridad y salud en el trabajo o carreras afines.\n Contar con conocimientos en:\n Salud y Seguridad en el Trabajo (SST).\n Procesos administrativos.\n Recursos Humanos (HR).\n Manejo de herramientas de Microsoft Office (Excel, Word y PowerPoint).\n Buenas habilidades de comunicación, organización y trabajo en equipo.\n You will be successful in this role if you have:\n Responsabilidades\n Apoyar la gestión administrativa de programas y actividades de HSE.\n Realizar seguimiento a documentación, registros e indicadores del área.\n Brindar soporte a procesos relacionados con Recursos Humanos y cumplimiento normativo.\n Coord"
+   "experiencia": "Sin experiencia",
+   "descripcion": "Importante empresa del sector metalmecánico se encuentra en búsqueda de Asistente Administrativo.\nCreemos en la diversidad y en el talento como motores de crecimiento. Buscamos personas que quieran aportar sus habilidades, crecer profesionalmente y ser parte de un entorno laboral inclusivo y equitativo.\n Formación Académica: Tecnico/Tecnologo en areas administrativas o de Talento Humano, con experiencia en apoyo administrativo, gestión documental y atención de procesos internos.\n Requisitos: Certificado de discapacidad.\n Experiencia: Mínimo 6 meses de experiencia laboral en roles administrativos o apoyando procesos de Talento Humano.\n Competencias y Habilidades\n Proactividad e iniciativa.\n Alto sentido de la organización y método de trabajo.\n Gran orientación al detalle.\n Capacidad demostrada para trabajar en equipo.\n Principales Responsabilidades\n Gestión T&C y Bienestar: Apoyar actividades del área y coordinar programas de bienestar (rutas, alimentación y telefonía).\n Control de lockers y dotación: Asignar, inspeccionar y registrar la entrega de dotación y lockers del personal.\n Gestión documental y archivo: Custodiar documentos corporativos (contratos, pólizas, Cámara de Comercio) y organizar el archivo del área.\n Soporte administrativo y financiero: Manejar caja menor, proces"
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4489251804",
-   "titulo": "Asistente Administrativo (Personas con Discapacidad)",
-   "empresa": "WTW",
+   "url": "https://www.linkedin.com/jobs/view/4492070722",
+   "titulo": "Auxiliar Administrativo OTS Villavicencio",
+   "empresa": "Líneas Hospitalarias",
    "salario": "",
-   "ubicacion": "Medellín, Antioquia, Colombia",
+   "ubicacion": "Villavicencio, Meta, Colombia",
    "publicada": "",
-   "hace": "Hace 5 días",
+   "hace": "Hace 1 hora",
    "contrato": "Jornada completa",
-   "experiencia": "Sin experiencia",
-   "descripcion": "Descripción \n Brindar apoyo operativo y administrativo a las diferentes áreas de la organización, asegurando una gestión eficiente de la información, el seguimiento oportuno de tareas y el soporte logístico necesario para el correcto funcionamiento de los procesos internos.\n El Rol \n Apoyar en la ejecución de actividades administrativas básicas del área.\n Realizar la gestión documental, incluyendo archivo físico y digital, escaneo y organización de información.\n Registrar, actualizar y validar información en los sistemas internos de la compañía.\n Elaborar informes simples, listados y soportes operativos requeridos.\n Hacer seguimiento a tareas operativas mediante checklists y control de pendientes.\n Brindas apoyo logístico a las actividades del equipo.\n Manejar datos y apoyar la atención a clientes internos y externos.\n Requerimientos \n Experiencia mínima de 6 meses en funciones administrativas, operativas y de apoyo.\n Bachiller culminado (requisito mínimo).\n Formación técnica en áreas administrativas u operativas (deseable - no excluyente).\n Conocimiento básico en paquete Office (Word, Excel, Outlook).\n Organización y Planeación.\n Gestión del tiempo y manejo de prioridades.\n Trabajo en equipo.\n Comunicación asertiva.\n Proactividad.\n Flexibilidad y adaptabilidad al cambio.\n Resolu"
+   "experiencia": "Intermedio",
+   "descripcion": "Líneas Hospitalarias es una reconocida empresa santandereana con más de 38 años de trayectoria en el sector de la ortopedia quirúrgica y no quirúrgica. Se destaca por contar con plantas de producción propias, un centro especializado de logística y distribución, mas de 10 puntos de venta y oficinas comerciales a nivel nacional.\nActualmente, la compañía cuenta con más de 600 colaboradores y continúa fortaleciendo su equipo de trabajo. En esta oportunidad, se encuentra en la búsqueda de un Auxiliar Administrativo OTS.\n Titulo obtenido: Técnico o tecnólogo en áreas administrativas, gestión empresarial, contabilidad o carreras afines.\n Experiencia: Experiencia mínima de 1 meses en áreas administrativas o cargos relacionados.\n Requerimientos Del Cargo\n Manejo de herramientas ofimáticas\n Atención y servicio al cliente\n Manejo documental y correspondencia\n Elaboración de cotizaciones para clientes.\n Respuesta a las novedades internas y del cliente.\n Seguimiento a la obtención y actualización documental de clientes.\n Seguimiento a los compromisos del cliente.\n Objetivo Del Cargo\n Ejecutar los procesos administrativos garantizando una respuesta oportuna a las solicitudes de los clientes internos o externos de la organización, manteniendo y asegurando la trazabilidad de la información y doc"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4479230869",
+   "titulo": "Administrative Assistant",
+   "empresa": "DiDi",
+   "salario": "",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "publicada": "",
+   "hace": "Hace 21 horas",
+   "contrato": "Jornada completa",
+   "experiencia": "No corresponde",
+   "descripcion": "About The Company\n DiDi es la plataforma de tecnología de movilidad más grande del mundo. Con más de 10 años en el mercado, somos la empresa líder en servicios basados en aplicaciones para transporte inteligente, entrega de alimentos y servicios de pago. Haciendo la vida mejor y más fácil para las personas todos los días.\nCuando te unes a Didi, vas a formar parte de una comunidad abierta, inclusiva y diversa de más de 12,000 empleados en todo el mundo. Desde el primer día encontrará una rica cultura global colaborativa donde sus responsabilidades tendrán un impacto directo en la estrategia y el crecimiento de la empresa.\n About The Team/role\n Tu principal misión será actuar como el corazón logístico y analítico de nuestras iniciativas. Buscamos a alguien con excepcionales habilidades de organización, atención al detalle y pasión por los datos, que nos ayude a garantizar que cada evento y experiencia de los empleados sea impecable y medible.\n In this role, you'll be...\n Gestión de Experiencias (Eventos): Apoyar la coordinación logística integral (antes, durante y después) de nuestras actividades y eventos de oficina, asegurando que cada detalle planificado se ejecute con excelencia.\n Control de Inventario: Gestionar, rastrear y administrar de manera eficiente el inventario de mate"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492076529",
+   "titulo": "Asistente Administrativo",
+   "empresa": "Concesionaria Vial Andina - Coviandina",
+   "salario": "",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "publicada": "",
+   "hace": "Hace 1 hora",
+   "contrato": "Jornada completa",
+   "experiencia": "Intermedio",
+   "descripcion": "Nombre del Cargo: Asistente Administrativo\nEducación: Bachiller, preferiblemente cursando carreras administrativas\nExperiencia Laboral: 2 años en cargos administrativos\nConocimientos específicos: Manejo de Office (Word, Excel)\n Funciones\n Atender al cliente interno y externo que solicitan información del área.\nApoyar en la redacción de comunicaciones y documentos\nGestionar algunas de las actividades diarias que le sean encomendadas\nElaborar y tramitar solicitudes de materiales, servicios y contratación de acuerdo con los procedimientos internos.\nAdministrar y actualizar bases de datos, registros e información del área como su respectivo archivo\nTipo de contrato: Indefinido\nLugar de trabajo: Sede Boquerón (Km 3 + 630 Vía Bogotá-Villavicencio)\nLugar de vivienda: Preferiblemente Cáqueza, Chipaque, Une, Uval y municipios cercanos Usme, Yomasa"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492086236",
+   "titulo": "Asistente Administrativo Pereira",
+   "empresa": "Gente Útil S.A.",
+   "salario": "",
+   "ubicacion": "Pereira, Risaralda, Colombia",
+   "publicada": "",
+   "hace": "Hace 1 hora",
+   "contrato": "Jornada completa",
+   "experiencia": "Intermedio",
+   "descripcion": "Nos encontramos en búsqueda Auxiliar Administrativa y de Facturación\n LUGAR DE TRABAJO – COTA\n Ubicación: PEREIRA\n Horario: Lunes a Sábado\n Salario: $1.750.000 + prestaciones de ley\n Descripción del cargo\n Importante empresa del sector logístico y transporte se encuentra en la búsqueda de una Auxiliar Administrativa y facturación\n Quien será responsable de apoyar los procesos operativos, administrativos y contables de la compañía, garantizando el adecuado manejo de la información, documentación y registros requeridos para la operación.\n Funciones principales\n Apoyar las tareas administrativas y contables básicas.\n Gestionar procesos de facturación y control de pagos.\n Realizar seguimiento de cartera.\n Elaborar, organizar y archivar documentos.\n Brindar apoyo al área de recursos humanos.\n Apoyar la coordinación de actividades logísticas.\n Atender llamadas telefónicas y gestionar la correspondencia.\n Requisitos\n Formación académica\n Técnico, tecnólogo o estudiante de carreras afines a Administración, Contabilidad o Facturación.\n Experiencia\n Mínimo 1 año de experiencia en cargos similares.\n Deseable experiencia en empresas del sector transporte o logística.\n Conocimientos\n Manejo intermedio de Excel.\n Conocimiento y manejo del software \n POSTULATE!"
   },
   {
    "portal": "LinkedIn",
@@ -182,10 +195,49 @@
    "salario": "",
    "ubicacion": "Medellin, Antioquia, Colombia",
    "publicada": "",
-   "hace": "Hace 3 días",
+   "hace": "Hace 4 días",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
    "descripcion": "Requisition ID: 102238\n Job Category: Engineering\n Location: Medellin, Antioquia, Colombia\nJoin a company that is passionately committed to the pursuit of a better world through positive change. With more than 70 years of business and technical expertise in mining , energy , and infrastructure , our 10,000 colleagues in 150 countries tirelessly work toward bettering the industries in which we operate. With practical solutions that are safe, innovative and sustainable, we think globally while acting locally.\nOur Project Delivery Group (PDG) is a dynamic team of professionals passionately committed to world-class project delivery across the globe. With expertise in sustainable studies, asset building and operations, and industry-leading efficiencies, our best-in-class team leverages methodologies, governance and systems that are unparalleled in the engineering space. Are you looking for an opportunity to join a diverse group of professionals who are committed to remaining exceptional? We look forward to hearing from you.\n Requirements\n Minimum 2 years of experience in similar roles.\n Minimum qualification: Diploma or Advanced Diploma (Technologist) in Business Administration or a related field.\n Advanced English proficiency (to be assessed during the selection process).\n Proficienc"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492066946",
+   "titulo": "Auxiliar Administrativo OTS Cúcuta",
+   "empresa": "Líneas Hospitalarias",
+   "salario": "",
+   "ubicacion": "San Jose de Cucuta, Norte de Santander, Colombia",
+   "publicada": "",
+   "hace": "Hace 1 hora",
+   "contrato": "Jornada completa",
+   "experiencia": "Intermedio",
+   "descripcion": "Líneas Hospitalarias es una reconocida empresa santandereana con más de 38 años de trayectoria en el sector de la ortopedia quirúrgica y no quirúrgica. Se destaca por contar con plantas de producción propias, un centro especializado de logística y distribución, mas de 10 puntos de venta y oficinas comerciales a nivel nacional.\nActualmente, la compañía cuenta con más de 600 colaboradores y continúa fortaleciendo su equipo de trabajo. En esta oportunidad, se encuentra en la búsqueda de un Auxiliar Administrativo OTS.\n Titulo obtenido: Técnico o tecnólogo en áreas administrativas, gestión empresarial, contabilidad o carreras afines.\n Experiencia: Experiencia mínima de 1 meses en áreas administrativas o cargos relacionados.\n Requerimientos Del Cargo\n Manejo de herramientas ofimáticas\n Atención y servicio al cliente\n Manejo documental y correspondencia\n Elaboración de cotizaciones para clientes.\n Respuesta a las novedades internas y del cliente.\n Seguimiento a la obtención y actualización documental de clientes.\n Seguimiento a los compromisos del cliente.\n Objetivo Del Cargo\n Ejecutar los procesos administrativos garantizando una respuesta oportuna a las solicitudes de los clientes internos o externos de la organización, manteniendo y asegurando la trazabilidad de la información y doc"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492075069",
+   "titulo": "Auxiliar administrativo",
+   "empresa": "Grupo Acuamatic S.A.S",
+   "salario": "",
+   "ubicacion": "Medellín, Antioquia, Colombia",
+   "publicada": "",
+   "hace": "Hace 1 hora",
+   "contrato": "Jornada completa",
+   "experiencia": "Sin experiencia",
+   "descripcion": "Descripción del puesto \n En el puesto de Auxiliar administrativo en Grupo Acuamatic S.A.S te encargarás de apoyar las tareas administrativas diarias de la empresa. Tus funciones incluyen la gestión de documentación, archivo, elaboración de informes básicos y actualización de bases de datos. También atenderás llamadas telefónicas, coordinarás agendas, apoyarás a la dirección en tareas administrativas y colaborarás con otros departamentos en la organización de procesos internos. Es un puesto a tiempo completo, presencial y se realiza en Medellín.\n Requisitos \n Aptitudes en asistencia administrativa y apoyo ejecutivo, gestión de documentos y coordinación de reuniones.\n Aptitudes telefónicas y de atención al cliente, con manejo adecuado del teléfono y trato cordial y profesional.\n Aptitudes de comunicación escrita y oral claras y precisas.\n Aptitudes de apoyo administrativo, como archivo, registro de datos, manejo de correspondencia y elaboración de informes básicos.\n Manejo de herramientas ofimáticas (Word, Excel, correo electrónico) y familiaridad con sistemas de gestión administrativa.\n Capacidad de trabajo en equipo, organización, atención al detalle y responsabilidad en el manejo de información.\n Formación mínima de bachillerato\n Experiencia mínima de un año en cargos similares\n"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492074812",
+   "titulo": "Auxiliar Administrativo(a) – Vacante Inclusiva (PCD)",
+   "empresa": "Unidad de Salud Ocupacional",
+   "salario": "",
+   "ubicacion": "Cali, Valle del Cauca, Colombia",
+   "publicada": "",
+   "hace": "Hace 1 hora",
+   "contrato": "Jornada completa",
+   "experiencia": "No corresponde",
+   "descripcion": "Estamos buscando una persona con discapacidad que desee formar parte de nuestro equipo de trabajo, brindando apoyo en diferentes actividades administrativas y operativas.\n Principales Responsabilidades\n Apoyar la organización, clasificación y archivo de documentos.\n Realizar actividades de digitación, registro y actualización de información.\n Brindar soporte en tareas administrativas de las diferentes áreas.\n Desarrollar otras actividades de apoyo acordes con las necesidades de la organización y las capacidades de la persona.\n Requisitos\n Bachiller, técnico o tecnólogo en áreas administrativas o afines.\n Conocimientos básicos en herramientas ofimáticas.\n Habilidades de organización, atención al detalle y trabajo en equipo.\n No se requiere experiencia previa."
   },
   {
    "portal": "LinkedIn",
@@ -195,49 +247,101 @@
    "salario": "",
    "ubicacion": "Yumbo, Valle del Cauca, Colombia",
    "publicada": "",
-   "hace": "Hace 3 días",
+   "hace": "Hace 4 días",
    "contrato": "Jornada completa",
    "experiencia": "Sin experiencia",
    "descripcion": "INFORMACION DE LA EMPRESA.\n ASHE SAS comercializadora de papeles, cartones en rollos y hojas para las artes gráficas se encuentra en la búsqueda de una Auxiliar administrativa.\n Ubicación de Zona Industrial de ARROYOHONDO.\n Horario de lunes a viernes de 7:45 AM a 5: 00 PM.\nSalario $ 1.750.905 + Auxilio de transporte y el pago de todas las prestaciones de ley.\n REQUISISTOS\n FORMACIÓN: Técnico, Tecnólogo en areas administrativas.\n EXPERIENCIA: Experiencia: mínimo 6 meses en archivo, organización documental, atención al cliente interno y externo.\n Conocimientos y manejo de Excel básico e intermedio, temas de redacción y comunicación interna.\n Manejo de Documentación de manera física y virtual.\n Beneficios\n Fondo de empleados FOEMASHE: Con el cual se puede realizar ahorro, solicitar préstamo y apoyo en adquisición de vivienda, continuidad de estudios\n Estabilidad laboral.\n Desarrollo profesional.\n Prestaciones Sociales.\n Contrato directamente con la compañía.\n Si cuentas con los requisitos solicitados, postúlate a esta gran oportunidad laboral…"
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4489270452",
-   "titulo": "Auxiliar administrativo de recepción",
-   "empresa": "IDOM Consulting, Engineering, Architecture",
-   "salario": "",
-   "ubicacion": "Medellín, Antioquia, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "Algo de responsabilidad",
-   "descripcion": "¿Tienes ganas de desarrollarte en una compañía en la que puedes llegar a ser socio/a? Nuestros valores esenciales son el Cliente, la Persona y el Desarrollo Profesional. Si te sientes identificado/a, ¡sigue leyendo!\n SOBRE LA OPORTUNIDAD \n Queremos incorporar un/a Auxiliar Administrativo Recepción para formar parte del equipo de Administración en la ciudad MEDELLÍN .\n Desde IDOM te ofrecemos la oportunidad de desarrollar tu carrera profesional y superarte cada día, en un entorno de colaboración y trabajo en equipo. Te integrarás en un grupo multidisciplinar donde serás una pieza clave en el desarrollo de los proyectos. Tendrás una visión global de distintos negocios y tecnologías en un ambiente de trabajo flexible y de confianza.\n Si te unes a IDOM encontrarás:\n Flexibilidad horaria \n Conciliación vida familiar y profesional \n Apuesta por carrera profesional a largo plazo \n Acceso a la propiedad para todas las personas \n Ambiente joven, multicultural y multidisciplinar \n Actitud favorable a la delegación, más allá de lo habitual \n Compromiso mutuo \n Relaciones interpersonales que favorecen la unidad \n SOBRE TÍ \n No dudes en aplicar si... \n Eres Técnico o Tecnólogo en Gestión Administrativa (requisito indispensable).\n Tienes un nivel intermedio de manejo de Office 365.\n Cuentas co"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4489562270",
-   "titulo": "Auxiliar de Facturación y Cartera",
-   "empresa": "Brigard Urrutia",
+   "url": "https://www.linkedin.com/jobs/view/4492089328",
+   "titulo": "Asistente administrativo y financiero",
+   "empresa": "KONFIDETIA",
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 4 días",
+   "hace": "Hace 1 hora",
    "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "Sobre Brigard Urrutia\n Brigard Urrutia es una de las firmas de abogados líder en Colombia y con mayor prestigio en la región. Con más de 90 años de experiencia, la firma ha asesorado algunas de los proyectos, transacciones e inversiones que han sido hitos para el desarrollo del país, así como para el crecimiento empresarial, y se ha destacado por estar a la vanguardia de la asesoría legal estratégica. La firma cuenta con más de 20 áreas de práctica y con un grupo de más de 150 abogados especializados en diferentes industrias.\nEn 2024, Brigard Urrutia fue reconocida como Latin America Law Firm of the Year por parte de Chambers and Partners, uno de los directorios legales más prestigiosos a nivel internacional, lo que constituye un hito para la firma y para la industria legal nacional, puesto que es la primera vez que una firma de Colombia recibe este reconocimiento.\nBuscamos un Técnico o Tecnólogo en áreas administrativas o financieras.\nMínimo 1 año de experiencia en:\n Manejo de procesos de facturación electrónica\n Realización de asuntos contables\n Aplicación de pagos \n Gestión y recaudo de cartera\n Excel: Intermedio o superior\nInglés: B1 o superior"
+   "experiencia": "Intermedio",
+   "descripcion": "¡Estamos buscando talentos como tú!\nSomos una firma con gran trayectoria a nivel nacional e internacional, estamos en la búsqueda de profesionales o estudiantes de últimos semestres de contaduría pública o administración de empresas para desempeñar el cargo de Asistente administrativo y financiero, para manejar la contabilidad con clientes de exterior.\n Requisitos para aplicar\n Tener experiencia mínima de 2 años en: gestión de facturación, conocimiento en facturación electrónica, gestión administrativa, cobro de cartera, manejo de ERP contable elaboración y presentación de informes en Excel. Si eres una persona recursiva, con buen servicio al cliente y si tienes buen manejo de herramientas ofimáticas, esta oferta es para ti.\n estudiantes de últimos semestres o profesional en administración de empresas o contaduría.\n ¿Qué ofrecemos?\n Remuneración de 2.300.000. más $ 300.000 en bonos.\n El contrato es a término indefinido, directamente con la compañía.\n Oportunidades de crecimiento personal y profesional.\n Horario de Lunes a viernes, modalidad presencial. Chico norte\n Bonificación anual por cumplimiento de metas.\n¡Anímate y postúlate!"
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4490513041",
-   "titulo": "Auxiliar administrativo logistico distribución",
-   "empresa": "DHL Global Forwarding",
+   "url": "https://www.linkedin.com/jobs/view/4492080694",
+   "titulo": "Auxiliar Contable y Administrativo",
+   "empresa": "Colegio Bilingüe Richmond",
    "salario": "",
-   "ubicacion": "Funza, Cundinamarca, Colombia",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 1 día",
+   "hace": "Hace 1 hora",
+   "contrato": "Jornada completa",
+   "experiencia": "No corresponde",
+   "descripcion": "Nos encontramos en búsqueda de un(a) Auxiliar Contable y Administrativo(a) para nuestro equipo de Richmond Store del Colegio Bilingüe Richmond. Buscamos una persona organizada, responsable, proactiva y con orientación al servicio, que cuente con experiencia en procesos contables, administrativos y comerciales.\n Requisitos\n Técnico en Contabilidad, Gestión Administrativa, Finanzas o programas afines.\n Experiencia en procesos contables y administrativos.\n Conocimientos en facturación electrónica, registro de compras y ventas, conciliaciones bancarias, cuentas por pagar y control de inventarios.\n Manejo de Excel y herramientas ofimáticas.\n Deseable conocimiento en SIIGO y plataformas de facturación.\n Principales Funciones\n Elaboración y registro de facturas electrónicas, compras, ventas y notas crédito.\n Gestión de pagos a proveedores y apoyo en procesos de tesorería.\n Realización de conciliaciones bancarias y seguimiento de cartera.\n Control y seguimiento de inventarios.\n Gestión documental y elaboración de informes administrativos y contables.\n Atención a padres de familia, estudiantes y proveedores.\n Apoyo en las actividades comerciales y operativas.\n Condiciones Laborales\n Contrato: Término indefinido.\n Modalidad: Contratación directa.\n Lugar de trabajo: Colegio Bilingüe Richmon"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4445981859",
+   "titulo": "Auxiliar Contable Administrativo",
+   "empresa": "Specialty Lines Underwriters Colombia",
+   "salario": "",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "publicada": "",
+   "hace": "Hace 21 horas",
    "contrato": "Jornada completa",
    "experiencia": "Sin experiencia",
-   "descripcion": "POSICIÓN: 1, OFFICE CLERK\n UBICACIÓN: PARQUE INDUSTRIAL INTEXZONA,VIA SIBERIA FUNZA\n PROPÓSITO:\n Introducir y actualizar datos en el sistema de DHL y/o de los clientes basándose en la información suministrada de los diferentes procesos operativos y según los estándares de calidad definido con cada cliente.\n FUNCIONES\n Ingresar y mantener actualizado los datos en los sistemas de DHL, zonas francas, DIAN, y/o de los clientes según sea el caso en el tiempo establecido y según los procedimientos establecidos internamente y/o con el cliente.\n Realizar los cierres diarios de las transacciones en el sistema.\n Generar ingresos o movimientos en los sistemas, Picking y/o Packing lists acorde a las órdenes o instrucciones de los clientes y/o su jefe inmediato.\n Generar reportes según los requerimientos internos de DHL y/o establecidos con los clientes.\n Colaborar con los análisis de causa a cada una de las no conformidades y novedades reportadas por el cliente y generar reporte de estas al jefe de área.\n HABILIDADES Y COMPETENCIAS:\n Capacidad crítica: Habilidad para la evaluación de datos y líneas de acción para conseguir tomar decisiones lógicas de forma imparcial y razonada.\n Tolerancia el estrés: Mantenimiento firme del carácter ante acumulación de tareas o responsabilidades, lo cual se "
+   "descripcion": "En Specialty Lines Underwriters nos encontramos en la busqueda de un Auxiliar Administrativo Contable que sea altamente proactivo,organizado y con solida orientacion a resultados, que desee integrarse a un equipo dinamico, colaborativo y en constante crecimiento.\n Requisitos:\n Profesional y/o Tecnologo en Contaduria Publica o carreras afines.\n Excelente manejo del paquete office, manejo de bases de datos, habilidades de comunicación asertiva.\n Manejo del software contable SIIGO Pyme, Siigo Nube para nómina electrónica, impuestos nacionales y distritales, apoyo reporte de información exógena nacional y distrital y experiencia en recursos humanos.\n Manejo del paquete office, excel medio - alto.\n Experiencia:\n 1 año de experiencia específica en cargos relacionados. \n Funciones:\n Contabilidad:\n • Apoyar al contador en la realización de operaciones ordinarias y extraordinarias requeridos para las operaciones de la empresa.\n • Archivar y manejar los documentos contables para uso y control interno.\n • Elaboración y realización de las conciliaciones bancarias.\n • Apoyar la elaboración de impuestos nacionales y distritales.\n • Apoyar la liquidación de impuestos (retenciones a terceros).\n • Apoyar el diligenciamiento de medios nacionales y distritales.\n • Demás tareas inherentes al cargo.\n"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492087052",
+   "titulo": "Asistente Administrativo/a de Tecnología Compras e Inventarios Morato Bogotá",
+   "empresa": "Colserauto S.A.",
+   "salario": "",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "publicada": "",
+   "hace": "Hace 1 hora",
+   "contrato": "Jornada completa",
+   "experiencia": "Intermedio",
+   "descripcion": "¿Tienes experiencia en gestión administrativa y te interesa trabajar en un entorno tecnológico?\nEn Colserauto buscamos un(a) Asistente Administrativa de Tecnología que brinde soporte a los procesos administrativos y financieros del área de Transformación e Innovación, contribuyendo a la organización, control y seguimiento de facturas, compras, proveedores, inventarios y presupuesto.\nBuscamos una persona organizada, analítica y orientada al detalle, con capacidad para gestionar diferentes actividades administrativas y garantizar el cumplimiento oportuno de los procesos.\n Requisitos\n Técnica o tecnóloga en Gestión Administrativa, Asistencia Gerencial, áreas Contables o carreras afines.\n Opcional: estudiante de últimos semestres de carreras administrativas.\n Experiencia mínima de 1 año como Asistente Administrativa, preferiblemente en áreas de Tecnología, Compras o Financiera.\n Conocimientos en herramientas ofimáticas de Microsoft y aplicativos con acceso web.\n Deseable conocimiento en gestión de inventarios y/o procesos contables.\n Capacidad para gestionar documentación, facturación, cotizaciones y seguimiento a proveedores.\n Atención al detalle, organización y manejo de información administrativa y financiera.\n ¿Qué ofrecemos?\n Salario: $1.920.000 con prestaciones de Ley + Benefic"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492081378",
+   "titulo": "Auxiliar Administrativo y contable / Palmira",
+   "empresa": "Coopidrogas",
+   "salario": "",
+   "ubicacion": "Palmira, Valle del Cauca, Colombia",
+   "publicada": "",
+   "hace": "Hace 1 hora",
+   "contrato": "Jornada completa",
+   "experiencia": "Intermedio",
+   "descripcion": "Coopidrogas requiere para su equipo de trabajo Auxiliar Administrativo organizado, proactivo, con atención al detalle, habilidades de servicio, manejo de herramientas ofimáticas y capacidad para trabajar en equipo.\nEn este rol, serás responsable de apoyar la ejecución de los procesos administrativos, financieros, logísticos y de compras de la organización, brindar soporte en la gestión documental, control de inventarios, manejo de información en SAP, seguimiento presupuestal, gestión de proveedores, elaboración de informes, contribuyendo al adecuado funcionamiento y al cumplimiento de los objetivos del área.\n Formación académica: Tecnólogo graduado, Administrador de Empresas, Contador Público o carreras afines.\n Experiencia: Mínimo un (1) año de experiencia desempeñando cargos como Auxiliar Administrativo, Auxiliar Contable o en funciones administrativas relacionadas.\n Conocimientos deseables: Manejo de herramientas ofimáticas (Excel intermedio) y conocimientos intermedio en SAP.\n Horario\n Lunes a Viernes.\n Condiciones Laborales\n Contrato de trabajo a término indefinido\n Beneficios extralegales.\n Indispensable residir en Palmira.\n Si cumples con el perfil y estás en búsqueda de una nueva oportunidad laboral, postúlate y haz parte de una empresa con propósito y proyección."
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492077731",
+   "titulo": "Auxiliar Contable y Administrativo",
+   "empresa": "Bertolini Colombia SAS",
+   "salario": "",
+   "ubicacion": "Barranquilla, Atlántico, Colombia",
+   "publicada": "",
+   "hace": "Hace 57 minutos",
+   "contrato": "Jornada completa",
+   "experiencia": "Sin experiencia",
+   "descripcion": "📢 ¡Vacante en Barranquilla! | Auxiliar Contable y Administrativo \n En Bertolini Colombia S.A.S. buscamos una persona organizada y detallista para apoyar los procesos contables y administrativos de la compañía.\n Responsabilidades principales: causación y registro de facturas de proveedores, conciliación de cuentas por pagar y por cobrar, seguimiento de cartera, elaboración de recibos de pago y notas crédito. También apoyará la gestión de compras, la revisión de documentos electrónicos ante la DIAN y los procesos de nómina y seguridad social, incluyendo novedades, afiliaciones y conciliaciones contables.\n Perfil que buscamos: \n Técnico/a, tecnólogo/a o estudiante de últimos semestres de Contaduría Pública.\n Mínimo 2 años de experiencia en cargos similares.\n Experiencia en causación de facturas, conciliaciones contables y gestión de cartera.\n Conocimientos en facturación electrónica, documentos DIAN, nómina y seguridad social.\n Manejo de Excel intermedio o avanzado y de sistemas contables; preferiblemente SIIGO.\n 📍 Barranquilla | Presencial \n 📄 Contrato a término indefinido \n Valoramos la atención al detalle, la capacidad analítica, la responsabilidad, la comunicación asertiva y el trabajo en equipo.\n ¿Te interesa? Envíanos tu hoja de vida por mensaje directo. Si conoces a alguien q"
+  },
+  {
+   "portal": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492032070",
+   "titulo": "Auxiliar Administrativo / Mosquera",
+   "empresa": "G&J Empresas de Acero",
+   "salario": "",
+   "ubicacion": "Mosquera, Cundinamarca, Colombia",
+   "publicada": "",
+   "hace": "Hace 7 horas",
+   "contrato": "Jornada completa",
+   "experiencia": "Intermedio",
+   "descripcion": "AUXILIAR ADMINISTRATIVO – PLANTA MOSQUERA\n ¿Te apasiona el trabajo administrativo, la logística y el manejo de información? ¡Esta oportunidad es para ti!\nImportante compañía del sector industrial se encuentra en búsqueda de un Auxiliar Administrativo para apoyar los procesos administrativos, de producción y logística en nuestra planta ubicada en Mosquera.\n ¿Cuáles serán tus principales responsabilidades?\n Elaborar y registrar reportes de producción en el sistema SIESA.\n Gestionar en el sistema INTERCOMEX de Zona Franca la legalización de ingresos y salidas de mercancía.\n Brindar apoyo a los procesos logísticos y administrativos de planta.\n Confirmar y coordinar la disponibilidad de vehículos para los despachos.\n Apoyar el seguimiento y control de las operaciones diarias.\n ¿Qué perfil buscamos?\n Bachiller o técnico en áreas administrativas, logísticas o carreras afines.\n Manejo de herramientas ofimáticas.\n Deseable experiencia en procesos administrativos, producción o logística.\n Persona organizada, proactiva, responsable y con orientación al detalle.\n Condiciones laborales\n Lugar de trabajo: Mosquera, Cundinamarca.\n Horario: Lunes a viernes de 7:30 a. m. a 5:00 p. m.\n Salario: $1.750.000 + prestaciones de ley.\n Contrato: Directo con la compañía.\n Beneficios: Beneficios corporativ"
   },
   {
    "portal": "LinkedIn",
@@ -247,36 +351,10 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 3 días",
+   "hace": "Hace 4 días",
    "contrato": "Jornada completa",
    "experiencia": "No corresponde",
    "descripcion": "Principales responsabilidades\n Administrar y realizar seguimiento a la cartera de clientes, identificando vencimientos y riesgos.\n Realizar conciliaciones de cuentas por cobrar, seguimiento a pagos y resolución de diferencias.\n Gestionar y validar requisitos documentales para actualización y vinculación de clientes.\n Preparar formatos para evaluación de crédito a clientes\n Utilizar SAP ECC para consultar, registrar y analizar información relacionada con crédito y cartera.\n Trabajar de manera colaborativa con las áreas Comercial, Finanzas, Tesoreria y Contabilidad para asegurar una adecuada gestión del crédito y recaudo.\n Requisitos indispensables\n Profesional en Contaduría, Administración de Empresas, Finanzas, Economía o carreras afines.\n Mínimo 3 años de experiencia en áreas de crédito, cartera, cobranzas o cuentas por cobrar.\n Experiencia en análisis e interpretación de estados financieros y evaluación de riesgo crediticio.\n Conocimiento de procesos de conciliación y seguimiento de cuentas por cobrar.\n Experiencia con SAP ECC.Excel avanzado (tablas dinámicas, fórmulas y análisis de información).\n Requisitos deseables\n Manejo de herramientas de análisis y visualización de datos, como Power BI.\n Inglés intermedio."
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4490509020",
-   "titulo": "Analista de Cartera I",
-   "empresa": "Grupo Empresarial Protección S.A.S.",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "Intermedio",
-   "descripcion": "¡Estamos buscando talento para nuestro equipo! 🚀\nSi cuentas con experiencia en gestión de cartera, análisis de cuentas por cobrar y negociación con clientes , esta puede ser tu próxima oportunidad laboral.\n📍 Ubicación\nBogotá D.C. – Modalidad Presencial\n 🎓 Perfil que buscamos\n Profesional en Contaduría Pública o Administración de Empresas\n Experiencia mínima de 2 años en gestión de cartera o cuentas por cobrar\n Excelente capacidad analítica y manejo de información financiera\n Habilidad para negociación y gestión de cobros con clientes\n Excel Intermedio/ Avanzado\n Normatividad establecida para libranza Ley 1527 de 2012.\n Incorporación y gestión de las diferentes plataformas a nivel nacional: DIBANKA, SIGNUS, SICOD-SIATH, MIN DEFENSA, POLICÍA NACIONAL, SAC y otros.\n 💼 Funciones principales\n Gestionar y controlar la cartera de cuentas por cobrar de la organización.\n Realizar seguimiento y monitoreo a la cartera de clientes.\n Ejecutar gestión de cobro preventivo y correctivo.\n Realizar conciliación de pagos y depuración de cuentas.\n Analizar información financiera para optimizar el recaudo y minimizar la mora.\n 💰 Condiciones laborales\n Salario: $3.000.000 + prestaciones de ley\n Modalidad: Presencial\n Contrato: Indefinido\n Horario: Horario. Jornada máxima legal 42 horas semanales - Lun"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4491573228",
-   "titulo": "Analista de Cartera Senior",
-   "empresa": "AVANZO",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 horas",
-   "contrato": "Jornada completa",
-   "experiencia": "Intermedio",
-   "descripcion": "En Avanzo llevamos 8 años dando crédito por libranza a empleados de más de 200 empresas en Colombia. Buscamos a alguien con experiencia y criterio propio para el equipo de Cartera B2B. Esa persona va a llevar el ciclo de cobranza con las empresas convenio, convertir los datos de cartera en decisiones y usar automatizaciones e IA para anticipar problemas antes de que lleguen a mora.\n Qué vas a hacer \n Llevar de punta a punta el ciclo de cobranza con las empresas convenio: novedades, listados, conciliación de pagos y retirados.\n Reducir el tiempo entre el retiro de un empleado y la acción de cartera: gestionar saldos de retirados, acuerdos de pago y cobro prejurídico.\n Gestionar la mora institucional y decidir cuándo y cómo escalar cada caso.\n Construir la proyección de recaudo y los reportes del área, y explicar las desviaciones contra lo real.\n Detectar señales de deterioro por empresa (cohortes, concentración, rotación) y alertar a tiempo con una propuesta de acción.\n Operar y mejorar los flujos automatizados de cobranza (n8n, Apps Script e IA).\n Cuadrar el cierre mensual de cartera y explicar sus diferencias.\n Acompañar a las empresas convenio en el uso del Portal Empresas para que sean más autónomas.\n Apoyar al equipo con buenas prácticas y documentar los procesos que mejores."
   },
   {
    "portal": "LinkedIn",
@@ -286,7 +364,7 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 4 días",
+   "hace": "Hace 5 días",
    "contrato": "Jornada completa",
    "experiencia": "Algo de responsabilidad",
    "descripcion": "En Rich de Colombia buscamos un(a) Analista de Crédito y Cartera para unirse a nuestro equipo de Finanzas. Su misión será asegurar el control oportuno de la cartera y entregar información confiable que apoye la toma de decisiones del negocio.\n Requisitos excluyentes: \n Tecnólogo(a) o profesional en Contaduría, Finanzas, Administración o carreras afines.\n Mínimo 2 años de experiencia en manejo de cartera, preferiblemente en consumo masivo, alimentos o manufactura.\n Experiencia en conciliación bancaria y de cartera, y en procesos de recuperación de cartera.\n Conocimiento en provisiones bajo NIIF 9.\n Manejo de SAP en los módulos financiero y logístico.\n Excel intermedio: tablas dinámicas y fórmulas condicionales y de referencia.\n Suma puntos si tienes: \n Experiencia en análisis financiero para el otorgamiento de crédito.\n Experiencia con cartera de grandes cadenas: descuentos por pronto pago (DPP) y rebates.\n Conocimiento en SAP S/4HANA o Salesforce.\n Manejo de herramientas de IA como Copilot para optimizar tareas operativas.\n Algunas de las funciones del rol: \n Conciliar los recaudos con los movimientos bancarios y garantizar que todos los pagos de clientes se identifiquen y apliquen oportunamente en la cartera.\n Registrar y validar en el sistema pagos, notas crédito y la creación "
@@ -299,62 +377,156 @@
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 23 horas",
+   "hace": "Hace 1 día",
    "contrato": "Jornada completa",
    "experiencia": "Algo de responsabilidad",
    "descripcion": "Accounts Receivable Analyst LATAM \n En Rheem , líder global en soluciones de climatización, calefacción y agua caliente, buscamos un Accounts Receivable Analyst Latam para integrarse al equipo financiero de Rheem de Colombia y liderar la gestión de cobranza.\n Buscamos una persona analítica, orientada a resultados y con sólida experiencia administrando carteras regionales de cuentas por cobrar.\n Principales responsabilidades \n Gestionar la cobranza de clientes \n Administrar y dar soporte a la cartera de cuentas por cobrar de Chile\n Realizar conciliaciones de cuentas y análisis de diferencias.\n Aplicar pagos, notas de crédito, compensaciones y ajustes en ERP.\n Elaborar reportes de cartera, antigüedad saldos , y apoyar los procesos de cierre financiero.\n Coordinar permanentemente con equipos de Ventas, Supply Chain y Finanzas para asegurar una gestión eficiente de la cartera.\n Requisitos \n Título en Contabilidad, Auditoría, Administración, Finanzas o carrera afín.\n Al menos 3 años de experiencia en Cuentas por Cobrar (Accounts Receivable), Crédito y Cobranza.\n Experiencia comprobable en cobranzas \n Deseable experiencia administrando carteras de clientes eCommerce de múltiples países\n Manejo de ERP, idealmente Oracle.\n Excel avanzado.\n Inglés intermedio deseable.\n Experiencia gestion"
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4490398610",
-   "titulo": "Collections Analyst B2B",
-   "empresa": "Genpact",
+   "url": "https://www.linkedin.com/jobs/view/4492070690",
+   "titulo": "Analista Junior de cartera",
+   "empresa": "Innova Schools Colombia",
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "Algo de responsabilidad",
-   "descripcion": "¿Preparado para dar forma al futuro del trabajo? \n En Genpact, no solo nos adaptamos al cambio, lo impulsamos. La IA y la innovación digital están redefiniendo las industrias, y nosotros lideramos esta transformación. Nuestra Genpact AI Gigafactory, un acelerador pionero en la industria es un claro ejemplo de cómo estamos escalando soluciones tecnológicas avanzadas para ayudar a las compañías globales a trabajar de manera más inteligente, crecer más rápido y transformarse a escala. Desde modelos a gran escala hasta IA agencial, nuestras soluciones innovadoras abordan los retos más complejos de las empresas.\n Si te apasiona un entorno dinámico e impulsado por la tecnología, te gusta resolver problemas del mundo real y quieres ser parte de un equipo que está dando forma al futuro, este es tu momento.\n Genpact (NYSE: G) es una empresa de servicios y soluciones de tecnología avanzada que ofrece un valor sostenible para las empresas líderes a nivel mundial. A través de nuestro profundo conocimiento empresarial, excelencia operativa y soluciones de vanguardia ayudamos a las empresas de todas las industrias a salir adelante y mantenerse a la vanguardia. Impulsados por la curiosidad, el coraje y la innovación , nuestros equipos implementan datos, tecnología e inteligencia artificial para"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4491569618",
-   "titulo": "Especialista Estrategia de Cobranza",
-   "empresa": "Banco Falabella",
-   "salario": "",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 horas",
+   "hace": "Hace 1 hora",
    "contrato": "Jornada completa",
    "experiencia": "Intermedio",
-   "descripcion": "🚀 ¡En Banco Falabella estamos buscando talento para nuestro equipo de Cobranza y Analítica! 💚\n Si te apasiona transformar datos en estrategias, desarrollar modelos estadísticos y generar soluciones que impacten directamente los resultados del negocio, esta oportunidad puede ser para ti.\n 🎯 ¿Cuál será tu reto? \n Serás responsable de la creación e implementación de nuevas estrategias de cobro , utilizando analítica y modelos estadísticos para:\n Diseñar, implementar y monitorear estrategias de cobranza .\n Construir y hacer seguimiento a indicadores de desempeño de cartera .\n Identificar alertas, tendencias y oportunidades a partir de los datos.\n Desarrollar análisis y modelos que permitan optimizar la gestión de cartera y la toma de decisiones.\n Generar reportes y documentación para seguimiento de las estrategias.\n Incorporar herramientas de Inteligencia Artificial para generar decisiones más rápidas y oportunas.\n Proponer iniciativas que tengan un impacto positivo en el P&G del negocio .\n 🔎 ¿Qué buscamos? \n Profesional en Economía, Estadística, Matemáticas o carreras afines .\n Experiencia sólida en modelos estadísticos y análisis cuantitativo .\n Experiencia en alguno de estos frentes:\n Modelos de cobranza. \n Riesgo de crédito. \n Modelos de fraude.\n Estimadores de ingresos.\n Segment"
+   "descripcion": "¡Haz parte de nuestro equipo como Analista Junior de cartera 💙🧡💚\nEn Innova Schools , red de colegios a nivel Latam orientada a inspirar y formar estudiantes para transformar el mundo, estamos en búsqueda de una persona que garantice la debida conciliación de los pagos realizados con la contabilidad a través de la emisión de documentos de cobro y la verificación del ingreso de pagos.\n🛠️ ¿Cuál será tu misión?\n Generar informes a la Gerencia para evaluación de la cartera\n Ejecución del proceso para la aplicación de penalidades por pago tardío o descuentos por prontos pagos según sea el caso en las fechas establecidas, asegurando el cumplimiento.\n Ejecución del proceso para establecer descuentos por campañas comerciales, según requerimiento del área Comercial\n Reporte y seguimiento a clientes morosos\n Conciliación de ingresos, Notas Crédito, ajustes contables.\n Seguimiento a planes de acción a través de reportes diarios en power BI.\n Nivel avanzado de Excel\n Análisis de datos\n 📚 Lo que buscamos en ti\n 🎓 Tecnólogo y/o estudiante de octavo semestre o superior en áreas de Administración de empresas, economía o ingeniería industrial o preferiblemente contabilidad.\n👨‍💼 Experiencia mínima de 3 años en el cargo.\n📝 Lo que tenemos para ti\n 📄 Contrato a término indefinido\n⏰ Jornada laboral: lu"
   },
   {
    "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4490081036",
-   "titulo": "Analista de Cartera Bilingue",
-   "empresa": "Iluma Alliance",
-   "salario": "",
-   "ubicacion": "Medellin, Antioquia, Colombia",
-   "publicada": "",
-   "hace": "Hace 5 días",
-   "contrato": "Jornada completa",
-   "experiencia": "No corresponde",
-   "descripcion": "En Iluma buscamos una persona que contribuya a la sostenibilidad financiera de la Alianza mediante la gestión de cartera, el recaudo oportuno y el análisis del riesgo crediticio.\n¿Cuál será tu propósito?\nGestionar y controlar las operaciones de cartera, asegurando la correcta aplicación de recaudos, el seguimiento a su recuperación y la confiabilidad de la información para apoyar las decisiones financieras y comerciales.\nTus principales responsabilidades\n Gestionar la aplicación, conciliación y control de los recaudos y el cierre del proceso de cartera.\n Hacer seguimiento a las cuentas por cobrar y acompañar al equipo comercial en la gestión de cobro.\n Analizar el comportamiento de la cartera y la situación financiera de los clientes para recomendar cupos de crédito, aprobación de pedidos y despachos.\n Administrar el seguro de crédito y hacer seguimiento a sus condiciones y coberturas.\n Elaborar informes, indicadores y análisis que permitan identificar riesgos y oportunidades de mejora.\n Asegurar el cumplimiento de políticas, procedimientos y controles, brindando atención oportuna a clientes internos y externos.\n ¿Qué buscamos?\n Profesional en Contaduría Pública, Administración de Empresas, Ingeniería Administrativa, Ingeniería Financiera, Economía o carreras afines.\n Mínimo tres"
-  },
-  {
-   "portal": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4489580679",
-   "titulo": "Collections Specialist",
-   "empresa": "Zimmer Biomet",
+   "url": "https://www.linkedin.com/jobs/view/4492085311",
+   "titulo": "Analista de recuperación de cartera",
+   "empresa": "Liquitty",
    "salario": "",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "publicada": "",
-   "hace": "Hace 4 días",
+   "hace": "Hace 1 hora",
    "contrato": "Jornada completa",
    "experiencia": "No corresponde",
-   "descripcion": "At Zimmer Biomet, we believe in pushing the boundaries of innovation and driving our mission forward. As a global medical technology leader for nearly 100 years, a patient’s mobility is enhanced by a Zimmer Biomet product or technology every 8 seconds.\nAs a Zimmer Biomet team member, you will share in our commitment to providing mobility and renewed life to people around the world. To support our talent team, we focus on development opportunities, robust employee resource groups (ERGs), a flexible working environment, location specific competitive total rewards, wellness incentives and a culture of recognition and performance awards. We are committed to creating an environment where every team member feels included, respected, empowered and recognised.\nWhat You Can Expect\nResponsible and accountable for the collection of past due invoices and monitoring of assigned customer accounts to maintain past due and credit risk at a minimum in a GBS environment. Work closely with Customer Service and Sales Organization. Provide excellent customer service by responding to queries and resolving issues and disputes raised by customers and internal stakeholders. Focus activities on being customer-minded, while achieving corporate DSO goals and minimizing bad debt exposure\nHow You'll Create Im"
+   "descripcion": "¡ÚNETE A NUESTRO EQUIPO!\nANALISTA DE RECUPERACIÓN DE CARTERA\nEstamos en búsqueda de personas comprometidas, responsables y orientadas al cumplimiento de resultados, que quieran hacer parte de nuestro equipo de trabajo.\n Ofrecemos\n Salario básico: $2.012.402\n Comisiones adicionales según tabla.\n Ubicación: Calle 96 #13-11.\n Requisitos\n Experiencia en gestión de cobro y recuperación de cartera.\n Manejo de Excel nivel medio-avanzado.\n Habilidades de negociación, comunicación y orientación al logro.\n Alto sentido de responsabilidad, compromiso y principios éticos.\n BUSCAMOS PERSONAS CON ACTITUD, COMPROMISO Y GANAS DE CRECER.\n ¡Si cumples con el perfil, queremos conocerte! Postúlate y sé parte de nuestro equipo."
+  },
+  {
+   "titulo": "Analista Administrativo – SAP / Compras y Facturación",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Administrativo – SAP / Compras y Facturación \n SERDAN - MISION TEMPORAL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Analista Técnico 1 de Jefatura Mesa Transaccional\n Ciudad: Bogotá D.C.\n Horario: Lunes a viernes, 8:00 a. m. a 5:00 p. m.\n Disponibilidad: Inmediata\n Contrato: Obra o labor temporada de 1 a 6 meses\n Salario: $2.765.000 + prestaciones de ley\nPerfil del cargo\nImportante entidad del sector financiero requiere para su equipo de trabajo un(a) Analista Técnico 1 de Jefatura Mesa Transaccional, quien brindará apoyo en procesos administrativos, compras, contratación y facturación, realizando seguimiento y gestión de la información requerida por el área.\nBuscamos una persona organizada, analítica, con atención al detalle y manejo de herramientas ofimáticas.\nRequisitos\n Formación académica\nEstudiante de tercer semestre en adelante de:\nEconomía\nContaduría Pública\nAdministración de Empresas\nCarreras profesionales afines\n Experiencia\nMínimo 1 añ",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-sap-compras-y-facturacion-en-bogota-dc-0AC47FBDE21038BB61373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Administrativo de Obra/Facturación y Proveedores - Experiencia en empresas del sector inmobiliario o de construcción",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Administrativo de Obra/Facturación y Proveedores - Experiencia en empresas del sector inmobiliario o de construcción \n Multiempleos S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.500.000,00 (Mensual) \n Contrato de aprendizaje \n Tiempo Completo \n Importante empresa del sector construcción requiere para su equipo de trabajo ANALISTA ADMINISTRATIVO, profesional en carreras administrativas o afines, con mínimo 2 años de experiencia general y 1 año de experiencia específica en procesos de facturación.\nRequisitos:\nProfesional en carreras administrativas o afines.\nExperiencia específica mínima de 1 año en procesos de facturación.\nExperiencia en empresas del sector inmobiliario o de construcción.\nFunciones principales:\nVerificar solicitudes de facturación y sus respectivos soportes.\nGenerar y emitir facturas electrónicas.\nValidar información en sistemas ERP frente a soportes comerciales y administrativos.\nGestionar notas crédito, anulaciones, refacturaciones y ajustes.\nRealizar seguimiento y control de facturas emitida",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-obrafacturacion-y-proveedores-experiencia-en-empresas-del-sector-inmobiliario-o-de-construccion-en-bogota-dc-27B8FB3E7DA336CB61373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Customer o Aux administrativo(a) – Consumo Masivo Bogotá (M) - Cupo fijo",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Customer o Aux administrativo(a) – Consumo Masivo Bogotá (M) - Cupo fijo \n Eficacia - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.905,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n ANALISTA CUSTOMER O AUXILIAR ADMINISTRATIVO | BOGOTÁ\n¡En Eficacia buscamos talentos como tú!\n¿Te apasiona el análisis de información, la gestión administrativa y tienes habilidades comerciales? ¡Esta oportunidad es para ti!\nNos encontramos en búsqueda de ANALISTA CUSTOMER AUXILIAR ADMINISTRATIVO para importante compañía del sector de consumo masivo, una persona organizada, analítica, proactiva y con orientación al servicio, que quiera aportar al cumplimiento de los objetivos del área de Trade Marketing.\n¿Qué buscamos?\nTécnico, tecnólogo o estudiante de últimos semestres de Administración de Empresas, Mercadeo, Gestión Comercial o carreras afines.\nMínimo 6 meses de experiencia en cargos administrativos o de apoyo comercial.\nManejo de Excel intermedio-avanzado.\nExperiencia en construcción y manejo de bases de datos, elabor",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-customer-o-aux-administrativoa-consumo-masivo-bogota-m-cupo-fijo-en-bogota-dc-55001567DD2EF6E461373E686DCF3405"
+  },
+  {
+   "titulo": "Analista administrativo",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista administrativo \n MUNDIAL DE REPUESTOS DE MOTOS S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.200.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Descripción de la vacante\nEstamos en busqueda de un(a) Analista Administrativo con enfoque contable, quien brindará apoyo a los procesos administrativos y financieros de la compañía.\nFunciones principales:\nApoyar el proceso de cajas\nRealizar conciliaciones de medios de pago.\nGestionar solicitudes de anticipos.\nManejar operaciones con transportadora de valores.\nManejo y actualización de bases de datos relevantes.\nApoyo en el manejo de cartera.\nGestión de facturación para pagos.\nRealizar cuadres de caja.\nRegistro y validación de información contable y administrativa.\nPerfil requerido:\nFormación en áreas administrativas, contables o afines.\nExperiencia previa en funciones administrativas y contables (deseable).\nManejo de herramientas ofimáticas, especialmente Excel.\nHabilidades de organización, análisis y atención al detalle.\nCapacidad para trabajar de manera ordenada y res",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-en-bogota-dc-859061D2DF9C6C9A61373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Contable y Administrativo",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Contable y Administrativo \n Wama Pharma SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.000.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n En WaMa Pharma SAS estamos buscando incorporar a nuestro equipo un(a) Analista Contable y Administrativo(a), una persona organizada, analítica y orientada al detalle, con experiencia en procesos contables, financieros y administrativos.\nLo que buscamos\nContador(a) Público(a) o estudiante de últimos semestres de Contaduría Pública.\nExperiencia mínima de 1 año como asistente o analista administrativo, financiero y/o contable.\nManejo de herramientas digitales: procesadores de texto, hojas de cálculo, software contable (en especial Siigo), entre otras.\nCapacidad de organización, seguimiento, análisis y gestión de información.\n¿Cuáles serán tus responsabilidades?\n* Gestión administrativa\nPlanificar, coordinar y organizar actividades administrativas.\nRedactar comunicaciones y documentos requeridos.\nResguardar y gestionar información de manera adecuada.\nElaborar reportes e informes solicitados",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-y-administrativo-en-bogota-dc-47514BC2A0058CBE61373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Administrativo de control",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Administrativo de control \n Inversiones D Santa - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.500.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Empresa del sector gastronómico y entretenimiento requiere Analista Administrativo de Control, / Auditor de control interno. \nexperiencia en control de información, auditoría operativa y manejo de procesos administrativos y financieros.\nNos encontramos ubicados al sur de la ciudad, al lado de plaza de las Américas\nFunciones:\nControl y revisión de cuadres de caja y ventas.\nArqueos y control de efectivo.\nVerificación de facturación electrónica y vouchers.\nConciliación de ventas vs. sistema, bancos y medios de pago.\nRevisión de cortesías, gastos y bonificaciones.\nAnálisis y reporte de inconsistencias.\nManejo y actualización de bases de datos y reportes en Excel.\nControl documental y apoyo en procesos de auditoría interna.\nRequisitos:\nTécnico o tecnólogo en Administración, Contabilidad o áreas afines.\nMínimo 2 años de experiencia en control, auditoría, caja, contabilidad o áreas adminis",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-control-en-bogota-dc-E8D0C6C7F00EF1C161373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Jurídico administrativo - Proyecto",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Jurídico administrativo - Proyecto \n Diane & Geordi - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.480.470,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Buscamos un Analista Jurídico por un proyecto que brinde soporte integral a la gestión legal de la compañía, con enfoque en la administración y seguimiento de proyectos inmobiliarios, gestión contractual, control documental e identificación oportuna de riesgos jurídicos.\nFunciones principales\nRecopilar, registrar, actualizar y administrar la información documental y jurídica relacionada con los proyectos inmobiliarios.\nRevisar y realizar seguimiento a contratos comerciales, civiles, inmobiliarios y de arrendamiento.\nVerificar condiciones contractuales, fechas de vencimiento, renovaciones, obligaciones y compromisos establecidos.\nRealizar seguimiento a pólizas, garantías y seguros, identificando vencimientos, inconsistencias y posibles alertas.\nIdentificar cláusulas, condiciones o situaciones contractuales que requieran revisión o validación jurídica.\nG",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-juridico-administrativo-proyecto-en-bogota-dc-9AD087F0F3CCA4DC61373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Administrativos de Datos /Excel Avanzado",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Administrativos de Datos /Excel Avanzado \n Ocupar Temporales S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.696.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n ¡Únete a nuestro equipo!\nEstamos en búsqueda de un Analista de Datos con experiencia en el area administrativa y Excel avanzado, orientado a la optimización de procesos y a la generación de soluciones de valor a partir del análisis de información. La persona seleccionada deberá contar con experiencia en la construcción de reportes interactivos, análisis de datos y administración de bases de datos, garantizando la integridad y calidad de la información para apoyar la toma de decisiones estratégicas.\nLo que harás:\n.Revisión de reportes\nRevisión de ticket de proveedores\nSeguimiento a casos de equipos en frio\nDar solución a las solicitudes de cliente\nManejo y control de bases de datos\nEnvío de informes de labor periódicamente al cliente\nParticipar y liderar procesos de mejora continua del área.\nRequisitos indispensables: / Carrera técnica.\n• ",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativos-de-datos-excel-avanzado-en-bogota-dc-FF96C7436DDB818761373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Líder Administrativo y Financiero",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Líder Administrativo y Financiero \n Importante empresa del sector - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.500.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Importante empresa se encuentra en búsqueda de un(a) Analista Líder Administrativo y Financiero en Bogotá, responsable de apoyar y coordinar la gestión de los procesos administrativos y financieros, garantizando el uso eficiente de los recursos, el control de las operaciones y el cumplimiento oportuno de los procedimientos organizacionales.\nResponsabilidades\nCoordinar y realizar seguimiento a los procesos administrativos y financieros, incluyendo facturación, cartera, tesorería, compras y gestión de proveedores. Controlar la programación de pagos, cuentas por cobrar y cuentas por pagar, realizar seguimiento a presupuestos y recursos asignados, gestionar solicitudes de las diferentes áreas y garantizar el control de activos fijos. Asimismo, elaborar informes de gestión, apoyar los procesos de conciliación financiera, gestionar trámites ante entidades externas y velar por el c",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-lider-administrativo-y-financiero-en-bogota-dc-2D959EB4A6A7D3D261373E686DCF3405"
+  },
+  {
+   "titulo": "Analista de Onboarding/Analista de Catálogo Digital/Administrativo de Catálogo y Publicaciones",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista de Onboarding/Analista de Catálogo Digital/Administrativo de Catálogo y Publicaciones \n Gi Group Colombia - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.900.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Nos encontramos en la búsqueda de un Administrativo Onboarder para unirse a nuestro equipo. El objetivo principal del cargo es asegurar la correcta gestión, carga y actualización del catálogo de productos en diversas plataformas.\nRequisitos:\n Experiencia de 1 a 2 años en gestión de catálogos, administración de bases de datos de productos, digitación masiva o control de publicaciones.\n Deseable manejo de plataformas e-commerce como MercadoLibre, Amazon, Falabella, Shopify, VTEX o similares.\n Atención al detalle, organización y capacidad para trabajar bajo prioridades de negocio.\nPrincipales Funciones:\nRealizar el cargue masivo de productos mediante plantillas y herramientas de la plataforma, configurando categorías, atributos, precios e inventarios.\nValidar y depurar la información de los productos, corrigiendo err",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-onboardinganalista-de-catalogo-digitaladministrativo-de-catalogo-y-publicaciones-en-bogota-dc-A64B2C755965AB7A61373E686DCF3405"
   },
   {
    "titulo": "Analista Administrativo y Compras - Excel",
@@ -405,18 +577,6 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-comercial-en-bogota-dc-773211D159F25C8A61373E686DCF3405"
   },
   {
-   "titulo": "Analista Administrativo con manejo de SAP - Bogotá",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo con manejo de SAP - Bogotá \n PRODUCTOS RAMO SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.000.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Analista Administrativo Relevo\n¡Únete a nuestro equipo!\nNos encontramos en la búsqueda de un Analista Administrativo Relevo, una posición clave para garantizar la operación administrativa de nuestras agencias. Esta persona será responsable de cubrir diferentes sedes según las necesidades de la compañía, por lo que es indispensable contar con alta capacidad de adaptación, organización y movilidad. Información basada en el perfil de ANALISTA ADMINISTRATIVO RELEVO.\n¿Cuál será tu misión?\nAdministrar integralmente las agencias asignadas, garantizando el correcto funcionamiento de la infraestructura, el control de recursos financieros, la gestión documental, los cierres operativos en SAP y la atención de requerimientos administrativos de las diferentes áreas.\nFunciones principales\nGarantizar el cuadre de cajas (ventas, menor y transitoria).\nR",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-con-manejo-de-sap-bogota-en-bogota-dc-37DE174008AE975B61373E686DCF3405"
-  },
-  {
    "titulo": "Analista Administrativa y de Operaciones BTL",
    "empresa": "",
    "salario": "",
@@ -427,6 +587,18 @@
    "descripcion": "Volver al listado \n Analista Administrativa y de Operaciones BTL \n Importante empresa del sector - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n ANALISTA ADMINISTRATIVA Y DE OPERACIONES BTL\nUbicación: Bogotá D. C.\nSalario: $2.200.000 + $19.000 de auxilio de voz y datos\nTipo de contrato: Obra o labor\nHorario: Lunes a viernes, cumplimiento de 42 horas semanales o según las necesidades de la operación.\n¿Qué buscamos?\nTécnica, tecnóloga o estudiante de carrera técnica o universitaria en áreas administrativas o afines.\nExperiencia mínima de 1 año en procesos administrativos, gestión documental, elaboración de informes y seguimiento operativo.\nManejo de Microsoft Office, especialmente Excel, en nivel intermedio.\n¿Qué buscamos?\nTécnico, tecnólogo o estudiante de carreras administrativas, mercadeo o afines.\nExperiencia mínima de 1 año en actividades BTL, impulso, activaciones de marca, trade marketing o coordinación de personal en campo.\nExperiencia en elaboración de informes, seguimiento operativo y control de inventarios o material p",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativa-y-de-operaciones-btl-en-bogota-dc-8FBB95F55FD9AF4661373E686DCF3405"
+  },
+  {
+   "titulo": "Analista Administrativo con manejo de SAP - Bogotá",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista Administrativo con manejo de SAP - Bogotá \n PRODUCTOS RAMO SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.000.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Analista Administrativo Relevo\n¡Únete a nuestro equipo!\nNos encontramos en la búsqueda de un Analista Administrativo Relevo, una posición clave para garantizar la operación administrativa de nuestras agencias. Esta persona será responsable de cubrir diferentes sedes según las necesidades de la compañía, por lo que es indispensable contar con alta capacidad de adaptación, organización y movilidad. Información basada en el perfil de ANALISTA ADMINISTRATIVO RELEVO.\n¿Cuál será tu misión?\nAdministrar integralmente las agencias asignadas, garantizando el correcto funcionamiento de la infraestructura, el control de recursos financieros, la gestión documental, los cierres operativos en SAP y la atención de requerimientos administrativos de las diferentes áreas.\nFunciones principales\nGarantizar el cuadre de cajas (ventas, menor y transitoria).\nR",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-con-manejo-de-sap-bogota-en-bogota-dc-37DE174008AE975B61373E686DCF3405"
   },
   {
    "titulo": "Analista administrativo Medellin - Medellin",
@@ -477,18 +649,6 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-contador-yo-analista-administrativo-en-bogota-dc-1CA2A5AA4D509C3861373E686DCF3405"
   },
   {
-   "titulo": "Analista Administrativo de Obra Bogotá",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo de Obra Bogotá \n Constructora las Galias - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.092.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n ¿Eres una persona organizada, proactiva y con experiencia en el sector de la construcción? ¡Te estamos buscando para unirte a nuestro equipo en Bogotá D.C!\nEn esta posición como Analista Administrativo de Obra, serás clave para garantizar la eficiencia en la gestión de materiales, proveedores y documentación administrativa en nuestros proyectos de construcción.\n¿Qué necesitas para tener éxito en este rol?\nExperiencia: Mínimo un (1) año de experiencia en cargos similares, idealmente en el sector de la construcción. Valorable experiencia en compra de material de obra, manejo de inventarios en obra y desarrollo de documentación administrativa y sistemas de control.\nFormación: Técnico en áreas administrativas, ingenierías, finanzas o carreras afines. También se considerarán estudiantes de primeros semestres de carreras relacionadas.\nHabilidades: S",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-obra-bogota-en-bogota-dc-B71331FC2F31357061373E686DCF3405"
-  },
-  {
    "titulo": "Analista Logístico Administrativo de Mercadeo - Disponibilidad de tiempo",
    "empresa": "",
    "salario": "",
@@ -523,18 +683,6 @@
    "descripcion": "Volver al listado \n Analista Administrativo / Manejo de Caja Menor \n G4S- SECURE SOLUTIONS COLOMBIA S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término indefinido \n Tiempo Completo \n ¡Únete al equipo de G4S, líder mundial en seguridad!\n¿Tienes experiencia como Analista Administrativo, una excelente actitud y ganas de seguir creciendo profesionalmente? ¡Esta oportunidad es para ti!\nEn G4S estamos en la búsqueda de un/a Analista Administrativo para formar parte de nuestro equipo.\n Ubicación: Bogotá\n Modalidad: Presencial\n Tipo de contrato: Término indefinido\n¿Qué buscamos en ti?\n¿Tienes Formación Universitaria (carreras administrativasen cualquier modalidad) y cuentas con más de 3 años de experiencia como Analista Administrativo y manejo de flujo de fectivo (Caja Menor). ¡ \n ¿Qué harás?\n Administrar de manera segura el efectivo asignado, asegurando que se utilice únicamente para gastos menores autorizados.\nRealizar arqueos periódicos y sorpresivos del dinero y documentos soporte, verificando que el total de efectivo má",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-manejo-de-caja-menor-en-bogota-dc-0393C80CC709B21461373E686DCF3405"
-  },
-  {
-   "titulo": "Analista administrativo de presupuesto estatal, recursos y procesos - Bogotá urgente",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista administrativo de presupuesto estatal, recursos y procesos - Bogotá urgente \n Ocupar Temporales S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n Analista administrativo de presupuesto estatal, recursos y procesos / sector Aeronáutico - Bogotá urgente\nImportante empresa solicita Analista administrativo de recursos, presupuesto y procesos experiencia preferible en el sector Aeronáutico, con mínimo tres (3) años de experiencia específica en manejo de presupuesto estatal, calidad y optimización de los recursos financieros.\n-Formación académica requerida: Profesional en: Ingeniería Aeronáutica, Administración de Aerolíneas, Administración de Empresas, Administración Turística y Hotelera, Administración de Aerolíneas o carreras afines. \nPreferiblemente con Especialización en Gerencia de Proyectos, Gestión de Calidad, Finanzas, Administración Aeronáutica o áreas relacionadas con la gestión de recursos. \n-Conocimientos requeridos:\nSistemas de Gestión de Calidad \nSiste",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-presupuesto-estatal-recursos-y-procesos-bogota-urgente-en-bogota-dc-DFD9262E658ABE9461373E686DCF3405"
   },
   {
    "titulo": "Analista Administrativo y de Licitaciones",
@@ -633,42 +781,6 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-operaciones-logisticas-transporte-en-bogota-dc-E82310BF6C225C1061373E686DCF3405"
   },
   {
-   "titulo": "Analista Administrativo Relevo",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo Relevo \n PRODUCTOS RAMO SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término indefinido \n Tiempo Completo \n Nos encontramos en la búsqueda de un Analista Administrativo relevo, una posición clave para garantizar la correcta operación administrativa de nuestras agencias. Buscamos una persona organizada, proactiva, con excelentes habilidades de análisis y adaptación, capaz de brindar soporte a diferentes sedes según las necesidades del negocio.\n¿Cuál será tu misión?\nAdministrar integralmente las agencias asignadas, garantizando el adecuado funcionamiento de la infraestructura, el control de recursos financieros, la gestión documental y el cumplimiento de los procesos administrativos y operativos de la compañía.\nFunciones principales\nGarantizar el cuadre de cajas de ventas, caja menor y caja transitoria.\nRealizar cierres diarios de agencia y zonas en SAP.\nControlar y asegurar la vigencia de la documentación legal requerida para la operación.\nGestionar y hacer seguimiento al pres",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-relevo-en-bogota-dc-145B57BC5CE96AF261373E686DCF3405"
-  },
-  {
-   "titulo": "Analista Administrativo(a) de Procesos Clínicos - Sector Salud",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo(a) de Procesos Clínicos - Sector Salud \n SOCIEDAD DE MEDICINA REPRODUCTIVA SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.500.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n ¡En Reprotec estamos en búsqueda de nuestro(a) próximo(a) Analista Administrativo(a) de Procesos Clínicos!\nBuscamos un(a) técnico(a), tecnólogo(a) o profesional con experiencia en el sector salud, orientación al servicio y alto nivel de organización, para gestionar procesos documentales y administrativos asociados a la atención de pacientes, garantizando la integridad de la información, la trazabilidad de los registros y el cumplimiento de los procedimientos institucionales.\nPerfil requerido\nTécnico(a), tecnólogo(a) o profesional en enfermería, áreas administrativas, de salud, gestión documental, archivística o afines.\nExperiencia obligatoria mínima de cuatro años en el sector salud, específicamente en el área asistencial, preferiblemente en IPS, clínicas o instituciones especializadas en servicios de salu",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativoa-de-procesos-clinicos-sector-salud-en-bogota-dc-45F3CC068BE7AA9261373E686DCF3405"
-  },
-  {
-   "titulo": "Analista de Procesos Administrativos Inmobiliarios / Analista de Salidas y Gestión de Inmuebles",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista de Procesos Administrativos Inmobiliarios / Analista de Salidas y Gestión de Inmuebles \n Gi Group Colombia - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.800.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Presencial y remoto \n Empresa del sector inmobiliario requiere perfil operativo (no comercial) para gestionar la salida de arrendatarios, coordinando inspecciones de entrega, liquidación de depósitos y resolución de conflictos por daños o cobros pendientes.\nPerfil:\nBachiller, técnico, tecnólogo o estudiante.\nMínimo 1 año en procesos administrativos de inmuebles, validaciones, liquidaciones, cartera y atención de PQRS.\nManejo de clientes y negociación .\nFunciones clave:\nValidar entrega de inmuebles vs. inventario.\nGestionar cobros por inconsistencias y liquidación de contratos.\nPreparar documentación de finalización de arrendamientos.\nAtender clientes y mediar en situaciones complejas.\nCondiciones:\nUbicación: Bogotá.\nSalario: $1.750.905 + auxilio de transporte + comisiones aprox. $440.000.\nModalidad híbrida.\nJorna",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-procesos-administrativos-inmobiliarios-analista-de-salidas-y-gestion-de-inmuebles-en-bogota-dc-1D833377AF5ADE0061373E686DCF3405"
-  },
-  {
    "titulo": "Analista contable y administrativo",
    "empresa": "",
    "salario": "",
@@ -693,18 +805,6 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativa-para-presidencia-importante-aerolinea-en-bogota-en-bogota-dc-60075C506B71195B61373E686DCF3405"
   },
   {
-   "titulo": "Analista Administrativo de Expansión",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo de Expansión \n Juan Valdez - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término indefinido \n Tiempo Completo \n Presencial y remoto \n En Juan Valdez, ¡Tu futuro está en el Origen del Mejor Sabor!\nEstamos en búsqueda de nuestro próximo Analista Administrativo de Expansión quien será responsable de líderar y gestionar actividades administrativas para la ejecución efectiva de los proyectos de expansión, así como apoyar el análisis y evaluación de los mismos, contribuyendo a la estrategia de negocio y asegurando el soporte analítico y administrativo para el cumplimiento eficiente y oportuno de los procesos, políticas y normativas en la ejecución exitosa de los proyectos.\n ¿Qué buscamos en ti? \nProfesional en Administración de Empresas, Ingeniería Industrial, Civil o Arquitectura.\nExperiencia mínima de 2 años en áreas administrativas o de proyectos.\nManejo intermedio-avanzado en herramientas de Microsoft Office.\nManejo de SAP.\nConocimientos en gestión presupuestal y de compras.\nConocim",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-expansion-en-bogota-dc-993AB8D4724A215761373E686DCF3405"
-  },
-  {
    "titulo": "Analista administrativo y de servicio bilingüe",
    "empresa": "",
    "salario": "",
@@ -717,18 +817,6 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-de-servicio-bilingue-en-bogota-dc-C0844C498B03466661373E686DCF3405"
   },
   {
-   "titulo": "Analista Administrativo y de Recursos Humanos - Experiencia certificada mínima 1 año",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo y de Recursos Humanos - Experiencia certificada mínima 1 año \n FORZA OUTSOURCING SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.905,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Presencial y remoto \n Buscamos un/a Administrativo/a de Recursos Humanos proactivo/a, organizado/a y con excelente trato interpersonal, que apoye los procesos administrativos y de gestión humana, contribuyendo al buen clima laboral y al cumplimiento de los objetivos de la empresa.\nPrincipales responsabilidades\n• Gestión administrativa del área de Recursos Humanos (Afiliaciones)\n• Control y archivo de documentación de personal.\n• Apoyo en procesos de reclutamiento y selección (publicación de vacantes, filtros CV, coordinación de entrevistas).\n• Elaboración y control de contratos, novedades \n• Control de asistencia, licencias y vacaciones.\n• Soporte en procesos de inducción y capacitación.\n• Atención y seguimiento de consultas del personal.\n• Excel Intermiedio.\n Requisitos\n• Formación técnica o profesional e",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-de-recursos-humanos-experiencia-certificada-minima-1-ano-en-bogota-dc-8034D01B116FC10261373E686DCF3405"
-  },
-  {
    "titulo": "Analista de compras y administrativa - Bogota calle 100",
    "empresa": "",
    "salario": "",
@@ -736,21 +824,9 @@
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista de compras y administrativa - Bogota calle 100 \n VIVARSA S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Estamos contratando para el area administrativa una persona que:\n Gestione la compra de productos y servicios\nSolicite y analice cotizaciones, realice negociaciones con proveedores, hacer seguimiento a pedidos, mantener comunicación con proveedores y apoyar en labores administrativas a la gerencia general. buscamos que la persona tenga excelente comunicación oral y escrita y orientación a resultados. se labora de lunes a viernes y estamos ubicados muy cerca a la estación de Transmilenio de calle 100. salario para la vacante $2000000 mas todo lo de ley.\n Requerimientos\n Educación mínima: Universidad / Carrera técnica\n 3 años de experiencia\n Palabras clave: analyst, shopping, purchases, orders, adquisicion, compras\n Hace 6 días (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Comput",
+   "descripcion": "Volver al listado \n Analista de compras y administrativa - Bogota calle 100 \n VIVARSA S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Estamos contratando para el area administrativa una persona que:\n Gestione la compra de productos y servicios\nSolicite y analice cotizaciones, realice negociaciones con proveedores, hacer seguimiento a pedidos, mantener comunicación con proveedores y apoyar en labores administrativas a la gerencia general. buscamos que la persona tenga excelente comunicación oral y escrita y orientación a resultados. se labora de lunes a viernes y estamos ubicados muy cerca a la estación de Transmilenio de calle 100. salario para la vacante $2000000 mas todo lo de ley.\n Requerimientos\n Educación mínima: Universidad / Carrera técnica\n 3 años de experiencia\n Palabras clave: analyst, shopping, purchases, orders, adquisicion, compras\n Hace 7 días (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Comput",
    "portal": "Computrabajo",
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-compras-y-administrativa-bogota-calle-100-en-bogota-dc-90358457B74159E561373E686DCF3405"
-  },
-  {
-   "titulo": "Analista Jurídico administrativo - Proyecto",
-   "empresa": "",
-   "salario": "",
-   "ubicacion": "Bogotá",
-   "publicada": "",
-   "vence": "",
-   "contrato": "",
-   "descripcion": "Volver al listado \n Analista Jurídico administrativo - Proyecto \n Diane & Geordi - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.480.470,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Buscamos un Analista Jurídico por un proyecto que brinde soporte integral a la gestión legal de la compañía, con enfoque en la administración y seguimiento de proyectos inmobiliarios, gestión contractual, control documental e identificación oportuna de riesgos jurídicos.\nFunciones principales\nRecopilar, registrar, actualizar y administrar la información documental y jurídica relacionada con los proyectos inmobiliarios.\nRevisar y realizar seguimiento a contratos comerciales, civiles, inmobiliarios y de arrendamiento.\nVerificar condiciones contractuales, fechas de vencimiento, renovaciones, obligaciones y compromisos establecidos.\nRealizar seguimiento a pólizas, garantías y seguros, identificando vencimientos, inconsistencias y posibles alertas.\nIdentificar cláusulas, condiciones o situaciones contractuales que requieran revisión o validación jurídica.\nG",
-   "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-juridico-administrativo-proyecto-en-bogota-dc-9AD087F0F3CCA4DC61373E686DCF3405"
   },
   {
    "titulo": "analista contable administrativo",
@@ -765,40 +841,76 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-administrativo-en-bogota-dc-9A2752D7ADDD295A61373E686DCF3405"
   },
   {
-   "titulo": "Analista Administrativo – SAP / Compras y Facturación",
+   "titulo": "Analista Administrativo y Comercial",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo – SAP / Compras y Facturación \n SERDAN - MISION TEMPORAL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Analista Técnico 1 de Jefatura Mesa Transaccional\n Ciudad: Bogotá D.C.\n Horario: Lunes a viernes, 8:00 a. m. a 5:00 p. m.\n Disponibilidad: Inmediata\n Contrato: Obra o labor temporada de 1 a 6 meses\n Salario: $2.765.000 + prestaciones de ley\nPerfil del cargo\nImportante entidad del sector financiero requiere para su equipo de trabajo un(a) Analista Técnico 1 de Jefatura Mesa Transaccional, quien brindará apoyo en procesos administrativos, compras, contratación y facturación, realizando seguimiento y gestión de la información requerida por el área.\nBuscamos una persona organizada, analítica, con atención al detalle y manejo de herramientas ofimáticas.\nRequisitos\n Formación académica\nEstudiante de tercer semestre en adelante de:\nEconomía\nContaduría Pública\nAdministración de Empresas\nCarreras profesionales afines\n Experiencia\nMínimo 1 añ",
+   "descripcion": "Volver al listado \n Analista Administrativo y Comercial \n ADS MOTORS SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) + Comisiones \n Contrato a término indefinido \n Tiempo Completo \n En Vantia Seguros Ltda., agencia de seguros que trabaja con más de 17 aseguradoras, buscamos una persona organizada, proactiva y orientada al servicio para apoyar los procesos administrativos, operativos y comerciales de la compañía. Entrenamiento Chatbot_V2. Mindmarks.pdf\nFunciones principales\n* Organización, revisión y control de documentación.\n* Actualización de bases de datos, CRM y registros internos.\n* Seguimiento de trámites, cotizaciones, pólizas y procesos pendientes.\n* Elaboración y actualización de reportes y controles administrativos.\n* Apoyo general a los procesos administrativos y operativos de la empresa.\n* Monitorear y dar continuidad a los clientes atendidos inicialmente por nuestro chatbot.\n* Verificar documentación e información requerida para cada cotización.\n* Gestionar solicitudes de cotización ante las diferentes aseguradoras.\n* Resolver inquiet",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-sap-compras-y-facturacion-en-bogota-dc-0AC47FBDE21038BB61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-comercial-en-bogota-dc-31277356E0DD097861373E686DCF3405"
   },
   {
-   "titulo": "Analista Administrativo de control",
+   "titulo": "Analista administrativo de seguros de Siniestros - 2 meses",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista Administrativo de control \n Inversiones D Santa - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.500.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Empresa del sector gastronómico y entretenimiento requiere Analista Administrativo de Control, / Auditor de control interno. \nexperiencia en control de información, auditoría operativa y manejo de procesos administrativos y financieros.\nNos encontramos ubicados al sur de la ciudad, al lado de plaza de las Américas\nFunciones:\nControl y revisión de cuadres de caja y ventas.\nArqueos y control de efectivo.\nVerificación de facturación electrónica y vouchers.\nConciliación de ventas vs. sistema, bancos y medios de pago.\nRevisión de cortesías, gastos y bonificaciones.\nAnálisis y reporte de inconsistencias.\nManejo y actualización de bases de datos y reportes en Excel.\nControl documental y apoyo en procesos de auditoría interna.\nRequisitos:\nTécnico o tecnólogo en Administración, Contabilidad o áreas afines.\nMínimo 2 años de experiencia en control, auditoría, caja, contabilidad o áreas adminis",
+   "descripcion": "Volver al listado \n Analista administrativo de seguros de Siniestros - 2 meses \n SERVIMOS S.A.S - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n Importante compañía se encuentra en búsqueda de un Analista Senior de Siniestros Generales, profesional en carreras administrativas, financieras, ingenierías o afines, con mínimo 2 años de experiencia en definición y liquidación de siniestros de seguros generales.\nBuscamos una persona analítica, organizada y orientada a resultados, con capacidad para gestionar reclamaciones de menor cuantía de manera ágil y eficiente, garantizando el cumplimiento de las políticas internas, los procedimientos establecidos y los términos legales, así como la calidad del servicio y la satisfacción del cliente.\nPrincipales funciones\nAnalizar las solicitudes de siniestros de menor cuantía y determinar la procedencia del pago o la objeción de las reclamaciones.\nGestionar procesos de atención rápida, priorizando la oportunidad de respuesta y la eficiencia operativa.\nAsignar ",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-control-en-bogota-dc-E8D0C6C7F00EF1C161373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-de-seguros-de-siniestros-2-meses-en-bogota-dc-59A6A44E6C64A0B261373E686DCF3405"
   },
   {
-   "titulo": "Analista Contable y Administrativo",
+   "titulo": "Analista de Cartera - Club en el Norte de Bogotá",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Analista Contable y Administrativo \n Wama Pharma SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.000.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n En WaMa Pharma SAS estamos buscando incorporar a nuestro equipo un(a) Analista Contable y Administrativo(a), una persona organizada, analítica y orientada al detalle, con experiencia en procesos contables, financieros y administrativos.\nLo que buscamos\nContador(a) Público(a) o estudiante de últimos semestres de Contaduría Pública.\nExperiencia mínima de 1 año como asistente o analista administrativo, financiero y/o contable.\nManejo de herramientas digitales: procesadores de texto, hojas de cálculo, software contable (en especial Siigo), entre otras.\nCapacidad de organización, seguimiento, análisis y gestión de información.\n¿Cuáles serán tus responsabilidades?\n* Gestión administrativa\nPlanificar, coordinar y organizar actividades administrativas.\nRedactar comunicaciones y documentos requeridos.\nResguardar y gestionar información de manera adecuada.\nElaborar reportes e informes solicitados",
+   "descripcion": "Volver al listado \n Analista de Cartera - Club en el Norte de Bogotá \n Trabajadores Temporales S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n ¡TENEMOS UNA GRAN OPORTUNIDAD LABORAL PARA TI!\n¿Cuentas con experiencia en gestión de cartera y buscas una nueva oportunidad para crecer profesionalmente? ¡Esta vacante puede ser para ti!\nEl CLUB CAMPESTRE LOS ARRAYANES, reconocido club ubicado al norte de Bogotá, se encuentra en búsqueda de un(a) ANALISTA DE CARTERA para fortalecer su equipo de trabajo.\n¿QUÉ PERFIL BUSCAMOS?\n- Técnico, tecnólogo o profesional en áreas contables, financieras, administrativas o afines.\n- Experiencia de 2 a 3 años en gestión, análisis y seguimiento de cartera.\n- Persona organizada, responsable, honesta, ágil y con excelente actitud de servicio.\nPRINCIPALES FUNCIONES:\n- Análisis y seguimiento de cuentas por cobrar a socios y terceros.\n- Manejo de plataforma Credibanco.\n- Realización de débitos en fechas de corte.\n- Elaboración de informes de cartera, fundación y cu",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-y-administrativo-en-bogota-dc-47514BC2A0058CBE61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-club-en-el-norte-de-bogota-en-bogota-dc-7B32CBEBFEB8BA5661373E686DCF3405"
+  },
+  {
+   "titulo": "Analista de Facturación y Cartera - contratacion inmediata",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista de Facturación y Cartera - contratacion inmediata \n GRUPO ALIANZA - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n ¡Estamos buscando Analista de Facturación y Cartera!\nEmpresa de Ingeniería con más de 45 años de trayectoria se encuentra en busqueda de una persona proactiva, organizada, analítica, responsable y con orientación a resultados, que disfrute trabajar en equipos dinámicos y tenga capacidad para manejar altos volúmenes de información y múltiples\nactividades simultáneamente..\nRequisitos:\nprofesional en carreras administrativas, financieras, contables o afines, con mínimo 3 años de experiencia en procesos de facturación, cartera y gestión financiera.\n ¿Cuál será tu reto?\nSerás responsable de apoyar y gestionar procesos clave del área financiera, realizando seguimiento al área comercial para garantizar la correcta y oportuna facturación de clientes, así como el manejo de cartera y diferentes procesos contables y financieros.\n ¿Qué experiencia bu",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-facturacion-y-cartera-contratacion-inmediata-en-bogota-dc-ED36EDDC248CDFB961373E686DCF3405"
+  },
+  {
+   "titulo": "Analista de Recaudos e Impuestos",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista de Recaudos e Impuestos \n SERDAN - MISION TEMPORAL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Analista de Recaudos e Impuestos Bogotá\n¡Únete a nuestro equipo de trabajo!\nImportante entidad del sector financiero se encuentra en búsqueda de un Analista de Recaudos e Impuestos para trabajar en Bogotá.\nRequisitos:\nTecnólogo o estudiante universitario a partir de quinto semestre en carreras administrativas, económicas, contables o afines.\nExperiencia mínima de 1 año en áreas contables, procesos de recaudo o manejo de impuestos.\nConocimientos en normativa y operación de impuestos nacionales, distritales, departamentales y municipales.\nManejo de conciliaciones contables, cuentas recaudadoras y elaboración de ajustes contables.\nFunciones principales:\nRealizar diariamente el cuadre contable y las conciliaciones de los valores recaudados frente a los reportes de los proveedores.\nIdentificar diferencias, faltantes y sobrantes, gestionando los ajustes conta",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-recaudos-e-impuestos-en-bogota-dc-0ED4E20E131DC9CC61373E686DCF3405"
+  },
+  {
+   "titulo": "Analista de Cartera",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Analista de Cartera \n SERDAN - MISION TEMPORAL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n Importante empresa del sector logístico se encuentra en búsqueda de un(a) Analista de Cartera y Facturación, profesional en Contaduría Pública, carreras administrativas o afines, con mínimo un año de experiencia en cargos relacionados con cartera, facturación y procesos contables.\nBuscamos una persona organizada, responsable, orientada al detalle y con habilidades de comunicación, análisis y servicio al cliente.\nRequisitos\nProfesional en Contaduría Pública, carreras administrativas o afines.\nExperiencia mínima de un año en cargos relacionados.\nConocimientos en facturación, contabilidad financiera, temas tributarios y recaudo de cartera.\nManejo de herramientas ofimáticas y software financiero o contable.\nFunciones principales\nConsolidar y verificar los estados de cuenta de los clientes, validando facturas y pagos realizados.\nRealizar seguimiento a los procesos de recaudo de carter",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-5BEC8D26B95525DA61373E686DCF3405"
   },
   {
    "titulo": "Analista de Cartera",
@@ -813,52 +925,52 @@
    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-3084A7C5996CD5AA61373E686DCF3405"
   },
   {
-   "titulo": "Gestor de cobro visitador de clientes /Motorizado",
+   "titulo": "auxiliar administrativo/a",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Gestor de cobro visitador de clientes /Motorizado \n 95/24 COLOMBIA S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.200.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Oferta Labora Gestor de cartera\nEmpresa del sector ferretero, se encuentra en búsqueda de un gestor de cobranza con experiencia mínima de 1 año en gestión de cartera y procesos de crédito.\n Cargo: Analista de Crédito y Cartera.\n Salario: $2.200.000 + todas las prestaciones de ley + beneficio de casino al 50%.\n Horario: Lunes a jueves de 8:00 a.m. a 5:30 p.m. y viernes de 8:00 a.m. a 5:00 p.m.\n Contrato: Término indefinido. Se brinda estabilidad laboral y excelente ambiente de trabajo.\n Requisitos:\nTécnico o tecnólogo en áreas administrativas, financieras o afines.\nMínimo 1 año de experiencia en gestión de cartera, cobranzas y labores operativas de crédito.\nManejo intermedio de Excel.\nExperiencia en sistemas ERP, preferiblemente SAP.\n Conocimientos en:\nCobro de cartera.\nAtención a clientes internos y externos.\n Lugar de trabajo: Siberi",
+   "descripcion": "Volver al listado \n auxiliar administrativo/a \n MOVIL INC INTEGRADORES DE SOLUCIONES MOVILES SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.905,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Presencial y remoto \n Gestión Administrativa y Documental\nCreación y actualización de información de clientes y proveedores.\nGestión de correos electrónicos y solicitudes administrativas.\nOrganización y archivo de documentación.\nApoyo en la preparación de información para contabilidad.\nGestión de Cartera y Proveedores\nSeguimiento a pagos de clientes.\nRegistro y control de facturas.\nApoyo en la programación y seguimiento de pagos a proveedores.\nActualización de bases de datos y cuadros de control.\nApoyo Comercial\nRecepción y gestión de pedidos de clientes.\nElaboración y seguimiento de cotizaciones.\nSolicitud y seguimiento de productos con proveedores.\nCoordinación de entregas y seguimiento de pedidos.\nRegistro de actividades y trazabilidad de procesos.\nApoyo Financiero y SG-SST\nApoyo en conciliaciones y reportes básicos.\nActualización de documentación requer",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-de-cobro-visitador-de-clientes-motorizado-en-bogota-dc-4F05A83C6EBCB8E661373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativoa-en-bogota-dc-5AB1EE2A8D073F8961373E686DCF3405"
   },
   {
-   "titulo": "Gestor de Recaudo y Cobranza Motorizado",
+   "titulo": "Auxiliar Administrativo / Bogotá Chicó Norte",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Gestor de Recaudo y Cobranza Motorizado \n 95/24 COLOMBIA S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.200.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Oferta Labora Gestor de cartera\nEmpresa del sector ferretero, se encuentra en búsqueda de un gestor de cobranza con experiencia mínima de 1 año en gestión de cartera y procesos de crédito.\n Cargo: Analista de Crédito y Cartera.\n Salario: $2.200.000 + todas las prestaciones de ley + beneficio de casino al 50%.\n Horario: Lunes a jueves de 8:00 a.m. a 5:30 p.m. y viernes de 8:00 a.m. a 5:00 p.m.\n Contrato: Término indefinido. Se brinda estabilidad laboral y excelente ambiente de trabajo.\n Requisitos:\nTécnico o tecnólogo en áreas administrativas, financieras o afines.\nMínimo 1 año de experiencia en gestión de cartera, cobranzas y labores operativas de crédito.\nManejo intermedio de Excel.\nExperiencia en sistemas ERP, preferiblemente SAP.\n Conocimientos en:\nCobro de cartera.\nAtención a clientes internos y externos.\n Lugar de trabajo: Siberia Parque I",
+   "descripcion": "Volver al listado \n Auxiliar Administrativo / Bogotá Chicó Norte \n Adecco Colombia S.A. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.300.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Auxiliar Administrativa\n Ubicación: Calle 97 23 - 60 es cerca de la estación de Transmilenio calle 100.\n Modalidad: 100% Presencial\n Tipo de contrato: Término indefinido\n Salario: $2.300.000 + prestaciones de ley\nHorario\n Lunes a jueves: 8:00 a.m. a 5:30 p.m.\n Viernes: 8:00 a.m. a 5:00 p.m.\n¡Únete a nuestro equipo!\nNos encontramos en la búsqueda de una Auxiliar Administrativa comprometida, organizada y orientada al detalle, que nos apoye en la gestión administrativa, recepción y manejo de herramientas ofimáticas, contribuyendo al buen funcionamiento de los procesos internos de la compañía.\nFormación Académica\nTécnico o Tecnólogo en áreas administrativas, gestión empresarial, asistencia administrativa o afines.\nExperiencia\nEntre 6 meses y 1 año en cargos administrativos o de apoyo administrativo.\nFunciones principales\nGestionar novedades de ",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-de-recaudo-y-cobranza-motorizado-en-bogota-dc-4B20738D491C662961373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativo-bogota-chico-norte-en-bogota-dc-35F2656BDEF6202C61373E686DCF3405"
   },
   {
-   "titulo": "Gestor de cobro / Motorizado / cobro prensencial",
+   "titulo": "Auxiliar Administrativo, manejo de documentación, facturación y cartera",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Gestor de cobro / Motorizado / cobro prensencial \n 95/24 COLOMBIA S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.200.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Oferta Labora Gestor de cartera\nEmpresa del sector ferretero, se encuentra en búsqueda de un gestor de cobranza con experiencia mínima de 1 año en gestión de cartera y procesos de crédito.\n Cargo: Analista de Crédito y Cartera.\n Salario: $2.200.000 + todas las prestaciones de ley + beneficio de casino al 50%.\n Horario: Lunes a jueves de 8:00 a.m. a 5:30 p.m. y viernes de 8:00 a.m. a 5:00 p.m.\n Contrato: Término indefinido. Se brinda estabilidad laboral y excelente ambiente de trabajo.\n Requisitos:\nTécnico o tecnólogo en áreas administrativas, financieras o afines.\nMínimo 1 año de experiencia en gestión de cartera, cobranzas y labores operativas de crédito.\nManejo intermedio de Excel.\nExperiencia en sistemas ERP, preferiblemente SAP.\n Conocimientos en:\nCobro de cartera.\nAtención a clientes internos y externos.\n Lugar de trabajo: Siberia",
+   "descripcion": "Volver al listado \n Auxiliar Administrativo, manejo de documentación, facturación y cartera \n ASESORAMOS TU TALENTO - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.100.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Presencial y remoto \n Buscamos una persona organizada, analítica y orientada al detalle, con capacidad para gestionar procesos administrativos, documentales y facturación, brindando soporte a diferentes áreas de la compañía y contribuyendo al cumplimiento de los objetivos organizacionales.\nFormación:\nTécnico, Tecnólogo Gestión Empresarial o carreras afines. \nDeseable conocimiento en procesos contables, facturación electrónica, cartera y gestión documental.\nFunciones\nGestionar correos, informes, presentaciones y documentación requerida por clientes, proveedores y áreas internas. \nRealizar seguimiento a cuentas por cobrar y coordinar acciones de recaudo.\nOrganizar, digitalizar y custodiar documentación física y electrónica. \nElaborar y revisar contratos básicos de clientes y proveedores.\nGestionar trámites empresariales y renovac",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-de-cobro-motorizado-cobro-prensencial-en-bogota-dc-4366CAEE7DEE96E361373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativo-manejo-de-documentacion-facturacion-y-cartera-en-bogota-dc-44CDF7CA743EB74661373E686DCF3405"
   },
   {
-   "titulo": "auxiliar administrativo - Excelente actitud, capacidad de aprender.",
+   "titulo": "Auxiliar de Operaciones Administrativas/ Back Office",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n auxiliar administrativo - Excelente actitud, capacidad de aprender. \n KORCOL SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.905,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n En KORCOL SAS estamos en crecimiento y buscamos 2 Auxiliares Administrativos y Operativos proactivos, organizados y con alta orientación al detalle para fortalecer nuestras áreas de Operaciones, Administración y Recursos Humanos.\n¿Cuáles serán tus funciones principales?\n• Gestión de Operaciones e Inventarios: Revisar, controlar y actualizar inventarios en tiempo real para garantizar la disponibilidad de productos.\n• Contacto con Puntos de Venta: Comunicarte constantemente con el personal de nuestros puntos de venta para identificar necesidades, gestionar requerimientos y brindar soporte operativo.\n• Manejo de Plataformas Digitales: Administrar y hacer seguimiento a pedidos, disponibilidad y operación en plataformas de domicilio (especialmente Rappi).\n• Apoyo Administrativo y Documental: Gestionar llamadas, organizar archivo físico y digital, ",
+   "descripcion": "Volver al listado \n Auxiliar de Operaciones Administrativas/ Back Office \n NEXA BPO - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.905,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Buscamos técnicos, tecnólogos o estudiantes de carreras profesionales desde sexto semestre en adelante en áreas administrativas, ingeniería o afines, con experiencia mínima certificable de 1 año en cargos administrativos, realizando funciones de gestión documental, recepción, manejo de información, procesos de back office y apoyo operativo.\nRequisitos\nFormación técnica, tecnológica o estudiante profesional desde sexto semestre.\nExperiencia mínima de 1 año en cargos administrativos o de apoyo operativo.\nManejo de herramientas ofimáticas.\nConocimiento y administración de bases de datos.\nCompetencias\nAtención al detalle.\nComunicación asertiva.\nTrabajo en equipo.\nProactividad.\nResponsabilidad y compromiso.\nOrientación a resultados.\nCondiciones laborales\nSalario: $1.750.905 + prestaciones de ley.\nHorario: Lunes a sábado, en una franja de 6:30 a. m. a 7:0",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativo-excelente-actitud-capacidad-de-aprender-en-bogota-dc-C3A6374816378B1B61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-operaciones-administrativas-back-office-en-bogota-dc-F274A5088937989D61373E686DCF3405"
   },
   {
    "titulo": "auxiliar contable y administrativo",
@@ -868,129 +980,141 @@
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n auxiliar contable y administrativo \n MOUNTAIN GLEAM COMERCIALIZADORA SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Buscamos un auxiliar contable y administrativo para incorporarse de manera estable a nuestro equipo.\nEl candidato seleccionado se encargará de realizar los asientos contables diarios, mantener la contabilidad actualizada y precisa, y colaborar en tareas administrativas generales del departamento.\nEl puesto es de tipo presencial para cubrir únicamente una licencia de maternidad es termino obra u labor por 5 meses \n Requerimientos\n Educación mínima: Universidad / Carrera técnica\n años de experiencia\n Conocimientos: Asientos contables\n Aptitudes asociadas a esta oferta Nuevo \n Asientos contables \n Ver 0 aptitudes más \n Hay 0 aptitudes que faltan en tu perfil\n Si las tienes, añádelas a tu perfil para encajar mejor en esta vacante.\n Mostar competencias \n Se han añadido correctamente las competencias en tu perfil. \n Palabras clave: ayudante, asistente, auxiliar, aux, auxi",
+   "descripcion": "Volver al listado \n auxiliar contable y administrativo \n AF ELECTROGENOS SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término fijo \n Tiempo Completo \n ¿Eres una persona organizada, analítica y con atención al detalle? ¡Buscamos talento como el tuyo para fortalecer nuestro equipo financiero!\nEn nuestra compañía buscamos un Auxiliar Contable con sólidas bases en operación contable diaria, tesorería y control administrativo. Si buscas estabilidad laboral en un horario fijo de oficina y un entorno profesional donde aportar desde el primer día, esta oportunidad es para ti.\n¿Cuáles serán tus principales responsabilidades?\nElaborar y causar comprobantes de egreso, recibos de caja, facturas y demás documentos contables.\nRealizar conciliaciones bancarias y de cuentas contables periódicamente, asegurando la exactitud de los saldos.\nGestionar la programación, verificación y ejecución de pagos a proveedores.\nRealizar el control, seguimiento y legalización de anticipos a empleados y contratistas.\nApoyar en la organización documental, archivo contable y prep",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-contable-y-administrativo-en-bogota-dc-5E1B3017055CE93161373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-contable-y-administrativo-en-bogota-dc-15100B9B6188399861373E686DCF3405"
   },
   {
-   "titulo": "¡Estudia patrocinado y fórmate como Auxiliar Administrativo / Concentrix patrocina tu técnico",
+   "titulo": "Auxiliar Administrativo Ambiental",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n ¡Estudia patrocinado y fórmate como Auxiliar Administrativo / Concentrix patrocina tu técnico \n Concentrix - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de aprendizaje \n Tiempo Completo \n ¡Concentrix te paga por estudiar! \n¿Eres bachiller y quieres dar tus primeros pasos en el mundo laboral mientras adquieres competencias bilingües? \nEn Concentrix te brindamos la oportunidad de formarte y crecer profesionalmente a través de un Programa Técnico en Auxiliar Administrativo con enfoque en servicio al cliente, totalmente patrocinado por nosotros. \n Durante tu etapa de formación: \nRecibirás el 75% del Salario Mínimo Mensual Legal Vigente (SMMLV) \nEstarás afiliado a EPS y ARL. \n Durante tu etapa práctica: \nRecibirás el 100% del SMMLV, junto con EPS, ARL, prestaciones sociales, auxilio de transporte y caja de compensación. \nModalidad: Presencial, disponibilidad horaria completa. \nDuración total: 15 meses (9 meses de formación + 6 meses de práctica)\nREQUISITOS:\nTener mínimo 18 años.\nSer bachiller académico.\nTener n",
+   "descripcion": "Volver al listado \n Auxiliar Administrativo Ambiental \n Importante empresa del sector - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.897.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Importante compañía del sector busca Auxiliar Administrativo Ambiental para apoyar los procesos de gestión y control ambiental de la organización.\nUbicación: Engativá, Bogotá\nContrato: Término fijo, vinculación directa con la compañía\nSalario: $1.751.000 + bono fijo de $122.500 + prestaciones de ley\nPagos: quincenales, 5 y 20 de cada mes\nBeneficios empresariales\nFunciones principales:\nSeguimiento y control de la segregación y disposición de residuos.\nAdministración y actualización de registros ambientales.\nApoyo en la entrega de residuos a gestores autorizados.\nInspecciones ambientales y verificación de buenas prácticas.\nGestión documental y apoyo administrativo del área.\nSeguimiento a actividades de control de plagas y requerimientos ambientales.\nConocimiento básico en PTARI (Planta de Tratamiento de Aguas Residuales Industriales).\nRequisitos:\nTécnico o Tecnólogo en Control Ambienta",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-estudia-patrocinado-y-formate-como-auxiliar-administrativo-concentrix-patrocina-tu-tecnico-en-bogota-dc-FD1207E2FA430AD761373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativo-ambiental-en-bogota-dc-3DC7B9256C2FC54161373E686DCF3405"
   },
   {
-   "titulo": "Bachiller Sin Experiencia / Te pagamos por estudiar / fórmate como Auxiliar Administrativo",
+   "titulo": "Auxiliar Administrativo/Administrador Junior/Experiencia Sector Gastronomico/Bogotá",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Bachiller Sin Experiencia / Te pagamos por estudiar / fórmate como Auxiliar Administrativo \n Concentrix - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de aprendizaje \n Tiempo Completo \n ¡Concentrix te paga por estudiar! \n¿Eres bachiller y quieres dar tus primeros pasos en el mundo laboral mientras adquieres competencias bilingües? \nEn Concentrix te brindamos la oportunidad de formarte y crecer profesionalmente a través de un Programa Técnico en Auxiliar Administrativo con enfoque en servicio al cliente, totalmente patrocinado por nosotros. \n Durante tu etapa de formación: \nRecibirás el 75% del Salario Mínimo Mensual Legal Vigente (SMMLV) \nEstarás afiliado a EPS y ARL. \n Durante tu etapa práctica: \nRecibirás el 100% del SMMLV, junto con EPS, ARL, prestaciones sociales, auxilio de transporte y caja de compensación. \nModalidad: Presencial, disponibilidad horaria completa. \nDuración total: 15 meses (9 meses de formación + 6 meses de práctica)\nREQUISITOS:\nTener mínimo 18 años.\nSer bachiller académico.\nTener nive",
+   "descripcion": "Volver al listado \n Auxiliar Administrativo/Administrador Junior/Experiencia Sector Gastronomico/Bogotá \n PERFILA S.A.S - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.300.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Reconocido restaurante en Bogotá se encuentra en la búsqueda de un Auxiliar Administrativo con minimo un año de experiencia en el sector.\nFunciones Principales:\nVentas: \nRevisión y cierre diario de las ventas contra la información POS y facturador electronico.\nGenerar reportes en casos de incosistencias.\nGenerar archivo de excel con venta diaria, semanales y mensual.\nCompras: \nSuoervision de recepcion de facturas de proveedores.\nCotizacion y gestion de compras de servicios puntuales.\nManejo de archivo de proveedores.\nContabilidad: \nControl y clasidficacion de gasto de facturas recibidas.\nClasificacion de terminos comerciales de facturas recibidas (credito, pago anticipado, caja menor)\nManejo de caja menor.\nRecepcion y recibo de registros publicos.\nPreparacion y registro de pagos a proveedores.\nRRHH: \nRevision de mallas horarias.\n",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-bachiller-sin-experiencia-te-pagamos-por-estudiar-formate-como-auxiliar-administrativo-en-bogota-dc-9C3DD985B6B7623461373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativoexperiencia-sector-gastronomicobogota-en-bogota-dc-18E126EFAB00835561373E686DCF3405"
   },
   {
-   "titulo": "auxiliar contable y administrativo - auxiliar contable y administrativo",
+   "titulo": "Asistente Administrativa, Recepcionista - ¡Ingreso inmediato! Zona Industrial Bogotá",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n auxiliar contable y administrativo - auxiliar contable y administrativo \n AW Electronica S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.900.000,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Reconocida empresa requiere para su equipo de trabajo AUXILIAR ADMINISTRATIVO Y CONTABLE, con estudios en contabilidad con las siguientes características:\n Mínimo estudios técnicos contable\n Manejo del programa contable Helisa Niif\n Contabilización de documentos contables y liquidaciones de ICA\n Emisión, trasmisión y recepción de facturación electrónica \n Manejo de portal de facturación electrónica- DIAN y otros \n Experiencia de mínimo tres (3) años en manejo y control de documentación (orden de compra – facturas de ventas – cotizaciones)\n Experiencia en compras, manejo de proveedores y cuadros comparativos de precios\n Manejo, control y solicitud de pólizas\n Registro de proveedores con los diferentes clientes y manejo de cartera\n Logística de Importaciones, recepción, documentación y distribución de Mercancía\n Lo",
+   "descripcion": "Volver al listado \n Asistente Administrativa, Recepcionista - ¡Ingreso inmediato! Zona Industrial Bogotá \n GRUPO EXPRO - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Importante empresa multinacional del sector industrial y tecnológico se encuentra en búsqueda de personal para el cargo de Asistente Administrativa – Recepcionista.\nRequisitos:\nTécnico o tecnólogo en Administración o áreas afines.\nExperiencia en labores administrativas y de recepción.\nManejo de herramientas ofimáticas: Word, Excel y digitación.\nExcelente presentación personal, actitud positiva y orientación al servicio al cliente.\nPersona organizada, proactiva, multitarea y con atención al detalle.\nCondiciones laborales:\nTipo de contrato: Obra o labor con Grupo Expro.\nSalario: Salario mínimo legal mensual vigente (SMLMV).\nPrestaciones: Todas las prestaciones sociales de ley y afiliación a seguridad social.\nHorario: Lunes a viernes, de 7:45 a. m. a 5:00 p. m., en horario tipo oficina.\nPago: Quincenal, los días 15 y 30 de cada mes.",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-contable-y-administrativo-auxiliar-contable-y-administrativo-en-bogota-dc-07B7231CF3C6106261373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-administrativa-recepcionista-ingreso-inmediato-zona-industrial-bogota-en-bogota-dc-0DC325159F2EC83261373E686DCF3405"
   },
   {
-   "titulo": "auxiliar administrativo/a - remoto",
+   "titulo": "Asistente Administrativa, Contable y de Personal - (Bogotá – Norte)",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n auxiliar administrativo/a - remoto \n SERLET SERVICIOS AUXILIARES SL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Por Horas \n Remoto \n Buscamos personal dinámico para realizar tareas administrativas en el área de asistencia virtual. El trabajo es 100% remoto.\nRequisitos:\nExcelentes habilidades de comunicación verbal y escrita.\nExperiencia previa en trabajos remotos y atención al cliente.\nCapacidad para trabajar de forma autónoma y de ritmo rápido.\nHabilidades sólidas en resolución de problemas y toma de decisiones.\nConocimientos básicos de informática\nTareas:\nRealizar diversas labores administrativas dentro de la empresa (se establecerá en la entrevista).\nBeneficios:\nSalario competitivo.\nFormación de 5 días.\nAmbiente de trabajo colaborativo.\nCualidades:\nFacilidad de expresión.\nProactivo, responsable, honesto y puntual.\nDisponibilidad horaria.\nRequerimientos Necesarios:\nEquipo de escritorio o laptop, mínimo de 4 GB de memoria RAM (indispensable).\nExcelente conexión a Internet.\nDisponibilidad completa e inmediata.\nB",
+   "descripcion": "Volver al listado \n Asistente Administrativa, Contable y de Personal - (Bogotá – Norte) \n Catalina Bayona SAS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término indefinido \n Tiempo Completo \n En Catalina Bayona Atelier, firma colombiana de alta costura (vestidos de novia, vestidos de fiesta y diseño a la medida), buscamos una Asistente Administrativa, Contable y de Personal organizada, resolutiva y de absoluta confianza para liderar el control administrativo, contable y de talento humano de nuestra sede en el norte de Bogotá (sector Unicentro).\nBuscamos una profesional o tecnóloga con mentalidad práctica, atención al detalle, y alto sentido del deber, que asuma sus responsabilidades con autonomía, rigor y puntualidad para mantener la contabilidad, la nómina y la operación administrativa al día por iniciativa propia, trabajando de la mano con la Gerencia en un ambiente serio, exigente, organizado y enfocado en resultados.\n¿Qué harás en tu día a día?\n** Gestión Contable y Tesorería (World Office y DIAN): Registro diario de causaciones, f",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativoa-remoto-en-bogota-dc-BDFE32EF7631E2EB61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-administrativa-contable-y-de-personal-bogota-norte-en-bogota-dc-A7519C4676FAA5F861373E686DCF3405"
   },
   {
-   "titulo": "Estudia con nuestro patrocinio / Técnico auxiliar administrativo bilingüe / Practicas pagas",
+   "titulo": "Receptionist/Administrative Assistant",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Estudia con nuestro patrocinio / Técnico auxiliar administrativo bilingüe / Practicas pagas \n Concentrix - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.313.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n ¡Concentrix te paga por estudiar! \n¿Eres bachiller y quieres dar tus primeros pasos en el mundo laboral mientras adquieres competencias bilingües? \nEn Concentrix te brindamos la oportunidad de formarte y crecer profesionalmente a través de un Programa Técnico en call center - Bilingüe, totalmente patrocinado por nosotros. \n Durante tu etapa de formación: \nRecibirás el 75% del Salario Mínimo Mensual Legal Vigente (SMMLV) \nEstarás afiliado a EPS y ARL. \n Durante tu etapa práctica: \nRecibirás el 100% del SMMLV, junto con EPS, ARL, prestaciones sociales, auxilio de transporte y caja de compensación. \nModalidad: Presencial, disponibilidad horaria completa. \nDuración total: 15 meses (9 meses de formación + 6 meses de práctica)\nREQUISITOS:\nTener mínimo 18 años.\nSer bachiller académico.\nTener nivel de inglés A2 o supe",
+   "descripcion": "Volver al listado \n Receptionist/Administrative Assistant \n PEOPLE AND TRADE SAS. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.600.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Buscamos un Receptionist/Administrative Assistant para incorporarse a nuestro equipo en PEOPLE AND TRADE SAS.\nSi tienes habilidades en comportamiento organizacional, control de agenda, coordinación y coordinación de citas, esta es tu oportunidad.\nTu rol principal será gestionar la recepción y administración del día a día de la empresa.\nDeberás atender llamadas telefónicas, recibir documentos y gestionar la recepción de visitantes.\nAdemás, serás el enlace principal entre los clientes y el equipo interno, garantizando una comunicación fluida y eficiente.\nRequisitos clave para el puesto incluyen dominio de idiomas, tanto para la recepción de llamadas como para la recepción de documentos en diferentes idiomas.\nAdemás, es fundamental que tengas un buen manejo de herramientas ofimáticas para la gestión administrativa.\nTu capacidad de coordinación y planificación te permit",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-estudia-con-nuestro-patrocinio-tecnico-auxiliar-administrativo-bilingue-practicas-pagas-en-bogota-dc-83B7E8F79C6AD13961373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-receptionistadministrative-assistant-en-bogota-dc-A1E75E11EC8A3D6061373E686DCF3405"
   },
   {
-   "titulo": "Agente servicio al cliente CHAT - auxiliar administrativo/contrato indefinido/respuesta inmediata",
+   "titulo": "Auxiliar Administrativo de Recursos Humanos",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Agente servicio al cliente CHAT - auxiliar administrativo/contrato indefinido/respuesta inmediata \n Importante empresa del sector - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.905,00 (Mensual) \n Contrato a término indefinido \n Tiempo Completo \n Importante empresa del sector call center BPO requiere parta su equipo asesores comerciales\nFunciones: Servicio CHAT\nCondiciones desde bachileres con 6 meses en servicio call\nSalario: 1.750.905 + prestaciones de ley + aux de transporte + comisiones + bonos dentro de la operación\nHorario: Lunes a Sabado 2 domingos al meste esperamos\nBENEFICIOS\n-FONDO DE EMPLEADO\n-VALIDAMOS ESTUDIANTES NOCTURNOS\n-PARQUEADERO GRATUITO SUJETO A DISPONIBILIDAD-CONVENIOS CON INSTITUCIONES DE EDUCACION SUPERIOR\n-ESTABILIDAD LABORAL, CRECIMIENTO LABORAL A PARTIR DE LOS PRIMEROS MESES DE ANTIGUEDADIMPORTANTE: SI SE ENCUENTRA EN ALGUN PROCESO DE SELECCIÓN ACTUALMENTE CON LA COMPAÑIA O EN CAPACITACIÓN, OMITIR ESTE MENSAJE, NO SE PUEDEN REALIZAR 2 PROCESOS DE SELECCIÓN AL MISMO TIEMPO, PORQUE EL SISTEMA LOS BLOQUEARA\n¡¡Te esperamos Excelente r",
+   "descripcion": "Volver al listado \n Auxiliar Administrativo de Recursos Humanos \n Manpower Group Colombia - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Objetivo del cargo\nBrindar apoyo administrativo y operativo a los procesos de Recursos Humanos, asegurando la correcta ejecución de actividades relacionadas con selección, contratación, facturación, bienestar y gestión documental, contribuyendo al cumplimiento de los objetivos del área.\nResponsabilidades\nApoyar los procesos de reclutamiento y selección de personal tercerizado.\nGestionar actividades administrativas relacionadas con facturación y control documental.\nApoyar los procesos de dotación y entrega de uniformes.\nCoordinar y ejecutar actividades de bienestar y capacitaciones para los colaboradores.\nMantener actualizada la información y documentación de los procesos de Recursos Humanos.\nBrindar soporte administrativo general al área de Gestión Humana.\nRequisitos\nTecnólogo o estudiante de últimos semestres en Gestión del Talento Humano, Ad",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-agente-servicio-al-cliente-chat-auxiliar-administrativocontrato-indefinidorespuesta-inmediata-en-bogota-dc-9AF3A0CAEBDDFE4461373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativo-de-recursos-humanos-en-bogota-dc-410886A94FB40F0661373E686DCF3405"
   },
   {
-   "titulo": "Auxiliar administrativo/a en salud - operaciones",
+   "titulo": "Auxiliar de enfermería - Administrativa en Salud ARL",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Auxiliar administrativo/a en salud - operaciones \n Audiocom IPS - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término indefinido \n Tiempo Completo \n Presencial y remoto \n Vacante Auxiliar de Atención al Usuario (Línea de Frente)\nImportante empresa del sector salud requiere para su equipo de trabajo Auxiliar de Atención al Usuario Línea de Frente.\nObjetivo del Cargo\nDirigir la programación de agendas para exámenes diagnósticos de I y II nivel de audiología, articular la atención oportuna al paciente con el equipo asistencial y administrar las novedades de personal para garantizar el óptimo funcionamiento del centro médico.\n¿Qué buscamos? (Requisitos)\nFormación académica: Tecnólogo en administración en salud \nExperiencia general: Mínimo 2 años en el sector salud o en entidades de atención al usuario, desempeñando funciones administrativas, de servicio al cliente o gestión de personal.\nExperiencia específica: Mínimo 1 año en agendamiento de citas médicas o diagnósticas (deseable en exámenes de I y II nivel) y articulación",
+   "descripcion": "Volver al listado \n Auxiliar de enfermería - Administrativa en Salud ARL \n UT PREPACOL - 3T CAPITAL - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.000.000,00 (Mensual) + Comisiones \n Contrato a término indefinido \n Tiempo Completo \n Importante empresa del sector salud se encuentra en búsqueda de Auxiliar de Enfermería Administrativo para fortalecer su equipo de trabajo.\nEsta oferta está dirigida tanto a perfiles con experiencia administrativa en el sector salud como a auxiliares de enfermería con experiencia asistencial que cuenten con interés y habilidades para desempeñarse en procesos administrativos relacionados con atención al usuario, autorizaciones, coberturas y gestión de prestaciones de salud.\nCONDICIONES LABORALES\n-Ingreso mensual aproximado: $2.350.000, sujeto al cumplimiento de los indicadores y condiciones establecidas.\n- Contrato: Término indefinido desde el inicio, con todas las prestaciones de ley.\n- Horario: Turnos rotativos de mañana, tarde y noche ocasional. Los turnos no son fijos. Jornada de 42 horas semanales.\n-Salario base: $1.750.905.\nA",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativoa-en-salud-operaciones-en-bogota-dc-7B6608D2881AA5F461373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-enfermeria-administrativa-en-salud-arl-en-bogota-dc-828899A8B3F8669161373E686DCF3405"
   },
   {
-   "titulo": "Auxiliar Administrativa / Recursos Humanos - Temporada",
+   "titulo": "Auxiliar administrativo y de trafico - Bogota",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Auxiliar Administrativa / Recursos Humanos - Temporada \n American Apparel Colombia S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.905,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n ¡Únete a nuestro equipo!\nNos encontramos en búsqueda de un(a) Auxiliar Administrativo(a) o de Recursos Humanos para brindar apoyo a los procesos administrativos y de gestión humana durante la temporada.\nPerfil requerido\n- Técnico, tecnólogo o estudiante de carreras administrativas, Gestión Humana, Talento Humano o afines.\n- Experiencia mínima de 6 meses en labores administrativas o de Recursos Humanos.\n- Manejo básico de Excel, Word y herramientas ofimáticas.\n- Organización, atención al detalle, comunicación asertiva y disposición de servicio.\nFunciones principales\n- Apoyo en actividades administrativas y de Recursos Humanos.\n- Organización, revisión y archivo de documentación del personal.\n- Actualización de bases de datos y registros.\n- Apoyo en procesos de contratación y gestión documental.\n- Atención y seguimiento a solicitudes del personal.\n- De",
+   "descripcion": "Volver al listado \n Auxiliar administrativo y de trafico - Bogota \n Quick Help - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 2.089.296,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Quick Help es una plataforma digital que busca soluciones logísticas, nos encontramos en la búsqueda de Auxiliar de trafico y despachos para la ciudad de Bogotá con experiencia mínima de un año en cargue y descargue de vehículos y despachos \nFunciones:\nEmpaquetar equipos médicos, vinipelando los mismos y entregándolo a los driver. -\nLevantamiento de cargas, proceso de alistamiento, cargue y descargue de vehículos -\nRegistrar en punteo de Despachos Códigos Generados por servicios Expresos. -\nGeneración de Manifiesto y Remesas. - Control de Guías, despachos interno entre ciudades a través de transportadoras externas. \nSalario: $2.089.296 básico: $1.840.201 + auxilio de transporte + recargos + prestaciones de ley.\nJornada laboral: Horario: Domingo a domingo, turnos rotativos: 6:00 a. m. a 2:00 p. m.-2:00 p. m. a 10:00 p. m. Con un día de descanso según prog",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativa-recursos-humanos-temporada-en-bogota-dc-4CB1D66B6E3F5CEF61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativo-y-de-trafico-bogota-en-bogota-dc-38D6ABE1E3DF5B3261373E686DCF3405"
   },
   {
-   "titulo": "Asistente administrativo - énfasis ERP Siesa",
+   "titulo": "Oportunidad labora inclusiva auxiliar administrativo",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Asistente administrativo - énfasis ERP Siesa \n AXIOMA GESTION LABORAL EST S.A.S - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato de Obra o labor \n Tiempo Completo \n Buscamos técnico o tecnólogo en labores administrativas, sistemas o afines, con experiencia mínima de 1 año en manejo de Siesa POS y herramientas ofimáticas.\nCon sentido de responsabilidad, organizada, ágil y con alta orientación al detalle para fortalecer nuestro equipo administrativo.\nCondiciones: \nHorario de trabajo: Lunes a Viernes\nSalario: Minimo + Prestaciones de ley. \nLugar de trabajo: Barrio Claret - Sur de Bogota\nContratación inmediata¡\n Requerimientos\n Educación mínima: Universidad / Carrera técnica\n 1 año de experiencia\n Conocimientos: Agilidad, Erp, Manejo de herramientas, Microsoft excel, Ofimática, Organización, Siesa\n Aptitudes asociadas a esta oferta Nuevo \n Agilidad \n Erp \n Manejo de herramientas \n Microsoft excel \n Ofimática \n Organización \n Siesa \n Ver 0 aptitudes más \n Hay 0 aptitudes que faltan en tu perfil\n Si las tienes, añá",
+   "descripcion": "Volver al listado \n Oportunidad labora inclusiva auxiliar administrativo \n LA CHISPA ROJA - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.905,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n Se busca Auxiliar Administrativo con experiencia en apoyo a personas con discapacidad.\nBuscamos un perfil responsable y con capacidad de trabajo en un entorno inclusivo.\nTu labor consistirá en colaborar con el equipo administrativo, facilitando el día a día de las personas con discapacidad que forman parte de nuestro equipo.\nSerás el enlace entre los usuarios y el resto de departamentos, garantizando una comunicación fluida y eficiente.\nTus principales responsabilidades incluirán la atención al usuario, la gestión de documentos y la coordinación de actividades.\nEs fundamental que tengas una actitud proactiva y una capacidad de adaptación a situaciones nuevas.\nValoramos positivamente tu compromiso con la inclusión y tu capacidad para trabajar en un ambiente diverso.\nEl puesto es de tipo presencial, por lo que es necesario que puedas asistir a la sede en horari",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-administrativo-enfasis-erp-siesa-en-bogota-dc-6E3AEAF9CFEA3C7B61373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-oportunidad-labora-inclusiva-auxiliar-administrativo-en-bogota-dc-BD100EB71307DB9461373E686DCF3405"
   },
   {
-   "titulo": "Asistente administrativo/a de gerencia de mantenimiento",
+   "titulo": "Auxiliar Administrativo con Experiencia en Asesoría Financiera y Ventas en el Sector Bancario",
    "empresa": "",
    "salario": "",
    "ubicacion": "Bogotá",
    "publicada": "",
    "vence": "",
    "contrato": "",
-   "descripcion": "Volver al listado \n Asistente administrativo/a de gerencia de mantenimiento \n Masivo Capital S.A.S. - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Salarios \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 3.050.000,00 (Mensual) \n Contrato a término fijo \n Tiempo Completo \n ¡Únete a nuestro equipo como TÉCNICO(A) ADMINISTRATIVO(A) DE MANTENIMIENTO!\n¿Te apasiona el análisis de información, la gestión administrativa y el trabajo en entornos operativos? \nEsta es tu oportunidad para hacer parte de una compañía líder en el sector de transporte, contribuyendo al soporte y control de los procesos de mantenimiento de flota. \n Perfil que buscamos\nTécnico, tecnólogo o estudiante de Mecánica Automotriz, Sistemas Mecatrónicos, Gestión Administrativa o carreras afines. \nExperiencia mínima de 2 años en cargos administrativos o asistenciales, preferiblemente relacionados con mantenimiento o gestión operativa.\nManejo intermedio de Excel y herramientas ofimáticas. \nHabilidad para el análisis de información, elaboración de informes y seguimiento de indicadores. \nExcelente organización, orientación al detalle, trabajo en e",
+   "descripcion": "Volver al listado \n Auxiliar Administrativo con Experiencia en Asesoría Financiera y Ventas en el Sector Bancario \n Importante empresa del sector - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n $ 1.750.000,00 (Mensual) \n Contrato de Obra o labor \n Tiempo Completo \n Remoto \n ¿Te apasiona ayudar a otros?\n¡Estamos buscando Asesores!\nContrato directo + Bonos\nCapacitación paga\nTurnos flexibles\n¡Postúlate y vive la experiencia de crecer con nosotros!\n Requerimientos\n Educación mínima: Bachillerato / Educación Media\n años de experiencia\n Palabras clave: ayudante, asistente, auxiliar, aux, auxiliary, assistant, helper, aide, administrative, financial, afianzadora, credito, credit, financiera, cambaceo, sales, banker, bancario, banking, banquero\n Hace 4 horas (actualizada)\n Aplicar \n Postulado \n Avísame con ofertas similares \n Denunciar empleo \n Gracias por ayudarnos a mejorar Computrabajo\n Nos tomamos muy en serio tus comentarios y lo revisaremos lo antes posible.\n Ver oferta completa \n Ofertas similares \n Auxiliar de Administrativo \n Misión Servir SAS \n - \n Bogotá, D.C., Bogotá, D.C. \n $ 1.7",
    "portal": "Computrabajo",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-administrativoa-de-gerencia-de-mantenimiento-en-bogota-dc-F0FC640946881E0161373E686DCF3405"
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativo-con-experiencia-en-asesoria-financiera-y-ventas-en-el-sector-bancario-en-bogota-dc-B4034AB8A70D9E5C61373E686DCF3405"
+  },
+  {
+   "titulo": "Auxiliar Contable y Administrativo - Vinculación Inmediata",
+   "empresa": "",
+   "salario": "",
+   "ubicacion": "Bogotá",
+   "publicada": "",
+   "vence": "",
+   "contrato": "",
+   "descripcion": "Volver al listado \n Auxiliar Contable y Administrativo - Vinculación Inmediata \n COLEGIO BILINGUE RICHMOND - Bogotá, D.C., Bogotá, D.C.\n Ya aplicaste a esta oferta \n Oferta \n Empresa \n Evaluaciones \n Ofertas similares \n Ocultaste esta oferta, pulsa \n Recuperar oferta \n para verla de nuevo en los listados \n Eliminado de \n Ofertas ocultas \n Deshacer \n Descripción de la oferta \n A convenir \n Contrato a término indefinido \n Tiempo Completo \n Nos encontramos en búsqueda de un(a) Auxiliar Contable y Administrativo(a) para nuestro equipo de Richmond Store del Colegio Bilingüe Richmond. Buscamos una persona organizada, responsable, proactiva y con orientación al servicio, que cuente con experiencia en procesos contables, administrativos y comerciales.\nRequisitos:\nTécnico en Contabilidad, Gestión Administrativa, Finanzas o programas afines.\nExperiencia en procesos contables y administrativos.\nConocimientos en facturación electrónica, registro de compras y ventas, conciliaciones bancarias, cuentas por pagar y control de inventarios.\nManejo de Excel y herramientas ofimáticas.\nDeseable conocimiento en SIIGO y plataformas de facturación.\nPrincipales funciones:\nElaboración y registro de facturas electrónicas, compras, ventas y notas crédito.\nGestión de pagos a proveedores y apoyo en procesos d",
+   "portal": "Computrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-contable-y-administrativo-vinculacion-inmediata-en-bogota-dc-994657BB580FE5D261373E686DCF3405"
   }
  ]
 }
