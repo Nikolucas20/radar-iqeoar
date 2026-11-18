@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 4075,
+    "descartadas": 4176,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 42,
-    "notas": "Ronda 17/11 (tarde): portales.json regenerado (20:09 UTC; 79 ofertas por evaluar). LinkedIn y Computrabajo no traen salario ni modalidad confirmables en la descripción (truncada) o son presenciales (p. ej. Protección $3 M presencial) o cargos fuera de los 4; Alimentos al Consumidor y Korn Ferry ya guardadas. Indeed: 2 búsquedas; Bankvision es presencial y de QA, EC Cargo/Innovamos/Chalver descartadas antes. Sin ofertas nuevas.",
-    "revisadas": 4117,
-    "ultima_ejecucion": "2026-11-17T17:10:00-05:00"
+    "notas": "Ronda 18/11 (mañana): portales.json sin cambios (generado 17/11 20:09 UTC; mismas 79 ofertas ya evaluadas). Indeed: 4 búsquedas (cartera Bogotá, administrativa remoto, asistente de cartera remoto, asistente administrativa Bogotá); sin salario publicado y casi todas ya vistas o con cargo/fecha fuera de criterio. LinkedIn (AVANZO, Rheem, ADAMA, Rich Products, Talent Search) sin salario ni modalidad confirmables; WebSearch sin hallar la publicación original. Sin ofertas nuevas.",
+    "revisadas": 4218,
+    "ultima_ejecucion": "2026-11-18T07:15:00-05:00"
   },
   "ofertas": [
     {
@@ -1706,25 +1706,22 @@
       "id": "cinte-analista-contable-financiero"
     },
     {
-      "id": "almaviva-analista-facturacion-sap",
       "d": {
-        "titulo": "ANALISTA DE FACTURACIÓN - MANEJO DE SAP",
-        "empresa": "ALMAVIVA",
-        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-facturacion-manejo-de-sap-1886788740",
-        "portal": "elempleo",
-        "fecha_publicacion": "2026-11-03",
-        "fecha_hallada": "2026-11-05",
-        "salario_texto": "$3.000.000 + prestaciones (listado: $2,5 a $3 millones)",
-        "salario_cop": 3000000,
-        "salario_max_cop": 3000000,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
         "categoria": "cumple",
-        "puntaje": 56,
-        "razones": [
-          "Salario de $3.000.000 e indefinido directo, ambos explícitos en la descripción.",
-          "El listado dice Remoto pero el texto dice híbrido L-V en Bogotá; confirmar. Exige manejo de SAP (solo es habilidad baja en tu perfil) y profesional en áreas afines."
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "ALMAVIVA",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-05",
+        "fecha_publicacion": "2026-11-03",
+        "fuentes": [
+          {
+            "contrato": "Contrato Indefinido",
+            "fecha_publicacion": "2026-11-03",
+            "portal": "elempleo",
+            "salario_texto": "$3.000.000 + prestaciones (listado: $2,5 a $3 millones)",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-facturacion-manejo-de-sap-1886788740"
+          }
         ],
         "kit": {
           "carta": "Me postulo al cargo de Analista de Facturación. Como Analista Administrativa y Senior de Tesorería en Dentons gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas integrando información financiera y contable. Además registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes, lo que me da una base sólida para el control diario de facturación, el seguimiento de notas crédito y los indicadores que busca la vacante. Soy Profesional en Administración de Empresas, con Excel avanzado y fundamentos de Power BI, y disfruto el trabajo detallado y la depuración de información. Me gustaría aportar este rigor a su equipo en Bogotá. Quedo atenta a conversar. Cordialmente, J. Osorio",
@@ -1743,39 +1740,39 @@
             "Excel"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "elempleo",
-            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-facturacion-manejo-de-sap-1886788740",
-            "fecha_publicacion": "2026-11-03",
-            "salario_texto": "$3.000.000 + prestaciones (listado: $2,5 a $3 millones)",
-            "contrato": "Contrato Indefinido"
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (elempleo).",
+        "portal": "elempleo",
+        "puntaje": 56,
+        "razones": [
+          "Salario de $3.000.000 e indefinido directo, ambos explícitos en la descripción.",
+          "El listado dice Remoto pero el texto dice híbrido L-V en Bogotá; confirmar. Exige manejo de SAP (solo es habilidad baja en tu perfil) y profesional en áreas afines."
         ],
-        "motivo_fuente": "Única publicación encontrada (elempleo)."
-      }
+        "salario_cop": 3000000,
+        "salario_max_cop": 3000000,
+        "salario_texto": "$3.000.000 + prestaciones (listado: $2,5 a $3 millones)",
+        "titulo": "ANALISTA DE FACTURACIÓN - MANEJO DE SAP",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-facturacion-manejo-de-sap-1886788740"
+      },
+      "id": "almaviva-analista-facturacion-sap"
     },
     {
-      "id": "tcs-analista-administrativo-bilingue-bogota",
       "d": {
-        "titulo": "Analista administrativo Bilingüe - Bogotá",
-        "empresa": "Tata Consultancy Services",
-        "url": "https://www.linkedin.com/jobs/view/4487792711",
-        "portal": "LinkedIn",
-        "fecha_publicacion": "2026-11-05",
-        "fecha_hallada": "2026-11-05",
-        "salario_texto": "No publicado (\"salario competitivo\")",
-        "salario_cop": null,
-        "salario_max_cop": null,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
         "categoria": "por_verificar",
-        "puntaje": 60,
-        "razones": [
-          "Híbrido 3 días oficina/2 remoto en Bogotá y término indefinido; el salario no se publica.",
-          "Pide inglés B2 hablado y escrito y 4 años en cargos administrativos; incluye compras, facturas y eventos."
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Tata Consultancy Services",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-05",
+        "fecha_publicacion": "2026-11-05",
+        "fuentes": [
+          {
+            "contrato": "Contrato a término indefinido",
+            "fecha_publicacion": "2026-11-05",
+            "portal": "LinkedIn",
+            "salario_texto": "No publicado (\"salario competitivo\")",
+            "url": "https://www.linkedin.com/jobs/view/4487792711"
+          }
         ],
         "kit": {
           "carta": "Me postulo al cargo de Analista Administrativa Bilingüe. En Dentons trabajé seis años como Analista Administrativa y Senior de Tesorería: fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros dando soporte a varias áreas, y gestioné proveedores nacionales e internacionales. Implementé herramientas de seguimiento para el control de gastos y diseñé manuales de procedimientos que estandarizaron el área. Soy Profesional en Administración de Empresas y manejo Excel avanzado, Power BI y el ERP Odoo. Me interesa aportar organización, control de presupuestos y atención a las áreas internas en un entorno multinacional como el suyo. Gracias por considerar mi perfil. Cordialmente, J. Osorio",
@@ -1794,39 +1791,39 @@
             "Excel"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "LinkedIn",
-            "url": "https://www.linkedin.com/jobs/view/4487792711",
-            "fecha_publicacion": "2026-11-05",
-            "salario_texto": "No publicado (\"salario competitivo\")",
-            "contrato": "Contrato a término indefinido"
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (LinkedIn).",
+        "portal": "LinkedIn",
+        "puntaje": 60,
+        "razones": [
+          "Híbrido 3 días oficina/2 remoto en Bogotá y término indefinido; el salario no se publica.",
+          "Pide inglés B2 hablado y escrito y 4 años en cargos administrativos; incluye compras, facturas y eventos."
         ],
-        "motivo_fuente": "Única publicación encontrada (LinkedIn)."
-      }
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "No publicado (\"salario competitivo\")",
+        "titulo": "Analista administrativo Bilingüe - Bogotá",
+        "url": "https://www.linkedin.com/jobs/view/4487792711"
+      },
+      "id": "tcs-analista-administrativo-bilingue-bogota"
     },
     {
-      "id": "proyeccion-profesional-asistente-administrativa-personal-bilingue",
       "d": {
-        "titulo": "Asistente Administrativa y Personal bilingüe - Bogotá",
-        "empresa": "PROYECCION PROFESIONAL RRHH",
-        "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa-y-personal-bilingue-bogota-1886789719",
-        "portal": "elempleo",
-        "fecha_publicacion": "2026-11-05",
-        "fecha_hallada": "2026-11-05",
-        "salario_texto": "$2,5 a $3 millones",
-        "salario_cop": 2500000,
-        "salario_max_cop": 3000000,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
         "categoria": "por_verificar",
-        "puntaje": 58,
-        "razones": [
-          "Rango $2,5 a $3 M cruza tu mínimo de $2,8 M; indefinido e híbrido en Bogotá.",
-          "Asiste al gerente general (agenda, viáticos, pagos personales) y apoya al área contable; exige inglés ~70% y 3 años de experiencia."
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "PROYECCION PROFESIONAL RRHH",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-05",
+        "fecha_publicacion": "2026-11-05",
+        "fuentes": [
+          {
+            "contrato": "Contrato Indefinido",
+            "fecha_publicacion": "2026-11-05",
+            "portal": "elempleo",
+            "salario_texto": "$2,5 a $3 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa-y-personal-bilingue-bogota-1886789719"
+          }
         ],
         "kit": {
           "carta": "Me postulo al cargo de Asistente Administrativa y Personal bilingüe. Tengo cinco años de experiencia como Analista Administrativa en Dentons, donde fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, y apoyé el soporte contable ejecutando conciliaciones y registrando transacciones en el ERP Odoo. También fortalecí los controles de cajas menores con legalizaciones estandarizadas. Soy Profesional en Administración de Empresas, con Excel avanzado, y me siento cómoda apoyando a la gerencia con discreción y orden. Puedo trabajar en esquema híbrido de lunes a viernes en Bogotá. Agradezco su tiempo y quedo atenta. Cordialmente, J. Osorio",
@@ -1844,40 +1841,39 @@
             "híbrido"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "elempleo",
-            "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa-y-personal-bilingue-bogota-1886789719",
-            "fecha_publicacion": "2026-11-05",
-            "salario_texto": "$2,5 a $3 millones",
-            "contrato": "Contrato Indefinido"
-          }
-        ],
-        "motivo_fuente": "Única publicación encontrada (elempleo)."
-      }
-    },
-    {
-      "id": "skandia-analista-jr-gestion-recaudos-cartera",
-      "d": {
-        "titulo": "Analista Jr de Gestión de Recaudos y Cartera",
-        "empresa": "Skandia",
-        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851",
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (elempleo).",
         "portal": "elempleo",
-        "fecha_publicacion": "2026-11-05",
-        "fecha_hallada": "2026-11-06",
-        "salario_texto": "$2,5 a $3 millones",
+        "puntaje": 58,
+        "razones": [
+          "Rango $2,5 a $3 M cruza tu mínimo de $2,8 M; indefinido e híbrido en Bogotá.",
+          "Asiste al gerente general (agenda, viáticos, pagos personales) y apoya al área contable; exige inglés ~70% y 3 años de experiencia."
+        ],
         "salario_cop": 2500000,
         "salario_max_cop": 3000000,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
+        "salario_texto": "$2,5 a $3 millones",
+        "titulo": "Asistente Administrativa y Personal bilingüe - Bogotá",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa-y-personal-bilingue-bogota-1886789719"
+      },
+      "id": "proyeccion-profesional-asistente-administrativa-personal-bilingue"
+    },
+    {
+      "d": {
         "categoria": "por_verificar",
-        "puntaje": 64,
-        "razones": [
-          "Cargo muy afín (recaudo y cartera) y híbrido en Bogotá con contrato indefinido.",
-          "El rango salarial cruza el umbral: el piso ($2,5 M) está por debajo de $2,8 M; confirmar el salario real.",
-          "Pide más de 1 año de experiencia y Excel intermedio; es un cargo junior."
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Skandia",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-06",
+        "fecha_publicacion": "2026-11-05",
+        "fuentes": [
+          {
+            "contrato": "Contrato Indefinido",
+            "fecha_publicacion": "2026-11-05",
+            "portal": "elempleo",
+            "salario_texto": "$2,5 a $3 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851"
+          }
         ],
         "kit": {
           "carta": "Estimado equipo de Skandia: me postulo al cargo de Analista Jr de Gestión de Recaudos y Cartera. Soy Profesional en Administración de Empresas (Areandina, 2024) y durante seis años en Dentons gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención. También ejecuté conciliaciones periódicas, registré y validé transacciones en el ERP Odoo con custodia de soportes y apoyé informes de gestión administrativa y control presupuestal. Como Analista Senior de Tesorería coordiné pagos nacionales e internacionales y elaboré informes de conciliación integrando información financiera y contable. Domino Excel avanzado y Fundamentos de Power BI, lo que me permite analizar la información con rigor y entregar resultados confiables. Me motiva aportar a una operación de recaudo precisa y oportuna. Quedo atenta a conversar. Cordialmente, J. Osorio",
@@ -1896,40 +1892,40 @@
             "primas"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "elempleo",
-            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851",
-            "fecha_publicacion": "2026-11-05",
-            "salario_texto": "$2,5 a $3 millones",
-            "contrato": "Contrato Indefinido"
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad).",
+        "portal": "elempleo",
+        "puntaje": 64,
+        "razones": [
+          "Cargo muy afín (recaudo y cartera) y híbrido en Bogotá con contrato indefinido.",
+          "El rango salarial cruza el umbral: el piso ($2,5 M) está por debajo de $2,8 M; confirmar el salario real.",
+          "Pide más de 1 año de experiencia y Excel intermedio; es un cargo junior."
         ],
-        "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad)."
-      }
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "salario_texto": "$2,5 a $3 millones",
+        "titulo": "Analista Jr de Gestión de Recaudos y Cartera",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851"
+      },
+      "id": "skandia-analista-jr-gestion-recaudos-cartera"
     },
     {
-      "id": "lider-financiero-administrativo-bogota-1886789811",
       "d": {
-        "titulo": "Líder Financiero(a) y Administrativo(a) - Bogotá",
-        "empresa": "Carolina Jaramillo Santacoloma (contratación directa)",
-        "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-financieroa-y-administrativoa-bogota-1886789811",
-        "portal": "elempleo",
-        "fecha_publicacion": "2026-11-05",
-        "fecha_hallada": "2026-11-06",
-        "salario_texto": "$6.000.000 a $7.000.000 (publicado como $6 a $8 millones)",
-        "salario_cop": 6000000,
-        "salario_max_cop": 8000000,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
         "categoria": "cumple",
-        "puntaje": 60,
-        "razones": [
-          "Salario desde $6 M, contrato indefinido directo con la empresa e híbrido en Bogotá.",
-          "Cargo de liderazgo (tesorería, cartera, facturación, flujo de caja, servicios generales): es un salto frente a su perfil de analista; piden 4 años de experiencia.",
-          "Cruza bien con sus logros en cuentas por pagar/cobrar, cajas menores y manuales de procedimientos."
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Carolina Jaramillo Santacoloma (contratación directa)",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-06",
+        "fecha_publicacion": "2026-11-05",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-05",
+            "portal": "elempleo",
+            "salario_texto": "$6.000.000 a $7.000.000",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-financieroa-y-administrativoa-bogota-1886789811"
+          }
         ],
         "kit": {
           "carta": "Estimados señores:\n\nMe postulo al cargo de Líder Financiero(a) y Administrativo(a). Soy Profesional en Administración de Empresas con cinco años de experiencia en tesorería y gestión administrativa en una firma de servicios profesionales. Allí coordiné cuentas por pagar nacionales e internacionales, con conciliaciones a proveedores y seguimiento de pagos, y gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención. También fortalecí los controles de cajas menores y diseñé manuales de procedimientos que estandarizaron el área. Registro y analizo transacciones en el ERP Odoo y apoyo informes de gestión y control presupuestal. Me interesa asumir una posición que centralice la gestión financiera y administrativa de la compañía y aportar orden, control y trazabilidad a sus procesos. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
@@ -1949,40 +1945,40 @@
             "bancos"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "elempleo",
-            "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-financieroa-y-administrativoa-bogota-1886789811",
-            "fecha_publicacion": "2026-11-05",
-            "salario_texto": "$6.000.000 a $7.000.000",
-            "contrato": "indefinido"
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada; trae salario, contrato y modalidad.",
+        "portal": "elempleo",
+        "puntaje": 60,
+        "razones": [
+          "Salario desde $6 M, contrato indefinido directo con la empresa e híbrido en Bogotá.",
+          "Cargo de liderazgo (tesorería, cartera, facturación, flujo de caja, servicios generales): es un salto frente a su perfil de analista; piden 4 años de experiencia.",
+          "Cruza bien con sus logros en cuentas por pagar/cobrar, cajas menores y manuales de procedimientos."
         ],
-        "motivo_fuente": "Única publicación encontrada; trae salario, contrato y modalidad."
-      }
+        "salario_cop": 6000000,
+        "salario_max_cop": 8000000,
+        "salario_texto": "$6.000.000 a $7.000.000 (publicado como $6 a $8 millones)",
+        "titulo": "Líder Financiero(a) y Administrativo(a) - Bogotá",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-financieroa-y-administrativoa-bogota-1886789811"
+      },
+      "id": "lider-financiero-administrativo-bogota-1886789811"
     },
     {
-      "id": "softwareone-analista-cartera-cobranzas",
       "d": {
-        "titulo": "Analista de Cartera y Cobranzas",
-        "empresa": "SoftwareOne",
-        "url": "https://www.linkedin.com/jobs/view/4487320326",
-        "portal": "LinkedIn",
-        "fecha_publicacion": "2026-11-06",
-        "fecha_hallada": "2026-11-06",
-        "salario_texto": "No publicado",
-        "salario_cop": null,
-        "salario_max_cop": null,
-        "contrato": null,
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
         "categoria": "por_verificar",
-        "puntaje": 71,
-        "razones": [
-          "Modalidad híbrida en Bogotá y cargo muy afín (cartera, conciliación de recaudos, DSO, Excel y Power BI).",
-          "Falta confirmar salario y tipo de contrato: la publicación no los trae.",
-          "Gestiona cartera de Perú, Ecuador y Bolivia con unos 300 clientes: posible exigencia de inglés; verificar. Publicada hoy."
+        "ciudad": "Bogotá",
+        "contrato": null,
+        "empresa": "SoftwareOne",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-06",
+        "fecha_publicacion": "2026-11-06",
+        "fuentes": [
+          {
+            "contrato": null,
+            "fecha_publicacion": "2026-11-06",
+            "portal": "LinkedIn",
+            "salario_texto": "No publicado",
+            "url": "https://www.linkedin.com/jobs/view/4487320326"
+          }
         ],
         "kit": {
           "carta": "Estimados señores de SoftwareOne:\n\nMe postulo al cargo de Analista de Cartera y Cobranzas. Soy Profesional en Administración de Empresas y, durante seis años, gestioné cuentas por cobrar y el recaudo oportuno en una firma de servicios profesionales, además de cuentas por pagar nacionales e internacionales. Ejecuto conciliaciones periódicas, elaboro informes de conciliación para proveedores internacionales y registro y valido transacciones en el ERP Odoo. Cuento con formación en Excel Avanzado y Fundamentos de Power BI, útiles para el seguimiento de indicadores como DSO y antigüedad de cartera. Me motiva trabajar de cerca con equipos comerciales y clientes para asegurar pagos oportunos y resolver saldos pendientes. Agradezco la oportunidad de conversar.\n\nCordialmente,\nJ. Osorio",
@@ -2002,40 +1998,40 @@
             "cuentas por cobrar"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "LinkedIn",
-            "url": "https://www.linkedin.com/jobs/view/4487320326",
-            "fecha_publicacion": "2026-11-06",
-            "salario_texto": "No publicado",
-            "contrato": null
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (publicada por la empresa en LinkedIn).",
+        "portal": "LinkedIn",
+        "puntaje": 71,
+        "razones": [
+          "Modalidad híbrida en Bogotá y cargo muy afín (cartera, conciliación de recaudos, DSO, Excel y Power BI).",
+          "Falta confirmar salario y tipo de contrato: la publicación no los trae.",
+          "Gestiona cartera de Perú, Ecuador y Bolivia con unos 300 clientes: posible exigencia de inglés; verificar. Publicada hoy."
         ],
-        "motivo_fuente": "Única publicación encontrada (publicada por la empresa en LinkedIn)."
-      }
-    },
-    {
-      "id": "esri-analista-administrativa-hibrido-usaquen",
-      "d": {
-        "titulo": "Analista Administrativa",
-        "empresa": "Esri Colombia | Ecuador | Panamá",
-        "url": "https://to.indeed.com/aaqngzkx9lwr",
-        "portal": "Indeed",
-        "fecha_publicacion": "2026-11-06",
-        "fecha_hallada": "2026-11-09",
-        "salario_texto": "No publicado",
         "salario_cop": null,
         "salario_max_cop": null,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá (Usaquén)",
+        "salario_texto": "No publicado",
+        "titulo": "Analista de Cartera y Cobranzas",
+        "url": "https://www.linkedin.com/jobs/view/4487320326"
+      },
+      "id": "softwareone-analista-cartera-cobranzas"
+    },
+    {
+      "d": {
         "categoria": "por_verificar",
-        "puntaje": 59,
-        "razones": [
-          "Cargo exacto (Analista Administrativa), híbrido en Bogotá y contrato indefinido con periodo de prueba, publicado hace 3 días.",
-          "El salario no está publicado: confirmar que supere $2,8 M antes de postularte.",
-          "Pide 2 años de experiencia, profesional en Administración y Excel avanzado; encaja con tu perfil."
+        "ciudad": "Bogotá (Usaquén)",
+        "contrato": "indefinido",
+        "empresa": "Esri Colombia | Ecuador | Panamá",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-09",
+        "fecha_publicacion": "2026-11-06",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-06",
+            "portal": "Indeed",
+            "salario_texto": "No publicado",
+            "url": "https://to.indeed.com/aaqngzkx9lwr"
+          }
         ],
         "kit": {
           "carta": "Estimado equipo de Esri Colombia:\n\nMe postulo al cargo de Analista Administrativa. Soy Administradora de Empresas con cinco años de experiencia en Dentons, donde elaboré informes de gestión administrativa y de conciliación integrando información financiera y contable, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes.\n\nTambién diseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento, y fortalecí controles de cajas menores con legalizaciones estandarizadas y capacitación a usuarios. Cuento con formación en Excel Avanzado y Fundamentos de Power BI (Colsubsidio CET, 2026), útil para el seguimiento de indicadores y reportes que piden.\n\nMe interesa aportar en la mejora y automatización de procesos administrativos en modalidad híbrida en Bogotá. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
@@ -2053,40 +2049,40 @@
             "automatización de procesos"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "Indeed",
-            "url": "https://to.indeed.com/aaqngzkx9lwr",
-            "fecha_publicacion": "2026-11-06",
-            "salario_texto": "No publicado",
-            "contrato": "indefinido"
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (Indeed).",
+        "portal": "Indeed",
+        "puntaje": 59,
+        "razones": [
+          "Cargo exacto (Analista Administrativa), híbrido en Bogotá y contrato indefinido con periodo de prueba, publicado hace 3 días.",
+          "El salario no está publicado: confirmar que supere $2,8 M antes de postularte.",
+          "Pide 2 años de experiencia, profesional en Administración y Excel avanzado; encaja con tu perfil."
         ],
-        "motivo_fuente": "Única publicación encontrada (Indeed)."
-      }
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "No publicado",
+        "titulo": "Analista Administrativa",
+        "url": "https://to.indeed.com/aaqngzkx9lwr"
+      },
+      "id": "esri-analista-administrativa-hibrido-usaquen"
     },
     {
-      "id": "aval-analista-operaciones-ii-recaudos",
       "d": {
-        "titulo": "Analista de Operaciones II - Recaudos",
-        "empresa": "AVAL VALOR COMPARTIDO SA",
-        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-operaciones-ii-recaudos-1886797723",
-        "portal": "elempleo",
-        "fecha_publicacion": "2026-11-12",
-        "fecha_hallada": "2026-11-13",
-        "salario_texto": "$3 a $3,5 millones",
-        "salario_cop": 3000000,
-        "salario_max_cop": 3500000,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
         "categoria": "cumple",
-        "puntaje": 56,
-        "razones": [
-          "Salario $3–3,5 M, contrato indefinido y modalidad híbrida en Bogotá, publicados en la oferta.",
-          "Es un rol operativo-técnico de recaudo electrónico (convenios, SLAs, proveedores), no de cartera clásica: afinidad parcial con el perfil.",
-          "Piden 2 años de experiencia; publicada el 12/11."
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "AVAL VALOR COMPARTIDO SA",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-13",
+        "fecha_publicacion": "2026-11-12",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-12",
+            "portal": "elempleo",
+            "salario_texto": "$3 a $3,5 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-operaciones-ii-recaudos-1886797723"
+          }
         ],
         "kit": {
           "carta": "Con gusto me postulo al cargo de Analista de Operaciones II - Recaudos en Aval Valor Compartido. Durante seis años en Dentons gestioné cuentas por cobrar y el recaudo oportuno, además de coordinar pagos a proveedores nacionales e internacionales con conciliaciones periódicas, lo que me da una base sólida para hacer seguimiento operativo a convenios y recaudos. También registré y validé transacciones en el ERP Odoo y elaboré informes de gestión, de modo que identifico novedades, coordino su solución con las áreas y propongo mejoras. Diseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento. Soy Administradora de Empresas y completé Excel Avanzado y Fundamentos de Power BI en 2026, herramientas útiles para analizar y reportar indicadores de servicio. Agradezco la oportunidad de conversar sobre cómo puedo aportar al equipo. Cordialmente, J. Osorio",
@@ -2105,40 +2101,40 @@
             "operaciones"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "elempleo",
-            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-operaciones-ii-recaudos-1886797723",
-            "fecha_publicacion": "2026-11-12",
-            "salario_texto": "$3 a $3,5 millones",
-            "contrato": "indefinido"
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "elempleo",
+        "puntaje": 56,
+        "razones": [
+          "Salario $3–3,5 M, contrato indefinido y modalidad híbrida en Bogotá, publicados en la oferta.",
+          "Es un rol operativo-técnico de recaudo electrónico (convenios, SLAs, proveedores), no de cartera clásica: afinidad parcial con el perfil.",
+          "Piden 2 años de experiencia; publicada el 12/11."
         ],
-        "motivo_fuente": "Única publicación encontrada."
-      }
+        "salario_cop": 3000000,
+        "salario_max_cop": 3500000,
+        "salario_texto": "$3 a $3,5 millones",
+        "titulo": "Analista de Operaciones II - Recaudos",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-operaciones-ii-recaudos-1886797723"
+      },
+      "id": "aval-analista-operaciones-ii-recaudos"
     },
     {
-      "id": "darplas-analista-tesoreria",
       "d": {
-        "titulo": "Analista de Tesorería",
-        "empresa": "Darplas S.A.S",
-        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-en-bogota-dc-A7DDBABDDFF8143861373E686DCF3405",
-        "portal": "Computrabajo",
-        "fecha_publicacion": "2026-11-12",
-        "fecha_hallada": "2026-11-13",
-        "salario_texto": "$3.400.000 mensual",
-        "salario_cop": 3400000,
-        "salario_max_cop": 3400000,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
         "categoria": "por_verificar",
-        "puntaje": 65,
-        "razones": [
-          "Salario $3,4 M y contrato directo a término indefinido, ambos explícitos; funciones muy alineadas (tesorería, cartera, caja menor, conciliaciones, proveedores, Siigo).",
-          "La oferta NO dice si es presencial, híbrida o remota (horario L-V 7:30–4:30): confirmar modalidad antes de aplicar. Modalidad marcada como híbrido solo como supuesto.",
-          "Piden 3 años de experiencia."
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Darplas S.A.S",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-13",
+        "fecha_publicacion": "2026-11-12",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-12",
+            "portal": "Computrabajo",
+            "salario_texto": "$3.400.000 mensual",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-en-bogota-dc-A7DDBABDDFF8143861373E686DCF3405"
+          }
         ],
         "kit": {
           "carta": "Me postulo al cargo de Analista de Tesorería en Darplas. En Dentons, como Analista Senior de Tesorería, coordiné cuentas por pagar nacionales e internacionales con recepción, conciliación y seguimiento de pagos, y ejecuté conciliaciones periódicas. También gestioné cuentas por cobrar y el recaudo, fortalecí los controles de cajas menores con montos límite y legalizaciones estandarizadas, y registré transacciones en el ERP Odoo con custodia de soportes. Esa experiencia me permite asumir el manejo de bancos, pagos a proveedores, caja menor y conciliaciones bancarias que describe la vacante. Soy Administradora de Empresas, con Excel Avanzado y Fundamentos de Power BI, y me adapto rápido a sistemas como Siigo. Quedo atenta a una entrevista para detallar cómo puedo aportar a su equipo financiero. Cordialmente, J. Osorio",
@@ -2157,40 +2153,40 @@
             "bancos"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "Computrabajo",
-            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-en-bogota-dc-A7DDBABDDFF8143861373E686DCF3405",
-            "fecha_publicacion": "2026-11-12",
-            "salario_texto": "$3.400.000 mensual",
-            "contrato": "indefinido"
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "Computrabajo",
+        "puntaje": 65,
+        "razones": [
+          "Salario $3,4 M y contrato directo a término indefinido, ambos explícitos; funciones muy alineadas (tesorería, cartera, caja menor, conciliaciones, proveedores, Siigo).",
+          "La oferta NO dice si es presencial, híbrida o remota (horario L-V 7:30–4:30): confirmar modalidad antes de aplicar. Modalidad marcada como híbrido solo como supuesto.",
+          "Piden 3 años de experiencia."
         ],
-        "motivo_fuente": "Única publicación encontrada."
-      }
+        "salario_cop": 3400000,
+        "salario_max_cop": 3400000,
+        "salario_texto": "$3.400.000 mensual",
+        "titulo": "Analista de Tesorería",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-tesoreria-en-bogota-dc-A7DDBABDDFF8143861373E686DCF3405"
+      },
+      "id": "darplas-analista-tesoreria"
     },
     {
-      "id": "coorserpark-analista-cartera-conciliaciones",
       "d": {
-        "titulo": "Analista de cartera, conciliaciones - Bogotá",
-        "empresa": "COORSERPARK S.A.S",
-        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405",
-        "portal": "Computrabajo",
-        "fecha_publicacion": "2026-11-12",
-        "fecha_hallada": "2026-11-13",
-        "salario_texto": "$3.200.000 mensual",
-        "salario_cop": 3200000,
-        "salario_max_cop": 3200000,
-        "contrato": "indefinido",
-        "modalidad": "hibrido",
-        "ciudad": "Bogotá",
         "categoria": "por_verificar",
-        "puntaje": 58,
-        "razones": [
-          "Salario $3,2 M y contrato indefinido explícitos; cargo exacto de cartera, recaudo, aplicación de pagos y conciliaciones.",
-          "La oferta no indica modalidad (horario L-V 7:00–4:30): confirmar que no sea 100% presencial. Modalidad marcada como híbrido solo como supuesto.",
-          "Piden 2 años en cartera/recaudo; el nivel pedido (bachiller/técnico) es menor al de la candidata."
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "COORSERPARK S.A.S",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-13",
+        "fecha_publicacion": "2026-11-12",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-12",
+            "portal": "Computrabajo",
+            "salario_texto": "$3.200.000 mensual",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405"
+          }
         ],
         "kit": {
           "carta": "Quiero postularme al cargo de Analista de Cartera y Conciliaciones en Coorserpark. En Dentons gestioné cuentas por cobrar y el recaudo oportuno, expedí certificados de retención y ejecuté conciliaciones periódicas con proveedores, integrando información financiera y contable. Registré y validé transacciones en el ERP Odoo, lo que facilita la aplicación de pagos y la conciliación bancaria que requiere la vacante. Además, apoyé informes de gestión y control presupuestal, y soy el punto de consulta de varias áreas para pagos, anticipos y legalizaciones. Soy Administradora de Empresas y manejo Excel avanzado y Power BI. Me gustaría conversar con ustedes sobre cómo contribuir a un recaudo oportuno y una cartera ordenada. Cordialmente, J. Osorio",
@@ -2209,40 +2205,40 @@
             "sistemas contables"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "Computrabajo",
-            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405",
-            "fecha_publicacion": "2026-11-12",
-            "salario_texto": "$3.200.000 mensual",
-            "contrato": "indefinido"
-          }
-        ],
-        "motivo_fuente": "Única publicación encontrada."
-      }
-    },
-    {
-      "id": "nutresa-alimentos-consumidor-analista-administrativo",
-      "d": {
-        "titulo": "Analista Administrativo",
-        "empresa": "Alimentos al Consumidor (Grupo Nutresa) – confidencial",
-        "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261",
-        "portal": "Magneto",
-        "fecha_publicacion": "2026-11-13",
-        "fecha_hallada": "2026-11-13",
-        "salario_texto": "$3.502.000 mensual",
-        "salario_cop": 3502000,
-        "salario_max_cop": 3502000,
-        "contrato": "indefinido",
         "modalidad": "hibrido",
-        "ciudad": "Bogotá",
-        "categoria": "por_verificar",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "Computrabajo",
         "puntaje": 58,
         "razones": [
-          "Salario $3,5 M explícito y cargo de Analista Administrativo (control de gastos, contabilización de facturas, soporte de oficina); encaja con la experiencia en legalizaciones y gastos.",
-          "El contrato y la modalidad no figuran en el texto (solo 'FULL_TIME'): verificar indefinido y que no sea presencial. Valores marcados solo como supuesto.",
-          "Piden 2 años de experiencia; vence 06/12/2026."
+          "Salario $3,2 M y contrato indefinido explícitos; cargo exacto de cartera, recaudo, aplicación de pagos y conciliaciones.",
+          "La oferta no indica modalidad (horario L-V 7:00–4:30): confirmar que no sea 100% presencial. Modalidad marcada como híbrido solo como supuesto.",
+          "Piden 2 años en cartera/recaudo; el nivel pedido (bachiller/técnico) es menor al de la candidata."
+        ],
+        "salario_cop": 3200000,
+        "salario_max_cop": 3200000,
+        "salario_texto": "$3.200.000 mensual",
+        "titulo": "Analista de cartera, conciliaciones - Bogotá",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405"
+      },
+      "id": "coorserpark-analista-cartera-conciliaciones"
+    },
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Alimentos al Consumidor (Grupo Nutresa) – confidencial",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-13",
+        "fecha_publicacion": "2026-11-13",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-13",
+            "portal": "Magneto",
+            "salario_texto": "$3.502.000 mensual",
+            "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261"
+          }
         ],
         "kit": {
           "carta": "Me postulo al cargo de Analista Administrativo en Alimentos al Consumidor. En Dentons trabajé seis años como Analista Administrativa y de Tesorería, donde fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros para varias áreas, y registré y validé facturas y transacciones en el ERP Odoo con custodia de soportes. Implementé herramientas de seguimiento para el control de gastos de transporte y fortalecí los controles de cajas menores, experiencia directa para el control de gastos corporativos que describe la vacante. Soy Administradora de Empresas, con Excel Avanzado, y me caracterizo por el orden, la atención al detalle y el servicio al cliente interno. Agradezco la oportunidad de una entrevista. Cordialmente, J. Osorio",
@@ -2260,18 +2256,22 @@
             "proveedores"
           ]
         },
-        "estado": "nueva",
-        "fuentes": [
-          {
-            "portal": "Magneto",
-            "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261",
-            "fecha_publicacion": "2026-11-13",
-            "salario_texto": "$3.502.000 mensual",
-            "contrato": "indefinido"
-          }
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "Magneto",
+        "puntaje": 58,
+        "razones": [
+          "Salario $3,5 M explícito y cargo de Analista Administrativo (control de gastos, contabilización de facturas, soporte de oficina); encaja con la experiencia en legalizaciones y gastos.",
+          "El contrato y la modalidad no figuran en el texto (solo 'FULL_TIME'): verificar indefinido y que no sea presencial. Valores marcados solo como supuesto.",
+          "Piden 2 años de experiencia; vence 06/12/2026."
         ],
-        "motivo_fuente": "Única publicación encontrada."
-      }
+        "salario_cop": 3502000,
+        "salario_max_cop": 3502000,
+        "salario_texto": "$3.502.000 mensual",
+        "titulo": "Analista Administrativo",
+        "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261"
+      },
+      "id": "nutresa-alimentos-consumidor-analista-administrativo"
     }
   ]
 }
