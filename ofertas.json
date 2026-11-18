@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 4176,
+    "descartadas": 4188,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 42,
-    "notas": "Ronda 18/11 (mañana): portales.json sin cambios (generado 17/11 20:09 UTC; mismas 79 ofertas ya evaluadas). Indeed: 4 búsquedas (cartera Bogotá, administrativa remoto, asistente de cartera remoto, asistente administrativa Bogotá); sin salario publicado y casi todas ya vistas o con cargo/fecha fuera de criterio. LinkedIn (AVANZO, Rheem, ADAMA, Rich Products, Talent Search) sin salario ni modalidad confirmables; WebSearch sin hallar la publicación original. Sin ofertas nuevas.",
-    "revisadas": 4218,
-    "ultima_ejecucion": "2026-11-18T07:15:00-05:00"
+    "notas": "Ronda 18/11 (mediodía): portales.json sin cambios (17/11 20:09 UTC). Indeed: 2 búsquedas + detalle de 3; EC Cargo (presencial) y Qnt (presencial) descartadas; Esri ya guardada; el resto sin salario/cargo fuera de criterio. WebSearch sin ofertas nuevas válidas. Sin ofertas nuevas.",
+    "revisadas": 4230,
+    "ultima_ejecucion": "2026-11-18T12:04:50-05:00"
   },
   "ofertas": [
     {
