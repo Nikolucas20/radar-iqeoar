@@ -1,15 +1,15 @@
 {
  "meta": {
-  "descartadas": 4427,
+  "descartadas": 4441,
   "fuentes": [
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "Indeed (conector)",
    "WebSearch"
   ],
   "guardadas": 28,
-  "notas": "Ronda 19/11 (mediodía): portales.json sin cambios desde 03:03 UTC (ya evaluado). Indeed: 2 búsquedas remoto, sin ofertas válidas (soporte funcional, RR. HH.). 0 nuevas; se retiraron 15 con más de 30 días.",
-  "revisadas": 4470,
-  "ultima_ejecucion": "2026-11-19T12:05:00-05:00"
+  "notas": "Ronda 19/11 (tarde): portales.json sin cambios desde 03:03 UTC (ya evaluado). Indeed: 4 búsquedas; Invercoal (presencial), Colserauto ($1,92 M, presencial) y Kompo (término fijo, presencial) descartadas. WebSearch: 3 búsquedas sin ofertas válidas nuevas; elempleo.com no abre con WebFetch, así que Fiducoldex (Analista administrativo, $2,5-3 M, híbrido, indefinido) quedó sin verificar. 0 nuevas.",
+  "revisadas": 4484,
+  "ultima_ejecucion": "2026-11-19T17:15:00-05:00"
  },
  "ofertas": [
   {
