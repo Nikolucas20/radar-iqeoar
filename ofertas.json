@@ -1,15 +1,15 @@
 {
  "meta": {
-  "descartadas": 4318,
+  "descartadas": 4427,
   "fuentes": [
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "Indeed (conector)",
    "WebSearch"
   ],
-  "guardadas": 42,
-  "notas": "Ronda 18/11 (tarde): portales.json nuevo (18/11 19:46 UTC), 89 candidatas sin evaluar; casi todas sin salario, modalidad o con contrato obra/labor/fijo, o presenciales/otras ciudades. Indeed: 3 búsquedas sin ofertas válidas. Terpel y Alimentos al Consumidor repetidas (se agregó fuente elempleo a esta última). Sin ofertas nuevas.",
-  "revisadas": 4360,
-  "ultima_ejecucion": "2026-11-18T17:10:00-05:00"
+  "guardadas": 43,
+  "notas": "Ronda 19/11 (mañana): portales.json (03:03 UTC) con 86 candidatas; casi todas sin salario ≥2,8M, con obra/labor/fijo o sin modalidad. Indeed: 4 búsquedas, 4 detalles, ninguna válida (presenciales u obra o labor); Esri ya estaba guardada. 1 nueva por verificar (Michael Page, modalidad 'presencial y remoto'). WebSearch no usado en esta ronda.",
+  "revisadas": 4470,
+  "ultima_ejecucion": "2026-11-19T07:10:00-05:00"
  },
  "ofertas": [
   {
@@ -2240,11 +2240,11 @@
       "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261"
      },
      {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-1886798420",
+      "contrato": "indefinido",
       "fecha_publicacion": "2026-11-13",
+      "portal": "elempleo",
       "salario_texto": "$3 a $3,5 millones",
-      "contrato": "indefinido"
+      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-1886798420"
      }
     ],
     "kit": {
@@ -2279,6 +2279,103 @@
     "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261"
    },
    "id": "nutresa-alimentos-consumidor-analista-administrativo"
+  },
+  {
+   "d": {
+    "categoria": "por_verificar",
+    "ciudad": "Bogotá",
+    "contrato": "indefinido",
+    "empresa": "Michael Page (empresa confidencial)",
+    "estado": "nueva",
+    "fecha_hallada": "2026-11-19",
+    "fecha_publicacion": "2026-11-19",
+    "fuentes": [
+     {
+      "contrato": "indefinido",
+      "fecha_publicacion": null,
+      "portal": "Computrabajo",
+      "salario_texto": "$4.000.000 mensual",
+      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-compras-excel-en-bogota-dc-0F5055391E1B84C161373E686DCF3405"
+     }
+    ],
+    "kit": {
+     "carta": "Equipo de selección:\n\nMe interesa el cargo de Analista Administrativo y Compras. [tu razón: una frase sobre por qué esta empresa o cargo]\n\nLa oferta pide control de gastos administrativos. En Dentons fortalecí los controles de cajas menores con montos límite y legalizaciones estandarizadas, e implementé herramientas de seguimiento para el control de gastos de transporte.\n\nTambién pide seguimiento a facturación y relación con proveedores. Como Analista Senior de Tesorería coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos. Elaboré informes de conciliación para proveedores internacionales. Como Analista Administrativa registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes.\n\nSobre el control documental: diseñé manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento. Soy Profesional en Administración de Empresas y completé Excel Avanzado en Colsubsidio CET.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
+     "encaje": {
+      "motivo": "De 5 imprescindibles: 1 cumple, 2 en parte, 1 sin dato y 1 no. Vale la pena si se atiende la parte de compras y se confirma la modalidad.",
+      "requisitos": [
+       {
+        "estado": "cumple",
+        "evidencia": "Fortaleció los controles de cajas menores; implementó herramientas de seguimiento para el control de gastos de transporte.",
+        "requisito": "Control de gastos administrativos",
+        "tipo": "imprescindible"
+       },
+       {
+        "estado": "en_parte",
+        "evidencia": "Coordinó cuentas por pagar: recepción, conciliación y seguimiento de pagos.",
+        "requisito": "Seguimiento a facturación",
+        "tipo": "imprescindible"
+       },
+       {
+        "estado": "en_parte",
+        "evidencia": "Diseñó manuales de procedimientos; custodia de soportes en Odoo.",
+        "requisito": "Control documental",
+        "tipo": "imprescindible"
+       },
+       {
+        "estado": "sin_dato",
+        "evidencia": "El CV no menciona compras.",
+        "requisito": "Solicitud y análisis de cotizaciones, órdenes de compra",
+        "tipo": "imprescindible"
+       },
+       {
+        "estado": "no",
+        "evidencia": "El CV muestra seguimiento de pagos a proveedores, no negociación.",
+        "requisito": "Negociación con proveedores",
+        "tipo": "imprescindible"
+       },
+       {
+        "estado": "en_parte",
+        "evidencia": "Curso Excel Avanzado y Fundamentos de Power BI – Colsubsidio CET (2026).",
+        "requisito": "Excel",
+        "tipo": "deseable"
+       }
+      ],
+      "veredicto": "intentar"
+     },
+     "logros": [
+      "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
+      "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+     ],
+     "palabras_clave": [
+      "control documental",
+      "seguimiento a facturación",
+      "control de gastos administrativos",
+      "proveedores",
+      "órdenes de compra",
+      "cotizaciones",
+      "Excel"
+     ],
+     "preguntas": [
+      "¿Has hecho cotizaciones u órdenes de compra? Si es así, agrégalo a tu CV.",
+      "¿Has negociado con proveedores? Si lo hiciste, agrégalo a tu CV."
+     ]
+    },
+    "modalidad": "hibrido",
+    "motivo_fuente": "Única publicación encontrada.",
+    "portal": "Computrabajo",
+    "puntaje": 66,
+    "razones": [
+     "Salario $4.000.000 e indefinido explícitos; la modalidad dice 'Presencial y remoto' sin precisar días: confirmar que sea híbrido en Bogotá.",
+     "Mezcla administración con compras (cotizaciones, órdenes de compra), parte que el CV no muestra; la fecha de publicación no viene en el listado."
+    ],
+    "salario_cop": 4000000,
+    "salario_max_cop": 4000000,
+    "salario_texto": "$4.000.000 mensual",
+    "titulo": "Analista Administrativo y Compras - Excel",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-compras-excel-en-bogota-dc-0F5055391E1B84C161373E686DCF3405"
+   },
+   "id": "michael-page-analista-administrativo-compras-bogota"
   }
  ]
 }
