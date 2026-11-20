@@ -45,17 +45,17 @@
   };
   const ROLES = {
     analista_administrativa: { titulo: "Analista Administrativa", alias: ["analista administrativ", "administrative analyst"],
-      kws: ["gestionAdm", "cxp", "proveedores", "compras", "caja", "legal", "concil", "presupuesto", "informes", "kpi", "procesos", "docs", "factura", "clienteInt", "erp", "excel", "powerbi"],
-      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en áreas administrativas, de tesorería y cartera. Experiencia en ${f.lista}.` },
+      kws: ["gestionAdm", "proveedores", "compras", "caja", "legal", "presupuesto", "informes", "kpi", "procesos", "docs", "correspondencia", "clienteInt", "erp", "excel", "powerbi"],
+      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en gestión administrativa y soporte a varias áreas. Experiencia en ${f.lista}.` },
     asistente_administrativa: { titulo: "Asistente Administrativa", alias: ["asistente administrativ", "auxiliar administrativ", "administrative assistant"],
-      kws: ["docs", "correspondencia", "agenda", "clienteInt", "caja", "legal", "compras", "proveedores", "factura", "cxp", "actas", "informes", "inventario", "viajes", "m365", "excel", "erp"],
-      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia brindando soporte administrativo y financiero. Experiencia en ${f.lista}.` },
+      kws: ["docs", "correspondencia", "agenda", "clienteInt", "caja", "legal", "compras", "proveedores", "actas", "informes", "inventario", "viajes", "m365", "excel", "erp"],
+      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia brindando soporte administrativo a varias áreas. Experiencia en ${f.lista}.` },
     analista_cartera: { titulo: "Analista de Cartera", alias: ["analista de cartera", "analista de recaudo", "analista de cobranza", "cuentas por cobrar", "accounts receivable"],
       kws: ["cartera", "recaudo", "cxc", "cobro", "concil", "concilBanc", "aplicacion", "edades", "acuerdos", "provision", "factura", "retencion", "estadosCta", "kpi", "informes", "erp", "excel", "powerbi"],
-      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en cartera, recaudo y tesorería. Experiencia en ${f.lista}.` },
+      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en gestión administrativa, incluida la gestión de cuentas por cobrar y recaudo. Experiencia en ${f.lista}.` },
     asistente_cartera: { titulo: "Asistente de Cartera", alias: ["asistente de cartera", "auxiliar de cartera", "asistente de cobranza", "asistente de recaudo"],
       kws: ["cartera", "recaudo", "cxc", "cobro", "aplicacion", "concil", "estadosCta", "seguimiento", "factura", "retencion", "docs", "clienteInt", "excel", "erp", "m365"],
-      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en recaudo, cuentas por cobrar y soporte administrativo. Experiencia en ${f.lista}.` },
+      perfil: (f) => `Administradora de Empresas con ${f.anos} años de experiencia en gestión administrativa, incluida la gestión de cuentas por cobrar y recaudo. Experiencia en ${f.lista}.` },
   };
 
   const HEADINGS = {
@@ -337,7 +337,7 @@
       <p class="d-title" contenteditable="true">${esc(r.titulo)} | Administradora de Empresas</p>
       <p class="d-contact" contenteditable="true">Bogotá, Colombia · ${ph(phone, "Celular")} · ${ph(email, "Correo")}${linked ? " · " + esc(linked.replace(/^https?:\/\/(www\.)?/, "")) : ""}</p>
       <h2>Perfil profesional</h2>
-      <p contenteditable="true">${esc(r.perfil({ anos: c.anos_experiencia || 5, lista: lista || "procesos administrativos y financieros" }))}</p>
+      <p contenteditable="true">${esc(r.perfil({ anos: c.anos_experiencia || 5, lista: lista || "procesos administrativos" }))}</p>
       <h2>Competencias clave</h2>
       <p contenteditable="true">${comp.map((k) => esc(k.label)).join(" · ")}</p>
       <h2>Experiencia laboral</h2>

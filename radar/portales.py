@@ -21,15 +21,19 @@ HOY = dt.date.today()
 
 # Solo 4 cargos (Analista/Asistente Administrativa, Analista/Asistente de Cartera) y los nombres con que se publican.
 CARGOS = [
-    "analista administrativa", "analista administrativo", "analista administrativo y financiero",
-    "asistente administrativa", "asistente administrativo", "asistente administrativa y financiera", "auxiliar administrativa",
+    "analista administrativa", "analista administrativo", "analista de gestion administrativa",
+    "asistente administrativa", "asistente administrativo", "auxiliar administrativa",
     "analista de cartera", "analista de cartera y recaudo", "analista de recaudo", "analista de cobranza", "analista cuentas por cobrar",
     "asistente de cartera", "auxiliar de cartera", "asistente de cobranza",
 ]
-# El título tiene que ser de uno de los 4 cargos (o un sinónimo directo).
+# El título tiene que ser de uno de los 4 cargos (o un sinónimo directo)...
 CARGO_OK = re.compile(
-    r"(analista|asistente|auxiliar|gestor|gestora|profesional|especialista|ejecutiv[oa])\b.{0,30}(administrativ|cartera|cobr|recaud|cuentas por cobrar)"
-    r"|cartera|recaudo|cobranza|cuentas por cobrar|administrative (assistant|analyst)|accounts receivable|collections?\b|credit and collections", re.I)
+    r"(analista|asistente|auxiliar|t[eé]cnic[oa]|gestor|gestora|profesional|especialista|ejecutiv[oa]|assistant|analyst|specialist)\b.{0,40}"
+    r"(administrativ|administrative|cartera|cobr|recaud|receivable|collections?)"
+    r"|(administrative|accounts receivable|collections?) (assistant|analyst|specialist)", re.I)
+# ...y no de tesorería, finanzas ni contabilidad: se busca el área administrativa.
+# Se mira el cargo, o sea lo que va antes de " | " (después suele ir la ciudad o una etiqueta de la empresa).
+AREA_EXCLUIDA = re.compile(r"tesorer|treasury|contab|accounting|financ|pagos|payable|\bP2P\b|factur|billing|impuesto|tribut|auditor", re.I)
 EXCLUIR = re.compile(r"obra o labor|obra labor|prestaci[oó]n de servicios|aprendiz|practicante|pasant|t[eé]rmino fijo|temporal|100\s*% presencial|freelance|FIXED_TERM|PART_TIME|TEMPORARY|CONTRACTOR|INTERN", re.I)
 DESCRIPCION_MAX = 1300
 
@@ -254,7 +258,7 @@ RELEVANTE = re.compile(r"cartera|recaud|cobr|cuentas por cobrar|administrativ|ad
 
 def magneto():
     urls = []
-    for path in ("vacantes-en-administracion-oficina", "vacantes-en-contabilidad-finanzas-impuestos", "ofertas-empleo-en-bogota"):
+    for path in ("vacantes-en-administracion-oficina", "ofertas-empleo-en-bogota"):
         try:
             page = get("https://www.magneto365.com/co/trabajos/" + path)
             for slug in re.findall(r'/co/empleos/([a-z0-9-]+-\d{5,})', page):
@@ -299,7 +303,8 @@ def main():
     vistas, salida = set(), []
     for o in todas:
         clave = (o.get("url"), (o.get("empresa", "") + "|" + o.get("titulo", "")).lower())
-        if o.get("url") in ya or clave in vistas or not CARGO_OK.search(o.get("titulo", "") or o.get("descripcion", "")[:200]):
+        titulo = o.get("titulo", "") or o.get("descripcion", "")[:200]
+        if o.get("url") in ya or clave in vistas or not CARGO_OK.search(titulo) or AREA_EXCLUIDA.search(titulo.split(" | ")[0]):
             continue
         vistas.add(clave)
         f = fecha_iso(o.get("publicada", ""))

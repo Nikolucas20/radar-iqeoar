@@ -54,11 +54,8 @@
         "Asistente de Cartera"
     ],
     "cargos_similares": [
-        "Analista Administrativa y Financiera",
         "Analista de Gestión Administrativa",
         "Profesional Administrativa",
-        "Asistente Administrativa y Financiera",
-        "Asistente Administrativa y Contable",
         "Auxiliar Administrativa",
         "Analista de Cartera y Recaudo",
         "Analista de Recaudo",
@@ -73,44 +70,48 @@
         "Accounts Receivable Analyst",
         "Accounts Receivable Specialist",
         "Collections Analyst",
-        "Credit and Collections Specialist"
+        "Credit and Collections Specialist",
+        "Auxiliar Administrativo",
+        "Asistente Administrativo",
+        "Técnico de Cartera"
     ],
-    "nota_cargos": "Solo se buscan estos 4 cargos y sus sinónimos. 'Auxiliar' entra como sinónimo porque en Colombia se usa igual que 'Asistente'; el filtro de salario descarta las de menor nivel.",
+    "nota_cargos": "Solo se buscan estos 4 cargos y sus sinónimos, en el área administrativa (ver 'area'). 'Auxiliar' entra como sinónimo porque en Colombia se usa igual que 'Asistente'; el filtro de salario descarta las de menor nivel.",
     "habilidades": {
         "peso_alto": [
+            "gestión administrativa",
+            "caja menor",
+            "proveedores",
+            "gestión documental",
+            "control presupuestal",
+            "informes de gestión",
+            "manuales de procedimientos",
             "cartera",
             "recaudo",
             "cuentas por cobrar",
-            "cuentas por pagar",
-            "tesorería",
-            "conciliaciones",
-            "conciliación bancaria",
-            "accounts receivable",
-            "accounts payable"
+            "conciliaciones"
         ],
         "peso_medio": [
-            "caja menor",
+            "compras",
             "legalizaciones",
             "anticipos",
-            "proveedores",
-            "pagos internacionales",
             "certificados de retención",
+            "atención al cliente interno",
             "ERP",
             "Odoo",
-            "control presupuestal",
-            "informes de gestión"
+            "indicadores",
+            "archivo",
+            "correspondencia",
+            "agenda"
         ],
         "peso_bajo": [
-            "gestión documental",
-            "manuales de procedimientos",
             "Excel avanzado",
             "Power BI",
             "Microsoft 365",
-            "atención al cliente interno",
             "Lemontech",
             "SAP",
             "Siigo",
-            "World Office"
+            "World Office",
+            "procesos administrativos"
         ]
     },
     "no_negociables": {
@@ -206,5 +207,18 @@
             "3. Si siguen empatadas, gana la publicación más reciente (más probable que siga abierta).",
             "4. Nunca se elige un agregador si existe la misma oferta en la fuente original."
         ]
+    },
+    "area": {
+        "objetivo": "Administrativa (y cartera/recaudo, que se pidió como cargo). Funciones de oficina, soporte a áreas, compras y proveedores, caja menor, gestión documental, informes de gestión, procesos y atención a clientes internos.",
+        "excluida": [
+            "tesorería",
+            "finanzas",
+            "contabilidad",
+            "pagos y cuentas por pagar",
+            "facturación",
+            "impuestos",
+            "auditoría"
+        ],
+        "regla": "Se descarta la oferta si el cargo o sus funciones principales son de esas áreas, aunque el título diga 'Analista Administrativo'. Una oferta administrativa que solo menciona pagos, facturas o legalizaciones entre otras tareas sí cuenta."
     }
 }
