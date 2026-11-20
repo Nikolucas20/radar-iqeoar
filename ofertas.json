@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 4471,
+    "descartadas": 4496,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 17,
-    "notas": "Ronda 20/11 (mañana): portales.json sin cambios desde 03:03 UTC del 19/11 (ya evaluado). Indeed: 4 búsquedas, detalle de 4; Maquimas ($1,9 M, presencial), EC Cargo (presencial, contable), Panamericana de Viajes ($2,12 M, presencial) y Bankvision (presencial, soporte de software) descartadas. WebSearch: 3 búsquedas sin ofertas válidas nuevas (sin acceso a elempleo/workday con WebFetch). 0 nuevas. | 20/11: se quitaron las ofertas de tesorería, finanzas y contabilidad; se buscan cargos administrativos y de cartera.",
-    "revisadas": 4514,
-    "ultima_ejecucion": "2026-11-20T07:20:00-05:00"
+    "notas": "Ronda 20/11 (mediodía): portales.json sin cambios desde 03:03 UTC del 19/11 (ya evaluado). Indeed: 2 búsquedas; sin ofertas nuevas válidas (EC Cargo, Esri ya vistas; Servialco, Qnt y Falabella sin salario ni modalidad clara o de pagos/facturación). Cartera LinkedIn (Darnel, Rheem, ADAMA, Innova) sin modalidad publicada, no guardadas. 0 nuevas. | 20/11: se quitaron las ofertas de tesorería, finanzas y contabilidad; se buscan cargos administrativos y de cartera.",
+    "revisadas": 4539,
+    "ultima_ejecucion": "2026-11-20T12:10:00-05:00"
   },
   "ofertas": [
     {
