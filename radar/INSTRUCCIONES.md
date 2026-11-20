@@ -19,7 +19,9 @@ Tu reloj está en UTC. Saca la fecha y la hora de Bogotá con `TZ=America/Bogota
 Carga `ofertas.json`. Guarda los `id`, las `url` y los pares empresa + cargo, para no duplicar.
 
 ## 2. Buscar
-**Solo 4 cargos:** Analista Administrativa, Asistente Administrativa, Analista de Cartera y Asistente de Cartera (`cargos_objetivo`), más los nombres con que se publican (`cargos_similares`). Descarta cualquier otro cargo aunque encaje con sus habilidades (tesorería, asistente ejecutiva o de gerencia, office manager, cuentas por pagar, coordinaciones).
+**Solo 4 cargos:** Analista Administrativa, Asistente Administrativa, Analista de Cartera y Asistente de Cartera (`cargos_objetivo`), más los nombres con que se publican (`cargos_similares`). Descarta cualquier otro cargo aunque encaje con sus habilidades (asistente ejecutiva o de gerencia, office manager, coordinaciones).
+
+**Área administrativa (`area` en perfil.json):** J. Osorio busca trabajo administrativo, no de tesorería ni de finanzas. Descarta, sin guardar, toda oferta cuyo cargo o funciones principales sean de tesorería, finanzas, contabilidad, pagos o cuentas por pagar, facturación, impuestos, auditoría u operaciones financieras (recaudo electrónico, convenios, bancos), aunque el título diga "Analista Administrativo" o "Administrativo y Financiero". Una oferta administrativa que solo mencione pagos, facturas o legalizaciones entre otras tareas sí cuenta. Cartera y recaudo sí se aceptan, porque son dos de los 4 cargos. Si dudas porque faltan las funciones, guárdala en `por_verificar` y dilo en `razones`.
 
 - **Indeed:** si tienes el conector (herramientas `search_jobs` / `get_job_details`), úsalo con `country_code: "CO"`, `job_type: "fulltime"` y `location` "Bogotá" o "remote". Busca los 4 cargos objetivo y todos los `cargos_similares`, en Bogotá y en remoto (16 a 24 búsquedas). Si la herramienta permite paginar, pide también la segunda página de los 4 cargos objetivo. Para cada título prometedor, llama a `get_job_details` para leer salario, contrato y modalidad. "Permanent" cuenta como señal de indefinido, pero confírmalo en la descripción.
 - **elempleo, LinkedIn, Computrabajo y Magneto:** tu entorno no puede abrir esos sitios, así que un lector en GitHub Actions deja sus ofertas en `radar/portales.json` 30 minutos antes de cada ronda.
@@ -49,7 +51,7 @@ Si el grupo ya existe en `ofertas.json`, no lo dupliques. Si encontraste una fue
 
 ## 5. Puntaje (0–100)
 Aplica `puntaje.pesos`:
-- **Afinidad del cargo (30):** coincidencia exacta con uno de los 4 cargos objetivo = 30; con un cargo similar = 20. Un cargo que no sea de los 4 no se guarda.
+- **Afinidad del cargo (30):** coincidencia exacta con uno de los 4 cargos objetivo = 30; con un cargo similar = 20. Un cargo que no sea de los 4, o que sea de tesorería, finanzas o contabilidad, no se guarda.
 - **Habilidades (30):** peso alto = 6, medio = 3, bajo = 1. Máximo 30.
 - **Salario (15):** usa `salario_escala_cop`. Si no se publica, 5.
 - **Modalidad (15):** remoto = 15, híbrido = 10.
