@@ -66,7 +66,9 @@
   --tab-check: #96600f;
   --tab-track: #962a58;
   --tab-cv: #7a4fc4;
+  --tab-np: #1b6f8a;
   --cv-soft: #ece4f8;
+  --np-soft: #dcedf3;
   --doc-paper: #ffffff;
   --doc-ink: #161616;
   --doc-muted: #4a4a4a;
@@ -89,14 +91,14 @@
   :root:not([data-theme="light"]) {
     --cover: #1a0920; --cover-2: #331033; --cover-ink: #f8f0f6; --cover-soft: #c7b2cc; --gold: #dcb862; --gold-soft: #3a2d12; --gold-ink: #efd48f;
     --paper: #1c1322; --desk: #120b17; --ink: #f3ecf5; --muted: #b5a6bc; --rule: #31253a; --note: #261a2e; --note-ink: #f3ecf5;
-    --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --tab-cv: #b49bf0; --cv-soft: #2a1f42; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
+    --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --tab-cv: #b49bf0; --cv-soft: #2a1f42; --tab-np: #6cc3dc; --np-soft: #14303a; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
     --link: #efd48f; --go: #dcb862; --go-ink: #1a0920; --focus: #efd48f; --on-tab: #160a1b; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 18px 40px -20px rgba(0,0,0,.85); color-scheme: dark;
   }
 }
 :root, :root[data-theme] {
   --cover: #1a0920; --cover-2: #331033; --cover-ink: #f8f0f6; --cover-soft: #c7b2cc; --gold: #dcb862; --gold-soft: #3a2d12; --gold-ink: #efd48f;
   --paper: #1c1322; --desk: #120b17; --ink: #f3ecf5; --muted: #b5a6bc; --rule: #31253a; --note: #261a2e; --note-ink: #f3ecf5;
-  --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --tab-cv: #b49bf0; --cv-soft: #2a1f42; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
+  --tab-ok: #4cc398; --tab-check: #e3ad55; --tab-track: #e77aa8; --tab-cv: #b49bf0; --cv-soft: #2a1f42; --tab-np: #6cc3dc; --np-soft: #14303a; --ok-soft: #12302a; --check-soft: #33260f; --track-soft: #3a1529;
   --link: #efd48f; --go: #dcb862; --go-ink: #1a0920; --focus: #efd48f; --on-tab: #160a1b; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 18px 40px -20px rgba(0,0,0,.85); color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -147,12 +149,15 @@ h1 em { font-style: normal; color: var(--gold); font-weight: 700; }
 .tab[data-tab="por_verificar"] { --c: var(--tab-check); }
 .tab[data-tab="seguimiento"] { --c: var(--tab-track); }
 .tab[data-tab="cv"] { --c: var(--tab-cv); }
+.tab[data-tab="north"] { --c: var(--tab-np); }
+.tab .short { display: none; }
 .tab:hover { transform: translateY(2px); }
 .tab[aria-selected="true"] { transform: translateY(0); opacity: 1; }
 .tab .n { background: color-mix(in srgb, var(--on-tab) 22%, transparent); border-radius: 999px; padding: 0 8px; font-size: 13px; }
 @media (max-width: 560px) {
-  .tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; padding-left: 0; overflow: visible; }
-  .tab { font-size: 13.5px; padding: 9px 6px 14px; justify-content: center; flex-wrap: wrap; white-space: normal; text-align: center; line-height: 1.15; gap: 4px; }
+  .tabs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 4px; padding-left: 0; overflow: visible; }
+  .tab .full { display: none; } .tab .short { display: inline; }
+  .tab { font-size: 12.5px; padding: 9px 3px 14px; justify-content: center; flex-wrap: wrap; white-space: normal; text-align: center; line-height: 1.15; gap: 4px; }
   .cover { padding-block: 26px 58px; }
   .musts { display: none; }
 }
@@ -305,6 +310,21 @@ select:hover { border-color: var(--muted); }
 .cv-tonos { display: inline-flex; gap: 8px; }
 .cv-tono { appearance: none; width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--paper); background: var(--c); box-shadow: 0 0 0 1.5px var(--rule); cursor: pointer; padding: 0; }
 .cv-tono[aria-checked="true"] { box-shadow: 0 0 0 2.5px var(--ink); }
+/* North Point */
+.np-aviso { background: var(--check-soft); color: var(--ink); border-radius: 12px; padding: 12px 14px; font-size: 14.5px; box-shadow: inset 4px 0 0 var(--tab-check); }
+.np-h { margin: 14px 0 0; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.np-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.np-card { background: var(--desk); border-radius: 14px; padding: 14px 16px; display: grid; gap: 6px; min-width: 0; }
+.np-card h3 { font-family: var(--display); font-size: 20px; font-weight: 600; line-height: 1.15; margin: 0; overflow-wrap: anywhere; }
+.np-card p { margin: 0; font-size: 14.5px; }
+.np-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 10px; align-items: flex-start; }
+.np-meta { color: var(--muted); }
+.np-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.np-c, .np-l { font-size: 14px; font-weight: 600; border: 1.5px solid var(--rule); border-radius: 999px; padding: 6px 14px; color: var(--ink); text-decoration: none; background: var(--paper); overflow-wrap: anywhere; }
+.np-c:hover, .np-l:hover { border-color: var(--ink); }
+.np-warn { color: var(--tab-check); }
+.np-src { color: var(--muted); font-size: 13px !important; }
+.np-src a { color: var(--link); }
 #print-root { display: none; }
 @media print {
   /* Margen de página en cero: el navegador no imprime fecha ni dirección; el margen lo pone la hoja misma. */
@@ -345,7 +365,8 @@ select:hover { border-color: var(--muted); }
     <button class="tab" role="tab" data-tab="cumple" aria-selected="true" id="tab-cumple">Cumplen todo <span class="n num" id="n-cumple">0</span></button>
     <button class="tab" role="tab" data-tab="por_verificar" aria-selected="false" id="tab-verificar">Por verificar <span class="n num" id="n-verificar">0</span></button>
     <button class="tab" role="tab" data-tab="seguimiento" aria-selected="false" id="tab-seguimiento">Postuladas <span class="n num" id="n-seguimiento">0</span></button>
-    <button class="tab" role="tab" data-tab="cv" aria-selected="false" id="tab-cv">Mejorar mi CV</button>
+    <button class="tab" role="tab" data-tab="cv" aria-selected="false" id="tab-cv"><span class="full">Mejorar mi CV</span><span class="short">Mi CV</span></button>
+    <button class="tab" role="tab" data-tab="north" aria-selected="false" id="tab-north">North Point</button>
   </div>
   <section class="sheet" id="sheet" role="tabpanel">
     <div class="sheet-head">
@@ -360,6 +381,7 @@ select:hover { border-color: var(--muted); }
       </div>
     </div>
     <ul class="list" id="list"></ul>
+    <div class="cv-panel" id="npanel" hidden><div id="np-out"></div></div>
     <div class="cv-panel" id="cvpanel" hidden>
       <div class="cv-in">
         <label class="cv-drop" id="cv-drop">
@@ -385,6 +407,7 @@ select:hover { border-color: var(--muted); }
 <div class="toast" id="toast" role="status" hidden><span id="toast-msg"></span><button type="button" id="toast-undo" hidden>Deshacer</button></div>
 
 <script src="cv.js"></script>
+<script src="northpoint.js"></script>
 <script>
 const FIT = { postular: "Postúlate", intentar: "Vale la pena intentarlo", no_postular: "Mejor no" };
 const REQ = { cumple: ["good", "Cumple"], en_parte: ["new", "En parte"], no: ["ask", "No"], sin_dato: ["", "Sin dato"] };
@@ -393,6 +416,7 @@ const TABS = {
   cumple: { c: "var(--tab-ok)", s: "var(--ok-soft)", note: "Cumplen salario, contrato y modalidad según lo que publica la oferta." },
   por_verificar: { c: "var(--tab-check)", s: "var(--check-soft)", note: "Encajan con tu perfil pero no dicen salario o contrato, o tienen una condición que conviene preguntar antes." },
   seguimiento: { c: "var(--tab-track)", s: "var(--track-soft)", note: "Las ofertas a las que ya te postulaste. Cuando te llamen, márcala como Entrevista. Cada paso cuenta." },
+  north: { c: "var(--tab-np)", s: "var(--np-soft)", note: "Empresas del complejo empresarial North Point (Cra 7 con Calle 156) y cómo contactarlas para cargos administrativos." },
   cv: { c: "var(--tab-cv)", s: "var(--cv-soft)", note: "Revisa tu hoja de vida como lo hacen los filtros automáticos (ATS) y descarga una versión mejorada para el cargo que elijas." }
 };
 const ICON = {
@@ -468,11 +492,13 @@ function render() {
   $("n-cumple").textContent = offers.filter((o) => live(o) && o.categoria === "cumple" && !tracked(o)).length;
   $("n-verificar").textContent = offers.filter((o) => live(o) && o.categoria === "por_verificar" && !tracked(o)).length;
   $("n-seguimiento").textContent = offers.filter(tracked).length;
-  const isCv = tab === "cv";
-  document.querySelector(".filters").hidden = isCv;
-  $("list").hidden = isCv;
+  const isCv = tab === "cv", isNp = tab === "north";
+  document.querySelector(".filters").hidden = isCv || isNp;
+  $("list").hidden = isCv || isNp;
   $("cvpanel").hidden = !isCv;
+  $("npanel").hidden = !isNp;
   if (isCv) { window.RadarCV?.show(offers); return; }
+  if (isNp) { window.RadarNorthPoint?.show(); return; }
 
   const portals = [...new Set(offers.flatMap((o) => [o.portal, ...(o.fuentes || []).map((f) => f.portal)]).filter(Boolean))].sort();
   const pSel = $("f-portal"), cur = pSel.value;

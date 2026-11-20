@@ -1,0 +1,109 @@
+{
+  "actualizado": "2026-11-20",
+  "zona": {
+    "nombre": "North Point (Carrera 7 con Calle 156, Usaquén, Bogotá)",
+    "nota": "Complejo de torres North Point I, II, III, Krystal y E. Las fuentes usan direcciones distintas: Cra 7 #156-10 (Torre Krystal), #156-68, #156-78 y #156-80."
+  },
+  "aviso": "No existe un directorio público de las empresas del complejo. Esta lista sale de resultados de búsqueda en internet, no de las páginas de las empresas, que no pude abrir. Verifica cada dato antes de enviar tu hoja de vida, y recuerda que ninguna empresa seria cobra por un proceso de selección.",
+  "empresas": [
+    {
+      "id": "aci-proyectos",
+      "nombre": "ACI Proyectos S.A.S.",
+      "sector": "Ingeniería e interventoría de proyectos de infraestructura",
+      "nivel": "vacantes",
+      "ubicacion": "Cra 7 #156-10, piso 31, Torre Krystal",
+      "cargos": "Gestión documental (líder y practicante). Cargos administrativos que aparecen en sus avisos de Elempleo.",
+      "como_aplicar": "Postularse desde su página de empresa en Elempleo.",
+      "enlaces": [{ "texto": "Vacantes en Elempleo", "url": "https://www.elempleo.com/co/ofertas-empleo/aci-proyectos-sa" }],
+      "contacto": {},
+      "no_confirmado": "No encontré correo de selección ni teléfono verificado.",
+      "fuentes": [
+        { "texto": "Elempleo: ofertas de la empresa", "url": "https://www.elempleo.com/co/ofertas-empleo/aci-proyectos-sa" },
+        { "texto": "Empresite: dirección", "url": "https://empresite.eleconomistaamerica.co/ACI-PROYECTOS-SA.html" }
+      ]
+    },
+    {
+      "id": "infinitus-inmobiliaria",
+      "nombre": "Infinitus Inmobiliaria",
+      "sector": "Inmobiliaria",
+      "nivel": "vacantes",
+      "ubicacion": "Torres North Point, Cra 7 #156-78",
+      "cargos": "Tuvo una oferta de asistente administrativa (pedía experiencia en inmobiliarias, SIMI y Excel avanzado).",
+      "como_aplicar": "Buscar el nombre de la empresa en Jooble, Computrabajo o Indeed.",
+      "enlaces": [{ "texto": "Asistente administrativo en Bogotá (Jooble)", "url": "https://co.jooble.org/trabajo-asistente-administrativo/Bogot%C3%A1%2C-D.C." }],
+      "contacto": {},
+      "no_confirmado": "La oferta es de septiembre de 2025 y probablemente está cerrada. No encontré un contacto directo.",
+      "fuentes": [{ "texto": "Jooble: asistente administrativo en Bogotá", "url": "https://co.jooble.org/trabajo-asistente-administrativo/Bogot%C3%A1%2C-D.C." }]
+    },
+    {
+      "id": "bps-latam",
+      "nombre": "BPS Latam",
+      "sector": "Servicios empresariales (por confirmar)",
+      "nivel": "posible",
+      "ubicacion": "Cra 7 #156-78, oficina 903, Torre 2, North Point",
+      "cargos": "No vi vacantes publicadas. Puede recibir hojas de vida por su correo de contacto.",
+      "como_aplicar": "Escribir al correo general con la hoja de vida y el cargo que buscas.",
+      "enlaces": [{ "texto": "Página de contacto", "url": "https://bpslatam.com/contacto/" }],
+      "contacto": { "correo": "contactenos@bpslatam.com" },
+      "no_confirmado": "Tomé el correo de un resultado de búsqueda de su página de contacto; no pude abrir la página. Confirma a qué se dedica la empresa antes de enviar tus datos.",
+      "fuentes": [{ "texto": "BPS Latam: contacto", "url": "https://bpslatam.com/contacto/" }]
+    },
+    {
+      "id": "sutherland",
+      "nombre": "Sutherland Global Services",
+      "sector": "Servicios de tercerización (BPO)",
+      "nivel": "posible",
+      "ubicacion": "Cra 7 #156-10, Torre Krystal",
+      "cargos": "Los avisos que vi son de soporte técnico, servicio al cliente, ventas y un analista de negocios (híbrido). No vi cargos administrativos.",
+      "como_aplicar": "Postularse en su página de empleo de Colombia y filtrar por Bogotá.",
+      "enlaces": [{ "texto": "Empleo Sutherland Colombia", "url": "https://www.jobs.sutherlandglobal.com/colombia" }],
+      "contacto": {},
+      "no_confirmado": "No pude abrir su página de empleo para ver si hay cargos administrativos hoy.",
+      "fuentes": [
+        { "texto": "Sutherland: empleo en Colombia", "url": "https://www.jobs.sutherlandglobal.com/colombia" },
+        { "texto": "Elempleo: soporte técnico en Torre Krystal", "url": "https://www.elempleo.com/co/ofertas-trabajo/technical-support-engineer-l1-1886784262" }
+      ]
+    },
+    {
+      "id": "teleperformance",
+      "nombre": "Teleperformance",
+      "sector": "Servicios de tercerización (BPO)",
+      "nivel": "posible",
+      "ubicacion": "North Point, Cra 7 #156-80",
+      "cargos": "El aviso que vi es de atención al cliente, con vigencia hasta julio de 2026. No vi cargos administrativos.",
+      "como_aplicar": "Buscar vacantes de Teleperformance en Bogotá en los portales de empleo.",
+      "enlaces": [],
+      "contacto": {},
+      "no_confirmado": "No encontré página de empleo ni contacto verificados; el aviso probablemente ya venció.",
+      "fuentes": [{ "texto": "Resultados de empleo en North Point (Indeed)", "url": "https://co.indeed.com/q-north-point-l-bogot%C3%A1,-cundinamarca-empleos.html" }]
+    }
+  ],
+  "administraciones": [
+    {
+      "id": "admin-north-point",
+      "nombre": "Administración del Centro Empresarial North Point",
+      "ubicacion": "Av. Carrera 7 #156-78/80",
+      "contacto": { "correo": "admon@northpoint.com.co", "telefono": "(601) 745 60 91" },
+      "nota": "Sirve para preguntar qué empresas ocupan las torres. No hay vacantes confirmadas. El teléfono cambia entre las páginas del sitio.",
+      "enlaces": [{ "texto": "Sitio del centro empresarial", "url": "https://northpoint.com.co/es/Nosotros.html" }]
+    },
+    {
+      "id": "admin-torre-krystal",
+      "nombre": "Administración de la Torre Krystal",
+      "ubicacion": "Cra 7 #156-10",
+      "contacto": { "correo": "administracion@torrekrystal.com.co" },
+      "nota": "Los teléfonos de su sitio no coinciden entre secciones, por eso no los incluyo. No hay vacantes confirmadas.",
+      "enlaces": [{ "texto": "Sitio de la Torre Krystal", "url": "https://torrekrystal.com.co/" }]
+    }
+  ],
+  "tambien_en_el_complejo": [
+    "Regus, Spaces y Office To Go (oficinas y coworking)",
+    "Sucursal del Banco de Bogotá",
+    "Notaría 33 (Torre E)"
+  ],
+  "buscar_vacantes": [
+    { "texto": "Empleos en North Point (Indeed)", "url": "https://co.indeed.com/q-north-point-l-bogot%C3%A1,-cundinamarca-empleos.html" },
+    { "texto": "Empleos en North Point (Jooble)", "url": "https://co.jooble.org/trabajo-north-point/Bogot%C3%A1%2C-D.C." },
+    { "texto": "Asistente administrativa cerca de North Point (Google)", "url": "https://www.google.com/search?q=asistente+administrativa+OR+analista+administrativa+%22North+Point%22+Bogot%C3%A1+empleo" }
+  ]
+}
