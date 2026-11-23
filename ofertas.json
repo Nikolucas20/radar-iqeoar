@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 4528,
+    "descartadas": 4568,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 17,
-    "notas": "Ronda 23/11: portales.json sin cambios (generado 19/11 03:03 UTC, ya evaluado). Indeed: 4 búsquedas y 5 detalles; Maquimas ($1,9 M, presencial), Panamericana de Viajes ($2,12 M, presencial), Vargas y Diaz (presencial), 2vr (presencial, salario a convenir) descartadas; First Image (remoto, inglés indispensable, soporte Medicare, sin salario, puntaje <55). WebSearch: 2 búsquedas, solo ofertas ya vistas o sin fechas. 0 nuevas.",
-    "revisadas": 4571,
-    "ultima_ejecucion": "2026-11-23T07:05:23-05:00"
+    "notas": "Ronda 23/11 mediodía: portales.json sin cambios (19/11, ya evaluado). Indeed: 3 búsquedas y 4 detalles; EC Cargo (presencial, contable), Bankvision (100% presencial, QA), Innovamos ($2,12 M, obra o labor, presencial), Invercoal (presencial) descartadas. WebSearch: 1 búsqueda, solo ofertas ya vistas o sin fechas. 0 nuevas.",
+    "revisadas": 4611,
+    "ultima_ejecucion": "2026-11-23T12:05:00-05:00"
   },
   "ofertas": [
     {
