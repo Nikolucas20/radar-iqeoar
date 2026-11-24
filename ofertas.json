@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 4594,
+    "descartadas": 4624,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 17,
-    "notas": "Ronda 24/11: portales.json sin cambios (19/11, ya evaluado). Indeed: 3 búsquedas y 2 detalles; Innovamos (presencial, obra o labor, $2,12 M) y Bankvision (100% presencial, QA de software) descartadas; resto no son los 4 cargos, son de finanzas/pagos o ya vistas. WebSearch: 2 búsquedas, nada nuevo verificable. 0 nuevas.",
-    "revisadas": 4643,
-    "ultima_ejecucion": "2026-11-24T07:05:07-05:00"
+    "notas": "Ronda 24/11 mediodía: portales.json sin cambios (19/11, ya evaluado). Indeed: 4 búsquedas y 1 detalle; EC Cargo (presencial, contable) descartada; Qnt (administrativa y pagos), Protección (agosto), Innovamos y Bankvision ya vistas o fuera de criterio. WebSearch: 1 búsqueda; cartera bilingüe portugués B1 sin salario verificable (Computrabajo no accesible desde el entorno). 0 nuevas.",
+    "revisadas": 4673,
+    "ultima_ejecucion": "2026-11-24T12:06:00-05:00"
   },
   "ofertas": [
     {
