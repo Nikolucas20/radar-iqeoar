@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 4592,
+    "descartadas": 4594,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 17,
-    "notas": "Ronda 23/11 noche: portales.json sin cambios (19/11, ya evaluado). Indeed: 4 búsquedas y 2 detalles; Maquimas (presencial, $1,9 M) y Panamericana de Viajes (presencial, $2,12 M) descartadas; resto no son los 4 cargos o ya vistas. WebSearch: 2 búsquedas, nada nuevo verificable (elempleo.com no resuelve por red). 0 nuevas.",
-    "revisadas": 4635,
-    "ultima_ejecucion": "2026-11-23T17:04:49-05:00"
+    "notas": "Ronda 24/11: portales.json sin cambios (19/11, ya evaluado). Indeed: 3 búsquedas y 2 detalles; Innovamos (presencial, obra o labor, $2,12 M) y Bankvision (100% presencial, QA de software) descartadas; resto no son los 4 cargos, son de finanzas/pagos o ya vistas. WebSearch: 2 búsquedas, nada nuevo verificable. 0 nuevas.",
+    "revisadas": 4643,
+    "ultima_ejecucion": "2026-11-24T07:05:07-05:00"
   },
   "ofertas": [
     {
