@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 4793,
+    "descartadas": 4833,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 17,
-    "notas": "Ronda 25/11 mañana: portales.json sin cambios desde la ronda anterior (mismas 67 ofertas, ya evaluadas). Indeed: 3 búsquedas (cartera Bogotá, administrativa remoto, asistente Bogotá), 30 resultados sin salario publicado ni modalidad; no guardadas. Computrabajo: Profamilia Analista administrativo (indefinido, salario a convenir, modalidad no indicada) y Productos Ramo (3 M, relevo en agencias, sin modalidad) sin datos suficientes; G4S presencial; Clintrack 2,6 M presencial; ISKO término fijo. 0 nuevas.",
-    "revisadas": 4845,
-    "ultima_ejecucion": "2026-11-25T07:04:37-05:00"
+    "notas": "Ronda 25/11 mediodía: portales.json sin cambios (generado 24/11 21:46 UTC, ya evaluado). Indeed: 2 búsquedas remoto (cartera: 0 resultados; asistente administrativa: 1 oferta de Perú, sin salario). WebSearch: 2 búsquedas; elempleo bloqueado por red en WebFetch, no se pudieron verificar candidatas (Legis híbrido indefinido, Adecco híbrido indefinido, Computrabajo Cartera Bilingüe Portugués B1). 0 nuevas.",
+    "revisadas": 4885,
+    "ultima_ejecucion": "2026-11-25T12:06:00-05:00"
   },
   "ofertas": [
     {
