@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 5014,
+    "descartadas": 5083,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
-    "guardadas": 17,
-    "notas": "Ronda 26/11 mediodía: portales.json sin cambios desde la ronda de la mañana (04:00 UTC), no se reevaluó. Indeed: 2 búsquedas (Analista Administrativa Bogotá: sin ofertas válidas, QNT es pagos, SERVIALCO/Falabella antiguas; Analista de Cartera remoto: sin resultados). 3 WebSearch sin ofertas nuevas válidas (remota 2,5-3 M dirigida a población con discapacidad certificada, descartada). 0 nuevas.",
-    "revisadas": 5066,
-    "ultima_ejecucion": "2026-11-26T12:05:00-05:00"
+    "guardadas": 18,
+    "notas": "Ronda 26/11 tarde: portales.json actualizado (20:40 UTC), 59 ofertas evaluadas; 1 nueva válida (Michael Page, proveedores, 4 M, híbrido). Las de LinkedIn sin salario, contrato ni modalidad visibles no se guardaron. Descartadas por presencial, término fijo, obra o labor, salario bajo, cargo fuera de los 4 o área RRHH. Indeed: 2 búsquedas (Asistente de Cartera Bogotá, Asistente Administrativa remoto) sin ofertas válidas. 2 WebSearch sin nuevas.",
+    "revisadas": 5136,
+    "ultima_ejecucion": "2026-11-26T17:10:00-05:00"
   },
   "ofertas": [
     {
@@ -965,6 +965,118 @@
         "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-compras-excel-en-bogota-dc-0F5055391E1B84C161373E686DCF3405"
       },
       "id": "michael-page-analista-administrativo-compras-bogota"
+    },
+    {
+      "id": "michael-page-analista-administrativa-proveedores-bogota",
+      "d": {
+        "titulo": "Analista administrativa - proveedores",
+        "empresa": "Michael Page (empresa confidencial)",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativa-proveedores-en-bogota-dc-0A8BFC6F40F6891B61373E686DCF3405",
+        "portal": "Computrabajo",
+        "fecha_publicacion": "2026-11-25",
+        "fecha_hallada": "2026-11-26",
+        "salario_texto": "$4.000.000 mensual",
+        "salario_cop": 4000000,
+        "salario_max_cop": 4000000,
+        "contrato": "indefinido",
+        "modalidad": "hibrido",
+        "ciudad": "Bogotá",
+        "categoria": "cumple",
+        "puntaje": 83,
+        "razones": [
+          "Cargo exacto (Analista Administrativa), salario de $4 M y contrato indefinido, todo explícito. Modalidad 'presencial y remoto' (se tomó como híbrido).",
+          "Pide 5 años de experiencia y 'importante experiencia en compras', y en el CV no hay logros de compras.",
+          "Michael Page también tiene publicada otra vacante de Analista Administrativo y Compras; podría ser la misma empresa. Computrabajo mostraba la oferta como actualizada 'ayer'."
+        ],
+        "kit": {
+          "carta": "Equipo de selección:\n\nQuiero postularme al cargo de Analista Administrativa - proveedores. [tu razón: una frase sobre por qué esta empresa o cargo]\n\nSu oferta pide ejecutar y controlar los procesos administrativos de la operación. En Dentons fui Analista Administrativa entre 2020 y 2026. Allí diseñé manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento. También fortalecí los controles de cajas menores, con montos límite, legalizaciones estandarizadas y capacitación a los usuarios.\n\nPiden apoyo en informes y en el seguimiento de la operación. Apoyé informes de gestión administrativa y control presupuestal, y ejecuté conciliaciones periódicas. Elaboré informes de conciliación para proveedores internacionales, con información financiera y contable.\n\nMencionan la gestión documental y el trabajo con ERP. Registré, validé y analicé transacciones en el ERP Odoo, y mantuve la custodia de los soportes.\n\nTambién piden atención a colaboradores y coordinación de requerimientos administrativos. Fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, y di soporte a varias áreas.\n\nSoy Profesional en Administración de Empresas (Fundación Universitaria del Área Andina, 2024) y tecnóloga en Gestión Empresarial (SENA, 2021). Completé un curso de Excel Avanzado y Fundamentos de Power BI en Colsubsidio CET (2026).\n\nGracias por considerar mi hoja de vida. Quedo atenta a la conversación que ustedes propongan.\n\nJ. Osorio",
+          "logros": [
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes.",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal."
+          ],
+          "palabras_clave": [
+            "procesos administrativos",
+            "gestión documental",
+            "elaboración de informes",
+            "bases de datos",
+            "seguimiento a facturación",
+            "compras",
+            "atención a clientes y colaboradores",
+            "proveedores"
+          ],
+          "encaje": {
+            "requisitos": [
+              {
+                "requisito": "Ejecutar y controlar los procesos administrativos de la operación",
+                "tipo": "imprescindible",
+                "estado": "cumple",
+                "evidencia": "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento (Analista Administrativa, Dentons, 2020–2026)."
+              },
+              {
+                "requisito": "Gestión documental",
+                "tipo": "imprescindible",
+                "estado": "en_parte",
+                "evidencia": "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+              },
+              {
+                "requisito": "Apoyo en la elaboración de informes",
+                "tipo": "imprescindible",
+                "estado": "cumple",
+                "evidencia": "Apoyó informes de gestión administrativa y control presupuestal."
+              },
+              {
+                "requisito": "Manejo de bases de datos",
+                "tipo": "deseable",
+                "estado": "sin_dato",
+                "evidencia": "El CV no menciona bases de datos; tiene el ERP Odoo y un curso de Excel Avanzado."
+              },
+              {
+                "requisito": "Seguimiento a facturación",
+                "tipo": "deseable",
+                "estado": "en_parte",
+                "evidencia": "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención."
+              },
+              {
+                "requisito": "Experiencia en compras",
+                "tipo": "imprescindible",
+                "estado": "sin_dato",
+                "evidencia": "Ningún logro del CV habla de compras."
+              },
+              {
+                "requisito": "Atención a clientes y colaboradores",
+                "tipo": "deseable",
+                "estado": "en_parte",
+                "evidencia": "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas."
+              },
+              {
+                "requisito": "5 años de experiencia y formación profesional",
+                "tipo": "imprescindible",
+                "estado": "cumple",
+                "evidencia": "Analista Administrativa en Dentons 2020–2026; Profesional en Administración de Empresas (2024)."
+              }
+            ],
+            "veredicto": "intentar",
+            "motivo": "De 5 imprescindibles: 2 cumple, 1 en parte, 1 sin dato (compras) y 1 más que cumple por años y título. La brecha es compras, que la oferta destaca como importante."
+          },
+          "preguntas": [
+            "¿Has hecho compras o negociado con proveedores en tus cargos? Si es así, agrégalo a tu CV.",
+            "¿Has manejado bases de datos, en Excel o en otra herramienta? Si es así, agrégalo a tu CV.",
+            "¿Has hecho seguimiento a facturas de clientes o proveedores? Si es así, agrégalo a tu CV."
+          ]
+        },
+        "estado": "nueva",
+        "fuentes": [
+          {
+            "portal": "Computrabajo",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativa-proveedores-en-bogota-dc-0A8BFC6F40F6891B61373E686DCF3405",
+            "fecha_publicacion": "2026-11-25",
+            "salario_texto": "$4.000.000 mensual",
+            "contrato": "indefinido"
+          }
+        ],
+        "motivo_fuente": "Única publicación encontrada."
+      }
     }
   ]
 }
