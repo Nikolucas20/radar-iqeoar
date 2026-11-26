@@ -1,970 +1,970 @@
 {
- "meta": {
-  "descartadas": 4999,
-  "fuentes": [
-   "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
-   "Indeed (conector)",
-   "WebSearch"
-  ],
-  "guardadas": 17,
-  "notas": "Ronda 26/11 mañana: portales.json (26/11 04:00 UTC), 69 ofertas nuevas evaluadas. Indeed: 2 búsquedas remoto sin resultados. Sin WebSearch. Descartadas por modalidad no confirmada: Profamilia Analista administrativo (indefinido, salario a convenir), Deloitte Asistente administrativo, Especialista de Crédito y Cartera farma (confidencial), Productos Ramo Analista Administrativo Relevo (3 M indefinido, rota entre agencias, probable presencial). Resto: obra o labor, término fijo, salario <2,8 M, cargo fuera de los 4 o área de finanzas/RR. HH. 0 nuevas.",
-  "revisadas": 5051,
-  "ultima_ejecucion": "2026-11-26T07:10:00-05:00"
- },
- "ofertas": [
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "TERPEL",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-20",
-    "fecha_publicacion": "2026-10-19",
+  "meta": {
+    "descartadas": 5014,
     "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-10-19",
-      "portal": "elempleo",
-      "salario_texto": "$2,5 a $3 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473"
-     },
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886799677",
-      "fecha_publicacion": "2026-11-18",
-      "salario_texto": "$2,5 a $3 millones",
-      "contrato": "indefinido"
-     }
+      "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
+      "Indeed (conector)",
+      "WebSearch"
     ],
-    "kit": {
-     "carta": "Estimado equipo de Terpel:\n\nMe postulo al cargo de Técnico(a) de Cartera. Soy Administradora de Empresas con más de cinco años de experiencia en el área administrativa y financiera de Dentons, donde gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas con soportes custodiados en el ERP Odoo.\n\nTambién fortalecí los controles de cajas menores y diseñé manuales de procedimientos que estandarizaron el área. Manejo Excel avanzado y cuento con formación en Power BI (Colsubsidio CET, 2026), herramienta que su oferta señala como deseable.\n\nMe interesa aportar al cobro oportuno y al registro ágil de recaudos con orden y seguimiento riguroso. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "cartera",
-      "recaudo",
-      "cobro",
-      "paz y salvos",
-      "certificaciones",
-      "Excel",
-      "Power BI"
-     ]
-    },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad).",
-    "portal": "elempleo",
-    "puntaje": 56,
-    "razones": [
-     "Híbrido en Bogotá, contrato indefinido y publicada hace 1 día.",
-     "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar el salario real antes de avanzar.",
-     "Cargo técnico y de 1 a 2 años de experiencia, algo por debajo de su perfil; encaja en cartera, recaudo y certificaciones."
-    ],
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "salario_texto": "$2,5 a $3 millones",
-    "titulo": "Técnico(a) de Cartera",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473"
-   },
-   "id": "terpel-tecnico-cartera"
+    "guardadas": 17,
+    "notas": "Ronda 26/11 mediodía: portales.json sin cambios desde la ronda de la mañana (04:00 UTC), no se reevaluó. Indeed: 2 búsquedas (Analista Administrativa Bogotá: sin ofertas válidas, QNT es pagos, SERVIALCO/Falabella antiguas; Analista de Cartera remoto: sin resultados). 3 WebSearch sin ofertas nuevas válidas (remota 2,5-3 M dirigida a población con discapacidad certificada, descartada). 0 nuevas.",
+    "revisadas": 5066,
+    "ultima_ejecucion": "2026-11-26T12:05:00-05:00"
   },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Droguerías y Farmacias Cruz Verde S.A.S.",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-21",
-    "fecha_publicacion": null,
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": null,
-      "portal": "Computrabajo",
-      "salario_texto": "$3.078.000",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405"
-     }
-    ],
-    "kit": {
-     "carta": "Estimados señores de Cruz Verde: me postulo al cargo de Analista Administrativo Junior. Soy Profesional en Administración de Empresas (2024) con más de cinco años de experiencia en gestión administrativa y financiera en Dentons. Allí apoyé informes de gestión administrativa y control presupuestal, diseñé manuales de procedimientos para estandarizar el área y fortalecí los controles de cajas menores con legalizaciones estandarizadas. Registré y validé transacciones en el ERP Odoo y ejecuté conciliaciones periódicas, y manejo Excel avanzado y fundamentos de Power BI, útiles para informes de ventas y liquidación de comisiones. Me interesa aportar orden, precisión y seguimiento a su equipo. Quedo atenta. Cordialmente, J. Osorio.",
-     "logros": [
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
-      "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
-      "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento."
-     ],
-     "palabras_clave": [
-      "analista administrativo",
-      "informes",
-      "liquidación de comisiones",
-      "requisiciones",
-      "cronograma de formación"
-     ]
+  "ofertas": [
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "TERPEL",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-20",
+        "fecha_publicacion": "2026-10-19",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-10-19",
+            "portal": "elempleo",
+            "salario_texto": "$2,5 a $3 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473"
+          },
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886799677",
+            "fecha_publicacion": "2026-11-18",
+            "salario_texto": "$2,5 a $3 millones",
+            "contrato": "indefinido"
+          }
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Terpel:\n\nMe postulo al cargo de Técnico(a) de Cartera. Soy Administradora de Empresas con más de cinco años de experiencia en el área administrativa y financiera de Dentons, donde gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas con soportes custodiados en el ERP Odoo.\n\nTambién fortalecí los controles de cajas menores y diseñé manuales de procedimientos que estandarizaron el área. Manejo Excel avanzado y cuento con formación en Power BI (Colsubsidio CET, 2026), herramienta que su oferta señala como deseable.\n\nMe interesa aportar al cobro oportuno y al registro ágil de recaudos con orden y seguimiento riguroso. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "cartera",
+            "recaudo",
+            "cobro",
+            "paz y salvos",
+            "certificaciones",
+            "Excel",
+            "Power BI"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad).",
+        "portal": "elempleo",
+        "puntaje": 56,
+        "razones": [
+          "Híbrido en Bogotá, contrato indefinido y publicada hace 1 día.",
+          "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar el salario real antes de avanzar.",
+          "Cargo técnico y de 1 a 2 años de experiencia, algo por debajo de su perfil; encaja en cartera, recaudo y certificaciones."
+        ],
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "salario_texto": "$2,5 a $3 millones",
+        "titulo": "Técnico(a) de Cartera",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/tecnicoa-de-cartera-1886782473"
+      },
+      "id": "terpel-tecnico-cartera"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada.",
-    "portal": "Computrabajo",
-    "puntaje": 57,
-    "razones": [
-     "Salario $3,08 M e indefinido explícitos; pide Administración de Empresas y 2 años de experiencia.",
-     "La modalidad figura como \"presencial y remoto\" sin detalle: confirmar cuántos días de trabajo remoto.",
-     "Funciones comerciales (comisiones, avance de ventas), poco de cartera o tesorería; fecha de publicación no indicada."
-    ],
-    "salario_cop": 3078000,
-    "salario_max_cop": 3078000,
-    "salario_texto": "$3.078.000 mensual",
-    "titulo": "Analista administrativo Junior",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405"
-   },
-   "id": "cruz-verde-analista-administrativo-junior"
-  },
-  {
-   "d": {
-    "categoria": "cumple",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "SIES SALUD",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-23",
-    "fecha_publicacion": "2026-10-21",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-10-21",
-      "portal": "elempleo",
-      "salario_texto": "$3 a $3,5 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513"
-     },
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-10-21",
-      "portal": "elempleo (copia 2)",
-      "salario_texto": "$3 a $3,5 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783507"
-     }
-    ],
-    "kit": {
-     "carta": "Señores SIES SALUD:\n\nMe postulo al cargo de Analista Administrativo de Servicios Farmacéuticos. Soy Administradora de Empresas con más de cinco años de experiencia como Analista Administrativa en Dentons, donde apoyé informes de gestión administrativa y control presupuestal y ejecuté conciliaciones periódicas.\n\nDiseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento, y fui punto de consulta para varias áreas en pagos, anticipos y legalizaciones. Además, registré, validé y analizé transacciones en el ERP Odoo, con custodia de soportes, y me formé en Excel Avanzado y Power BI, herramientas clave para consolidar información, elaborar reportes e indicadores y apoyar la toma de decisiones.\n\nMe encantaría aportar esa disciplina y orientación al detalle a su operación. Agradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Apoyó informes de gestión administrativa y control presupuestal y ejecutó conciliaciones periódicas",
-      "Diseñó manuales de procedimientos para estandarizar el área",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes"
-     ],
-     "palabras_clave": [
-      "análisis de información",
-      "reportes e indicadores de gestión",
-      "Excel avanzado",
-      "bases de datos",
-      "control de inventarios",
-      "procesos administrativos"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Droguerías y Farmacias Cruz Verde S.A.S.",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-21",
+        "fecha_publicacion": null,
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": null,
+            "portal": "Computrabajo",
+            "salario_texto": "$3.078.000",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405"
+          }
+        ],
+        "kit": {
+          "carta": "Estimados señores de Cruz Verde: me postulo al cargo de Analista Administrativo Junior. Soy Profesional en Administración de Empresas (2024) con más de cinco años de experiencia en gestión administrativa y financiera en Dentons. Allí apoyé informes de gestión administrativa y control presupuestal, diseñé manuales de procedimientos para estandarizar el área y fortalecí los controles de cajas menores con legalizaciones estandarizadas. Registré y validé transacciones en el ERP Odoo y ejecuté conciliaciones periódicas, y manejo Excel avanzado y fundamentos de Power BI, útiles para informes de ventas y liquidación de comisiones. Me interesa aportar orden, precisión y seguimiento a su equipo. Quedo atenta. Cordialmente, J. Osorio.",
+          "logros": [
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento."
+          ],
+          "palabras_clave": [
+            "analista administrativo",
+            "informes",
+            "liquidación de comisiones",
+            "requisiciones",
+            "cronograma de formación"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "Computrabajo",
+        "puntaje": 57,
+        "razones": [
+          "Salario $3,08 M e indefinido explícitos; pide Administración de Empresas y 2 años de experiencia.",
+          "La modalidad figura como \"presencial y remoto\" sin detalle: confirmar cuántos días de trabajo remoto.",
+          "Funciones comerciales (comisiones, avance de ventas), poco de cartera o tesorería; fecha de publicación no indicada."
+        ],
+        "salario_cop": 3078000,
+        "salario_max_cop": 3078000,
+        "salario_texto": "$3.078.000 mensual",
+        "titulo": "Analista administrativo Junior",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-junior-en-bogota-dc-C89AD736825ED60E61373E686DCF3405"
+      },
+      "id": "cruz-verde-analista-administrativo-junior"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "SIES SALUD publicó la misma vacante 2 veces en elempleo con el mismo texto y datos completos (salario, contrato y modalidad); se usa la primera.",
-    "portal": "elempleo",
-    "puntaje": 55,
-    "razones": [
-     "Cargo de analista administrativa con reportes e indicadores de gestión; salario de $3 a $3,5 M, indefinido e híbrido en Bogotá.",
-     "Se queda en el límite del puntaje: el foco es operación farmacéutica e inventarios, no cartera ni tesorería; piden 1 año de experiencia (el perfil la supera)."
-    ],
-    "salario_cop": 3000000,
-    "salario_max_cop": 3500000,
-    "salario_texto": "$3 a $3,5 millones",
-    "titulo": "Analista Administrativo de Servicios Farmacéuticos",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513"
-   },
-   "id": "sies-salud-analista-administrativo-servicios-farmaceuticos"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "BASF Agricultural Solutions Colombia",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-23",
-    "fecha_publicacion": "2026-10-20",
-    "fuentes": [
-     {
-      "contrato": "indefinido (Permanent)",
-      "fecha_publicacion": "2026-10-20",
-      "portal": "Indeed",
-      "salario_texto": "No publicado",
-      "url": "https://to.indeed.com/aagx2f7hz6kf"
-     }
-    ],
-    "kit": {
-     "carta": "Señores BASF:\n\nMe postulo al cargo de Asistente Administrativa de soporte al Vicepresidente de LATAM West. Soy Administradora de Empresas con cinco años de experiencia como Analista Administrativa y de Tesorería en Dentons, donde fui punto de consulta para varias áreas en pagos, anticipos, legalizaciones e informes financieros.\n\nCoordiné cuentas por pagar nacionales e internacionales, con recepción, conciliación y seguimiento de pagos a proveedores, y registré y validé transacciones en un ERP con custodia de soportes. También diseñé manuales de procedimientos y fortalecí controles, lo que me permite dar seguimiento ordenado a facturas, órdenes de compra y entregables de proyectos. Manejo Excel avanzado y Power BI.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos",
-      "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas",
-      "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento"
-     ],
-     "palabras_clave": [
-      "asistencia ejecutiva",
-      "agenda ejecutiva",
-      "órdenes de compra",
-      "proveedores",
-      "facturas y pagos",
-      "SAP",
-      "seguimiento de proyectos"
-     ]
+    {
+      "d": {
+        "categoria": "cumple",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "SIES SALUD",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-23",
+        "fecha_publicacion": "2026-10-21",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-10-21",
+            "portal": "elempleo",
+            "salario_texto": "$3 a $3,5 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513"
+          },
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-10-21",
+            "portal": "elempleo (copia 2)",
+            "salario_texto": "$3 a $3,5 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783507"
+          }
+        ],
+        "kit": {
+          "carta": "Señores SIES SALUD:\n\nMe postulo al cargo de Analista Administrativo de Servicios Farmacéuticos. Soy Administradora de Empresas con más de cinco años de experiencia como Analista Administrativa en Dentons, donde apoyé informes de gestión administrativa y control presupuestal y ejecuté conciliaciones periódicas.\n\nDiseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento, y fui punto de consulta para varias áreas en pagos, anticipos y legalizaciones. Además, registré, validé y analizé transacciones en el ERP Odoo, con custodia de soportes, y me formé en Excel Avanzado y Power BI, herramientas clave para consolidar información, elaborar reportes e indicadores y apoyar la toma de decisiones.\n\nMe encantaría aportar esa disciplina y orientación al detalle a su operación. Agradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Apoyó informes de gestión administrativa y control presupuestal y ejecutó conciliaciones periódicas",
+            "Diseñó manuales de procedimientos para estandarizar el área",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes"
+          ],
+          "palabras_clave": [
+            "análisis de información",
+            "reportes e indicadores de gestión",
+            "Excel avanzado",
+            "bases de datos",
+            "control de inventarios",
+            "procesos administrativos"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "SIES SALUD publicó la misma vacante 2 veces en elempleo con el mismo texto y datos completos (salario, contrato y modalidad); se usa la primera.",
+        "portal": "elempleo",
+        "puntaje": 55,
+        "razones": [
+          "Cargo de analista administrativa con reportes e indicadores de gestión; salario de $3 a $3,5 M, indefinido e híbrido en Bogotá.",
+          "Se queda en el límite del puntaje: el foco es operación farmacéutica e inventarios, no cartera ni tesorería; piden 1 año de experiencia (el perfil la supera)."
+        ],
+        "salario_cop": 3000000,
+        "salario_max_cop": 3500000,
+        "salario_texto": "$3 a $3,5 millones",
+        "titulo": "Analista Administrativo de Servicios Farmacéuticos",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-de-servicios-farmaceuticos-1886783513"
+      },
+      "id": "sies-salud-analista-administrativo-servicios-farmaceuticos"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada (Indeed, enlace de la oferta de BASF).",
-    "portal": "Indeed",
-    "puntaje": 60,
-    "razones": [
-     "Asistente administrativa de alta dirección en multinacional; gestiona órdenes de compra, proveedores, facturas y pagos, y la oferta aparece como Permanent e híbrida en Bogotá.",
-     "Falta el salario y hay que confirmar el contrato indefinido. Piden inglés avanzado y 5 años en soporte a ejecutivos; es el máximo de su experiencia."
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "No publicado",
-    "titulo": "Asistente Administrativo/a (soporte al Vicepresidente LATAM West)",
-    "url": "https://to.indeed.com/aagx2f7hz6kf"
-   },
-   "id": "basf-asistente-administrativo-vp-latam-west"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "ADL Digital Lab (convocatoria confidencial, sector servicios)",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-23",
-    "fecha_publicacion": "2026-10-20",
-    "fuentes": [
-     {
-      "contrato": "Indefinido",
-      "fecha_publicacion": "2026-10-20",
-      "portal": "elempleo",
-      "salario_texto": "$4 a $4,5 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-1886783023"
-     },
-     {
-      "portal": "elempleo",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-sap-fiar-1886801912",
-      "fecha_publicacion": "2026-11-23",
-      "salario_texto": "$4 a $4,5 millones (la descripción dice $3.500.000 y modalidad presencial)",
-      "contrato": "indefinido"
-     }
-    ],
-    "kit": {
-     "carta": "Estimado equipo de selección:\n\nMe postulo al cargo de Analista de Cartera. Soy Administradora de Empresas con cinco años de experiencia en el área financiera y administrativa de Dentons, donde gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas con registro y validación de transacciones en el ERP Odoo.\n\nTambién coordiné cuentas por pagar nacionales e internacionales y fortalecí los controles de cajas menores con montos límite y legalizaciones estandarizadas. Cuento con Excel avanzado y Fundamentos de Power BI, lo que me permite elaborar indicadores y análisis de cartera.\n\nQuedo atenta a ampliar mi perfil en una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "cartera",
-      "recaudo",
-      "aplicación de pagos",
-      "cuentas por cobrar",
-      "cobranza",
-      "partidas no identificadas",
-      "castigo de cartera"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "BASF Agricultural Solutions Colombia",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-23",
+        "fecha_publicacion": "2026-10-20",
+        "fuentes": [
+          {
+            "contrato": "indefinido (Permanent)",
+            "fecha_publicacion": "2026-10-20",
+            "portal": "Indeed",
+            "salario_texto": "No publicado",
+            "url": "https://to.indeed.com/aagx2f7hz6kf"
+          }
+        ],
+        "kit": {
+          "carta": "Señores BASF:\n\nMe postulo al cargo de Asistente Administrativa de soporte al Vicepresidente de LATAM West. Soy Administradora de Empresas con cinco años de experiencia como Analista Administrativa y de Tesorería en Dentons, donde fui punto de consulta para varias áreas en pagos, anticipos, legalizaciones e informes financieros.\n\nCoordiné cuentas por pagar nacionales e internacionales, con recepción, conciliación y seguimiento de pagos a proveedores, y registré y validé transacciones en un ERP con custodia de soportes. También diseñé manuales de procedimientos y fortalecí controles, lo que me permite dar seguimiento ordenado a facturas, órdenes de compra y entregables de proyectos. Manejo Excel avanzado y Power BI.\n\nAgradezco la oportunidad de una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos",
+            "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento"
+          ],
+          "palabras_clave": [
+            "asistencia ejecutiva",
+            "agenda ejecutiva",
+            "órdenes de compra",
+            "proveedores",
+            "facturas y pagos",
+            "SAP",
+            "seguimiento de proyectos"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (Indeed, enlace de la oferta de BASF).",
+        "portal": "Indeed",
+        "puntaje": 60,
+        "razones": [
+          "Asistente administrativa de alta dirección en multinacional; gestiona órdenes de compra, proveedores, facturas y pagos, y la oferta aparece como Permanent e híbrida en Bogotá.",
+          "Falta el salario y hay que confirmar el contrato indefinido. Piden inglés avanzado y 5 años en soporte a ejecutivos; es el máximo de su experiencia."
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "No publicado",
+        "titulo": "Asistente Administrativo/a (soporte al Vicepresidente LATAM West)",
+        "url": "https://to.indeed.com/aagx2f7hz6kf"
+      },
+      "id": "basf-asistente-administrativo-vp-latam-west"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada.",
-    "portal": "elempleo",
-    "puntaje": 68,
-    "razones": [
-     "Cargo similar con recaudo, aplicación de pagos y cuentas por cobrar; 3 años de experiencia.",
-     "Advertencia: el listado dice Híbrido y $4–4,5 M, pero la descripción dice Presencial y salario a convenir; confirmar antes de postular."
-    ],
-    "salario_cop": 4000000,
-    "salario_max_cop": 4500000,
-    "salario_texto": "$4 a $4,5 millones (listado); la descripción dice 'a convenir'",
-    "titulo": "Analista de Cartera | Bogotá",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-1886783023"
-   },
-   "id": "adl-digital-lab-analista-cartera-bogota"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "DISTRIQUIMICOS ALDIR SAS",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-27",
-    "fecha_publicacion": "2026-10-25",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-10-25",
-      "portal": "elempleo",
-      "salario_texto": "$2,5 a $3 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-de-cartera-enfoque-contable-1886785001"
-     }
-    ],
-    "kit": {
-     "carta": "Estimado equipo de Distriquímicos ALDIR:\n\nMe postulo al cargo de Asistente de Cartera – Enfoque Contable. Durante seis años en Dentons gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas de forma rigurosa. También coordiné cuentas por pagar, registré y validé transacciones en el ERP Odoo y fortalecí los controles de cajas menores. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con formación en Excel Avanzado y Power BI. Me interesa aportar orden, análisis de cartera y seguimiento a su equipo, en la modalidad híbrida en Bogotá.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal."
-     ],
-     "palabras_clave": [
-      "cartera",
-      "aplicación de pagos",
-      "recibos de caja",
-      "conciliaciones bancarias",
-      "Siigo",
-      "Excel",
-      "cuentas por cobrar"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "ADL Digital Lab (convocatoria confidencial, sector servicios)",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-23",
+        "fecha_publicacion": "2026-10-20",
+        "fuentes": [
+          {
+            "contrato": "Indefinido",
+            "fecha_publicacion": "2026-10-20",
+            "portal": "elempleo",
+            "salario_texto": "$4 a $4,5 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-1886783023"
+          },
+          {
+            "portal": "elempleo",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-sap-fiar-1886801912",
+            "fecha_publicacion": "2026-11-23",
+            "salario_texto": "$4 a $4,5 millones (la descripción dice $3.500.000 y modalidad presencial)",
+            "contrato": "indefinido"
+          }
+        ],
+        "kit": {
+          "carta": "Estimado equipo de selección:\n\nMe postulo al cargo de Analista de Cartera. Soy Administradora de Empresas con cinco años de experiencia en el área financiera y administrativa de Dentons, donde gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas con registro y validación de transacciones en el ERP Odoo.\n\nTambién coordiné cuentas por pagar nacionales e internacionales y fortalecí los controles de cajas menores con montos límite y legalizaciones estandarizadas. Cuento con Excel avanzado y Fundamentos de Power BI, lo que me permite elaborar indicadores y análisis de cartera.\n\nQuedo atenta a ampliar mi perfil en una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "cartera",
+            "recaudo",
+            "aplicación de pagos",
+            "cuentas por cobrar",
+            "cobranza",
+            "partidas no identificadas",
+            "castigo de cartera"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "elempleo",
+        "puntaje": 68,
+        "razones": [
+          "Cargo similar con recaudo, aplicación de pagos y cuentas por cobrar; 3 años de experiencia.",
+          "Advertencia: el listado dice Híbrido y $4–4,5 M, pero la descripción dice Presencial y salario a convenir; confirmar antes de postular."
+        ],
+        "salario_cop": 4000000,
+        "salario_max_cop": 4500000,
+        "salario_texto": "$4 a $4,5 millones (listado); la descripción dice 'a convenir'",
+        "titulo": "Analista de Cartera | Bogotá",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-1886783023"
+      },
+      "id": "adl-digital-lab-analista-cartera-bogota"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada.",
-    "portal": "elempleo",
-    "puntaje": 64,
-    "razones": [
-     "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar que el piso real sea suficiente.",
-     "Cartera, aplicación de pagos y conciliaciones bancarias encajan con su experiencia; pide 2 años y Siigo.",
-     "Pide tecnólogo en contabilidad o estudiante de Contaduría; su perfil es administrativo, no contable."
-    ],
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "salario_texto": "$2,5 a $3 millones",
-    "titulo": "Asistente de Cartera | Enfoque Contable",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-de-cartera-enfoque-contable-1886785001"
-   },
-   "id": "distriquimicos-aldir-asistente-cartera-enfoque-contable"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": null,
-    "empresa": "Ravago Americas",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-27",
-    "fecha_publicacion": "2026-10-27",
-    "fuentes": [
-     {
-      "contrato": null,
-      "fecha_publicacion": "2026-10-27",
-      "portal": "LinkedIn",
-      "salario_texto": "Confidencial",
-      "url": "https://www.linkedin.com/jobs/view/4482993717"
-     }
-    ],
-    "kit": {
-     "carta": "Estimado equipo de Ravago:\n\nMe postulo al cargo de Analista Administrativo. Como Analista Administrativa en Dentons (2020–2026) apoyé informes de gestión administrativa y control presupuestal, diseñé manuales de procedimientos para estandarizar el área y fortalecí los controles de cajas menores con legalizaciones estandarizadas y capacitación a usuarios. Además, registré y validé transacciones en el ERP Odoo con custodia de soportes y fui punto de consulta para pagos, anticipos y legalizaciones. Soy Profesional en Administración de Empresas y tengo Excel Avanzado, lo que me permite apoyar procesos administrativos con orden y trazabilidad en modalidad híbrida en Bogotá.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
-      "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
-      "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios."
-     ],
-     "palabras_clave": [
-      "analista administrativo",
-      "radicación de facturas",
-      "novedades de nómina",
-      "Excel",
-      "procesos administrativos",
-      "recursos humanos"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "DISTRIQUIMICOS ALDIR SAS",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-27",
+        "fecha_publicacion": "2026-10-25",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-10-25",
+            "portal": "elempleo",
+            "salario_texto": "$2,5 a $3 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-de-cartera-enfoque-contable-1886785001"
+          }
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Distriquímicos ALDIR:\n\nMe postulo al cargo de Asistente de Cartera – Enfoque Contable. Durante seis años en Dentons gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas de forma rigurosa. También coordiné cuentas por pagar, registré y validé transacciones en el ERP Odoo y fortalecí los controles de cajas menores. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con formación en Excel Avanzado y Power BI. Me interesa aportar orden, análisis de cartera y seguimiento a su equipo, en la modalidad híbrida en Bogotá.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal."
+          ],
+          "palabras_clave": [
+            "cartera",
+            "aplicación de pagos",
+            "recibos de caja",
+            "conciliaciones bancarias",
+            "Siigo",
+            "Excel",
+            "cuentas por cobrar"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "elempleo",
+        "puntaje": 64,
+        "razones": [
+          "El rango salarial ($2,5 a $3 M) cruza el mínimo de $2,8 M: confirmar que el piso real sea suficiente.",
+          "Cartera, aplicación de pagos y conciliaciones bancarias encajan con su experiencia; pide 2 años y Siigo.",
+          "Pide tecnólogo en contabilidad o estudiante de Contaduría; su perfil es administrativo, no contable."
+        ],
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "salario_texto": "$2,5 a $3 millones",
+        "titulo": "Asistente de Cartera | Enfoque Contable",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-de-cartera-enfoque-contable-1886785001"
+      },
+      "id": "distriquimicos-aldir-asistente-cartera-enfoque-contable"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada.",
-    "portal": "LinkedIn",
-    "puntaje": 55,
-    "razones": [
-     "Salario confidencial y contrato sin especificar: confirmar indefinido y salario ≥ $2,8 M.",
-     "Cargo exacto de Analista Administrativo, híbrido en Bogotá, pide 3 a 5 años.",
-     "Enfoque en novedades de nómina y RR. HH., poco relacionado con cartera o tesorería."
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "Confidencial",
-    "titulo": "Analista administrativo",
-    "url": "https://www.linkedin.com/jobs/view/4482993717"
-   },
-   "id": "ravago-analista-administrativo"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Grupo QBCo",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-29",
-    "fecha_publicacion": "2026-10-28",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-10-28",
-      "portal": "Computrabajo",
-      "salario_texto": "A convenir",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-639CC4C7A272200F61373E686DCF3405"
-     },
-     {
-      "contrato": null,
-      "fecha_publicacion": "2026-10-28",
-      "portal": "LinkedIn",
-      "salario_texto": null,
-      "url": "https://www.linkedin.com/jobs/view/4484296159"
-     }
-    ],
-    "kit": {
-     "carta": "Estimado equipo de Grupo QBCo:\n\nMe postulo al cargo de Analista de Cartera. Como Analista Administrativa y Senior de Tesorería en Dentons (2020–2026) gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y coordiné cuentas por pagar nacionales e internacionales con conciliación y seguimiento de pagos. Ejecuté conciliaciones periódicas y registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, lo que me permite hacer seguimiento diario de facturas y de la cartera vencida. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI. Me interesa aportar al recaudo oportuno y al flujo de caja de la compañía.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "cartera",
-      "recaudo",
-      "cuentas por cobrar",
-      "cobro preventivo",
-      "política de cartera",
-      "SAP",
-      "flujo de caja"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": null,
+        "empresa": "Ravago Americas",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-27",
+        "fecha_publicacion": "2026-10-27",
+        "fuentes": [
+          {
+            "contrato": null,
+            "fecha_publicacion": "2026-10-27",
+            "portal": "LinkedIn",
+            "salario_texto": "Confidencial",
+            "url": "https://www.linkedin.com/jobs/view/4482993717"
+          }
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Ravago:\n\nMe postulo al cargo de Analista Administrativo. Como Analista Administrativa en Dentons (2020–2026) apoyé informes de gestión administrativa y control presupuestal, diseñé manuales de procedimientos para estandarizar el área y fortalecí los controles de cajas menores con legalizaciones estandarizadas y capacitación a usuarios. Además, registré y validé transacciones en el ERP Odoo con custodia de soportes y fui punto de consulta para pagos, anticipos y legalizaciones. Soy Profesional en Administración de Empresas y tengo Excel Avanzado, lo que me permite apoyar procesos administrativos con orden y trazabilidad en modalidad híbrida en Bogotá.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
+            "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios."
+          ],
+          "palabras_clave": [
+            "analista administrativo",
+            "radicación de facturas",
+            "novedades de nómina",
+            "Excel",
+            "procesos administrativos",
+            "recursos humanos"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "LinkedIn",
+        "puntaje": 55,
+        "razones": [
+          "Salario confidencial y contrato sin especificar: confirmar indefinido y salario ≥ $2,8 M.",
+          "Cargo exacto de Analista Administrativo, híbrido en Bogotá, pide 3 a 5 años.",
+          "Enfoque en novedades de nómina y RR. HH., poco relacionado con cartera o tesorería."
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "Confidencial",
+        "titulo": "Analista administrativo",
+        "url": "https://www.linkedin.com/jobs/view/4482993717"
+      },
+      "id": "ravago-analista-administrativo"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única fuente con datos completos; LinkedIn la publica sin salario ni contrato.",
-    "portal": "Computrabajo",
-    "puntaje": 60,
-    "razones": [
-     "Cargo exacto de cartera y recaudo, con cuentas por cobrar y conciliaciones que coinciden con tu experiencia en Dentons.",
-     "Contrato indefinido explícito, pero el salario es 'a convenir': confirma que supere $2,8 M.",
-     "Modalidad publicada como 'Presencial y remoto' (probable híbrido): confirma días remotos y ciudad."
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "A convenir",
-    "titulo": "Analista de Cartera",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-639CC4C7A272200F61373E686DCF3405"
-   },
-   "id": "grupo-qbco-analista-cartera"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "FREIGHTWISE S.A.S.",
-    "estado": "nueva",
-    "fecha_hallada": "2026-10-30",
-    "fecha_publicacion": "2026-10-29",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-10-29",
-      "portal": "elempleo",
-      "salario_texto": "$2,5 a $3 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362"
-     }
-    ],
-    "kit": {
-     "carta": "Estimado equipo de FREIGHTWISE S.A.S.:\n\nMe postulo al cargo de Analista Senior de Cuentas por Cobrar. Como Analista Administrativa en Dentons (2020–2026) gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas. Registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, y apoyé informes de gestión y control presupuestal. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI, herramientas que su perfil destaca para los reportes de cartera. Me interesa aportar al control del ciclo de recaudo de su operación en Colombia y Ecuador.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "cuentas por cobrar",
-      "recaudo",
-      "cartera",
-      "ERP",
-      "Excel avanzado",
-      "Power BI",
-      "factoring",
-      "facturación"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Grupo QBCo",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-29",
+        "fecha_publicacion": "2026-10-28",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-10-28",
+            "portal": "Computrabajo",
+            "salario_texto": "A convenir",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-639CC4C7A272200F61373E686DCF3405"
+          },
+          {
+            "contrato": null,
+            "fecha_publicacion": "2026-10-28",
+            "portal": "LinkedIn",
+            "salario_texto": null,
+            "url": "https://www.linkedin.com/jobs/view/4484296159"
+          }
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Grupo QBCo:\n\nMe postulo al cargo de Analista de Cartera. Como Analista Administrativa y Senior de Tesorería en Dentons (2020–2026) gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y coordiné cuentas por pagar nacionales e internacionales con conciliación y seguimiento de pagos. Ejecuté conciliaciones periódicas y registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, lo que me permite hacer seguimiento diario de facturas y de la cartera vencida. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI. Me interesa aportar al recaudo oportuno y al flujo de caja de la compañía.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "cartera",
+            "recaudo",
+            "cuentas por cobrar",
+            "cobro preventivo",
+            "política de cartera",
+            "SAP",
+            "flujo de caja"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única fuente con datos completos; LinkedIn la publica sin salario ni contrato.",
+        "portal": "Computrabajo",
+        "puntaje": 60,
+        "razones": [
+          "Cargo exacto de cartera y recaudo, con cuentas por cobrar y conciliaciones que coinciden con tu experiencia en Dentons.",
+          "Contrato indefinido explícito, pero el salario es 'a convenir': confirma que supere $2,8 M.",
+          "Modalidad publicada como 'Presencial y remoto' (probable híbrido): confirma días remotos y ciudad."
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "A convenir",
+        "titulo": "Analista de Cartera",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-en-bogota-dc-639CC4C7A272200F61373E686DCF3405"
+      },
+      "id": "grupo-qbco-analista-cartera"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados.",
-    "portal": "elempleo",
-    "puntaje": 68,
-    "razones": [
-     "Cargo de cuentas por cobrar y recaudo con ERP, Excel y Power BI, muy alineado con tu experiencia en Dentons.",
-     "El rango $2,5–3 M cruza tu mínimo de $2,8 M: confirma el salario real antes de postularte.",
-     "Pide inglés al 80% y experiencia de 2 años; la empresa opera en Ecuador y Colombia."
-    ],
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "salario_texto": "$2,5 a $3 millones",
-    "titulo": "Analista Senior de Cuentas por Cobrar",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362"
-   },
-   "id": "freightwise-analista-senior-cuentas-por-cobrar"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Tata Consultancy Services",
-    "estado": "nueva",
-    "fecha_hallada": "2026-11-05",
-    "fecha_publicacion": "2026-11-05",
-    "fuentes": [
-     {
-      "contrato": "Contrato a término indefinido",
-      "fecha_publicacion": "2026-11-05",
-      "portal": "LinkedIn",
-      "salario_texto": "No publicado (\"salario competitivo\")",
-      "url": "https://www.linkedin.com/jobs/view/4487792711"
-     }
-    ],
-    "kit": {
-     "carta": "Me postulo al cargo de Analista Administrativa Bilingüe. En Dentons trabajé seis años como Analista Administrativa y Senior de Tesorería: fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros dando soporte a varias áreas, y gestioné proveedores nacionales e internacionales. Implementé herramientas de seguimiento para el control de gastos y diseñé manuales de procedimientos que estandarizaron el área. Soy Profesional en Administración de Empresas y manejo Excel avanzado, Power BI y el ERP Odoo. Me interesa aportar organización, control de presupuestos y atención a las áreas internas en un entorno multinacional como el suyo. Gracias por considerar mi perfil. Cordialmente, J. Osorio",
-     "logros": [
-      "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.",
-      "Implementó herramientas de seguimiento para el control de gastos de transporte.",
-      "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento."
-     ],
-     "palabras_clave": [
-      "analista administrativo",
-      "bilingüe",
-      "compras",
-      "facturas",
-      "presupuestos",
-      "inglés B2",
-      "Excel"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "FREIGHTWISE S.A.S.",
+        "estado": "nueva",
+        "fecha_hallada": "2026-10-30",
+        "fecha_publicacion": "2026-10-29",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-10-29",
+            "portal": "elempleo",
+            "salario_texto": "$2,5 a $3 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362"
+          }
+        ],
+        "kit": {
+          "carta": "Estimado equipo de FREIGHTWISE S.A.S.:\n\nMe postulo al cargo de Analista Senior de Cuentas por Cobrar. Como Analista Administrativa en Dentons (2020–2026) gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención, y ejecuté conciliaciones periódicas. Registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes, y apoyé informes de gestión y control presupuestal. Soy Profesional en Administración de Empresas (Areandina, 2024) y cuento con Excel Avanzado y fundamentos de Power BI, herramientas que su perfil destaca para los reportes de cartera. Me interesa aportar al control del ciclo de recaudo de su operación en Colombia y Ecuador.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "cuentas por cobrar",
+            "recaudo",
+            "cartera",
+            "ERP",
+            "Excel avanzado",
+            "Power BI",
+            "factoring",
+            "facturación"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única fuente encontrada, con salario, contrato y modalidad publicados.",
+        "portal": "elempleo",
+        "puntaje": 68,
+        "razones": [
+          "Cargo de cuentas por cobrar y recaudo con ERP, Excel y Power BI, muy alineado con tu experiencia en Dentons.",
+          "El rango $2,5–3 M cruza tu mínimo de $2,8 M: confirma el salario real antes de postularte.",
+          "Pide inglés al 80% y experiencia de 2 años; la empresa opera en Ecuador y Colombia."
+        ],
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "salario_texto": "$2,5 a $3 millones",
+        "titulo": "Analista Senior de Cuentas por Cobrar",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-senior-de-cuentas-por-cobrar-1886787362"
+      },
+      "id": "freightwise-analista-senior-cuentas-por-cobrar"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada (LinkedIn).",
-    "portal": "LinkedIn",
-    "puntaje": 60,
-    "razones": [
-     "Híbrido 3 días oficina/2 remoto en Bogotá y término indefinido; el salario no se publica.",
-     "Pide inglés B2 hablado y escrito y 4 años en cargos administrativos; incluye compras, facturas y eventos."
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "No publicado (\"salario competitivo\")",
-    "titulo": "Analista administrativo Bilingüe - Bogotá",
-    "url": "https://www.linkedin.com/jobs/view/4487792711"
-   },
-   "id": "tcs-analista-administrativo-bilingue-bogota"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "PROYECCION PROFESIONAL RRHH",
-    "estado": "nueva",
-    "fecha_hallada": "2026-11-05",
-    "fecha_publicacion": "2026-11-05",
-    "fuentes": [
-     {
-      "contrato": "Contrato Indefinido",
-      "fecha_publicacion": "2026-11-05",
-      "portal": "elempleo",
-      "salario_texto": "$2,5 a $3 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa-y-personal-bilingue-bogota-1886789719"
-     }
-    ],
-    "kit": {
-     "carta": "Me postulo al cargo de Asistente Administrativa y Personal bilingüe. Tengo cinco años de experiencia como Analista Administrativa en Dentons, donde fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, y apoyé el soporte contable ejecutando conciliaciones y registrando transacciones en el ERP Odoo. También fortalecí los controles de cajas menores con legalizaciones estandarizadas. Soy Profesional en Administración de Empresas, con Excel avanzado, y me siento cómoda apoyando a la gerencia con discreción y orden. Puedo trabajar en esquema híbrido de lunes a viernes en Bogotá. Agradezco su tiempo y quedo atenta. Cordialmente, J. Osorio",
-     "logros": [
-      "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.",
-      "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "asistente a gerencia",
-      "agenda",
-      "viáticos",
-      "soporte contable",
-      "bilingüe",
-      "híbrido"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Tata Consultancy Services",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-05",
+        "fecha_publicacion": "2026-11-05",
+        "fuentes": [
+          {
+            "contrato": "Contrato a término indefinido",
+            "fecha_publicacion": "2026-11-05",
+            "portal": "LinkedIn",
+            "salario_texto": "No publicado (\"salario competitivo\")",
+            "url": "https://www.linkedin.com/jobs/view/4487792711"
+          }
+        ],
+        "kit": {
+          "carta": "Me postulo al cargo de Analista Administrativa Bilingüe. En Dentons trabajé seis años como Analista Administrativa y Senior de Tesorería: fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros dando soporte a varias áreas, y gestioné proveedores nacionales e internacionales. Implementé herramientas de seguimiento para el control de gastos y diseñé manuales de procedimientos que estandarizaron el área. Soy Profesional en Administración de Empresas y manejo Excel avanzado, Power BI y el ERP Odoo. Me interesa aportar organización, control de presupuestos y atención a las áreas internas en un entorno multinacional como el suyo. Gracias por considerar mi perfil. Cordialmente, J. Osorio",
+          "logros": [
+            "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.",
+            "Implementó herramientas de seguimiento para el control de gastos de transporte.",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento."
+          ],
+          "palabras_clave": [
+            "analista administrativo",
+            "bilingüe",
+            "compras",
+            "facturas",
+            "presupuestos",
+            "inglés B2",
+            "Excel"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (LinkedIn).",
+        "portal": "LinkedIn",
+        "puntaje": 60,
+        "razones": [
+          "Híbrido 3 días oficina/2 remoto en Bogotá y término indefinido; el salario no se publica.",
+          "Pide inglés B2 hablado y escrito y 4 años en cargos administrativos; incluye compras, facturas y eventos."
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "No publicado (\"salario competitivo\")",
+        "titulo": "Analista administrativo Bilingüe - Bogotá",
+        "url": "https://www.linkedin.com/jobs/view/4487792711"
+      },
+      "id": "tcs-analista-administrativo-bilingue-bogota"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada (elempleo).",
-    "portal": "elempleo",
-    "puntaje": 58,
-    "razones": [
-     "Rango $2,5 a $3 M cruza tu mínimo de $2,8 M; indefinido e híbrido en Bogotá.",
-     "Asiste al gerente general (agenda, viáticos, pagos personales) y apoya al área contable; exige inglés ~70% y 3 años de experiencia."
-    ],
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "salario_texto": "$2,5 a $3 millones",
-    "titulo": "Asistente Administrativa y Personal bilingüe - Bogotá",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa-y-personal-bilingue-bogota-1886789719"
-   },
-   "id": "proyeccion-profesional-asistente-administrativa-personal-bilingue"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Skandia",
-    "estado": "nueva",
-    "fecha_hallada": "2026-11-06",
-    "fecha_publicacion": "2026-11-05",
-    "fuentes": [
-     {
-      "contrato": "Contrato Indefinido",
-      "fecha_publicacion": "2026-11-05",
-      "portal": "elempleo",
-      "salario_texto": "$2,5 a $3 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851"
-     }
-    ],
-    "kit": {
-     "carta": "Estimado equipo de Skandia: me postulo al cargo de Analista Jr de Gestión de Recaudos y Cartera. Soy Profesional en Administración de Empresas (Areandina, 2024) y durante seis años en Dentons gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención. También ejecuté conciliaciones periódicas, registré y validé transacciones en el ERP Odoo con custodia de soportes y apoyé informes de gestión administrativa y control presupuestal. Como Analista Senior de Tesorería coordiné pagos nacionales e internacionales y elaboré informes de conciliación integrando información financiera y contable. Domino Excel avanzado y Fundamentos de Power BI, lo que me permite analizar la información con rigor y entregar resultados confiables. Me motiva aportar a una operación de recaudo precisa y oportuna. Quedo atenta a conversar. Cordialmente, J. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "recaudo",
-      "cartera",
-      "acreditación",
-      "gestión operativa",
-      "Excel",
-      "aportes",
-      "primas"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "PROYECCION PROFESIONAL RRHH",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-05",
+        "fecha_publicacion": "2026-11-05",
+        "fuentes": [
+          {
+            "contrato": "Contrato Indefinido",
+            "fecha_publicacion": "2026-11-05",
+            "portal": "elempleo",
+            "salario_texto": "$2,5 a $3 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa-y-personal-bilingue-bogota-1886789719"
+          }
+        ],
+        "kit": {
+          "carta": "Me postulo al cargo de Asistente Administrativa y Personal bilingüe. Tengo cinco años de experiencia como Analista Administrativa en Dentons, donde fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros, y apoyé el soporte contable ejecutando conciliaciones y registrando transacciones en el ERP Odoo. También fortalecí los controles de cajas menores con legalizaciones estandarizadas. Soy Profesional en Administración de Empresas, con Excel avanzado, y me siento cómoda apoyando a la gerencia con discreción y orden. Puedo trabajar en esquema híbrido de lunes a viernes en Bogotá. Agradezco su tiempo y quedo atenta. Cordialmente, J. Osorio",
+          "logros": [
+            "Punto de consulta para pagos, anticipos, legalizaciones e informes financieros, dando soporte a varias áreas.",
+            "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "asistente a gerencia",
+            "agenda",
+            "viáticos",
+            "soporte contable",
+            "bilingüe",
+            "híbrido"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (elempleo).",
+        "portal": "elempleo",
+        "puntaje": 58,
+        "razones": [
+          "Rango $2,5 a $3 M cruza tu mínimo de $2,8 M; indefinido e híbrido en Bogotá.",
+          "Asiste al gerente general (agenda, viáticos, pagos personales) y apoya al área contable; exige inglés ~70% y 3 años de experiencia."
+        ],
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "salario_texto": "$2,5 a $3 millones",
+        "titulo": "Asistente Administrativa y Personal bilingüe - Bogotá",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa-y-personal-bilingue-bogota-1886789719"
+      },
+      "id": "proyeccion-profesional-asistente-administrativa-personal-bilingue"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad).",
-    "portal": "elempleo",
-    "puntaje": 64,
-    "razones": [
-     "Cargo muy afín (recaudo y cartera) y híbrido en Bogotá con contrato indefinido.",
-     "El rango salarial cruza el umbral: el piso ($2,5 M) está por debajo de $2,8 M; confirmar el salario real.",
-     "Pide más de 1 año de experiencia y Excel intermedio; es un cargo junior."
-    ],
-    "salario_cop": 2500000,
-    "salario_max_cop": 3000000,
-    "salario_texto": "$2,5 a $3 millones",
-    "titulo": "Analista Jr de Gestión de Recaudos y Cartera",
-    "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851"
-   },
-   "id": "skandia-analista-jr-gestion-recaudos-cartera"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": null,
-    "empresa": "SoftwareOne",
-    "estado": "nueva",
-    "fecha_hallada": "2026-11-06",
-    "fecha_publicacion": "2026-11-06",
-    "fuentes": [
-     {
-      "contrato": null,
-      "fecha_publicacion": "2026-11-06",
-      "portal": "LinkedIn",
-      "salario_texto": "No publicado",
-      "url": "https://www.linkedin.com/jobs/view/4487320326"
-     }
-    ],
-    "kit": {
-     "carta": "Estimados señores de SoftwareOne:\n\nMe postulo al cargo de Analista de Cartera y Cobranzas. Soy Profesional en Administración de Empresas y, durante seis años, gestioné cuentas por cobrar y el recaudo oportuno en una firma de servicios profesionales, además de cuentas por pagar nacionales e internacionales. Ejecuto conciliaciones periódicas, elaboro informes de conciliación para proveedores internacionales y registro y valido transacciones en el ERP Odoo. Cuento con formación en Excel Avanzado y Fundamentos de Power BI, útiles para el seguimiento de indicadores como DSO y antigüedad de cartera. Me motiva trabajar de cerca con equipos comerciales y clientes para asegurar pagos oportunos y resolver saldos pendientes. Agradezco la oportunidad de conversar.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención.",
-      "Ejecutó conciliaciones periódicas y elaboró informes de conciliación con proveedores internacionales.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "cartera",
-      "cobranzas",
-      "conciliación de pagos",
-      "DSO",
-      "antigüedad de cartera",
-      "Excel",
-      "Power BI",
-      "cuentas por cobrar"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Skandia",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-06",
+        "fecha_publicacion": "2026-11-05",
+        "fuentes": [
+          {
+            "contrato": "Contrato Indefinido",
+            "fecha_publicacion": "2026-11-05",
+            "portal": "elempleo",
+            "salario_texto": "$2,5 a $3 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851"
+          }
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Skandia: me postulo al cargo de Analista Jr de Gestión de Recaudos y Cartera. Soy Profesional en Administración de Empresas (Areandina, 2024) y durante seis años en Dentons gestioné cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención. También ejecuté conciliaciones periódicas, registré y validé transacciones en el ERP Odoo con custodia de soportes y apoyé informes de gestión administrativa y control presupuestal. Como Analista Senior de Tesorería coordiné pagos nacionales e internacionales y elaboré informes de conciliación integrando información financiera y contable. Domino Excel avanzado y Fundamentos de Power BI, lo que me permite analizar la información con rigor y entregar resultados confiables. Me motiva aportar a una operación de recaudo precisa y oportuna. Quedo atenta a conversar. Cordialmente, J. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "recaudo",
+            "cartera",
+            "acreditación",
+            "gestión operativa",
+            "Excel",
+            "aportes",
+            "primas"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (elempleo, con salario, contrato y modalidad).",
+        "portal": "elempleo",
+        "puntaje": 64,
+        "razones": [
+          "Cargo muy afín (recaudo y cartera) y híbrido en Bogotá con contrato indefinido.",
+          "El rango salarial cruza el umbral: el piso ($2,5 M) está por debajo de $2,8 M; confirmar el salario real.",
+          "Pide más de 1 año de experiencia y Excel intermedio; es un cargo junior."
+        ],
+        "salario_cop": 2500000,
+        "salario_max_cop": 3000000,
+        "salario_texto": "$2,5 a $3 millones",
+        "titulo": "Analista Jr de Gestión de Recaudos y Cartera",
+        "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-jr-de-gestion-de-recaudos-y-cartera-1886789851"
+      },
+      "id": "skandia-analista-jr-gestion-recaudos-cartera"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada (publicada por la empresa en LinkedIn).",
-    "portal": "LinkedIn",
-    "puntaje": 71,
-    "razones": [
-     "Modalidad híbrida en Bogotá y cargo muy afín (cartera, conciliación de recaudos, DSO, Excel y Power BI).",
-     "Falta confirmar salario y tipo de contrato: la publicación no los trae.",
-     "Gestiona cartera de Perú, Ecuador y Bolivia con unos 300 clientes: posible exigencia de inglés; verificar. Publicada hoy."
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "No publicado",
-    "titulo": "Analista de Cartera y Cobranzas",
-    "url": "https://www.linkedin.com/jobs/view/4487320326"
-   },
-   "id": "softwareone-analista-cartera-cobranzas"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá (Usaquén)",
-    "contrato": "indefinido",
-    "empresa": "Esri Colombia | Ecuador | Panamá",
-    "estado": "nueva",
-    "fecha_hallada": "2026-11-09",
-    "fecha_publicacion": "2026-11-06",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-11-06",
-      "portal": "Indeed",
-      "salario_texto": "No publicado",
-      "url": "https://to.indeed.com/aaqngzkx9lwr"
-     }
-    ],
-    "kit": {
-     "carta": "Estimado equipo de Esri Colombia:\n\nMe postulo al cargo de Analista Administrativa. Soy Administradora de Empresas con cinco años de experiencia en Dentons, donde elaboré informes de gestión administrativa y de conciliación integrando información financiera y contable, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes.\n\nTambién diseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento, y fortalecí controles de cajas menores con legalizaciones estandarizadas y capacitación a usuarios. Cuento con formación en Excel Avanzado y Fundamentos de Power BI (Colsubsidio CET, 2026), útil para el seguimiento de indicadores y reportes que piden.\n\nMe interesa aportar en la mejora y automatización de procesos administrativos en modalidad híbrida en Bogotá. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
-     "logros": [
-      "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
-      "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "informes de gestión",
-      "KPI",
-      "Excel avanzado",
-      "procesos administrativos",
-      "documentación de calidad",
-      "automatización de procesos"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": null,
+        "empresa": "SoftwareOne",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-06",
+        "fecha_publicacion": "2026-11-06",
+        "fuentes": [
+          {
+            "contrato": null,
+            "fecha_publicacion": "2026-11-06",
+            "portal": "LinkedIn",
+            "salario_texto": "No publicado",
+            "url": "https://www.linkedin.com/jobs/view/4487320326"
+          }
+        ],
+        "kit": {
+          "carta": "Estimados señores de SoftwareOne:\n\nMe postulo al cargo de Analista de Cartera y Cobranzas. Soy Profesional en Administración de Empresas y, durante seis años, gestioné cuentas por cobrar y el recaudo oportuno en una firma de servicios profesionales, además de cuentas por pagar nacionales e internacionales. Ejecuto conciliaciones periódicas, elaboro informes de conciliación para proveedores internacionales y registro y valido transacciones en el ERP Odoo. Cuento con formación en Excel Avanzado y Fundamentos de Power BI, útiles para el seguimiento de indicadores como DSO y antigüedad de cartera. Me motiva trabajar de cerca con equipos comerciales y clientes para asegurar pagos oportunos y resolver saldos pendientes. Agradezco la oportunidad de conversar.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención.",
+            "Ejecutó conciliaciones periódicas y elaboró informes de conciliación con proveedores internacionales.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "cartera",
+            "cobranzas",
+            "conciliación de pagos",
+            "DSO",
+            "antigüedad de cartera",
+            "Excel",
+            "Power BI",
+            "cuentas por cobrar"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (publicada por la empresa en LinkedIn).",
+        "portal": "LinkedIn",
+        "puntaje": 71,
+        "razones": [
+          "Modalidad híbrida en Bogotá y cargo muy afín (cartera, conciliación de recaudos, DSO, Excel y Power BI).",
+          "Falta confirmar salario y tipo de contrato: la publicación no los trae.",
+          "Gestiona cartera de Perú, Ecuador y Bolivia con unos 300 clientes: posible exigencia de inglés; verificar. Publicada hoy."
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "No publicado",
+        "titulo": "Analista de Cartera y Cobranzas",
+        "url": "https://www.linkedin.com/jobs/view/4487320326"
+      },
+      "id": "softwareone-analista-cartera-cobranzas"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada (Indeed).",
-    "portal": "Indeed",
-    "puntaje": 59,
-    "razones": [
-     "Cargo exacto (Analista Administrativa), híbrido en Bogotá y contrato indefinido con periodo de prueba, publicado hace 3 días.",
-     "El salario no está publicado: confirmar que supere $2,8 M antes de postularte.",
-     "Pide 2 años de experiencia, profesional en Administración y Excel avanzado; encaja con tu perfil."
-    ],
-    "salario_cop": null,
-    "salario_max_cop": null,
-    "salario_texto": "No publicado",
-    "titulo": "Analista Administrativa",
-    "url": "https://to.indeed.com/aaqngzkx9lwr"
-   },
-   "id": "esri-analista-administrativa-hibrido-usaquen"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "COORSERPARK S.A.S",
-    "estado": "nueva",
-    "fecha_hallada": "2026-11-13",
-    "fecha_publicacion": "2026-11-12",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-11-12",
-      "portal": "Computrabajo",
-      "salario_texto": "$3.200.000 mensual",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405"
-     }
-    ],
-    "kit": {
-     "carta": "Quiero postularme al cargo de Analista de Cartera y Conciliaciones en Coorserpark. En Dentons gestioné cuentas por cobrar y el recaudo oportuno, expedí certificados de retención y ejecuté conciliaciones periódicas con proveedores, integrando información financiera y contable. Registré y validé transacciones en el ERP Odoo, lo que facilita la aplicación de pagos y la conciliación bancaria que requiere la vacante. Además, apoyé informes de gestión y control presupuestal, y soy el punto de consulta de varias áreas para pagos, anticipos y legalizaciones. Soy Administradora de Empresas y manejo Excel avanzado y Power BI. Me gustaría conversar con ustedes sobre cómo contribuir a un recaudo oportuno y una cartera ordenada. Cordialmente, J. Osorio",
-     "logros": [
-      "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
-      "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "cartera",
-      "recaudo",
-      "aplicación de pagos",
-      "conciliaciones bancarias",
-      "atención al cliente",
-      "office",
-      "sistemas contables"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá (Usaquén)",
+        "contrato": "indefinido",
+        "empresa": "Esri Colombia | Ecuador | Panamá",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-09",
+        "fecha_publicacion": "2026-11-06",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-06",
+            "portal": "Indeed",
+            "salario_texto": "No publicado",
+            "url": "https://to.indeed.com/aaqngzkx9lwr"
+          }
+        ],
+        "kit": {
+          "carta": "Estimado equipo de Esri Colombia:\n\nMe postulo al cargo de Analista Administrativa. Soy Administradora de Empresas con cinco años de experiencia en Dentons, donde elaboré informes de gestión administrativa y de conciliación integrando información financiera y contable, y registré, validé y analicé transacciones en el ERP Odoo con custodia de soportes.\n\nTambién diseñé manuales de procedimientos para estandarizar procesos y facilitar la transferencia de conocimiento, y fortalecí controles de cajas menores con legalizaciones estandarizadas y capacitación a usuarios. Cuento con formación en Excel Avanzado y Fundamentos de Power BI (Colsubsidio CET, 2026), útil para el seguimiento de indicadores y reportes que piden.\n\nMe interesa aportar en la mejora y automatización de procesos administrativos en modalidad híbrida en Bogotá. Quedo atenta a conversar.\n\nCordialmente,\nJ. Osorio",
+          "logros": [
+            "Elaboró informes de conciliación para proveedores internacionales integrando información financiera y contable.",
+            "Diseñó manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "informes de gestión",
+            "KPI",
+            "Excel avanzado",
+            "procesos administrativos",
+            "documentación de calidad",
+            "automatización de procesos"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada (Indeed).",
+        "portal": "Indeed",
+        "puntaje": 59,
+        "razones": [
+          "Cargo exacto (Analista Administrativa), híbrido en Bogotá y contrato indefinido con periodo de prueba, publicado hace 3 días.",
+          "El salario no está publicado: confirmar que supere $2,8 M antes de postularte.",
+          "Pide 2 años de experiencia, profesional en Administración y Excel avanzado; encaja con tu perfil."
+        ],
+        "salario_cop": null,
+        "salario_max_cop": null,
+        "salario_texto": "No publicado",
+        "titulo": "Analista Administrativa",
+        "url": "https://to.indeed.com/aaqngzkx9lwr"
+      },
+      "id": "esri-analista-administrativa-hibrido-usaquen"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada.",
-    "portal": "Computrabajo",
-    "puntaje": 58,
-    "razones": [
-     "Salario $3,2 M y contrato indefinido explícitos; cargo exacto de cartera, recaudo, aplicación de pagos y conciliaciones.",
-     "La oferta no indica modalidad (horario L-V 7:00–4:30): confirmar que no sea 100% presencial. Modalidad marcada como híbrido solo como supuesto.",
-     "Piden 2 años en cartera/recaudo; el nivel pedido (bachiller/técnico) es menor al de la candidata."
-    ],
-    "salario_cop": 3200000,
-    "salario_max_cop": 3200000,
-    "salario_texto": "$3.200.000 mensual",
-    "titulo": "Analista de cartera, conciliaciones - Bogotá",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405"
-   },
-   "id": "coorserpark-analista-cartera-conciliaciones"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Alimentos al Consumidor (Grupo Nutresa) – confidencial",
-    "estado": "nueva",
-    "fecha_hallada": "2026-11-13",
-    "fecha_publicacion": "2026-11-13",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-11-13",
-      "portal": "Magneto",
-      "salario_texto": "$3.502.000 mensual",
-      "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261"
-     },
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": "2026-11-13",
-      "portal": "elempleo",
-      "salario_texto": "$3 a $3,5 millones",
-      "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-1886798420"
-     }
-    ],
-    "kit": {
-     "carta": "Me postulo al cargo de Analista Administrativo en Alimentos al Consumidor. En Dentons trabajé seis años como Analista Administrativa y de Tesorería, donde fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros para varias áreas, y registré y validé facturas y transacciones en el ERP Odoo con custodia de soportes. Implementé herramientas de seguimiento para el control de gastos de transporte y fortalecí los controles de cajas menores, experiencia directa para el control de gastos corporativos que describe la vacante. Soy Administradora de Empresas, con Excel Avanzado, y me caracterizo por el orden, la atención al detalle y el servicio al cliente interno. Agradezco la oportunidad de una entrevista. Cordialmente, J. Osorio",
-     "logros": [
-      "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
-      "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "control de gastos",
-      "contabilización de facturas",
-      "apoyo administrativo",
-      "cliente interno",
-      "Excel",
-      "proveedores"
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "COORSERPARK S.A.S",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-13",
+        "fecha_publicacion": "2026-11-12",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-12",
+            "portal": "Computrabajo",
+            "salario_texto": "$3.200.000 mensual",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405"
+          }
+        ],
+        "kit": {
+          "carta": "Quiero postularme al cargo de Analista de Cartera y Conciliaciones en Coorserpark. En Dentons gestioné cuentas por cobrar y el recaudo oportuno, expedí certificados de retención y ejecuté conciliaciones periódicas con proveedores, integrando información financiera y contable. Registré y validé transacciones en el ERP Odoo, lo que facilita la aplicación de pagos y la conciliación bancaria que requiere la vacante. Además, apoyé informes de gestión y control presupuestal, y soy el punto de consulta de varias áreas para pagos, anticipos y legalizaciones. Soy Administradora de Empresas y manejo Excel avanzado y Power BI. Me gustaría conversar con ustedes sobre cómo contribuir a un recaudo oportuno y una cartera ordenada. Cordialmente, J. Osorio",
+          "logros": [
+            "Gestionó cuentas por cobrar y el recaudo oportuno, incluida la expedición de certificados de retención (Analista Administrativa, Dentons, 2020–2026).",
+            "Ejecutó conciliaciones periódicas y apoyó informes de gestión administrativa y control presupuestal.",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "cartera",
+            "recaudo",
+            "aplicación de pagos",
+            "conciliaciones bancarias",
+            "atención al cliente",
+            "office",
+            "sistemas contables"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "Computrabajo",
+        "puntaje": 58,
+        "razones": [
+          "Salario $3,2 M y contrato indefinido explícitos; cargo exacto de cartera, recaudo, aplicación de pagos y conciliaciones.",
+          "La oferta no indica modalidad (horario L-V 7:00–4:30): confirmar que no sea 100% presencial. Modalidad marcada como híbrido solo como supuesto.",
+          "Piden 2 años en cartera/recaudo; el nivel pedido (bachiller/técnico) es menor al de la candidata."
+        ],
+        "salario_cop": 3200000,
+        "salario_max_cop": 3200000,
+        "salario_texto": "$3.200.000 mensual",
+        "titulo": "Analista de cartera, conciliaciones - Bogotá",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-cartera-conciliaciones-bogota-en-bogota-dc-B3B3BE9E755E46FA61373E686DCF3405"
+      },
+      "id": "coorserpark-analista-cartera-conciliaciones"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada.",
-    "portal": "Magneto",
-    "puntaje": 58,
-    "razones": [
-     "Salario $3,5 M explícito y cargo de Analista Administrativo (control de gastos, contabilización de facturas, soporte de oficina); encaja con la experiencia en legalizaciones y gastos.",
-     "El contrato y la modalidad no figuran en el texto (solo 'FULL_TIME'): verificar indefinido y que no sea presencial. Valores marcados solo como supuesto.",
-     "Piden 2 años de experiencia; vence 06/12/2026."
-    ],
-    "salario_cop": 3502000,
-    "salario_max_cop": 3502000,
-    "salario_texto": "$3.502.000 mensual",
-    "titulo": "Analista Administrativo",
-    "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261"
-   },
-   "id": "nutresa-alimentos-consumidor-analista-administrativo"
-  },
-  {
-   "d": {
-    "categoria": "por_verificar",
-    "ciudad": "Bogotá",
-    "contrato": "indefinido",
-    "empresa": "Michael Page (empresa confidencial)",
-    "estado": "nueva",
-    "fecha_hallada": "2026-11-19",
-    "fecha_publicacion": "2026-11-19",
-    "fuentes": [
-     {
-      "contrato": "indefinido",
-      "fecha_publicacion": null,
-      "portal": "Computrabajo",
-      "salario_texto": "$4.000.000 mensual",
-      "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-compras-excel-en-bogota-dc-0F5055391E1B84C161373E686DCF3405"
-     }
-    ],
-    "kit": {
-     "carta": "Equipo de selección:\n\nMe interesa el cargo de Analista Administrativo y Compras. [tu razón: una frase sobre por qué esta empresa o cargo]\n\nLa oferta pide control de gastos administrativos. En Dentons fortalecí los controles de cajas menores con montos límite y legalizaciones estandarizadas, e implementé herramientas de seguimiento para el control de gastos de transporte.\n\nTambién pide seguimiento a facturación y relación con proveedores. Como Analista Senior de Tesorería coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos. Elaboré informes de conciliación para proveedores internacionales. Como Analista Administrativa registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes.\n\nSobre el control documental: diseñé manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento. Soy Profesional en Administración de Empresas y completé Excel Avanzado en Colsubsidio CET.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
-     "encaje": {
-      "motivo": "De 5 imprescindibles: 1 cumple, 2 en parte, 1 sin dato y 1 no. Vale la pena si se atiende la parte de compras y se confirma la modalidad.",
-      "requisitos": [
-       {
-        "estado": "cumple",
-        "evidencia": "Fortaleció los controles de cajas menores; implementó herramientas de seguimiento para el control de gastos de transporte.",
-        "requisito": "Control de gastos administrativos",
-        "tipo": "imprescindible"
-       },
-       {
-        "estado": "en_parte",
-        "evidencia": "Coordinó cuentas por pagar: recepción, conciliación y seguimiento de pagos.",
-        "requisito": "Seguimiento a facturación",
-        "tipo": "imprescindible"
-       },
-       {
-        "estado": "en_parte",
-        "evidencia": "Diseñó manuales de procedimientos; custodia de soportes en Odoo.",
-        "requisito": "Control documental",
-        "tipo": "imprescindible"
-       },
-       {
-        "estado": "sin_dato",
-        "evidencia": "El CV no menciona compras.",
-        "requisito": "Solicitud y análisis de cotizaciones, órdenes de compra",
-        "tipo": "imprescindible"
-       },
-       {
-        "estado": "no",
-        "evidencia": "El CV muestra seguimiento de pagos a proveedores, no negociación.",
-        "requisito": "Negociación con proveedores",
-        "tipo": "imprescindible"
-       },
-       {
-        "estado": "en_parte",
-        "evidencia": "Curso Excel Avanzado y Fundamentos de Power BI – Colsubsidio CET (2026).",
-        "requisito": "Excel",
-        "tipo": "deseable"
-       }
-      ],
-      "veredicto": "intentar"
-     },
-     "logros": [
-      "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
-      "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
-      "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
-     ],
-     "palabras_clave": [
-      "control documental",
-      "seguimiento a facturación",
-      "control de gastos administrativos",
-      "proveedores",
-      "órdenes de compra",
-      "cotizaciones",
-      "Excel"
-     ],
-     "preguntas": [
-      "¿Has hecho cotizaciones u órdenes de compra? Si es así, agrégalo a tu CV.",
-      "¿Has negociado con proveedores? Si lo hiciste, agrégalo a tu CV."
-     ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Alimentos al Consumidor (Grupo Nutresa) – confidencial",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-13",
+        "fecha_publicacion": "2026-11-13",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-13",
+            "portal": "Magneto",
+            "salario_texto": "$3.502.000 mensual",
+            "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261"
+          },
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": "2026-11-13",
+            "portal": "elempleo",
+            "salario_texto": "$3 a $3,5 millones",
+            "url": "https://www.elempleo.com/co/ofertas-trabajo/analista-administrativo-1886798420"
+          }
+        ],
+        "kit": {
+          "carta": "Me postulo al cargo de Analista Administrativo en Alimentos al Consumidor. En Dentons trabajé seis años como Analista Administrativa y de Tesorería, donde fui punto de consulta para pagos, anticipos, legalizaciones e informes financieros para varias áreas, y registré y validé facturas y transacciones en el ERP Odoo con custodia de soportes. Implementé herramientas de seguimiento para el control de gastos de transporte y fortalecí los controles de cajas menores, experiencia directa para el control de gastos corporativos que describe la vacante. Soy Administradora de Empresas, con Excel Avanzado, y me caracterizo por el orden, la atención al detalle y el servicio al cliente interno. Agradezco la oportunidad de una entrevista. Cordialmente, J. Osorio",
+          "logros": [
+            "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "control de gastos",
+            "contabilización de facturas",
+            "apoyo administrativo",
+            "cliente interno",
+            "Excel",
+            "proveedores"
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "Magneto",
+        "puntaje": 58,
+        "razones": [
+          "Salario $3,5 M explícito y cargo de Analista Administrativo (control de gastos, contabilización de facturas, soporte de oficina); encaja con la experiencia en legalizaciones y gastos.",
+          "El contrato y la modalidad no figuran en el texto (solo 'FULL_TIME'): verificar indefinido y que no sea presencial. Valores marcados solo como supuesto.",
+          "Piden 2 años de experiencia; vence 06/12/2026."
+        ],
+        "salario_cop": 3502000,
+        "salario_max_cop": 3502000,
+        "salario_texto": "$3.502.000 mensual",
+        "titulo": "Analista Administrativo",
+        "url": "https://www.magneto365.com/co/empleos/analista-administrativo-1137261"
+      },
+      "id": "nutresa-alimentos-consumidor-analista-administrativo"
     },
-    "modalidad": "hibrido",
-    "motivo_fuente": "Única publicación encontrada.",
-    "portal": "Computrabajo",
-    "puntaje": 66,
-    "razones": [
-     "Salario $4.000.000 e indefinido explícitos; la modalidad dice 'Presencial y remoto' sin precisar días: confirmar que sea híbrido en Bogotá.",
-     "Mezcla administración con compras (cotizaciones, órdenes de compra), parte que el CV no muestra; la fecha de publicación no viene en el listado."
-    ],
-    "salario_cop": 4000000,
-    "salario_max_cop": 4000000,
-    "salario_texto": "$4.000.000 mensual",
-    "titulo": "Analista Administrativo y Compras - Excel",
-    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-compras-excel-en-bogota-dc-0F5055391E1B84C161373E686DCF3405"
-   },
-   "id": "michael-page-analista-administrativo-compras-bogota"
-  }
- ]
+    {
+      "d": {
+        "categoria": "por_verificar",
+        "ciudad": "Bogotá",
+        "contrato": "indefinido",
+        "empresa": "Michael Page (empresa confidencial)",
+        "estado": "nueva",
+        "fecha_hallada": "2026-11-19",
+        "fecha_publicacion": "2026-11-19",
+        "fuentes": [
+          {
+            "contrato": "indefinido",
+            "fecha_publicacion": null,
+            "portal": "Computrabajo",
+            "salario_texto": "$4.000.000 mensual",
+            "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-compras-excel-en-bogota-dc-0F5055391E1B84C161373E686DCF3405"
+          }
+        ],
+        "kit": {
+          "carta": "Equipo de selección:\n\nMe interesa el cargo de Analista Administrativo y Compras. [tu razón: una frase sobre por qué esta empresa o cargo]\n\nLa oferta pide control de gastos administrativos. En Dentons fortalecí los controles de cajas menores con montos límite y legalizaciones estandarizadas, e implementé herramientas de seguimiento para el control de gastos de transporte.\n\nTambién pide seguimiento a facturación y relación con proveedores. Como Analista Senior de Tesorería coordiné cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos. Elaboré informes de conciliación para proveedores internacionales. Como Analista Administrativa registré, validé y analicé transacciones en el ERP Odoo, con custodia de soportes.\n\nSobre el control documental: diseñé manuales de procedimientos para estandarizar el área y facilitar la transferencia de conocimiento. Soy Profesional en Administración de Empresas y completé Excel Avanzado en Colsubsidio CET.\n\nQuedo atenta a una entrevista.\n\nCordialmente,\nJ. Osorio",
+          "encaje": {
+            "motivo": "De 5 imprescindibles: 1 cumple, 2 en parte, 1 sin dato y 1 no. Vale la pena si se atiende la parte de compras y se confirma la modalidad.",
+            "requisitos": [
+              {
+                "estado": "cumple",
+                "evidencia": "Fortaleció los controles de cajas menores; implementó herramientas de seguimiento para el control de gastos de transporte.",
+                "requisito": "Control de gastos administrativos",
+                "tipo": "imprescindible"
+              },
+              {
+                "estado": "en_parte",
+                "evidencia": "Coordinó cuentas por pagar: recepción, conciliación y seguimiento de pagos.",
+                "requisito": "Seguimiento a facturación",
+                "tipo": "imprescindible"
+              },
+              {
+                "estado": "en_parte",
+                "evidencia": "Diseñó manuales de procedimientos; custodia de soportes en Odoo.",
+                "requisito": "Control documental",
+                "tipo": "imprescindible"
+              },
+              {
+                "estado": "sin_dato",
+                "evidencia": "El CV no menciona compras.",
+                "requisito": "Solicitud y análisis de cotizaciones, órdenes de compra",
+                "tipo": "imprescindible"
+              },
+              {
+                "estado": "no",
+                "evidencia": "El CV muestra seguimiento de pagos a proveedores, no negociación.",
+                "requisito": "Negociación con proveedores",
+                "tipo": "imprescindible"
+              },
+              {
+                "estado": "en_parte",
+                "evidencia": "Curso Excel Avanzado y Fundamentos de Power BI – Colsubsidio CET (2026).",
+                "requisito": "Excel",
+                "tipo": "deseable"
+              }
+            ],
+            "veredicto": "intentar"
+          },
+          "logros": [
+            "Fortaleció los controles de cajas menores: montos límite, legalizaciones estandarizadas y capacitación a usuarios.",
+            "Coordinó cuentas por pagar nacionales e internacionales: recepción, conciliación y seguimiento de pagos (Analista Senior de Tesorería, Dentons, 2026).",
+            "Registró, validó y analizó transacciones en el ERP Odoo, con custodia de soportes."
+          ],
+          "palabras_clave": [
+            "control documental",
+            "seguimiento a facturación",
+            "control de gastos administrativos",
+            "proveedores",
+            "órdenes de compra",
+            "cotizaciones",
+            "Excel"
+          ],
+          "preguntas": [
+            "¿Has hecho cotizaciones u órdenes de compra? Si es así, agrégalo a tu CV.",
+            "¿Has negociado con proveedores? Si lo hiciste, agrégalo a tu CV."
+          ]
+        },
+        "modalidad": "hibrido",
+        "motivo_fuente": "Única publicación encontrada.",
+        "portal": "Computrabajo",
+        "puntaje": 66,
+        "razones": [
+          "Salario $4.000.000 e indefinido explícitos; la modalidad dice 'Presencial y remoto' sin precisar días: confirmar que sea híbrido en Bogotá.",
+          "Mezcla administración con compras (cotizaciones, órdenes de compra), parte que el CV no muestra; la fecha de publicación no viene en el listado."
+        ],
+        "salario_cop": 4000000,
+        "salario_max_cop": 4000000,
+        "salario_texto": "$4.000.000 mensual",
+        "titulo": "Analista Administrativo y Compras - Excel",
+        "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativo-y-compras-excel-en-bogota-dc-0F5055391E1B84C161373E686DCF3405"
+      },
+      "id": "michael-page-analista-administrativo-compras-bogota"
+    }
+  ]
 }
