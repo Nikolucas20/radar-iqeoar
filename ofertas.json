@@ -1,15 +1,15 @@
 {
  "meta": {
-  "descartadas": 4930,
+  "descartadas": 4999,
   "fuentes": [
    "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
    "Indeed (conector)",
    "WebSearch"
   ],
   "guardadas": 17,
-  "notas": "Ronda 25/11 tarde: portales.json nuevo (25/11 20:53 UTC), 67 ofertas evaluadas. Indeed: 2 búsquedas Bogotá (sin salario ni contrato, todas antiguas o fuera de cargo). WebSearch: 1. Mejores candidatas descartadas: Mundial de Seguros Analista de Cartera y Crédito (rango 2,5-3 M, puntaje 53 <55); ADL SAP FI-AR (cuerpo dice presencial); Michael Page Analista administrativa-proveedores (probable duplicado, modalidad ambigua); Adecco/Gestión Idónea cartera (obra o labor). 0 nuevas.",
-  "revisadas": 4982,
-  "ultima_ejecucion": "2026-11-25T17:04:37-05:00"
+  "notas": "Ronda 26/11 mañana: portales.json (26/11 04:00 UTC), 69 ofertas nuevas evaluadas. Indeed: 2 búsquedas remoto sin resultados. Sin WebSearch. Descartadas por modalidad no confirmada: Profamilia Analista administrativo (indefinido, salario a convenir), Deloitte Asistente administrativo, Especialista de Crédito y Cartera farma (confidencial), Productos Ramo Analista Administrativo Relevo (3 M indefinido, rota entre agencias, probable presencial). Resto: obra o labor, término fijo, salario <2,8 M, cargo fuera de los 4 o área de finanzas/RR. HH. 0 nuevas.",
+  "revisadas": 5051,
+  "ultima_ejecucion": "2026-11-26T07:10:00-05:00"
  },
  "ofertas": [
   {
