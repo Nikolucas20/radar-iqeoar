@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 5240,
+    "descartadas": 5254,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 18,
-    "notas": "Ronda 27/11 tarde: portales.json (04:01 UTC, sin cambios desde la ronda de la mañana), 62 ofertas evaluadas; ninguna nueva válida (Mapfre/FEMAP es analista de crédito, no es uno de los 4 cargos; LinkedIn sin salario/modalidad confirmables o presenciales; Computrabajo con salario bajo, obra o labor, término fijo o presencial). Indeed: 2 búsquedas (Analista de Cartera Bogotá; Asistente Administrativa remoto) y 3 detalles: EC Cargo presencial/contable, Innovamos obra o labor $2,1 M presencial, egf mgmt remoto sin salario/contrato y con inglés fluido obligatorio (no se guardó).",
-    "revisadas": 5293,
-    "ultima_ejecucion": "2026-11-27T12:10:00-05:00"
+    "notas": "Ronda 27/11 noche: portales.json sin cambios (04:01 UTC), ya evaluado en rondas previas. Indeed: 3 búsquedas (Analista de Cartera remoto; Analista Administrativa Bogotá) sin ofertas válidas: financieras/tesorería, sin salario o antiguas. Ninguna nueva guardada.",
+    "revisadas": 5307,
+    "ultima_ejecucion": "2026-11-27T17:04:41-05:00"
   },
   "ofertas": [
     {
