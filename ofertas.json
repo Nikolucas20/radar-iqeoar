@@ -1,15 +1,15 @@
 {
   "meta": {
-    "descartadas": 5083,
+    "descartadas": 5156,
     "fuentes": [
       "portales.json (elempleo, LinkedIn, Computrabajo, Magneto)",
       "Indeed (conector)",
       "WebSearch"
     ],
     "guardadas": 18,
-    "notas": "Ronda 26/11 tarde: portales.json actualizado (20:40 UTC), 59 ofertas evaluadas; 1 nueva válida (Michael Page, proveedores, 4 M, híbrido). Las de LinkedIn sin salario, contrato ni modalidad visibles no se guardaron. Descartadas por presencial, término fijo, obra o labor, salario bajo, cargo fuera de los 4 o área RRHH. Indeed: 2 búsquedas (Asistente de Cartera Bogotá, Asistente Administrativa remoto) sin ofertas válidas. 2 WebSearch sin nuevas.",
-    "revisadas": 5136,
-    "ultima_ejecucion": "2026-11-26T17:10:00-05:00"
+    "notas": "Ronda 27/11 mañana: portales.json (04:01 UTC), 61 ofertas evaluadas; ninguna nueva válida (la mayoría presencial, sin modalidad, término fijo/obra o labor, salario bajo, RRHH/compras/tesorería o fuera de los 4 cargos). Indeed: 2 búsquedas sin ofertas válidas (Analista Administrativa Bogotá sin salario ni datos; Analista de Cartera remoto sin resultados). 2 WebSearch: hallazgos (Analista de Cartera bilingüe portugués híbrido, Magneto cobro híbrido) no verificables porque WebFetch no resuelve computrabajo ni magneto; no se guardaron.",
+    "revisadas": 5209,
+    "ultima_ejecucion": "2026-11-27T07:15:00-05:00"
   },
   "ofertas": [
     {
